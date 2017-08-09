@@ -1,0 +1,5 @@
+There could be the escape key, for unfocusing, unselecting.
+
+Unselecting is an interesting word. Selection could be a state, like
+moving a cursor, so that only one star is selected at a given time, or
+none, and the player is in a detatched state, floating
