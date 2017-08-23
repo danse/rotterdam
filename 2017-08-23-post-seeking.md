@@ -5,3 +5,5 @@ expected.
 
 My first move is going zigzag.
 
+http://68.media.tumblr.com/tumblr_mdxpf0EMfI1rpmkwio1_400.gif
+
