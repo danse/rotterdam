@@ -1,0 +1,21 @@
+Hi all,
+
+With reference to the recent articles about the Haskell pyramid, i
+thought to reach out to beginner Haskellers in order to work together
+on some project.
+
+Maybe it's easier when beginners work together on beginners projects,
+it can be an effective way to work together. Sometimes when we look at
+projects written by experienced Haskellers, we find an even higher
+entry barrier.
+
+There are mainly two project that might meet some interest:
+
+- A library for providing a strictly typed interface around D3
+  visualisations, this can be currently used to launch visualisations from the command line
+- A command line client for filtering and sorting jobs on Upwork
+  ... <sarcasm> in order to be absolutely certain that there in nothing worthy
+  up there </sarcasm>
+
+Now, the state of the code there is awful, but both projects work for
+me.
