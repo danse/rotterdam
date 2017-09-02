@@ -1,0 +1,19 @@
+wrash wrapper = cycle (runWrapped wrapper)
+
+runWrapped wrapper command = do
+  wrapper
+  command
+
+wrash
+
+how would i find it? wrap Bash
+
+git status
+ls -lrt
+clear
+df -h
+
+`$ wrapper lt` enters a wrapped shell and executes the command
+
+a decorator that does something after every command, like `lt` or
+`clear` or both
