@@ -1,3 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+care a lot about avoiding lock-in
+
+
 I am a strange programmer. Sometimes i'll fail to get excited about
 the new technology, but i like to speak many different languages,
 including English.
