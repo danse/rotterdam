@@ -2,6 +2,7 @@ a
  b
   c
  d
+   l
   g
   h
 e
@@ -20,5 +21,6 @@ dependencies:
  f > e & a
  j > i
  k > i
+ l > d & c
 
 depending on what is to the left and above within the same block
