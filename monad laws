@@ -1,0 +1,22 @@
+
+f: M a -> b -- monadic function f
+g: M b -> c -- monadic function g
+
+unit :: a -> M a                -- unit
+>>= :: M a -> (M a -> b) -> M b -- bind
+return :: M a -> a              -- return
+identity :: M a -> M a          -- identity
+
+<*> :: (M a -> b) -> (M b -> c) -> (M a -> c)
+<$> :: (a -> b) -> M a -> M b
+
+
+-{
+
+Monad laws:
+
+1. unit . return  == identity
+2. m >>= identity == m
+3. m >>= a >>= b  == m >>= (a <*> b)
+
+-}
