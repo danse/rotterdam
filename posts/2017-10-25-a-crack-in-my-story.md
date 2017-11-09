@@ -1,3 +1,8 @@
+----
+title: a crack in my story
+----
+
+
 
 while i start expanding and freeing my routine, i still feel the
 constraints of the routines that until yesterday were enforced
