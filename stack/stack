@@ -39,6 +39,12 @@ answer to clients
 
 emotional front
 
+an operator should be on the same line or on the next one? it depends
+whether you want to express connection or not. an operator on the same
+line suggests that the two lines should be read together, while an
+operator on the next line suggests that the line has a bare value and
+makes it easier to move it around
+
 play with conflict-free replicated data types
 http://hackage.haskell.org/packages/tag/distributed-systems
 
@@ -83,8 +89,8 @@ frontiera del divertimento e del benessere non lascerà molta traccia
 in quel futuro, il futuro dove tutti possiamo passarcela meglio. il
 dovere può distruggerci tanto quanto il piacere.
 
-can i get to a bubble with berlin-grade comfort in ragusa?
-with my nomadic gear, resources and culture?
+can i get to a bubble with berlin-grade comfort in ragusa with
+my nomadic resources?
 
 at the center of inspiration, empty
 
