@@ -21,15 +21,20 @@
 
 
 
+ 
 
 
 
 
+simple processes for collections: bullets, gems
 
-
-
-
-
+ deck deque
+rotate
+reveal
+draw
+push
+pop
+append
 
 i know many who would accept the personal cost
 of hiding who they are to the community that grew them
