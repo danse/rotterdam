@@ -32,6 +32,11 @@ I found a script online which is supposed to reboot all USB drivers by
 cycling those addresses and writing them to `unbind` and `bind`, but
 doing so seems not to help with this problem.
 
+There are some questions and answers which seem similar to this
+problem and are related to USB autosuspend. I don't have `laptop-mode`
+installed and the problem happens also when my laptop is connected to
+the grid.
+
 https://askubuntu.com/a/833569/457998
 http://billauer.co.il/blog/2013/02/usb-reset-ehci-uhci-linux/
 
