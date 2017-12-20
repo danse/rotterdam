@@ -1,41 +1,8 @@
+
+https://askubuntu.com/questions/988041/logitech-wireless-keyboard-stops-working-after-random-intervals-of-time
+
 https://askubuntu.com/questions/772056/keyboard-stops-working-ubuntu-16-04
 http://hamwaves.com/usb.autosuspend/en/
-
-Hi all, i have a Logitech keyboard K830 which used to work perfectly
-with Linux (Ubuntu 16.4 long term) but started malfunctioning after an
-update around September 2017.
-
-I always used the keyboard through the universal receiver which plugs
-to the USB port. I also use a Logitech mouse through its universal
-receiver, and the mouse does not show any problems.
-
-The keyboard starts working fine when i plug the receiver and turn it
-on, but after a variable amount of time it seems to lose connection to
-the receiver. A combination of re-plugging the receiver and
-re-starting the keyboard makes the keyboard working for a new variable
-amount of time. The keyboard was working seamlessly with the receiver
-before September 2017.
-
-When i plug the keyboard and i type `lsusb`, i see the keyboard listed
-as the following:
-
-    Bus 002 Device 098: ID 046d:c52b Logitech, Inc. Unifying Receiver
-
-After it randomly loses connection, i don't see that line any longer.
-
-Not sure whether this is relevant: if i type `ls` in
-`/sys/bus/pci/drivers/xhci_hcd`, i only see one address
-`0000:00:14.0`, regardless of the number of USB unified receivers i
-have plugged.
-
-I found a script online which is supposed to reboot all USB drivers by
-cycling those addresses and writing them to `unbind` and `bind`, but
-doing so seems not to help with this problem.
-
-There are some questions and answers which seem similar to this
-problem and are related to USB autosuspend. I don't have `laptop-mode`
-installed and the problem happens also when my laptop is connected to
-the grid.
 
 https://askubuntu.com/a/833569/457998
 http://billauer.co.il/blog/2013/02/usb-reset-ehci-uhci-linux/
