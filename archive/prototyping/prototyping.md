@@ -1,3 +1,8 @@
+
+eyes on the communication target
+
+-----
+
 ## about prototyping
 
 one of the difficult parts is that the adequate prototyping of
