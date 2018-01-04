@@ -1,0 +1,16 @@
+bullets:
+ add when inspired
+ remove when read
+
+gems:
+ add when inspired
+ remove when fails
+
+ deck deque
+rotate
+reveal
+draw
+push
+pop
+append
+
