@@ -31,6 +31,13 @@
 
 
 
+la società delle griffe
+
+function greeter(person: string) {
+    return "Hello, " + person;
+}
+
+https://www.last.fm/music/David+August
 
 cannot give energy to itself
 from which well being comes with movement
