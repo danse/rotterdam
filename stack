@@ -31,6 +31,14 @@
 
 
 
+deployment
+https://github.com/seek-oss/serverless-haskell#readme
+https://serverless.com/framework/
+https://wiki.haskell.org/Web/Cloud
+
+directional, intentional work
+actiowork, operate work
+
 la società delle griffe
 
 function greeter(person: string) {
