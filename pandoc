@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+current test cases are minimal, maybe written manually
+
+https://en.wikipedia.org/wiki/Office_Open_XML
+
+are there any resources already available about DOCX processing?
+
+modifying via libreoffice produces unexpected results, it's unlikely that it will be a viable way to reduce test cases, i'll try to edit manually
+
+test0
+
+http://docutils.sourceforge.net/docs/ref/rst/directives.html
