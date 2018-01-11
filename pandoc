@@ -17,12 +17,12 @@
 
 
 
-% understand the error
-% read the code
-% try to write a minimal test case
 native?
 rst2html shows the syntax error
- test0
+ % understand the error
+ % read the code
+ % try to write a minimal test case
+  test0
 
 current test cases are minimal, maybe written manually
 
