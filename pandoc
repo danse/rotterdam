@@ -17,22 +17,28 @@
 
 
 
-try with the new version
-
+% understand the error
+% read the code
+% try to write a minimal test case
 native?
-
 rst2html shows the syntax error
-
-https://groups.google.com/forum/#!forum/pandoc-discuss
+ test0
 
 current test cases are minimal, maybe written manually
 
+ locations
+https://groups.google.com/forum/#!forum/pandoc-discuss
 https://en.wikipedia.org/wiki/Office_Open_XML
-
-are there any resources already available about DOCX processing?
-
-modifying via libreoffice produces unexpected results, it's unlikely that it will be a viable way to reduce test cases, i'll try to edit manually
-
- test0
-
 http://docutils.sourceforge.net/docs/ref/rst/directives.html
+
+which version of the standard are we following?
+are there any resources already available about DOCX processing?
+ pandoc
+
+modifying via libreoffice produces unexpected results, it's unlikely
+that it will be a viable way to reduce test cases, i'll try to edit
+manually
+
+
+
+
