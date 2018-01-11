@@ -30,5 +30,23 @@
 
 
 
+space, search, dive in, jump out
+
+a conversation can be seen as a shared stack
+
+it's the system of recursive amplification
+which leads to directionality of chaotic systems over time
+which makes stacks so powerful
+
+ primitives
+push pop scan remove edit save swapstack
+clear is just on some stacks
+append on most
+clear-append is awkward in emacs
+separate archive
+autoremove or sort
+free, when you detach
+
+almost anything supports stack algorithms
 
 how many brilliant people you know that keep stacks of magazines around?
