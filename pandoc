@@ -14,11 +14,11 @@
 
 
 
-
-
+farei un fork di pandoc sotto github/italia, e possiamo usare le issue di quel repo per tracciare le attività
+poi via via che fixi i bug, apriamo delle ulteriori issue per l’upstreaming delle singole modifiche, con un tag “upstream”
 
 native?
-rst2html shows the syntax error
+rst2html output/test0.rst > /tmp/test0.html
  % understand the error
  % read the code
  % try to write a minimal test case
