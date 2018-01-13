@@ -14,6 +14,9 @@
 
 
 
+it applies to bulleted lists but maybe also to ordered lists
+
+https://github.com/italia/pandoc
 farei un fork di pandoc sotto github/italia, e possiamo usare le issue di quel repo per tracciare le attività
 poi via via che fixi i bug, apriamo delle ulteriori issue per l’upstreaming delle singole modifiche, con un tag “upstream”
 

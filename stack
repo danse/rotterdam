@@ -25,13 +25,17 @@
 
 
 
-pandoc
+
+
+
+
+
 
 ANAC
 
 taxes
 
-
+static prototyping
 
 https://www.eventbrite.it/e/registrazione-global-game-jam-2018-catania-41536073514
 
@@ -223,13 +227,10 @@ John Perry Barlow
 i'm online when i save the file, or when i commit
 automatically pushing i'm online when i'm not
 
-what is software design? by Jack Reeves
-http://www.developerdotstar.com/mag/articles/reeves_design.html
-
 guidelines for command line interface design http://www.cs.pomona.edu/classes/cs181f/supp/cli.html
 
-isolation creates direction
 repetition creates dimension
+isolation gives direction
 
 technology can help us to disrupt routine
 without the need to stick to tech afterwards
@@ -244,5 +245,3 @@ bewohners = enter + stop
 growthsupply
 payscale
 expatistan
-
-status empty
