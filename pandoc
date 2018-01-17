@@ -14,25 +14,15 @@
 
 
 
-it applies to bulleted lists but maybe also to ordered lists
-
-https://github.com/italia/pandoc
 farei un fork di pandoc sotto github/italia, e possiamo usare le issue di quel repo per tracciare le attività
 poi via via che fixi i bug, apriamo delle ulteriori issue per l’upstreaming delle singole modifiche, con un tag “upstream”
-
-native?
-rst2html output/test0.rst > /tmp/test0.html
- % understand the error
- % read the code
- % try to write a minimal test case
-  test0
 
 current test cases are minimal, maybe written manually
 
  locations
 https://groups.google.com/forum/#!forum/pandoc-discuss
 https://en.wikipedia.org/wiki/Office_Open_XML
-http://docutils.sourceforge.net/docs/ref/rst/directives.html
+http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 
 which version of the standard are we following?
 are there any resources already available about DOCX processing?
