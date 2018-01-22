@@ -1,7 +1,7 @@
 ```
 ragusa é un precipizio
-che si arrampica via dall'offesa dea ibla
-un pregiudizio che si disperde in lontananza
+in salita si arrampica via dalla sua dea ibla
+disperde il suo pregiudizio in lontananza
 sognando di essere un grattacielo
 dopo essersi impennato vacilla
 temendo di restar fuori dal salotto proibito
@@ -21,13 +21,13 @@ nè consistenza
 
 e per gli stranieri pronti ad amarla
 e per i turisti cui volentieri la dea si vende
-e per i molti che ne sono sfuggiti
-ed ogni tanto ci riprovano a capire
+e per i molti che ne sono fuggiti
+e i pochi che provano a tornare
 
 guardando storto, dall'alto in giù
 con le vertigini
 e le cadute di stile
-e tre strade sul vuoto
+e tre vie sul vuoto
 da cui sbattere le ali perdendo quota
 
 guardando dal vetro di una cartolina che ci appiattisce
@@ -36,12 +36,12 @@ e di sentimenti che se ne fregano delle foto
 con l'impressione di volare sul paesaggio
 
 uno sguardo precipitoso sulla dea silenziosa
+offesa da una cicatrice di debolezza fascista
 i piedi su strade umili di umanità millenaria
 sconfitta dalla sua natura più che dai suoi avversari
 
 nel bene e nel male, negli alti e nei bassi
 la città duplice che tradisce sé stessa
-offesa nell'anima da una cicatrice di debolezza fascista
 innamorata della bellezza di un sogno languido
 
 anche per loro e per noi con loro
