@@ -30,9 +30,9 @@ e le cadute di stile
 e tre tentativi sul vuoto
 da cui sbattere le ali perdendo quota
 
-guardando dal vetro di uno smartphone hollywoodiano
+guardando dal vetro di una cartolina che ci appiattisce
 o irraggiungibili guidati dallo spirito
-o da sentimenti che dello smartphone se ne fregano
+e da sentimenti che se ne fregano delle foto
 con l'impressione di volare sul paesaggio
 
 uno sguardo precipitoso sulla dea silenziosa
