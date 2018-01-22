@@ -1,20 +1,20 @@
-
+```
 ragusa é un precipizio
-che scivola via dall'offesa dea ibla
-un precipizio che rischia di perdersi
+che scivolando sale via dall'offesa dea ibla
+un pregiudizio che rischia di perdersi
 sognando di essere un grattacielo
 dopo essersi impennato così instabile
 cercando di entrare nel salotto proibito
 quel circolo di felici
 
 il precipizio e la dea si conoscono da secoli
-lei, con la sua spontanea grazia
-lui, con quell'appetito sempre in espansione
+lei con la sua grazia ricercata
+lui con l'appetito sempre in espansione
 come una vela gonfia di vento per il viaggio
 uno scafo che si allontana dal suo porto
 
 lei ha sempre comandato
-lui se l'é sempre negato
+lui l'ha sempre rifiutato
 fino ad estendere il suo piacere
 lì dove non avrebbe mai trovato realtà
 nè consistenza
@@ -27,24 +27,23 @@ ed ogni tanto magari riprovano a capirla
 guardando storto, dall'alto in giù
 con le vertigini
 e la confusione
-e tre ponti per volare
-per sbattere le ali e cadere
+e tre tentativi sul vuoto
+da cui sbattere le ali e cadere
 
-guardando inebriati, da dietro uno smartphone holliwoodiano
-o guidati dallo spirito, lasciando lo smartphone a casa
-o dagli affetti, che dello smartphone se ne fregano
+guardando dal vetro di uno smartphone holliwoodiano
+o disconnessi dal mondo e guidati dallo spirito
+o guidati da sentimenti che dello smartphone se ne fregano
 con l'impressione di volare liberi
-lo sguardo dal precipizio sulla dea
-i piedi su queste strade umile di umanità millenaria
-sconfitta dalla natura più che dagli uomini
+uno sguardo precipitoso sulla dea ormai silenziosa
+due piedi sulle strade umili di umanità millenaria
+sconfitta dalla natura più che dagli avversari
 
 nel bene e nel male, negli alti e nei bassi
 la città che continua a tradire sè stessa
-e di sè stessa innamorata
 offesa nell'anima da una cicatrice di debolezza fascista
-per sempre accecata dalla bellezza del suo tradito sogno
+innamorata della bellezza di un suo sogno languido
 
-anche per loro
+anche per loro e per tutti noi
 ragusa é un precipizio
 
  -- dedicata a quell'artista pirandelliano, dal pensiero inafferrabile
@@ -55,4 +54,6 @@ ragusa é un precipizio
     ed agli altri che mi danno forza
     nel mio viaggio da italiano a zig zag
     non mi perderete mai
+```
 
+> The Latin, Italian and Dalmatian name Ragusa derives its name from Lausa (from the Greek ξαυ: xau, "precipice"); it was later altered to Rausium, Rhagusium, Ragusium or Rausia (even Lavusa, Labusa, Raugia and Rachusa) and finally into Ragusa -- [l'etimologia di un'altra ragusa](https://en.wikipedia.org/wiki/Republic_of_Ragusa#Names)
