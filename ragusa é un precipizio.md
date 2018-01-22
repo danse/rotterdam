@@ -1,13 +1,13 @@
 ```
 ragusa é un precipizio
 in salita si arrampica via dalla sua dea ibla
-disperso lo guida il suo pregiudizio
-si crede una villa o un grattacielo
+disperso lo guida il pregiudizio
+si fa chiamare villa o grattacielo
 dopo essersi impennato vacilla
-temendo di restar fuori dal salotto proibito
+insicuro sulla soglia del salotto proibito
 il circolo dei vincenti
 
-il precipizio e la dea si conoscono da secoli
+il precipizio e la dea si amavano secoli fa
 lei con la sua ricercata limitatezza
 lui con l'appetito sempre in espansione
 come una vela gonfia di vento senza direzione
