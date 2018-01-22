@@ -1,7 +1,7 @@
 ```
 ragusa é un precipizio
-che scivolando sale via dall'offesa dea ibla
-un pregiudizio che rischia di perdersi
+che si arrampica via dall'offesa dea ibla
+un pregiudizio che si disperde in lontananza
 sognando di essere un grattacielo
 dopo essersi impennato vacilla
 temendo di restar fuori dal salotto proibito
@@ -10,16 +10,16 @@ il circolo dei vincenti
 il precipizio e la dea si conoscono da secoli
 lei con la sua grazia ricercata
 lui con l'appetito sempre in espansione
-come una vela gonfia di vento per il viaggio
+come una vela gonfia di vento senza direzione
 uno scafo che si allontana dal suo porto
 
 lei ha sempre comandato
-lui l'ha sempre rifiutato
-fino ad estendere il suo piacere
+lui non l'ha mai ascoltata
+distratto dal suo piacere in fuga
 lì dove non avrebbe mai trovato realtà
 nè consistenza
 
-e per i viaggiatori guidati da vero interesse
+e per gli stranieri pronti ad amarla
 e per i turisti cui volentieri la dea si vende
 e per i molti che ne sono sfuggiti
 ed ogni tanto ci riprovano a capire
@@ -27,12 +27,12 @@ ed ogni tanto ci riprovano a capire
 guardando storto, dall'alto in giù
 con le vertigini
 e le cadute di stile
-e tre tentativi sul vuoto
+e tre strade sul vuoto
 da cui sbattere le ali perdendo quota
 
 guardando dal vetro di una cartolina che ci appiattisce
-o irraggiungibili guidati dallo spirito
-e da sentimenti che se ne fregano delle foto
+o irraggiungibili servi dello spirito
+e di sentimenti che se ne fregano delle foto
 con l'impressione di volare sul paesaggio
 
 uno sguardo precipitoso sulla dea silenziosa
