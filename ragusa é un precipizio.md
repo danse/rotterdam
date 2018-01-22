@@ -1,14 +1,14 @@
 ```
 ragusa é un precipizio
 in salita si arrampica via dalla sua dea ibla
-disperde il suo pregiudizio in lontananza
-sognando di essere un grattacielo
+disperso lo guida il suo pregiudizio
+si crede una villa o un grattacielo
 dopo essersi impennato vacilla
 temendo di restar fuori dal salotto proibito
 il circolo dei vincenti
 
 il precipizio e la dea si conoscono da secoli
-lei con la sua grazia ricercata
+lei con la sua ricercata limitatezza
 lui con l'appetito sempre in espansione
 come una vela gonfia di vento senza direzione
 uno scafo che si allontana dal suo porto
@@ -27,12 +27,12 @@ e i pochi che provano a tornare
 guardando storto, dall'alto in giù
 con le vertigini
 e le cadute di stile
-e tre vie sul vuoto
+e tre vie attraverso il vuoto
 da cui sbattere le ali perdendo quota
 
 guardando dal vetro di una cartolina che ci appiattisce
-o irraggiungibili servi dello spirito
-e di sentimenti che se ne fregano delle foto
+o irraggiungibili servi di spiriti
+e sentimenti che in foto non appaiono
 con l'impressione di volare sul paesaggio
 
 uno sguardo precipitoso sulla dea silenziosa
@@ -43,6 +43,7 @@ sconfitta dalla sua natura più che dai suoi avversari
 nel bene e nel male, negli alti e nei bassi
 la città duplice che tradisce sé stessa
 innamorata della bellezza di un sogno languido
+intrappolata dalla propria immagine riflessa
 
 anche per loro e per noi con loro
 spiazzati da un ripido senso di libertà verticale
