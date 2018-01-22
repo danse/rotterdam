@@ -3,9 +3,9 @@ ragusa é un precipizio
 che scivolando sale via dall'offesa dea ibla
 un pregiudizio che rischia di perdersi
 sognando di essere un grattacielo
-dopo essersi impennato così instabile
-cercando di entrare nel salotto proibito
-quel circolo di felici
+dopo essersi impennato vacilla
+temendo di restar fuori dal salotto proibito
+il circolo dei vincenti
 
 il precipizio e la dea si conoscono da secoli
 lei con la sua grazia ricercata
@@ -22,28 +22,30 @@ nè consistenza
 e per i viaggiatori guidati da vero interesse
 e per i turisti cui volentieri la dea si vende
 e per i molti che ne sono sfuggiti
-ed ogni tanto magari riprovano a capirla
+ed ogni tanto ci riprovano a capire
 
 guardando storto, dall'alto in giù
 con le vertigini
-e la confusione
+e le cadute di stile
 e tre tentativi sul vuoto
-da cui sbattere le ali e cadere
+da cui sbattere le ali perdendo quota
 
-guardando dal vetro di uno smartphone holliwoodiano
-o disconnessi dal mondo e guidati dallo spirito
-o guidati da sentimenti che dello smartphone se ne fregano
-con l'impressione di volare liberi
-uno sguardo precipitoso sulla dea ormai silenziosa
-due piedi sulle strade umili di umanità millenaria
-sconfitta dalla natura più che dagli avversari
+guardando dal vetro di uno smartphone hollywoodiano
+o irraggiungibili guidati dallo spirito
+o da sentimenti che dello smartphone se ne fregano
+con l'impressione di volare sul paesaggio
+
+uno sguardo precipitoso sulla dea silenziosa
+i piedi su strade umili di umanità millenaria
+sconfitta dalla sua natura più che dai suoi avversari
 
 nel bene e nel male, negli alti e nei bassi
-la città che continua a tradire sè stessa
+la città duplice che tradisce sé stessa
 offesa nell'anima da una cicatrice di debolezza fascista
-innamorata della bellezza di un suo sogno languido
+innamorata della bellezza di un sogno languido
 
-anche per loro e per tutti noi
+anche per loro e per noi con loro
+spiazzati da un ripido senso di libertà verticale
 ragusa é un precipizio
 
  -- dedicata a quell'artista pirandelliano, dal pensiero inafferrabile
