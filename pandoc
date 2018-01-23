@@ -14,10 +14,7 @@
 
 
 
-farei un fork di pandoc sotto github/italia, e possiamo usare le issue di quel repo per tracciare le attività
-poi via via che fixi i bug, apriamo delle ulteriori issue per l’upstreaming delle singole modifiche, con un tag “upstream”
 
-current test cases are minimal, maybe written manually
 
  locations
 https://groups.google.com/forum/#!forum/pandoc-discuss
@@ -26,12 +23,6 @@ http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 
 which version of the standard are we following?
 are there any resources already available about DOCX processing?
- pandoc
-
-modifying via libreoffice produces unexpected results, it's unlikely
-that it will be a viable way to reduce test cases, i'll try to edit
-manually
-
-
-
+current test cases are minimal, maybe written manually
+ docx
 

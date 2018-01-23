@@ -29,11 +29,6 @@ e le cadute di stile
 e tre vie attraverso il vuoto
 da cui sbattere ali immaginarie
 
-guardando dal vetro di una cartolina che ci appiattisce
-o irraggiungibili servi di spiriti
-e sentimenti che in foto non appaiono
-con l'impressione di volare sul paesaggio
-
 uno sguardo precipitoso sulla dea silenziosa
 offesa da una cicatrice di debolezza fascista
 i piedi su strade umili di umanità millenaria
