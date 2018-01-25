@@ -31,6 +31,48 @@
 
 
 
+`parStyleToTransform` could be applied only to headings and tables
+that could be cause of an error
+
+https://github.com/jgm/pandoc/issues/1932 first paragraph 
+https://github.com/jgm/pandoc/pull/1384 no indent for hanging indent 
+https://github.com/jgm/pandoc/pull/1370 ignore zero indent
+
+in parStyleToTransform, hangingParIndent seems to lead to the block being enclosed in a quote
+
+when one lives the day
+it's normal to make guesses on a daily horizon
+
+quality differs, one can have more slow hours or less intense hours
+hipothesys quality x hours
+
+including with peers, at work, with ourselves
+all relationships go through a new negotiations
+quindi questo apprentissaje tiene impacto sobre todas las relacciones
+perché improvvisare é più vicino a quello che siamo
+é un cambiamento profondo
+chi non ci é abituato impara
+vivendo più spontaneamente si é più felici
+
+januar 25, thursday
+
+liver has a reserve
+the others ale based on lipids
+the only cells that are sugar based are the muscular and neural
+besides many other effects which start being harmful from 40's on
+glicemy and insuline peaks raise the levels of testosterone
+
+fall is caused by testosterone turning into ditestosterone
+
+40€ lunedì
+
+opening the hours valve
+
+nicolas robbio
+
+finger trees used in haskell's Seq
+http://www.staff.city.ac.uk/~ross/papers/FingerTree.html
+
 not only the world is big, sicily is rather big too
 
 in catania to meet my generation
@@ -43,9 +85,6 @@ january 23, wednesday
 venerdì 10 13 avvisare giovedì sera
 https://www.idealista.it/immobile/11109061/
 6 febbraio
-
-via carlo alberto della chiesa 6 sul retro del tribunale
-18:00
 
 bringing my profession to nomadism is tough
 

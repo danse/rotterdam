@@ -48,8 +48,8 @@ ragusa é un precipizio
     banditesco e terrorista, di potenti esplosivi
     gradito nostro ospite
     Maestro Leone
-    ed agli altri che mi danno forza
-    nel mio viaggio da italiano a zig zag
+    ed alle persone che si tendono una mano
+    mentre la loro vita danza precaria
     non mi perderete mai
 ```
 
