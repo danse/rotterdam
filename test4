@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alberto at this point i am tackling warnings in the cells
+
+it's frequent also in the rest of test4
+and it seems caused by wrapping lines in a table
+is the most frequent error
+Block quote ends without a blank line; unexpected unindent.
+reduced-2 contains all warnings errors in the cells of the first table
+
+removing the backslash doesn't seem to affect the warnings for that cell
+the main difference seems to be about the starting backslash
+the content of the cell is correctly translated into HTML in reduced-1
+
+the most relevant problem seems to be rst2html warnings
+
+i have no way to tell whether is there actually a nested table or not,
+table controls that show up when i focus the nested content refer to
+the upmost table
+
+alberto all'inizio del file c'é una struttura incomprensibile anche in
+libreoffice. abbiamo l'ambizione di tradurla in qualcosa?
+
+presents same indentation problems as test3, but the new error here
+seems to be in the tables
