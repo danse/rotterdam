@@ -16,6 +16,9 @@
 
 
 
+https://github.com/jwilk-mirrors/docutils/blob/trunk/docutils/parsers/rst/states.py#L795
+looking for the cause of the error in docutils
+
 https://stackoverflow.com/questions/45534757/how-to-use-inline-code-with-a-trailing-whitespace
 
 44 inline interpreted text or phrase reference start-string without end-string.
