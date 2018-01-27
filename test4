@@ -16,7 +16,13 @@
 
 
 
+https://stackoverflow.com/questions/45534757/how-to-use-inline-code-with-a-trailing-whitespace
 
+44 inline interpreted text or phrase reference start-string without end-string.
+40 block quote ends without a blank line; unexpected unindent.
+15 inline strong start-string without end-string.
+3  definition list ends without a blank line; unexpected unindent.
+ grep -ic "" rst2html/test4.html 
 
 alberto at this point i am tackling warnings in the cells
 
