@@ -1,0 +1,2039 @@
+    1  upwork-check 
+    2  cd rotterdam/
+    3  lt offers/
+    4  firefox $(cat offers/haskell\ software\ engineer\ in\ singapore )
+    5  clay emergent design - scott bain
+    6  cd
+    7  cd /media/francesco/
+    8  lt
+    9  cd
+   10  cd /media/
+   11  lt
+   12  lt guest-4auq33/
+   13  cd
+   14  cd /tmp/
+   15  cat > snip.ps
+   16  emacs snip.ps &
+   17  psc snip.ps 
+   18  pulp -v
+   19  cd
+   20  cd /tmp/
+   21  cat > test.ps
+   22  lt
+   23  psc test.ps 
+   24  cat > bower.json 
+   25  pulp install
+   26  pulp build
+   27  bower install && pulp build 
+   28  cd
+   29  upwork-check 
+   30  cd rotterdam/
+   31  lt offers/
+   32  upwork-check 
+   33  sleep 1 && upwork-check 
+   34  upwork-check 
+   35  cd
+   36  cd rotterdam/
+   37  mkdir portables
+   38  cd portables/
+   39  clay quando la nostra vita prende una piega - luca burgio
+   40  clay scarcity creates abundancy sustains
+   41  clay clearness freedom and loss of direction, feeling lost
+   42  clay stoicism as a connection of identity or conscience to a different condition, project comfort
+   43  cd ..
+   44  rm data\ stories
+   45  emacs stack/stack &
+   46  emacs "Small Web Application to help our PDI Prcoess" &
+   47  git add  "Small Web Application to help our PDI Prcoess" 
+   48  fileAndForget 
+   49  mixxx 
+   50  cd rotterdam/
+   51  find | grep -i log
+   52  tag logging\ can\ be\ shaded tags/fitness/reasons\ to\ stop\ logging logging
+   53  git rm -r logging\ can\ be\ shaded 
+   54  emacs tags/logging/"la soluzione" &
+   55  git add tags
+   56  fileAndForget 
+   57  cd
+   58  cd sombra/
+   59  lt
+   60  cd primero/
+   61  lt
+   62  head *
+   63  emacs ../README.md &
+   64  cd ../
+   65  lt
+   66  git init
+   67  git add *
+   68  git status
+   69  git remote add origin git@github.com:danse/sombra.git
+   70  git push -u origin master
+   71  git commit
+   72  git push
+   73  git push -u origin master
+   74  lt
+   75  cd primero/
+   76  lt
+   77  emacs ragusa &
+   78  fileAndForget 
+   79  lt
+   80  cd
+   81  cd repos/
+   82  lt
+   83  cd
+   84  e
+   85  lt
+   86  rm richiamare\ venerdi\ o\ sabato quadrilocale\ in\ centro 
+   87  lt
+   88  e
+   89  cd rotterdam/
+   90  lt
+   91  git status
+   92  git add stack/explorable\ explanations\ of\ mathematical\ proofs upwork when\ the\ sun\ appears\,\ the\ sky\ is\ already\ bright 
+   93  fileAndForget 
+   94  cd
+   95  cd sombra/
+   96  git push
+   97  cd
+   98  cd rotterdam/
+   99  emacs pictograms &
+  100  clay pictograms 
+  101  fileAndForget 
+  102  cd
+  103  cd pandoc-types/
+  104  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  105  cd
+  106  upwork-check 
+  107  lt tags
+  108  e exit
+  109  cd
+  110  cd medusa/fly/
+  111  lt
+  112  medusa-stop reactivate\ the\ italian\ phone 
+  113  emacs .medusa/closed/reactivate\ the\ italian\ phone &
+  114  lt
+  115  e
+  116  lt .medusa/closed/
+  117  lt
+  118  lt ..
+  119  fileAndForget & upwork-check 
+  120  ping amazon.com
+  121  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  122  upwork-check 
+  123  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  124  host chat.freenode.net
+  125  ping freenode.net
+  126  top
+  127  upwork-check 
+  128  cd
+  129  cd franco-opwer/
+  130  . sanity-check.sh 
+  131  cd
+  132  . clean\ exported\ crumbs\ .sh 
+  133  cd
+  134  cd franco-opwer/
+  135  cd results/
+  136  rm flex/flex fixe/ext-cat-data 
+  137  upwork-check 
+  138  cd
+  139  cd franco-opwer/
+  140  lt
+  141  . common\ selection\ .sh 
+  142  . sanity-check.sh 
+  143  cd prototypes/
+  144  serve
+  145  e exit
+  146  cd
+  147  cd rotterdam/
+  148  fileAndForget 
+  149  git mv stack/kasaputia .
+  150  git mv kasaputia/stories/how\ to kasaputia/
+  151  fileAndForget 
+  152  e
+  153  lt stack
+  154  lt ..
+  155  lt
+  156  git rm Small\ Web\ Application\ to\ help\ our\ PDI\ Prcoess 
+  157  clay it can cut both ways
+  158  emacs $(hakyllPostTitle) &
+  159  clay public shelf recycling
+  160  cd stack/
+  161  mv why\ are\ we\ stronger\ at\ the\ right\ distance why\ are\ we\ stronger\ at\ the\ right\ distance?
+  162  fileAndForget 
+  163  git mv why\ are\ we\ stronger\ at\ the\ right\ distance\? why\ are\ we\ stronger\ of\ our\ distance\? 
+  164  fileAndForget 
+  165  mv facebook /tmp/
+  166  fileAndForget 
+  167  cd ../
+  168  lt tags/links/
+  169  cat > tags/links/"japanese kanji dictionary from Brooke"
+  170  git add tags/links/"japanese kanji dictionary from Brooke"
+  171  fileAndForget 
+  172  cat > tags/links/"read research papers for free #openknowledge unpaywall"
+  173  emacs
+  174  bg
+  175  killall emacs
+  176  emacs
+  177  git status
+  178  emacs stack/stack &
+  179  lt stack
+  180  lt ~
+  181  lt ~/queue 
+  182  cat ~/queue
+  183  rm ~/queue
+  184  fileAndForget 
+  185  lt
+  186  cd stack/
+  187  lt
+  188  cat emotional\ front 
+  189  rm emotional\ front
+  190  fileAndForget 
+  191  lt
+  192  cd
+  193  cd spargel/
+  194  lt
+  195  lt -a
+  196  lt -l
+  197  cd
+  198  cd rotterdam/
+  199  fileAndForget 
+  200  cat > tags/links/revenge
+  201  fileAndForget 
+  202  cat > tags/links/bias
+  203  fileAndForget 
+  204  grep ritual -i *
+  205  grep ritual -i * -r
+  206  grep ritual -i * -rl
+  207  cat ritual
+  208  cd stack/
+  209  cat ritual 
+  210  rm ritual 
+  211  fileAndForget 
+  212  cd
+  213  cd spargel/
+  214  lt
+  215  cd
+  216  cd medusa/fly/
+  217  lt
+  218  medusa-stop check\ that\ i\ sent\ the\ message\ about\ getting\ the\ deposit\ back 
+  219  cd
+  220  cd rotterdam/stack/
+  221  fileAndForget 
+  222  copy ~/rotterdam/emojis/joy 
+  223  fileAndForget 
+  224  cat > ../canti/moments
+  225  fileAndForget 
+  226  cd
+  227  cd spargel/
+  228  lt
+  229  lt -a
+  230  lt -l
+  231  less 20171110-1062314251-umsatz.CSV 
+  232  spargel 20171110-1062314251-umsatz.CSV
+  233  lt -l
+  234  json_pp < spargel-margin-data-pos.json | less
+  235  R
+  236  cd
+  237  cd -
+  238  R
+  239  lt
+  240  less spargel-margin-data-pos.json 
+  241  json_pp < spargel-margin-data-pos.json | less
+  242  cd
+  243  cd medusa/fly/
+  244  lt
+  245  less check\ that\ the\ money\ received\ from\ the\ landlord\ is\ the\ right\ one 
+  246  medusa-stop check\ that\ the\ money\ received\ from\ the\ landlord\ is\ the\ right\ one
+  247  lt
+  248  mv ask\ to\ cancel\ the\ mobile\ contract\ since\ March\ or\ April\ 2017  ask\ to\ cancel\ the\ mobile\ contract
+  249  lt
+  250  cd
+  251  cd rotterdam/
+  252  git rm stack/write\ to\ schneider 
+  253  git rm stack/write\ to\ schneider -f
+  254  fileAndForget 
+  255  lt offers/
+  256  cat offers/*
+  257  cd
+  258  cd invoice/
+  259  lt
+  260  cd 
+  261  mv spargel/ spargels
+  262  cd invoices
+  263  cd continuity/invoices/
+  264  lt
+  265  evince october.pdf 
+  266  cd
+  267  cd rotterdam/portables/
+  268  fileAndForget 
+  269  cd ../
+  270  fileAndForget 
+  271  cd 
+  272  cd medusa/taxes/
+  273  medusa-stop pay\ taxes\ for\ 2015\ or\ at\ least\ start 
+  274  cd
+  275  cd medusa/home-bureaucracy/
+  276  lt
+  277  cd
+  278  cd -
+  279  lt
+  280  cat check\ German\ taxes\ to\ pay 
+  281  cat write\ an\ electronic\ copy\ of\ the\ message\ for\ the\ landlord\ about\ the\ deposit\,\ and\ check\ how\ much\ the\ deposit\ was 
+  282  rm *
+  283  cd ../
+  284  lt home-bureaucracy/
+  285  rm -rf home-bureaucracy/
+  286  cd
+  287  ghci
+  288  copy ~/rotterdam/emojis/joy 
+  289  cd opwer
+  290  git diff
+  291  git commit -a
+  292  emacs
+  293  cd
+  294  cd rotterdam/
+  295  fileAndForget 
+  296  cd
+  297  lt
+  298  cd rotterdam/
+  299  lt
+  300  cd
+  301  copy digitalnomad 
+  302  rm digitalnomad 
+  303  cd rotterdam/
+  304  git status
+  305  git diff experiment
+  306  git rm experiment
+  307  git rm experiment -r
+  308  git rm -r experiment 
+  309  git rm experiment -f
+  310  fileAndForget 
+  311  rm ~/angela 
+  312  fileAndForget 
+  313  lt
+  314  lt stack
+  315  lt
+  316  find | wc -l
+  317  baobab .
+  318  find
+  319  find| less
+  320  man find
+  321  ls -d *
+  322  find * | less
+  323  find * | wc -l
+  324  cat you\ can\ open\ it\ but\ the\ door\ is\ slow 
+  325  git rm you\ can\ open\ it\ but\ the\ door\ is\ slow
+  326  fileAndForget 
+  327  git status
+  328  copy stack/an\ answer 
+  329  cat stack/an\ answer
+  330  rm stack/an\ answer
+  331  fileAndForget 
+  332  cd
+  333  cd resume
+  334  evince resume.pdf 
+  335  lt
+  336  emacs index.jade &
+  337  make
+  338  evince resume.pdf 
+  339  firefox index.html 
+  340  evince resume.pdf 
+  341  mv ~/resume.pdf resume.pdf
+  342  evince resume.pdf 
+  343  emacs index.html &
+  344  emacs index.jade 
+  345  make
+  346  firefox index.html 
+  347  evince ~/mozilla.pdf 
+  348  mv ~/mozilla.pdf resume.pdf 
+  349  git status
+  350  git diff
+  351  git commit -a
+  352  git push
+  353  cd
+  354  lt
+  355  cd -
+  356  evince resume.pdf 
+  357  cd
+  358  cd rotterdam/
+  359  git status
+  360  cat stack/handles 
+  361  rm stack/handles
+  362  git status
+  363  cd
+  364  cd sombra/
+  365  git status
+  366  fileAndForget 
+  367  lt primero/
+  368  mkdir segundo
+  369  cd segundo
+  370  drawings cumulated over the years
+  371  personal considerations over my stay in ragusa
+  372  notes about gödel, escher, bach
+  373  new foundation for my work after nowhere
+  374  findings in barcelona
+  375  findings in madrid
+  376  lt
+  377  cat model 
+  378  cd ../
+  379  lt primero/
+  380  lt cad
+  381  lt cadi
+  382  lt primero/cadiz/
+  383  mv primero/cadiz/verbal primero/
+  384  rmdir primero/cadiz/
+  385  git mv primero/verbal primero/cadiz
+  386  mv primero/verbal primero/cadiz
+  387  lt
+  388  lt primero/
+  389  fileAndForget 
+  390  cd
+  391  cd rotterdam/
+  392  git status
+  393  cat stack/clients 
+  394  fileAndForget 
+  395  emacs empty
+  396  rm empty
+  397  ntop
+  398  ntop stop
+  399  man ntop
+  400  service --help
+  401  service ntop stop
+  402  echo -n 0000\:00\:14.0 > unbind 
+  403  echo -n 0000\:00\:14.0 > bind 
+  404  upwork-check 
+  405  cd
+  406  cd prototypes/
+  407  serve
+  408  lsusb 
+  409  lsusb -t
+  410  cd /sys/bus/
+  411  lt
+  412  cd pci
+  413  lt
+  414  cd drivers/
+  415  lt
+  416  cd xhci_hcd/
+  417  lt
+  418  echo -n 0000\:00\:14.0 > unbind 
+  419  sudo -s
+  420  echo -n 0000\:00\:14.0 > unbind 
+  421  echo -n 0000\:00\:14.0 > bind
+  422  echo -n 0000\:00\:14.0 > unbind 
+  423  echo -n 0000\:00\:14.0 > bind
+  424  lsusb 
+  425  lsusb  -t
+  426  lsusb 
+  427  cd /sys/bus/pci/
+  428  lt
+  429  cd drivers/xhci_hcd/
+  430  lt
+  431  echo -n 0000\:00\:14.0 > unbind 
+  432  sudo -s
+  433  lsusb
+  434  cd
+  435  cd /sys/bus/pci
+  436  lt
+  437  cd drivers/xhci_hcd/
+  438  lt
+  439  pwd
+  440  lt
+  441  cd rotterdam/
+  442  fileAndForget 
+  443  e
+  444  fileAndForget 
+  445  ghci
+  446  fileAndForget 
+  447  cd
+  448  git clone git://github.com/askmike/gekko.git
+  449  cd gekko/
+  450  npm install --only production
+  451  nodebins 
+  452  node gekko --ui
+  453  node gekko --help
+  454  node gekko --ui
+  455  cd
+  456  rm saurabh 
+  457  e
+  458  cd rotterdam/
+  459  fileAndForget 
+  460  git mv archive/stack/tunis .
+  461  gitSave 
+  462  fileAndForget 
+  463  cd
+  464  lt
+  465  lt minima*
+  466  cd minima
+  467  lt
+  468  cat domains 
+  469  lt
+  470  git push
+  471  cd ../minimalist/
+  472  lt
+  473  git push
+  474  cd
+  475  cd sparkles/
+  476  lt
+  477  lt natural/
+  478  git status
+  479  git diff
+  480  fileAndForget 
+  481  cd
+  482  lt
+  483  lt medusa/
+  484  lt medusa/red-notepad/
+  485  head medusa/red-notepad/*
+  486  lt
+  487  lt continuity/
+  488  lt
+  489  lt ideas/
+  490  lt sparkles/
+  491  lt medusa/
+  492  lt medusa/web\ pages/
+  493  lt medusa/online/
+  494  cd rotterdam/
+  495  find -iname "*haskell*" *
+  496  find -iname "*haskell*" archive/
+  497  find archive/ -iname "*haskell*" 
+  498  lt
+  499  rm haskell\ and\ crypto 
+  500  git mv archive/blockchain\ in\ Haskell .
+  501  git mv blockchain\ in\ Haskell blockchain\ in\ haskell 
+  502  git status
+  503  find archive/ -iname "*haskell*" 
+  504  cat archive/tags/links/a\ minimum\ viable\ cryptocurrency\ in\ Haskell 
+  505  git rm archive/tags/links/a\ minimum\ viable\ cryptocurrency\ in\ Haskell
+  506  git rm -f archive/tags/links/a\ minimum\ viable\ cryptocurrency\ in\ Haskell
+  507  fileAndForget 
+  508  lt archive/tags/links/
+  509  cd archive/
+  510  lt locations/
+  511  lt
+  512  cd
+  513  lt medusa/
+  514  cat medusa/web\ pages/
+  515  lt medusa/web\ pages/
+  516  cd rotterdam/
+  517  fileAndForget 
+  518  lsusb 
+  519  cd
+  520  cd Desktop/
+  521  wget https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf?a=1
+  522  cd 
+  523  cd rotterdam/
+  524  emacs stack 
+  525  bg
+  526  fileAndForget 
+  527  cd
+  528  lsusb 
+  529  cd rotterdam/
+  530  tac < receptive\ planning > tmp
+  531  mv tmp "receptive planning"
+  532  fileAndForget 
+  533  git mv archive/kasaputia/ .
+  534  fileAndForget 
+  535  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  536  emacs stack &
+  537  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  538  killall firefox
+  539  firefox &
+  540  jobs
+  541  kill %4 %2
+  542  jobs
+  543  fileAndForget 
+  544  locate powertop
+  545  sudo sh -c "echo -1 > /sys/module/usbcore/parameters/autosuspend"
+  546  fileAndForget 
+  547  upwork-check 
+  548  fileAndForget 
+  549  git rm archive/ñusta &&gitSave 
+  550  cd archive/
+  551  git mv what\ justify\ the\ ends\ needs\ to\ justify\ also\ the\ means "what justifies the ends needs to justify also the means" 
+  552  gitSave 
+  553  lt tags/
+  554  cd ../
+  555  ghci
+  556  lt 
+  557  lt archive/
+  558  lt archive/stack
+  559  git mv archive/stack/german\ declaration .
+  560  lt archive/stack
+  561  fileAndForget 
+  562  cd archive/tags/
+  563  lt
+  564  cd tags
+  565  lt links/
+  566  cd ../
+  567  lt
+  568  lt old\ 
+  569  lt old\ tags/
+  570  lt old\ tags/haskell/
+  571  cat old\ tags/haskell/grenade 
+  572  lt old\ tags/tech/
+  573  cat old\ tags/haskell/miso 
+  574  cd ../
+  575  cat archive/old\ tags/haskell/
+  576  lt archive/old\ tags/haskell/
+  577  cat archive/old\ tags/haskell/movie-monad 
+  578  git rm archive/old\ tags/haskell/
+  579  git rm -r archive/old\ tags/haskell/
+  580  fileAndForget 
+  581  serve
+  582  make
+  583  upwork-check 
+  584  e exit
+  585  cd
+  586  cd prototypes/
+  587  serve
+  588  bg
+  589  cd rotterdam/
+  590  git mv archive/emojis/ .
+  591  lt emog
+  592  lt emojis/
+  593  cat > emojis/raising-hands
+  594  copy emojis/raising-hands
+  595  fileAndForget 
+  596  cd
+  597  cd rotterdam/
+  598  lt archive/portables/
+  599  git mv archive/portables/ .
+  600  gitSave 
+  601  cd portables/
+  602  lt
+  603  emacs 'after the 14 july in barcelona' &
+  604  fileAndForget 
+  605  cd ..
+  606  e
+  607  gitSave 
+  608  lt
+  609  rm stack\ inverter.hs 
+  610  gitSave
+  611  fileAndForget 
+  612  lt tags/links/
+  613  lt tags/
+  614  cat tags/hacking/
+  615  lt tags/hacking/
+  616  lt tags/links/
+  617  lt archive/
+  618  lt stack 
+  619  lt archive/stack
+  620  cat > tags/links/"free access to scientific papers"
+  621  fileAndForget 
+  622  cd
+  623  cd Desktop/
+  624  wget https://luisscampusduepuntozero.files.wordpress.com/2012/06/sistema-finanziario-e-sistema-reale.pdf
+  625  cd
+  626  cd rotterdam/
+  627  fileAndForget 
+  628  emacs stack &
+  629  gitSave 
+  630  lt tags/
+  631  lt tags/permanent/
+  632  emacs stack &
+  633  gitSave 
+  634  e
+  635  gitSave 
+  636  lt *storypl*
+  637  find -name "*log*"
+  638  lt tags/logging/
+  639  head tags/logging/
+  640  head tags/logging/*
+  641  cat tags/logging/*
+  642  head tags/logging/*
+  643  head tags/logging/* > logging
+  644  git rm tags/logging/
+  645  git rm tags/logging/ -r
+  646  gitSave 
+  647  cd
+  648  cd Desktop/
+  649  mv essai\ sur\ le\ don archive/
+  650  cd
+  651  cd rotterdam/
+  652  lt tags/hacking/
+  653  find "*hack*"
+  654  find -name "*hack*"
+  655  cat archive/hacker\ ethics 
+  656  cat archive/indie\ hacker 
+  657  cat tags/hacking/
+  658  lt tags/permanent/
+  659  lt tags/hacking/
+  660  git rm -r tags/hacking/
+  661  find -name "*hack*"
+  662  cat $(find -name "*hack*")
+  663  cat archive/indie\ hacker archive/hacker\ ethics 
+  664  head archive/indie\ hacker archive/hacker\ ethics 
+  665  head archive/indie\ hacker archive/hacker\ ethics > hacking
+  666  git rm archive/indie\ hacker archive/hacker\ ethics
+  667  find -name "*commun*"
+  668  git rm archive/communicator 
+  669  cat archive/eyes\ on\ our\ communication\ target 
+  670  git rm archive/eyes\ on\ our\ communication\ target
+  671  find -name "*commun*"
+  672  lt tags/communication/
+  673  cat tags/communication/different\ paths\ can\ have\ different\ tails 
+  674  git rm tags/communication/different\ paths\ can\ have\ different\ tails
+  675  find -name "*commun*"
+  676  fileAndForget 
+  677  pwgen 
+  678  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  679  pwgen 
+  680  fg
+  681  fileAndForget 
+  682  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  683  fg
+  684  gitSave 
+  685  cd
+  686  cd resume
+  687  make
+  688  lt
+  689  evince resume.pdf 
+  690  emacs index.jade &
+  691  make
+  692  firefox index.html &
+  693  mv ~/mozilla.pdf resume.pdf 
+  694  git commit -a
+  695  git push
+  696  mv /tmp/ANAC\ -\ profilo.png ~/Desktop/documents/
+  697  cp resume.pdf ~/Desktop/documents/
+  698  cd
+  699  cd rotterdam/
+  700  git rm documents 
+  701  git rm documents -f
+  702  gitSave 
+  703  fileAndForget 
+  704  find -name "*desk*"
+  705  git mv archive/stack/less\ desk\ more\ respect deskless
+  706  fileAndForget 
+  707  lt
+  708  cd
+  709  lt
+  710  cat jessy 
+  711  rm jessy
+  712  lt
+  713  upwork-check 
+  714  R
+  715  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  716  cd medusa/taxes/
+  717  lt
+  718  cat write\ to\ Harwart\ about\ the\ tax\ declaration\ 2016 
+  719  cd
+  720  lt
+  721  r
+  722  cd rotterdam/
+  723  git rm archive/management\ insights\ into\ functional\ programming\ and\ Haskell 
+  724  git rm archive/management\ insights\ into\ functional\ programming\ and\ Haskell  -f
+  725  cd
+  726  cd medusa/
+  727  lt
+  728  cd
+  729  cd -
+  730  cd
+  731  cd medusa/
+  732  lt
+  733  cd fly/
+  734  lt
+  735  cd
+  736  lt
+  737  cd rotterdam/
+  738  fileAndForget 
+  739  git push
+  740  fileAndForget 
+  741  mv ~/jessy\ collana /tmp/
+  742  fileAndForget 
+  743  e
+  744  gitSave 
+  745  upwork-check 
+  746  lt
+  747  ls | wc -l
+  748  lt
+  749  ls -t
+  750  ls -t1
+  751  evince documenti\ per\ l\'appartamento/
+  752  nautilus documenti\ per\ l\'appartamento/
+  753  lt -l documenti\ per\ l\'appartamento/
+  754  rm -r documenti\ per\ l\'appartamento/
+  755  cd rotterdam/
+  756  lt ~
+  757  rm ~/jessy 
+  758  emacs $(hakyllPostTitle) &
+  759  lt
+  760  mv 2018-01-05-post-1.md posts/
+  761  fileAndForget 
+  762  upwork-check 
+  763  e
+  764  cd
+  765  lt abanico/
+  766  lt
+  767  cd abanico/
+  768  make
+  769  git commit -am 'fix d3 contracting link'
+  770  git push
+  771  ghci
+  772  cd
+  773  npm install serverless
+  774  cabal install serverless-haskell
+  775  cabal update
+  776  cd /tmp/
+  777  git clone https://github.com/seek-oss/serverless-haskell#readme
+  778  git clone https://github.com/seek-oss/serverless-haskell
+  779  git clone git@github.com:seek-oss/serverless-haskell.git
+  780  cd serverless-haskell/
+  781  cabal install
+  782  lt
+  783  stack install
+  784  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  785  cd
+  786  lt persons/
+  787  grep cocucci -iR persons/
+  788  locate cocucci
+  789  upwork-check 
+  790  cd react-hs/
+  791  git status
+  792  cd
+  793  rm -rf react-hs/
+  794  cd rotterdam/
+  795  cd
+  796  . clean\ exported\ crumbs\ .sh 
+  797  cd -
+  798  fileAndForget 
+  799  cd
+  800  cd abanico/
+  801  make
+  802  git commit -a
+  803  git push
+  804  cd
+  805  cd rotterdam/
+  806  fileAndForget 
+  807  find -name '*design*'
+  808  git mv archive/stack/design\ business\ card .
+  809  find -name '*book*'
+  810  git mv archive/books\ to\ buy books
+  811  fileAndForget 
+  812  ghci
+  813  doctest endless.hs 
+  814  ghc endless.hs
+  815  doctest endless.hs 
+  816  ghc endless.hs
+  817  doctest endless.hs 
+  818  lt
+  819  git status
+  820  rm endless endless.hi endless.o 
+  821  doctest endless.hs 
+  822  ghci
+  823  doctest endless.hs 
+  824  fileAndForget 
+  825  touch $(hakyllPostTitle)
+  826  fileAndForget 
+  827  cd
+  828  cd declaration\ 2016/
+  829  lt
+  830  mv revolution ../rotterdam/
+  831  cd ../rotterdam/
+  832  fileAndForget 
+  833  upwork-check 
+  834  fileAndForget 
+  835  mv ~/jessy /tmp/
+  836  mv /tmp/jessy2 ~/jessy
+  837  fileAndForget 
+  838  find -iname '*talks*'
+  839  find -iname '*talk*'
+  840  find -iname '*test*'
+  841  gasp () { find -iname "*$@*"; }
+  842  gasp test
+  843  gasp listen
+  844  fileAndForget 
+  845  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  846  cd
+  847  cd -
+  848  fileAndForget 
+  849  cd
+  850  cd pandoc-types/
+  851  git log
+  852  stack test
+  853  cd
+  854  git clone git@github.com:atorin/pandoc-test.git
+  855  cd pandoc-test/
+  856  lt
+  857  ls
+  858  pandoc --version
+  859  pandoc input/test0.docx -t rst -o output/test0.rst 
+  860  git diff
+  861  libreoffice input/test0.docx &
+  862  rst2html output/test0.rst 
+  863  rst2html output/test0.rst > /tmp/test0.html
+  864  firefox /tmp/test0.html
+  865  cd
+  866  cd pandoc
+  867  lt
+  868  lt test/
+  869  lt test/docx/
+  870  head test/docx/*.native | less
+  871  cd
+  872  cd rotterdam/
+  873  fileAndForget =
+  874  rm ~/algo\ vivo 
+  875  fileAndForget 
+  876  pandoc --version
+  877  cd
+  878  cabal install pandoc
+  879  cabal update
+  880  cabal install pandoc
+  881  mv ~/vision rotterdam/
+  882  cd rotterdam/
+  883  fileAndForget 
+  884  clear && . ~/sparkles/net-reliability-meter.sh ; kill %1
+  885  git status
+  886  lt analysis/
+  887  lt analysis/test0
+  888  mv analysis/test0.md analysis/test0
+  889  cd
+  890  cd rotterdam/
+  891  fileAndForget 
+  892  rst2html output/test0.rst > /tmp/test0.html
+  893  firefox /tmp/test0.html
+  894  pandoc input/test0.docx -t rst -o output/test0.rst 
+  895  rst2html output/test0.rst > /tmp/test0.html
+  896  pandoc input/test0.docx -t rst -o output/test0.rst 
+  897  rst2html output/test0.rst > /tmp/test0.html
+  898  pandoc input/test0.docx -t rst -o output/test0.rst 
+  899  rst2html output/test0.rst > /tmp/test0.html
+  900  pandoc input/test0.docx -t native -o analysis/test0/test0.native 
+  901  cd
+  902  cd repos/shrouded-falls-2943/
+  903  lt
+  904  cat cleanup\ old\ stories\ .hs 
+  905  . cleanup\ old\ stories\ .hs 
+  906  cd
+  907  lt /tmp/
+  908  cd /tmp/
+  909  cat > test.md
+  910  pandoc -t native test.md
+  911  pandoc -t native test.md > test.native
+  912  emacs test.native
+  913  bg
+  914  pandoc -t md test.native 
+  915  pandoc -t Markdown test.native 
+  916  rst2html test.rst 
+  917  lt
+  918  cat test.rst 
+  919  grep basic -rl test/
+  920  find -name testsuite.txt
+  921  find -name writer.rst
+  922  man stack
+  923  stack --help
+  924  stack test
+  925  cd
+  926  cd pandoc-test/
+  927  git status
+  928  cp input/test0.docx test0-simplified.docx
+  929  git checkout input/
+  930  stack test
+  931  git log
+  932  git commit --amend
+  933  git push --force italia HEAD
+  934  git commit --amend -a
+  935  git push italia --force HEAD
+  936  cd
+  937  cd pandoc-types/
+  938  git push italia HEAD
+  939  cd
+  940  cd rotterdam/
+  941  gaga canti
+  942  git status
+  943  gitSave 
+  944  git mv archive/canti/ .
+  945  lt canti/
+  946  gitSave 
+  947  cat > canti/"like a rolling stone"
+  948  emacs canti/"like a rolling stone" &
+  949  fileAndForget 
+  950  fileAndForget exit
+  951  cd pandoc-test/
+  952  lt
+  953  git diff
+  954  git checkout .
+  955  lt
+  956  lt input/
+  957  lt output/
+  958  pandoc --version
+  959  pandoc input/test0.docx -t rst -o output/test0.rst 
+  960  cd
+  961  cd declaration\ 2016/
+  962  lt
+  963  mv stack taxes
+  964  cd
+  965  e
+  966  cd rotterdam/
+  967  git status
+  968  fileAndForget 
+  969  gitSave
+  970  cd ../pandoc-test/
+  971  pandoc input/test0.docx -t rst -o output/test0.rst 
+  972  firefox /tmp/test0.html 
+  973  libreoffice input/test0.docx &
+  974  mkdir analysis
+  975  mkdir analysis/test0
+  976  mv /tmp/in.png analysis/test0
+  977  mv /tmp/out.png analysis/test0
+  978  cd analysis/test0
+  979  lt
+  980  nautilus . &
+  981  cd ../../
+  982  pandoc input/test0.docx -t native > analysis/test0/test0.native
+  983  pushd ~/Desktop/
+  984  wget http://pandoc.org/MANUAL.pdf
+  985  popd
+  986  git status
+  987  git remote add danse git@github.com:danse/pandoc-test.git
+  988  git fetch
+  989  git fetch danse
+  990  git checkout -tb test0
+  991  git add analysis/
+  992  gitSave 
+  993  git push danse/test0
+  994  git push danse
+  995  gitSave
+  996  cd
+  997  cd rotterdam/
+  998  cat documents 
+  999  git rm documents
+ 1000  git rm documents -f
+ 1001  fileAndForget 
+ 1002  cd
+ 1003  cd declaration\ 2016/
+ 1004  lt
+ 1005  lt data/
+ 1006  lt data/copy\ of\ african\ invoices/
+ 1007  lt data/Krank/
+ 1008  cd
+ 1009  cd pandoc-test/
+ 1010  git status
+ 1011  gitSave 
+ 1012  emacs output/test0.rst &
+ 1013  libreoffice input/test0.docx &
+ 1014  cd /tmp/
+ 1015  pandoc simplified.native 
+ 1016  pandoc simplified.native -o rst
+ 1017  pandoc simplified.native -t rst
+ 1018  pandoc simplified.native -t rst > simplified.rst
+ 1019  rst2html simplified.rst > simplified.html
+ 1020  firefox simplified.html 
+ 1021  rst2html simplified.rst > simplified.html
+ 1022  firefox simplified.html 
+ 1023  rst2html simplified.rst > simplified.html
+ 1024  firefox simplified.html 
+ 1025  pandoc --version
+ 1026  cd
+ 1027  cd pandoc
+ 1028  git status
+ 1029  cd
+ 1030  cd rotterdam/
+ 1031  fileAndForget 
+ 1032  cd
+ 1033  cd pandoc
+ 1034  libreoffice ~/pandoc-test/input/test0.docx &
+ 1035  cd /tmp/
+ 1036  emacs test.rst
+ 1037  bg
+ 1038  rst2html test.rst > before.html
+ 1039  firefox before.html
+ 1040  rst2html test.rst > after.html
+ 1041  firefox after.html 
+ 1042  cd
+ 1043  cd pandoc
+ 1044  git status
+ 1045  git diff test/Tests/
+ 1046  git status test/Tests/
+ 1047  git stash save 'modified some tests'
+ 1048  git stash list
+ 1049  git status
+ 1050  git checkout master
+ 1051  git pull
+ 1052  lt
+ 1053  e
+ 1054  stack test
+ 1055  stack setup
+ 1056  stack upgrade
+ 1057  stack test
+ 1058  stack run pandoc ~/pandoc-test/input/test0.docx -t rst -o ~/pandoc-test/output/test0.rst
+ 1059  stack exec pandoc ~/pandoc-test/input/test0.docx -t rst -o ~/pandoc-test/output/test0.rst
+ 1060  stack exec pandoc -- ~/pandoc-test/input/test0.docx -t rst -o ~/pandoc-test/output/test0.rst
+ 1061  rst2html ~/pandoc-test/output/test0.rst /tmp/test0.html
+ 1062  rst2html ~/pandoc-test/output/test0.rst > /tmp/test0.html
+ 1063  firefox /tmp/test0.html
+ 1064  stack exec pandoc -- ~/pandoc-test/input/test0.docx -t rst -o ~/pandoc-test/output/test0.rst
+ 1065  rst2html ~/pandoc-test/output/test0.rst > /tmp/test0.html
+ 1066  firefox /tmp/test0.html
+ 1067  git status
+ 1068  git diff
+ 1069  e
+ 1070  git status
+ 1071  git diff
+ 1072  git checkout -tb 4248
+ 1073  git commit -a
+ 1074  git remote
+ 1075  git add remote git@github.com:italia/pandoc.git
+ 1076  git remote add git@github.com:italia/pandoc.git
+ 1077  git remote add italia git@github.com:italia/pandoc.git
+ 1078  git push italia HEAD
+ 1079  git commit --amend
+ 1080  git push italia HEAD --force
+ 1081  git status
+ 1082  git commit --amend -a
+ 1083  git push italia HEAD --force
+ 1084  git status
+ 1085  cd
+ 1086  upwork-check 
+ 1087  nautilus pandoc-test/analysis/test0/
+ 1088  e
+ 1089  cd rotterdam/
+ 1090  fileAndForget 
+ 1091  mkdir meta
+ 1092  gitSave 
+ 1093  group meta top\ bottom the\ ground meta
+ 1094  which group
+ 1095  cd
+ 1096  locate group.hs
+ 1097  cd rotterdam/
+ 1098  git status
+ 1099  mv archive/group.hs ../prototypes/
+ 1100  git status
+ 1101  git add -A
+ 1102  git commit
+ 1103  cd
+ 1104  cd prototypes/
+ 1105  git status
+ 1106  git diff
+ 1107  git commit -a
+ 1108  gitSave 
+ 1109  git status
+ 1110  git commit --amend
+ 1111  cabal build
+ 1112  lt
+ 1113  ls dist/setup-config 
+ 1114  cabal build
+ 1115  cabal sandbox remove
+ 1116  cabal sandbox delete
+ 1117  cabal build
+ 1118  fileAndForget 
+ 1119  cd
+ 1120  cd rotterdam/
+ 1121  git status
+ 1122  mkdir temp
+ 1123  mv meta top\ bottom the\ ground temp
+ 1124  git mv temp meta
+ 1125  git status
+ 1126  git add temp/
+ 1127  git status
+ 1128  git mv temp meta
+ 1129  git status
+ 1130  gitSave 
+ 1131  fileAndForget 
+ 1132  gaga bright
+ 1133  cat archive/the\ bright\ delusion 
+ 1134  gitSave 
+ 1135  git mv archive/when\ the\ sun\ appears\,\ the\ sky\ is\ already\ bright .
+ 1136  cat archive/where\ two\ oceans\ meet 
+ 1137  git status
+ 1138  lt tags/permanent/
+ 1139  tag when\ the\ sun\ appears\,\ the\ sky\ is\ already\ bright permanent
+ 1140  git status
+ 1141  fileAndForget 
+ 1142  cd
+ 1143  cd sparkles/
+ 1144  git status
+ 1145  cd
+ 1146  cd dotfiles/
+ 1147  cat symbols 
+ 1148  mv symbols ../rotterdam/
+ 1149  git status
+ 1150  git rm symbols
+ 1151  git commit
+ 1152  cd
+ 1153  cd rotterdam/
+ 1154  git status
+ 1155  git add symbols 
+ 1156  git commit symbols
+ 1157  fileAndForget 
+ 1158  cd
+ 1159  cd pandoc
+ 1160  git status
+ 1161  git log
+ 1162  git show HEAD
+ 1163  git status
+ 1164  git checkout -tb 4248-quick-and-dirty
+ 1165  git checkout -
+ 1166  git diff
+ 1167  git commit -a
+ 1168  git rebase -i
+ 1169  emacs src/Text/Pandoc/Writers/RST.hs 
+ 1170  git status
+ 1171  git reset HEAD
+ 1172  git status
+ 1173  git reset HEAD^
+ 1174  git status
+ 1175  git stash save 'copy fixBlocks'
+ 1176  git status
+ 1177  e
+ 1178  stack test
+ 1179  git status
+ 1180  git diff
+ 1181  git commit -a
+ 1182  git stash list
+ 1183  git stash pop
+ 1184  stack test
+ 1185  git status
+ 1186  git diff=
+ 1187  git commit -am done
+ 1188  git rebase -i
+ 1189  git status
+ 1190  git push italia HEAD --force
+ 1191  e
+ 1192  stack test
+ 1193  git status
+ 1194  git checkout 4059
+ 1195  git pull
+ 1196  git status
+ 1197  cd
+ 1198  cd rotterdam/
+ 1199  fileAndForget 
+ 1200  tag tags/permanent/when\ the\ sun\ appears\,\ the\ sky\ is\ already\ bright formatted
+ 1201  git status
+ 1202  rm -rf tags/formatted/
+ 1203  git status
+ 1204  gitSave 
+ 1205  git mv tags/permanent/when\ the\ sun\ appears\,\ the\ sky\ is\ already\ bright tags/permanent/when\ the\ sun\ appears\,\ the\ sky\ is\ already\ bright.md
+ 1206  git status
+ 1207  fileAndForget 
+ 1208  e
+ 1209  fileAndForget 
+ 1210  copy emojis/sweat-smile 
+ 1211  git status
+ 1212  fileAndForget 
+ 1213  cd
+ 1214  cd pandoc
+ 1215  git status
+ 1216  cd
+ 1217  cd pandoc-types/
+ 1218  git status
+ 1219  git fetch
+ 1220  git remote
+ 1221  git checkout master
+ 1222  git pull
+ 1223  git checkout -
+ 1224  git pull --rebase
+ 1225  git status
+ 1226  git checkout -tb 4059-not-accepted
+ 1227  git checkout -
+ 1228  git rebase -i
+ 1229  git status
+ 1230  git reset HEAD^
+ 1231  git status
+ 1232  git diff
+ 1233  git checkout Text/
+ 1234  git status
+ 1235  stack test
+ 1236  git remote add italia git@github.com:italia/pandoc-types.git
+ 1237  git fetch italia
+ 1238  stack test
+ 1239  git status
+ 1240  git commit -a --amend
+ 1241  git commit -a
+ 1242  git rebase -i
+ 1243  e
+ 1244  emacs Text/Pandoc/Builder.hs &
+ 1245  git status
+ 1246  git diff
+ 1247  git commit -a --amend
+ 1248  git push italia HEAD
+ 1249  git commit -a --amend
+ 1250  git push --force danse HEAD
+ 1251  stack test
+ 1252  git commit -a --amend
+ 1253  git push --force danse HEAD
+ 1254  stack test
+ 1255  git commit -a --amend
+ 1256  git push --force danse HEAD
+ 1257  stack test
+ 1258  cd
+ 1259  cd rotterdam/
+ 1260  emacs stack &
+ 1261  git status
+ 1262  git diff
+ 1263  fileAndForget 
+ 1264  cd
+ 1265  cd pandoc-test/
+ 1266  git status
+ 1267  git diff
+ 1268  git status
+ 1269  git checkout .
+ 1270  git status
+ 1271  rm test0-simplified.docx 
+ 1272  git status
+ 1273  git checkout master
+ 1274  git remote
+ 1275  git checkout -
+ 1276  git push danse HEAD
+ 1277  git checkout master
+ 1278  e
+ 1279  lt input/
+ 1280  libreoffice input/test1.docx 
+ 1281  libreoffice input/test2.docx 
+ 1282  bg
+ 1283  git checkout test0 
+ 1284  git status
+ 1285  mkdir test1
+ 1286  mv test1 test2
+ 1287  mv test2 analysis/
+ 1288  git status
+ 1289  git rebase -i
+ 1290  git status
+ 1291  git push --force danse HEAD
+ 1292  pwd
+ 1293  git status
+ 1294  pandoc input/test2.docx -t rst -o output/test2.rst 
+ 1295  git status
+ 1296  rst2html output/test2.rst > /tmp/test2.html 
+ 1297  firefox /tmp/test2.html
+ 1298  git status
+ 1299  git add analysis/test2/
+ 1300  git commit -a
+ 1301  git rebase -i
+ 1302  git push --force dance HEAD
+ 1303  git push danse HEAD --force
+ 1304  cd
+ 1305  cd rotterdam/
+ 1306  emacs ragusa\ diving 
+ 1307  git rm ragusa\ diving
+ 1308  git rm ragusa\ diving -f
+ 1309  fileAndForget 
+ 1310  e
+ 1311  nautilus ~/declaration\ 2016/data/upwork\ invoices/
+ 1312  c
+ 1313  cd
+ 1314  cd declaration\ 2016/
+ 1315  lt
+ 1316  cd data/
+ 1317  lt
+ 1318  grep -i upwork 20171031-1062314251-umsatz.CSV 
+ 1319  cd ../
+ 1320  cat mail 
+ 1321  rm mail
+ 1322  cd
+ 1323  cd rotterdam/
+ 1324  emacs stack &
+ 1325  cd
+ 1326  cd pandoc
+ 1327  git status
+ 1328  git checkout 4248
+ 1329  e
+ 1330  cd
+ 1331  cd  rotterdam/
+ 1332  e
+ 1333  cd
+ 1334  cd prototypes/
+ 1335  serve & exit
+ 1336  cd
+ 1337  cd prototypes/
+ 1338  serve
+ 1339  bg
+ 1340  exit
+ 1341  upwork-check 
+ 1342  git diff
+ 1343  git status
+ 1344  git commit -a --amend
+ 1345  git branch
+ 1346  cd rotterdam/
+ 1347  git status
+ 1348  emacs stack &
+ 1349  rm ~/jessy 
+ 1350  fileAndForget 
+ 1351  cd
+ 1352  cd cant
+ 1353  cd -
+ 1354  cat > canti/"corazón de estudiante"
+ 1355  cat canti/"corazón de estudiante"
+ 1356  git add canti/"corazón de estudiante"
+ 1357  fileAndForget 
+ 1358  cd
+ 1359  cd pandoc-test/
+ 1360  git status
+ 1361  git log
+ 1362  git checkout -tb test2
+ 1363  git checkout -
+ 1364  git pull
+ 1365  git fetch
+ 1366  git remote
+ 1367  git checkout maste
+ 1368  git checkout master && git pull && git branch -d test0
+ 1369  git branch
+ 1370  cd
+ 1371  cd rotterdam/
+ 1372  git status
+ 1373  fileAndForget 
+ 1374  cd
+ 1375  cd pandoc
+ 1376  stack test
+ 1377  git push --force italia HEAD
+ 1378  cd
+ 1379  cd pandoc-test/
+ 1380  git status
+ 1381  pandoc input/test2.docx -t rst -o output/test2.rst 
+ 1382  pandoc input/test2.docx -t html -o output/test2.html 
+ 1383  firefox output/test2.html
+ 1384  nautilus analysis/
+ 1385  rst2html output/test2.rst > /tmp/test2.html 
+ 1386  lt analysis/test0/
+ 1387  libreoffice input/test2.docx &
+ 1388  firefox /tmp/test2.html 
+ 1389  mv ~/Desktop/in.png analysis/test2/
+ 1390  mv ~/Desktop/out.png analysis/test2/
+ 1391  nautilus analysis/test2/
+ 1392  cd
+ 1393  cd pandoc
+ 1394  git status
+ 1395  e
+ 1396  stack repl
+ 1397  stack test
+ 1398  git status
+ 1399  e
+ 1400  cd
+ 1401  e
+ 1402  cd repos/shrouded-falls-2943/
+ 1403  . cleanup\ old\ stories\ .hs 
+ 1404  e
+ 1405  wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+ 1406  . cleanup\ old\ stories\ .hs 
+ 1407  which heroku 
+ 1408  . cleanup\ old\ stories\ .hs 
+ 1409  cd
+ 1410  cd rotterdam/
+ 1411  fileAndForget 
+ 1412  cd
+ 1413  cd prototypes/
+ 1414  serve
+ 1415  bg
+ 1416  upwork-check 
+ 1417  git status
+ 1418  git diff
+ 1419  fileAndForget 
+ 1420  cd
+ 1421  lt
+ 1422  cd sombra/
+ 1423  lt
+ 1424  lt *
+ 1425  less primero/cadiz 
+ 1426  git push
+ 1427  cd
+ 1428  cd rotterdam/
+ 1429  git pull
+ 1430  git branch -v
+ 1431  git branch -vv
+ 1432  git remote -v
+ 1433  git branch -vv
+ 1434  cd rotterdam/
+ 1435  e
+ 1436  fileAndForget 
+ 1437  git status
+ 1438  git diff
+ 1439  fileAndForget 
+ 1440  cd
+ 1441  cd pandoc
+ 1442  stack test
+ 1443  git status
+ 1444  cd
+ 1445  cd rotterdam/
+ 1446  fileAndForget 
+ 1447  cd
+ 1448  cd pandoc
+ 1449  git status
+ 1450  git checkout -tb 4248-simplified
+ 1451  git status
+ 1452  git checkout HEAD^
+ 1453  git status
+ 1454  git checkout -
+ 1455  git reset HEAD^
+ 1456  git status
+ 1457  git diff src/
+ 1458  git status
+ 1459  git checkout src/
+ 1460  git status
+ 1461  stack test
+ 1462  git status
+ 1463  git checkout src/
+ 1464  git status
+ 1465  stack test
+ 1466  git status
+ 1467  git diff
+ 1468  git checkout -tb 4248-test-only
+ 1469  git checkout -
+ 1470  git branch -d 4248-test-only
+ 1471  git status
+ 1472  git checkout src/
+ 1473  git stash list
+ 1474  git stash save 'test only'
+ 1475  git stash list
+ 1476  git checkout master
+ 1477  git pull
+ 1478  e
+ 1479  git blame src/Text/Pandoc/Writers/RST.hs | less
+ 1480  man git blame src/Text/Pandoc/Writers/RST.hs
+ 1481  git blame -s src/Text/Pandoc/Writers/RST.hs | less
+ 1482  git show ca77f0a95e03cace027a235ebbc1effa99ea030a
+ 1483  git status
+ 1484  stack test
+ 1485  pandoc -t rst
+ 1486  git show ca77f0a95e03cace027a235ebbc1effa99ea030a
+ 1487  git branch
+ 1488  git stash list
+ 1489  git checkout 4248-simplified
+ 1490  git pull
+ 1491  git stash pop
+ 1492  git status
+ 1493  git diff
+ 1494  stack test
+ 1495  time stack test
+ 1496  git rebase
+ 1497  stack test
+ 1498  time stack test
+ 1499  git status
+ 1500  cd
+ 1501  cd repos/collection/
+ 1502  lt
+ 1503  lt data/
+ 1504  cp /tmp/output25745/script.js data/script.js 
+ 1505  git diff
+ 1506  git status
+ 1507  e
+ 1508  git commit -a
+ 1509  cd
+ 1510  cabal install repos/collection/
+ 1511  cabal install repos/exmargination/
+ 1512  cd
+ 1513  cd spargels/
+ 1514  lt
+ 1515  lt explicit\ time/
+ 1516  mv ~/Desktop/20180119-1062314251-umsatz.CSV .
+ 1517  mv 20180119-1062314251-umsatz.CSV 20180119-one-year.CSV 
+ 1518  lt
+ 1519  spargel 20180119-one-year.CSV 
+ 1520  emacs 20180119-one-year.CSV
+ 1521  spargel 20180119-one-year.CSV
+ 1522  lt
+ 1523  exmargination-collection spargel-margin-data-all.json 
+ 1524  exmargination-tornado spargel-margin-data-all.json 
+ 1525  emacs /tmp/output21227/index.html &
+ 1526  emacs /tmp/output21227/script.js &
+ 1527  spargel ~/Desktop/20180119-1062314251-umsatz.CSV 
+ 1528  emacs ~/Desktop/20180119-1062314251-umsatz.CSV
+ 1529  spargel ~/Desktop/20180119-1062314251-umsatz.CSV
+ 1530  lt
+ 1531  exmargination-tornado spargel-margin-data-all.json 
+ 1532  mv ~/Desktop/20180119-1062314251-umsatz.CSV /tmp/
+ 1533  lt
+ 1534  emacs /tmp/output21227/script.js &
+ 1535  exmargination-tornado spargel-margin-data-neg.json 
+ 1536  exmargination-tornado -d30 spargel-margin-data-neg.json 
+ 1537  exmargination-tornado spargel-margin-data-neg.json 
+ 1538  spargel 20180119-one-year.CSV 
+ 1539  exmargination-tornado spargel-margin-data-all.json 
+ 1540  exmargination-tornado spargel-margin-data-neg.json 
+ 1541  exmargination-tornado spargel-margin-data-pos.json 
+ 1542  exmargination-tornado spargel-margin-data-all.json 
+ 1543  exmargination-collection spargel-margin-data-all.json 
+ 1544  emacs /tmp/output25745 &
+ 1545  cd
+ 1546  cd -
+ 1547  exmargination-collection spargel-margin-data-all.json 
+ 1548  exmargination-collection spargel-margin-data-neg.json 
+ 1549  exmargination-collection spargel-margin-data-pos.json 
+ 1550  cd ~/prototypes/ && serve & exit
+ 1551  cd ~/prototypes/ && serve
+ 1552  fg
+ 1553  serve --help
+ 1554  serve
+ 1555  bg
+ 1556  cd rotterdam/
+ 1557  git diff
+ 1558  fileAndForget 
+ 1559  cd
+ 1560  cd pandoc-test/
+ 1561  git status
+ 1562  e
+ 1563  rm output/test2.html 
+ 1564  git status
+ 1565  git checkout -tb analysis
+ 1566  git status
+ 1567  git add analysis/
+ 1568  git commit -a
+ 1569  lt
+ 1570  git status
+ 1571  git add analysis/test-code/
+ 1572  git commit -a
+ 1573  libreoffice input/test3.docx &
+ 1574  git status
+ 1575  pandoc -t rst input/test3.docx -o output/test3.rst 
+ 1576  git status
+ 1577  rst2html output/test3.rst > /tmp/test3.html
+ 1578  firefox /tmp/test3.html &
+ 1579  git status
+ 1580  git add analysis/test3/
+ 1581  git commit -a
+ 1582  cd
+ 1583  cd pandoc-test/
+ 1584  lt input/
+ 1585  git status
+ 1586  git commit
+ 1587  git status
+ 1588  rst2html /tmp/hack > /tmp/hack.html
+ 1589  firefox /tmp/hack.html
+ 1590  rst2html /tmp/hack > /tmp/hack.html
+ 1591  git status
+ 1592  git commit -am 'update notes'
+ 1593  git status
+ 1594  rm input/.~lock.test3.docx# 
+ 1595  git status
+ 1596  e
+ 1597  cd
+ 1598  cd rotterdam/
+ 1599  touch $(hakyllPostTitle)
+ 1600  fileAndForget 
+ 1601  git log
+ 1602  git log --short
+ 1603  man git log
+ 1604  git shortlog
+ 1605  git log --pretty short
+ 1606  git log -pretty short
+ 1607  git log
+ 1608  cd
+ 1609  cd
+ 1610  cd pandoc-test/
+ 1611  cabal install ~/pandoc
+ 1612  cabal update
+ 1613  ghc-pkg unregister pandoc
+ 1614  cabal install ~/pandoc
+ 1615  pandoc input/test0.docx -t rst -o output/test0.rst 
+ 1616  git diff
+ 1617  pandoc input/test1.docx -t rst -o output/test1.rst 
+ 1618  git diff
+ 1619  git status
+ 1620  ls input/ | while read f; do echo ${f%docx}rst
+ 1621  ls input/ | while read f; do echo ${f%docx}rst; done
+ 1622  ls input/ | while read f; do pandoc input/$f -t rst -o ${f%docx}rst; done
+ 1623  git status
+ 1624  git diff
+ 1625  echo 'ls input/ | while read f; do pandoc input/$f -t rst -o ${f%docx}rst; done' > run-pandoc-on-all.sh
+ 1626  git status
+ 1627  rm *.rst
+ 1628  echo 'ls input/ | while read f; do pandoc input/$f -t rst -o output/${f%docx}rst; done' > run-pandoc-on-all.sh
+ 1629  emacs run-pandoc-on-all.sh &
+ 1630  git status
+ 1631  git checkout output/
+ 1632  . run-pandoc-on-all.sh 
+ 1633  git status
+ 1634  git diff output/
+ 1635  git status
+ 1636  git checkout README.rst
+ 1637  git status
+ 1638  git add run-pandoc-on-all.sh 
+ 1639  git commit -a
+ 1640  git push danse HEAD
+ 1641  cd
+ 1642  cd repos/shrouded-falls-2943/
+ 1643  git status
+ 1644  . cleanup\ old\ stories\ .hs 
+ 1645  git status
+ 1646  git diff
+ 1647  cat cleanup\ old\ stories\ .hs 
+ 1648  git pull
+ 1649  heroku help run
+ 1650  cat cleanup\ old\ stories\ .hs 
+ 1651  heroku run bash
+ 1652  heroku run rake cleanup_old_stories
+ 1653  git status
+ 1654  upwork-check 
+ 1655  git status
+ 1656  cd
+ 1657  cd pandoc-test/
+ 1658  pandoc --help
+ 1659  e
+ 1660  pandoc -o docx > code.docx
+ 1661  lt
+ 1662  lt -l
+ 1663  jobs
+ 1664  rm *.docx
+ 1665  lt
+ 1666  rm docx
+ 1667  pandoc -t docx > code.docx
+ 1668  lt
+ 1669  libreoffice code.docx 
+ 1670  bg
+ 1671  lt
+ 1672  mkdir 'how-to-format-code-in-a-docx'
+ 1673  mv code.docx 'how-to-format-code-in-a-docx'
+ 1674  emacs how-to-format-code-in-a-docx/code.md
+ 1675  git status
+ 1676  mv ~/Desktop/in-libreoffice.png how-to-format-code-in-a-docx/
+ 1677  git status
+ 1678  git add how-to-format-code-in-a-docx/
+ 1679  git commit
+ 1680  git push --force origin HEAD
+ 1681  cd
+ 1682  cabal install hoogle
+ 1683  cd
+ 1684  lt rotterdam/crumbs-agendadigitale/
+ 1685  mv Desktop/crumbs-margin-export-2018-01-24T18_35_44.310Z.json rotterdam/crumbs-agendadigitale/
+ 1686  exmargination-tornado rotterdam/crumbs-agendadigitale/*
+ 1687  cd rotterdam/crumbs-agendadigitale/
+ 1688  lt
+ 1689  margin-stats crumbs-margin-export-2018-01-24T18_35_44.310Z.json 
+ 1690  emacs /tmp/output21137 &
+ 1691  cd
+ 1692  exmargination-streamgraph -d30 pacemaker/exports/* 
+ 1693  exmargination-streamgraph -d7 pacemaker/exports/* 
+ 1694  exmargination-collection pacemaker/exports/* 
+ 1695  stack test
+ 1696  stack test > /tmp/test-output
+ 1697  less /tmp/test-output
+ 1698  cd
+ 1699  cd pandoc-test/
+ 1700  mkdir rst2html
+ 1701  rst2html output/test3.rst > rst2html/test3.html
+ 1702  emacs rst2html/README.md &
+ 1703  git add rst2html/
+ 1704  git commit
+ 1705  firefox rst2html/test3.html & libreoffice input/test3.docx  &
+ 1706  git status
+ 1707  echo input/.~lock.test3.docx# > .gitignore 
+ 1708  emacs .gitignore &
+ 1709  git status
+ 1710  git add giti
+ 1711  git add .gitignore 
+ 1712  git commit
+ 1713  pandoc input/test3.docx | less
+ 1714  pandoc input/test3.docx -t native | less
+ 1715  e
+ 1716  less ~/pandoc/test/docx/block_quotes_parse_indent.native 
+ 1717  pandoc -f native ~/pandoc/test/docx/block_quotes_parse_indent.native -t docx -o /tmp/block_quotes_parse_indent.docx
+ 1718  libreoffice /tmp/block_quotes_parse_indent.docx
+ 1719  bg
+ 1720  pandoc -f native ~/pandoc/test/docx/block_quotes_parse_indent.native -t rst -o /tmp/block_quotes_parse_indent.rst
+ 1721  less /tmp/block_quotes_parse_indent.rst
+ 1722  libreoffice input/test3.docx & firefox rst2html/test3.html  &
+ 1723  git status
+ 1724  git log
+ 1725  git push origin HEAD
+ 1726  less output/test3.rst 
+ 1727  git status
+ 1728  git checkout input/
+ 1729  cd
+ 1730  mv Desktop/crumbs-margin-export-2018-01-25T09_54_34.491Z.json rotterdam/crumbs-agendadigitale/
+ 1731  cd
+ 1732  cd pandoc-test/
+ 1733  libreoffice input/test3.docx 
+ 1734  bg
+ 1735  firefox rst2html/test3.html 
+ 1736  cd
+ 1737  cd pandoc-test/
+ 1738  lt
+ 1739  firefox rst2html/test3.html 
+ 1740  libreoffice input/test3.docx 
+ 1741  bg
+ 1742  pandoc -t rst ~/test-franco-1.docx -o output/test-franco-1.rst
+ 1743  mv  ~/test-franco-1.docx input/
+ 1744  rst2html output/test-franco-1.rst > rst2html/test-franco-1.html
+ 1745  firefox rst2html/test-franco-1.html
+ 1746  cat output/test-franco-1.rst 
+ 1747  less output/test3.rst 
+ 1748  cd
+ 1749  cd sparkles/
+ 1750  git status
+ 1751  git diff
+ 1752  diff emacs ../rotterdam/emacs 
+ 1753  git rm -f emacs 
+ 1754  git commit
+ 1755  mv make ../rotterdam/
+ 1756  git status
+ 1757  git rm make
+ 1758  git commit 
+ 1759  git push
+ 1760  cd
+ 1761  cd
+ 1762  cd -
+ 1763  git status
+ 1764  git checkout -
+ 1765  git pull
+ 1766  git checkout -
+ 1767  git pull
+ 1768  e
+ 1769  grep mode ~/rotterdam/stack 
+ 1770  git checkout master
+ 1771  git status
+ 1772  less README.rst 
+ 1773  lt input/
+ 1774  emacs README.rst 
+ 1775  lt input/
+ 1776  cd input/
+ 1777  git mv code-test.docx test-code.docx
+ 1778  git mv complex-table.docx test-complex-table.docx 
+ 1779  cd ../output/
+ 1780  lt
+ 1781  git mv code-test.rst test-code.rst
+ 1782  git mv complex-table.rst test-complex-table.rst 
+ 1783  git status
+ 1784  lt
+ 1785  cd ..
+ 1786  lt
+ 1787  lt analysis/
+ 1788  git commit -a
+ 1789  git remote
+ 1790  git push danse HEAD
+ 1791  git checkout -
+ 1792  git rebase
+ 1793  git status
+ 1794  e
+ 1795  libreoffice input/test-code.docx &
+ 1796  libreoffice output/test-code.docx &
+ 1797  rst2html output/test-code.rst > /tmp/test-code.html
+ 1798  firefox /tmp/test-code.html &
+ 1799  git status
+ 1800  lt analysis/
+ 1801  cat analysis/test2/README.md 
+ 1802  e
+ 1803  git status
+ 1804  git diff
+ 1805  git checkout master
+ 1806  git commit -am ''
+ 1807  git commit -am ' '
+ 1808  git checkout master
+ 1809  git status
+ 1810  git reset --hard master
+ 1811  git status
+ 1812  git checkout master
+ 1813  git branch -d analysis 
+ 1814  cd
+ 1815  cd pandoc
+ 1816  git status
+ 1817  git checkout master
+ 1818  git pull
+ 1819  git status
+ 1820  git branch
+ 1821  git branch -d 4248
+ 1822  git branch -d 4248-quick-and-dirty 
+ 1823  git branch -d 4248-simplified 
+ 1824  git branch -D 4248-simplified 4248-quick-and-dirty 
+ 1825  git status
+ 1826  git branch
+ 1827  git status
+ 1828  make winpkg && make macospkg
+ 1829  sslsigncode
+ 1830  osslsigncode
+ 1831  sudo apt install osslsigncode
+ 1832  make winpkg && make macospkg
+ 1833  grep Comodo -Rl *
+ 1834  lt
+ 1835  zip pandoc.msi 
+ 1836  nautilus .
+ 1837  git status
+ 1838  cd
+ 1839  cd rotterdam/
+ 1840  fileAndForget 
+ 1841  git mv ragusa\ e\ un\ precipizio "ragusa é un precipizio" 
+ 1842  git mv "ragusa é un precipizio" "ragusa é un precipizio".md
+ 1843  fileAndForget 
+ 1844  git status
+ 1845  less stack 
+ 1846  fileAndForget 
+ 1847  e
+ 1848  fileAndForget 
+ 1849  cd
+ 1850  cd repos/shrouded-falls-2943/
+ 1851  lt
+ 1852  git log
+ 1853  cd
+ 1854  cd pandoc-test/
+ 1855  cd
+ 1856  cd pandoc
+ 1857  grep osx Makefile 
+ 1858  grep mac Makefile 
+ 1859  make macospkg
+ 1860  git status
+ 1861  rm -rf macos_package/
+ 1862  git status
+ 1863  fileAndForget 
+ 1864  cd
+ 1865  cd rotterdam/
+ 1866  fileAndForget 
+ 1867  cd
+ 1868  lt persons/
+ 1869  grep jessa *
+ 1870  echo > jessalenca@hotmail.com 
+ 1871  mv jessalenca@hotmail.com persons/
+ 1872  e
+ 1873  cd rotterdam/
+ 1874  fileAndForget 
+ 1875  cd
+ 1876  cd pandoc
+ 1877  e
+ 1878  pushd 
+ 1879  pushd ~
+ 1880  mkdir rotterdam/crumbs-agendadigitale
+ 1881  mv Desktop/crumbs-margin-export-2018-01-24T09_49_14.557Z.json rotterdam/crumbs-agendadigitale
+ 1882  exmargination-tornado rotterdam/crumbs-agendadigitale/crumbs-margin-export-2018-01-24T09_49_14.557Z.json 
+ 1883  popd
+ 1884  cd
+ 1885  cd pandoc-types/
+ 1886  git status
+ 1887  cd
+ 1888  cd pandoc-test/
+ 1889  git status
+ 1890  git checkout -tb danse
+ 1891  git status
+ 1892  git add issue-matrix.txt 
+ 1893  git commit
+ 1894  git push origin HEAD
+ 1895  git remote 
+ 1896  git remote delete danse
+ 1897  git remote remove danse
+ 1898  gitSave
+ 1899  git rm analysis/
+ 1900  git rm analysis/ -r
+ 1901  git commit
+ 1902  git status
+ 1903  git diff
+ 1904  git log
+ 1905  git commit -a --fixup 0e0b5179f21005f4ae741dbcf5293c2e1e9d7c7e
+ 1906  git log
+ 1907  git rebase -i
+ 1908  git log
+ 1909  cd ~/pandoc
+ 1910  git status
+ 1911  e
+ 1912  pushd ~
+ 1913  . clean\ exported\ crumbs\ .sh 
+ 1914  popd 
+ 1915  cd
+ 1916  cd rotterdam/
+ 1917  git add emacs 
+ 1918  git commit
+ 1919  git status
+ 1920  fileAndForget 
+ 1921  cd
+ 1922  cd pandoc
+ 1923  grep smush -Rl *
+ 1924  grep smush -Rl src/
+ 1925  pushd ../pandoc-types/
+ 1926  grep smush -Rl src/
+ 1927  grep smush -Rl Text/
+ 1928  popd
+ 1929  grep smush -Rli Text/
+ 1930  grep smush -Rli src/
+ 1931  grep -i bodyparttoblocks -Rli src/
+ 1932  grep -i hangingparindent -Rli src/
+ 1933  cd
+ 1934  cd rotterdam/
+ 1935  fileAndForget 
+ 1936  gaga div
+ 1937  fileAndForget 
+ 1938  cd
+ 1939  cd pandoc
+ 1940  e
+ 1941  cd
+ 1942  cd pandoc-test/
+ 1943  git status
+ 1944  git diff
+ 1945  git status
+ 1946  git checkout rst2html/
+ 1947  cat output/test-franco-1.rst 
+ 1948  git status
+ 1949  mv input/test-franco-1.docx input/test2-reduced-1.docx
+ 1950  mv output/test-franco-1.docx output/test2-reduced-1.docx
+ 1951  mv output/test-franco-1.rst output/test2-reduced-1.rst
+ 1952  mv rst2html/test-franco-1.html rst2html/test2-reduced-1.html
+ 1953  git status
+ 1954  make
+ 1955  git status
+ 1956  make
+ 1957  git status
+ 1958  git add Makefile 
+ 1959  git commit
+ 1960  lt
+ 1961  git push
+ 1962  git push origin HEAD 
+ 1963  git status
+ 1964  make
+ 1965  lt
+ 1966  make output/*
+ 1967  make rst2html/*
+ 1968  make all
+ 1969  git status
+ 1970  cat Makefile 
+ 1971  git add README.rst 
+ 1972  git commit README.rst Makefile 
+ 1973  git status
+ 1974  git add *
+ 1975  git status
+ 1976  git reset HEAD *
+ 1977  git status
+ 1978  firefox rst2html/test3.html 
+ 1979  git status
+ 1980  libreoffice input/test3.docx &
+ 1981  nautilus
+ 1982  nautilus .
+ 1983  git status
+ 1984  libreoffice input/test3.docx 
+ 1985  git status
+ 1986  pandoc input/test3-reduced-2.docx -o output/test3-reduced-1.rst 
+ 1987  pandoc input/test3-reduced-2.docx -o output/test3-reduced-2.rst 
+ 1988  rst2html output/test3-reduced-2.rst > rst2html/test3-reduced-2.html 
+ 1989  firefox rst2html/test3-reduced-2.html
+ 1990  cd prototypes/
+ 1991  serve
+ 1992  bg
+ 1993  cd
+ 1994  cd Desktop/
+ 1995  mv crumbs-margin-export-2018-01-26T12_51_08.604Z.json ~/rotterdam/crumbs-agendadigitale/
+ 1996  pandoc --listings --help
+ 1997  man pando
+ 1998  man pandoc
+ 1999  less output/test4.rst 
+ 2000  e
+ 2001  nautilus
+ 2002  git status
+ 2003  fileAndForget 
+ 2004  cd
+ 2005  cd pandoc-test/
+ 2006  firefox rst2html/test4.html 
+ 2007  make rst2html/*
+ 2008  firefox rst2html/test4-reduced-1.html 
+ 2009  make rst2html/*
+ 2010  firefox rst2html/test4-reduced-1.html 
+ 2011  git status
+ 2012  ptx --help
+ 2013  ptx stack
+ 2014  ptx < stack
+ 2015  cd
+ 2016  cd rotterdam/
+ 2017  ptx stack 
+ 2018  fileAndForget 
+ 2019  lt
+ 2020  lt ~/Desktop/
+ 2021  margin-stats ~/Desktop/crumbs-margin-export-2018-01-28T09_31_39.400Z.json 
+ 2022  mv ~/Desktop/crumbs-margin-export-2018-01-28T09_31_39.400Z.json crumbs-agendadigitale/
+ 2023  cd
+ 2024  cd Desktop/
+ 2025  margin-stats crumbs-margin-export-2018-01-28T09_28_27.373Z.json 
+ 2026  cd
+ 2027  . clean\ exported\ crumbs\ .sh 
+ 2028  cd rotterdam/
+ 2029  fileAndForget 
+ 2030  stat --help
+ 2031  stat archive/prototyping/
+ 2032  stat archive/prototyping/prototyping.md 
+ 2033  history | sort | less
+ 2034  man sort
+ 2035  history | sort -k1 -f' ' | less
+ 2036* history | sort -k1 -   | less
+ 2037  history | sort -k1 -t' ' | less
+ 2038  history | sort -k1 -t'  ' | less
+ 2039  history > history.data

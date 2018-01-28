@@ -1,0 +1,585 @@
+grep, git, find, docker
+
+from a result of bash history grep
+
+the result of a command follows, jump to the-end-of-this-mess
+
+ rotterdam (master)*$ history | cut -d' ' -f4,5,6,7,8,9,10 | sort | grep git >> all\ you\ need\ to\ use\ ... 
+
+47  git add  "Small Web
+53  git rm -r logging\ can\
+55  git add tags
+66  git init
+67  git add *
+68  git status
+69  git remote add origin git@github.com:danse/sombra.git
+70  git push -u origin master
+71  git commit
+72  git push
+73  git push -u origin master
+91  git status
+92  git add stack/explorable\ explanations\ of\
+96  git push
+cd rotterdam/crumbs-agendadigitale/
+ copy digitalnomad 
+echo input/.~lock.test3.docx# > .gitignore 
+emacs .gitignore &
+exmargination-tornado rotterdam/crumbs-agendadigitale/*
+exmargination-tornado rotterdam/crumbs-agendadigitale/crumbs-margin-export-2018-01-24T09_49_14.557Z.json 
+git add *
+git add -A
+ git add analysis/
+git add analysis/
+git add analysis/test2/
+git add analysis/test3/
+git add analysis/test-code/
+git add canti/"corazón de estudiante"
+git add emacs 
+git add giti
+git add .gitignore 
+git add how-to-format-code-in-a-docx/
+git add issue-matrix.txt 
+git add Makefile 
+git add README.rst 
+git add remote git@github.com:italia/pandoc.git
+git add rst2html/
+git add run-pandoc-on-all.sh 
+git add symbols 
+ git add tags/links/"japanese kanji dictionary from
+git add temp/
+git blame src/Text/Pandoc/Writers/RST.hs | less
+git blame -s src/Text/Pandoc/Writers/RST.hs | less
+git branch
+git branch
+git branch
+git branch
+git branch
+git branch -d 4248
+git branch -d 4248-quick-and-dirty 
+git branch -d 4248-simplified 
+git branch -D 4248-simplified 4248-quick-and-dirty 
+git branch -d 4248-test-only
+git branch -d analysis 
+git branch -v
+git branch -vv
+git branch -vv
+ git checkout .
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout -
+git checkout .
+git checkout 4059
+git checkout 4248
+git checkout 4248-simplified
+git checkout HEAD^
+ git checkout input/
+git checkout input/
+git checkout maste
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master
+git checkout master && git pull &&
+git checkout output/
+git checkout README.rst
+git checkout rst2html/
+git checkout src/
+git checkout src/
+git checkout src/
+git checkout -tb 4059-not-accepted
+git checkout -tb 4248
+git checkout -tb 4248-quick-and-dirty
+git checkout -tb 4248-simplified
+git checkout -tb 4248-test-only
+git checkout -tb analysis
+git checkout -tb danse
+ git checkout -tb test0
+git checkout -tb test2
+git checkout test0 
+git checkout Text/
+ git clone git://github.com/askmike/gekko.git
+ git clone git@github.com:atorin/pandoc-test.git
+ git clone git@github.com:seek-oss/serverless-haskell.git
+ git clone https://github.com/seek-oss/serverless-haskell
+ git clone https://github.com/seek-oss/serverless-haskell#readme
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit
+git commit 
+ git commit -a
+ git commit -a
+ git commit -a
+ git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a
+git commit -a --amend
+git commit -a --amend
+git commit -a --amend
+git commit -a --amend
+git commit -a --amend
+git commit -a --amend
+git commit -a --fixup 0e0b5179f21005f4ae741dbcf5293c2e1e9d7c7e
+git commit -am ' '
+git commit -am ''
+git commit -am done
+ git commit --amend
+git commit --amend
+git commit --amend
+ git commit --amend -a
+git commit --amend -a
+ git commit -am 'fix d3 contracting
+git commit -am 'update notes'
+git commit README.rst Makefile 
+git commit symbols
+ git diff
+ git diff
+ git diff
+ git diff
+ git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff
+git diff=
+ git diff experiment
+git diff output/
+git diff src/
+git diff test/Tests/
+ git fetch
+git fetch
+git fetch
+ git fetch danse
+git fetch italia
+ git log
+ git log
+git log
+git log
+git log
+git log
+git log
+git log
+git log
+git log
+git log
+git log --pretty short
+git log -pretty short
+git log --short
+ git mv archive/blockchain\ in\ Haskell .
+ git mv archive/books\ to\ buy books
+ git mv archive/canti/ .
+ git mv archive/emojis/ .
+ git mv archive/kasaputia/ .
+ git mv archive/portables/ .
+ git mv archive/stack/design\ business\ card .
+ git mv archive/stack/german\ declaration .
+ git mv archive/stack/less\ desk\ more\ respect
+ git mv archive/stack/tunis .
+git mv archive/when\ the\ sun\ appears\,\ the\
+ git mv blockchain\ in\ Haskell blockchain\
+git mv code-test.docx test-code.docx
+git mv code-test.rst test-code.rst
+git mv complex-table.docx test-complex-table.docx 
+git mv complex-table.rst test-complex-table.rst 
+ git mv kasaputia/stories/how\ to kasaputia/
+ git mv primero/verbal primero/cadiz
+git mv ragusa\ e\ un\ precipizio "ragusa
+git mv "ragusa é un precipizio" "ragusa
+ git mv stack/kasaputia .
+git mv tags/permanent/when\ the\ sun\ appears\,\ the\
+git mv temp meta
+git mv temp meta
+ git mv what\ justify\ the\ ends\
+ git mv why\ are\ we\ stronger\
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull
+git pull --rebase
+ git push
+ git push
+ git push
+ git push
+ git push
+ git push
+ git push
+git push
+git push
+git push
+ git push danse
+git push danse HEAD
+git push danse HEAD
+git push danse HEAD
+git push danse HEAD --force
+ git push danse/test0
+git push --force dance HEAD
+git push --force danse HEAD
+git push --force danse HEAD
+git push --force danse HEAD
+git push --force danse HEAD
+ git push --force italia HEAD
+git push --force italia HEAD
+git push --force origin HEAD
+ git push italia --force HEAD
+ git push italia HEAD
+git push italia HEAD
+git push italia HEAD
+git push italia HEAD --force
+git push italia HEAD --force
+git push italia HEAD --force
+git push origin HEAD
+git push origin HEAD
+git push origin HEAD 
+git rebase
+git rebase
+git rebase -i
+git rebase -i
+git rebase -i
+git rebase -i
+git rebase -i
+git rebase -i
+git rebase -i
+git remote
+git remote
+git remote
+git remote
+git remote
+git remote 
+ git remote add danse git@github.com:danse/pandoc-test.git
+git remote add git@github.com:italia/pandoc.git
+git remote add italia git@github.com:italia/pandoc.git
+git remote add italia git@github.com:italia/pandoc-types.git
+git remote delete danse
+git remote remove danse
+git remote -v
+git reset --hard master
+git reset HEAD
+git reset HEAD^
+git reset HEAD^
+git reset HEAD^
+git reset HEAD *
+git rm analysis/
+git rm analysis/ -r
+ git rm archive/communicator 
+ git rm archive/eyes\ on\ our\ communication\
+ git rm archive/indie\ hacker archive/hacker\ ethics
+ git rm archive/management\ insights\ into\ functional\
+ git rm archive/management\ insights\ into\ functional\
+ git rm archive/ñusta &&gitSave 
+ git rm archive/old\ tags/haskell/
+ git rm archive/tags/links/a\ minimum\ viable\ cryptocurrency\
+ git rm documents
+ git rm documents 
+ git rm documents -f
+git rm documents -f
+ git rm experiment
+ git rm experiment -f
+ git rm experiment -r
+ git rm -f archive/tags/links/a\ minimum\ viable\
+git rm -f emacs 
+git rm make
+git rm ragusa\ diving
+git rm ragusa\ diving -f
+ git rm -r archive/old\ tags/haskell/
+ git rm -r experiment 
+ git rm -r tags/hacking/
+ git rm Small\ Web\ Application\ to\
+ git rm stack/write\ to\ schneider 
+ git rm stack/write\ to\ schneider -f
+git rm symbols
+ git rm tags/communication/different\ paths\ can\ have\
+ git rm tags/logging/
+ git rm tags/logging/ -r
+ git rm you\ can\ open\ it\
+gitSave
+ gitSave
+ gitSave
+ gitSave
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+ gitSave 
+gitSave 
+gitSave 
+gitSave 
+gitSave 
+gitSave 
+gitSave 
+git shortlog
+git show ca77f0a95e03cace027a235ebbc1effa99ea030a
+git show ca77f0a95e03cace027a235ebbc1effa99ea030a
+git show HEAD
+git stash list
+git stash list
+git stash list
+git stash list
+git stash list
+git stash pop
+git stash pop
+git stash save 'copy fixBlocks'
+git stash save 'modified some tests'
+git stash save 'test only'
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+ git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status
+git status test/Tests/
+lt rotterdam/crumbs-agendadigitale/
+man git blame src/Text/Pandoc/Writers/RST.hs
+man git log
+mkdir rotterdam/crumbs-agendadigitale
+mv crumbs-margin-export-2018-01-26T12_51_08.604Z.json ~/rotterdam/crumbs-agendadigitale/
+mv Desktop/crumbs-margin-export-2018-01-24T09_49_14.557Z.json rotterdam/crumbs-agendadigitale
+mv Desktop/crumbs-margin-export-2018-01-24T18_35_44.310Z.json rotterdam/crumbs-agendadigitale/
+mv Desktop/crumbs-margin-export-2018-01-25T09_54_34.491Z.json rotterdam/crumbs-agendadigitale/
+mv ~/Desktop/crumbs-margin-export-2018-01-28T09_31_39.400Z.json crumbs-agendadigitale/
+ rm digitalnomad 
+
+the-end-of-this-mess
+
+ossumption experts use few commands
+
+makes the threshold for beginners lower
+
+empowers people to build their tools
+
+data forms a tree
+  0
+ 100 git
+-a ... -o <...>
+...
+...
+ 3 grep
+ 7 ls
+
+the simplest tokenisation links any variation to its occurrences
+

@@ -32,6 +32,17 @@
 
 relax a bit in front of a page of code
 
+while the default would be to stay at the same level
+in this case i'd want to have an easy way to push and pop
+  - communication
+  - 4563
+- client
+  - read
+  - social
+  - stack
+- default
+leaving room for new leaves
+it could be a tree where a confirmation branches
 which is like writing before and then deleting in case
 the second time could be a second enter or any second confirmation
 maybe it could be extended to categories
