@@ -18,7 +18,7 @@
 
 
 
-why wouldn't wrap=non also affect tables?
+why wouldn't wrap=none also affect tables?
 
 even with a wrap=none, the table is kept at around 70 columns
 one would be to have broader tables, ignoring the line limit
