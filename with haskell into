@@ -1,5 +1,10 @@
 cryptocurrencies         https://github.com/input-output-hk/cardano-sl
                          https://github.com/haskoin/haskoin
+                         https://github.com/input-output-hk/cardano-sl/
+                         https://hackage.haskell.org/package/safe-money-0.4
+                         https://github.com/tdietert/nanocoin
+                         https://www.reddit.com/r/haskell/comments/6uolvc/rolling_your_own_blockchain_in_haskell/
+
 multimedia service       https://github.com/zoomhub/zoomhub
 self hosted events       https://github.com/soupi/gathering
 smart contract languages https://github.com/kadena-io/pact
