@@ -52,4 +52,8 @@ almost anything supports stack algorithms
 
 how many brilliant people you know that keep stacks of magazines around?
 
+pop ins are more frequent than pop outs
+items get popped mostly from the top or the bottom
+reordering is possible but expensive
+
 stack growing algorithms

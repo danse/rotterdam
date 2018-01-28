@@ -583,3 +583,5 @@ data forms a tree
 
 the simplest tokenisation links any variation to its occurrences
 
+it could be a web service or run on the front end and get the history
+as an input
