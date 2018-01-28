@@ -16,6 +16,21 @@
 
 
 
+
+
+why wouldn't wrap=non also affect tables?
+
+even with a wrap=none, the table is kept at around 70 columns
+one would be to have broader tables, ignoring the line limit
+
+but what's the alternative? is there any?
+so it's clear now, multiple syntax errors are due to wrapped lines in a cell
+
+it's at the beginning of a line which is wrapped to the next line
+
+"interpreted or phrase ref" is the backtick
+https://github.com/jwilk-mirrors/docutils/blob/trunk/docutils/parsers/rst/states.py#L1052
+
 https://github.com/jwilk-mirrors/docutils/blob/trunk/docutils/parsers/rst/states.py#L795
 looking for the cause of the error in docutils
 
