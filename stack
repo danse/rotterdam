@@ -35,6 +35,11 @@
 
 
 
+
+session types http://groups.inf.ed.ac.uk/abcd/#resources
+
+giacometti
+
 a circle test would nail the issue
 
 code archaelogy. was pandoc started as html to markdown only? the description in the cabal file suggests so
