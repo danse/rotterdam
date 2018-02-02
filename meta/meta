@@ -14,6 +14,7 @@
 
 
 
+un'idea sulla pila si può continuare a sviluppare o vivere di più
 
 every stack is a trunk
 
@@ -46,6 +47,7 @@ which leads to directionality of chaotic systems over time
 which makes stacks so powerful
 
  primitives
+bubble
 push pop scan remove edit save swapstack
 clear is just on some stacks
 append on most
@@ -53,6 +55,7 @@ clear-append is awkward in emacs
 separate archive
 autoremove or sort
 free, when you detach
+the unit is visually a paragraph here, not sure about a name
 
 almost anything supports stack algorithms
 
