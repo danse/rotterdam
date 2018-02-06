@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the tika library written in java
+https://github.com/public-law/analyze-oregon-law-haskell seems to use effectively
+alternatively i'm considering the option of wrapping other libraries
+to an external library, at least at the beginning
+but given the lack of alternatives it seems to make sense to delegate parsing
+i'm not sure about the policy of pandoc about external libraries
+the best option in haskell seems to be pdf-toolbox
+as for how to achieve it
+to a variety of formats
+would be very valuable, as it would lead to clean and robust translation
+but being able to translate a PDF file to pandoc types
+we are not restricting ourselves to haskell
+i couldn't find any issue nor pull request nor discussion related to PDF parsing
+we are considering alternatives but there seem to be surprisingly few
+is there anybody who is parsing PDF files in a workflow involving pandoc?
+
+ seamless integration to pandoc via a fork
+ type checking eliminates a whole category of errors
+in haskell i've got the advantages
+
+i think that trying the library from the interpreter is the best way to
+get a clue about complexity and ideas about alternatives
+
+so for haskell the alternatives seem to be between parsing through
+tika or through the toolbox. there is also the possibility to wrap a
+library written in a different language, i imagine that there are some
+good ones in C or C++
+
+maintenance is not that great
+alternativamente usare parsing da
+https://github.com/Yuras/pdf-toolbox
+e tradurre in un pandoc abstract syntax tree
+
+https://github.com/public-law/analyze-oregon-law-haskell
+
+una possibilità sarebbe di usare il parsing da
+https://github.com/euske/pdfminer e librerie RST per python
+
+https://github.com/atorin/pandoc-test/issues/16
