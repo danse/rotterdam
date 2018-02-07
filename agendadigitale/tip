@@ -34,13 +34,10 @@
 
 
 
-
-
-
-
 dal data model del parser al data model di RST
 anche in questo caso si tratterebbe di mantenere la traduzione
-https://github.com/euske/pdfminer e librerie RST per python
+https://github.com/mstamy2/PyPDF2
+https://github.com/euske/pdfminer
 una possibilità sarebbe di usare il parsing da
 
 e valutare i risultati

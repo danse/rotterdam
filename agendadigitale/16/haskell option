@@ -48,10 +48,6 @@ wrapping other libraries:
 github.com/public-law/analyze-oregon-law-haskell seems to use
 effectively the tika library written in java
 
-seamless integration to pandoc via a fork
-type checking eliminates a whole category of errors
- in haskell i've got the advantages
-
  i think that trying the library from the interpreter is the best way to
 get a clue about complexity and ideas about alternatives
  anyway i think that the work to be done is about
@@ -60,18 +56,9 @@ setting up tests
 handling corner cases
 possibly extending the pdf-toolbox
 
-rather than translating parsing data model to pandoc data model
-it would make more sense to parse directly in pandoc
-
  in any case there would be translation from parsing model to pandoc model
 so for haskell the alternatives seem to be between parsing through
 tika or through the toolbox. there is also the possibility to wrap a
 library written in a different language, i imagine that there are some
 good ones in C or C++
 
-maintenance is not that great
-alternativamente usare parsing da
-https://github.com/Yuras/pdf-toolbox
-e tradurre in un pandoc abstract syntax tree
-
-https://github.com/public-law/analyze-oregon-law-haskell
