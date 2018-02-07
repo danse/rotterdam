@@ -30,11 +30,13 @@
 
 
 
-e questa é una buona base
-che la logica di parsing é sufficiente
-se tika producesse un risultato HTML acettabile sarebbe un buon indicatore
 
-https://tika.apache.org/
+
+
+
+
+
+
 
 dal data model del parser al data model di RST
 anche in questo caso si tratterebbe di mantenere la traduzione
