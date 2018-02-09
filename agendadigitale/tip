@@ -51,6 +51,12 @@
 
 
 
+
+
+
+
+
+
 what causes a table to be built this way?
 
 the native code has three default specs altough it starts with five headers
