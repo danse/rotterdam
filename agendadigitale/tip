@@ -57,9 +57,42 @@
 
 
 
-what causes a table to be built this way?
 
+
+
+
+
+
+
+
+
+
+native to rst
+
+- what causes the header border size?
+- why has the fifth column been sliced away?
+- where was the number of specs taken from?
+questions
+- broken header borders
+- four cells for headers and rows
+- three specs
+the result from frankenstein presents
+
+the current checked out file corresponds to the result from upstream
+
+so the question is how is the specs length calculated?
+the original table seems to have multiple columns
+even with frankenstein the three specs would slice some content away
 the native code has three default specs altough it starts with five headers
+
+maybe building different versions with stack won't take much time
+if most dependencies are the same
+
+running a frankenstein with 4059 should fix
+
+ghc-pkg unregister <package>
+
+what causes a table to be built this way?
 
 running plain pandoc i can compare the results
 
@@ -80,39 +113,3 @@ in the night because motivation goes beyond daily routine
 is frankenstein broken? having troubles running tests with cabal
 
 https://github.com/atorin/pandoc-test/issues/10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
