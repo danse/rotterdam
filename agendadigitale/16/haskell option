@@ -1,38 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-le tabelle sono un problema a parte https://pdftables.com/
-ad elementi del documento come paragrafi, liste, etcetera
-da layout PDF
-il grosso della logica sarebbe la traduzione
-che al momento non esiste
-ed il risultato sarebbe qualcosa di valore generale
-forse la metà o più
-richiederebbe probabilmente una parte significativa del mio tempo
-se volessimo sviluppare su questo percorso
-non c'é una soluzione affidabile per il parsing PDF integrato con pandoc
-ciò che mi sembra chiaro é che
-
  is there anybody who is parsing PDF files in a workflow involving pandoc?
 we are considering alternatives but there seem to be surprisingly few.
 i couldn't find any issue nor pull request nor discussion related to
@@ -47,18 +13,3 @@ least at the beginning. alternatively i'm considering the option of
 wrapping other libraries:
 github.com/public-law/analyze-oregon-law-haskell seems to use
 effectively the tika library written in java
-
- i think that trying the library from the interpreter is the best way to
-get a clue about complexity and ideas about alternatives
- anyway i think that the work to be done is about
-matching different data models
-setting up tests
-handling corner cases
-possibly extending the pdf-toolbox
-
- in any case there would be translation from parsing model to pandoc model
-so for haskell the alternatives seem to be between parsing through
-tika or through the toolbox. there is also the possibility to wrap a
-library written in a different language, i imagine that there are some
-good ones in C or C++
-

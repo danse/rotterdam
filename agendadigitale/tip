@@ -34,14 +34,79 @@
 
 
 
-dal data model del parser al data model di RST
-anche in questo caso si tratterebbe di mantenere la traduzione
-https://github.com/mstamy2/PyPDF2
-https://github.com/euske/pdfminer
-una possibilità sarebbe di usare il parsing da
 
-e valutare i risultati
-é mettere insieme prototipi da scartare che girino sui documenti disponibili
-un modo semplice di valutare la distanza dall'obiettivo
 
-https://github.com/atorin/pandoc-test/issues/16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+what causes a table to be built this way?
+
+the native code has three default specs altough it starts with five headers
+
+running plain pandoc i can compare the results
+
+- variable cell number -- it seems like the fix isn't applied
+- missing the last border -- may be a mismatch between cells and separators
+- formatting -- not sure there is a way to get this right
+
+one can assume that a builder was called with some arguments
+the builders run while parsing the DOCX
+i guess that here again the problems are from native to markup
+
+i can extend type tests with the native version of the complex table
+
+i flew to systems design and now back to table cells
+
+in the night because motivation goes beyond daily routine
+
+is frankenstein broken? having troubles running tests with cabal
+
+https://github.com/atorin/pandoc-test/issues/10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
