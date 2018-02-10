@@ -67,8 +67,46 @@
 
 
 
-native to rst
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i'm afraid that the solution to 4059 might cause a lot of tests to fail
+
+width is the length of the first cell
+
+it would feel natural to have as many specs as the maximum number of cells
+
+in that case using an higher number of specs could fix both errors
+
+the border error could also be caused by that separator following the specs
+
+it's harder though. the columns are truncated while parsing
+
+i think that truncating the columns is more annoying to our writers
+though
+
+and it causes a syntax error
+the header border size is the most approacheable
+
+parsing from the native produces the same result
+- why weren't the cells trimmed to the size of the specs?
 - what causes the header border size?
 - why has the fifth column been sliced away?
 - where was the number of specs taken from?
