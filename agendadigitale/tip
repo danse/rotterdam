@@ -120,7 +120,46 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the CodeBlock parsing in Readers.Docx is responsible for the fragmentation
+
+hum the matter here seems more tricky than expected. code in
+`tests/15.docx` is translated by pandoc as one CodeBlock per line,
+while passing through libreoffice 5.1.6.2 it gets translated as one paragraph
+per line. also pandoc would save a CodeBlock as a simple paragraph
+
+after conversion to ODT the paragraph looks styled like "source code"
+
+ pandoc-test (danse)$ pandoc tests/15.odt -t rst
+<code>
+
+<some code here>Hey!</some code here>
+
+</code>
+
+Here’s some text
+
+https://github.com/atorin/pandoc-test/issues/15
+
+https://docs.google.com/document/d/1OsUwawC8qC-RTjuQ54Bw8nVrv2U34qY7dhkZw58erm0
+
 https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources
 
-in the night because motivation goes beyond daily routine
-
+l'obiettivo é collezionare documenti in un unico index.rst
+diviso per sezioni o capitoli
+ogni file corrisponderà ad un sito
+ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
