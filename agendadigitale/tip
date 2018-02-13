@@ -87,69 +87,40 @@
 
 
 
-experience with builds is more expensive
 
-i'm afraid that the solution to 4059 might cause a lot of tests to fail
 
-width is the length of the first cell
 
-it would feel natural to have as many specs as the maximum number of cells
 
-in that case using an higher number of specs could fix both errors
 
-the border error could also be caused by that separator following the specs
 
-it's harder though. the columns are truncated while parsing
 
-i think that truncating the columns is more annoying to our writers
-though
 
-and it causes a syntax error
-the header border size is the most approacheable
 
-parsing from the native produces the same result
-- why weren't the cells trimmed to the size of the specs?
-- what causes the header border size?
-- why has the fifth column been sliced away?
-- where was the number of specs taken from?
-questions
-- broken header borders
-- four cells for headers and rows
-- three specs
-the result from frankenstein presents
 
-the current checked out file corresponds to the result from upstream
 
-so the question is how is the specs length calculated?
-the original table seems to have multiple columns
-even with frankenstein the three specs would slice some content away
-the native code has three default specs altough it starts with five headers
 
-maybe building different versions with stack won't take much time
-if most dependencies are the same
 
-running a frankenstein with 4059 should fix
 
-ghc-pkg unregister <package>
 
-what causes a table to be built this way?
 
-running plain pandoc i can compare the results
 
-- variable cell number -- it seems like the fix isn't applied
-- missing the last border -- may be a mismatch between cells and separators
-- formatting -- not sure there is a way to get this right
 
-one can assume that a builder was called with some arguments
-the builders run while parsing the DOCX
-i guess that here again the problems are from native to markup
 
-i can extend type tests with the native version of the complex table
 
-i flew to systems design and now back to table cells
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources
 
 in the night because motivation goes beyond daily routine
 
-is frankenstein broken? having troubles running tests with cabal
-
-https://github.com/atorin/pandoc-test/issues/10
