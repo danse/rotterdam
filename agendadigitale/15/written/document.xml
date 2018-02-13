@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="SourceCode"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="KeywordTok"/>
+        </w:rPr>
+        <w:t xml:space="preserve">&lt;first&gt;</w:t>
+      </w:r>
+      <w:r>
+        <w:br w:type="textWrapping"/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="NormalTok"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="KeywordTok"/>
+        </w:rPr>
+        <w:t xml:space="preserve">&lt;second&gt;&lt;/second&gt;</w:t>
+      </w:r>
+      <w:r>
+        <w:br w:type="textWrapping"/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="KeywordTok"/>
+        </w:rPr>
+        <w:t xml:space="preserve">&lt;/first&gt;</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr/>
+  </w:body>
+</w:document>

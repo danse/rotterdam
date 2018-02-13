@@ -135,6 +135,12 @@
 
 
 
+
+
+while the case document has different paragraphs
+
+a synthesised document has (w:p (w:pPr (w:pStyle SourceCode)) (w:r (...)) ... )
+
 the CodeBlock parsing in Readers.Docx is responsible for the fragmentation
 
 hum the matter here seems more tricky than expected. code in
