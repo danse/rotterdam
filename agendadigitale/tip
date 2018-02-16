@@ -51,21 +51,15 @@
 
 
 
-é come se tradissi quei ricordi
 
-2 1 2 3
 
-smart handling of unsorted RST headers
 
-the RST format deducts header levels from the order headers are presented in the document. as a result a sequence of headers with levels 2, 1, 2, 3
 
-some of the documents in pandoc-pdf still present fatal errors when
-translating to HTML, migrate our process from samples to full
-documents in this sense, linee-guida-esercenti.rst present issue
-pandoc-test#4 (test2) which was closed. the malformed document
-prevents any HTML to be produced. it would be way better to simply add
-headers in the right order saying "header 1 by pandoc", "header 2 by
-pandoc" etcetera, referring to a documentation page
+
+
+
+removed all errors in documents in pandoc-pdf translating to HTML,
+migrate our process from samples to full documents in this sense
 
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli
