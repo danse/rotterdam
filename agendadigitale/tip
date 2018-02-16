@@ -51,119 +51,21 @@
 
 
 
+é come se tradissi quei ricordi
 
+2 1 2 3
 
+smart handling of unsorted RST headers
 
+the RST format deducts header levels from the order headers are presented in the document. as a result a sequence of headers with levels 2, 1, 2, 3
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-while the case document has different paragraphs
-
-a synthesised document has (w:p (w:pPr (w:pStyle SourceCode)) (w:r (...)) ... )
-
-the CodeBlock parsing in Readers.Docx is responsible for the fragmentation
-
-hum the matter here seems more tricky than expected. code in
-`tests/15.docx` is translated by pandoc as one CodeBlock per line,
-while passing through libreoffice 5.1.6.2 it gets translated as one paragraph
-per line. also pandoc would save a CodeBlock as a simple paragraph
-
-after conversion to ODT the paragraph looks styled like "source code"
-
- pandoc-test (danse)$ pandoc tests/15.odt -t rst
-<code>
-
-<some code here>Hey!</some code here>
-
-</code>
-
-Here’s some text
-
-https://github.com/atorin/pandoc-test/issues/15
-
-https://docs.google.com/document/d/1OsUwawC8qC-RTjuQ54Bw8nVrv2U34qY7dhkZw58erm0
-
-https://github.com/DigitalPublishingToolkit/Hybrid-Publishing-Resources
+some of the documents in pandoc-pdf still present fatal errors when
+translating to HTML, migrate our process from samples to full
+documents in this sense, linee-guida-esercenti.rst present issue
+pandoc-test#4 (test2) which was closed. the malformed document
+prevents any HTML to be produced. it would be way better to simply add
+headers in the right order saying "header 1 by pandoc", "header 2 by
+pandoc" etcetera, referring to a documentation page
 
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli

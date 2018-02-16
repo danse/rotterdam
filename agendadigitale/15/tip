@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i don't see an instance i could use
+
+consecutive source paragraphs
+we cannot affect that, but we can write a filter that collapses
+
+so this is probably a problem with the translation from PDF to DOCX
+
+while the case document has different paragraphs
+
+a synthesised document has (w:p (w:pPr (w:pStyle SourceCode)) (w:r (...)) ... )
+
+the CodeBlock parsing in Readers.Docx is responsible for the fragmentation
+
+hum the matter here seems more tricky than expected. code in
+`tests/15.docx` is translated by pandoc as one CodeBlock per line,
+while passing through libreoffice 5.1.6.2 it gets translated as one paragraph
+per line. also pandoc would save a CodeBlock as a simple paragraph
+
+after conversion to ODT the paragraph looks styled like "source code"
+
+ pandoc-test (danse)$ pandoc tests/15.odt -t rst
+<code>
+
+<some code here>Hey!</some code here>
+
+</code>
+
+Here’s some text
+
+https://github.com/atorin/pandoc-test/issues/15
