@@ -53,10 +53,37 @@
 
 
 
+```
+ ~ $ cat /tmp/link.native 
+[Link ("", [], []) [Strong [Str "a"]] ("b", "c")] ~ $ 
+ ~ $ pandoc /tmp/link.native -t rst --reference-links
+`**a**`_
 
+.. _**a**: b
+```
 
+this seems to be kind of an hack but i have to check the |·| syntax before
 
+```rst
+styled |link|_.
 
+.. |link| replace:: **strong** for example
+.. _link: somewhere.go
+```
+
+stImages
+
+the doc for RST on sourceforge seems to be down at the moment. anyway if i get this right we want to handle the case of styled links within [`inlineToRST`](https://github.com/jgm/pandoc/blob/master/src/Text/Pandoc/Writers/RST.hs#L525-L539) and opt for the "annotation" syntax for links in that case. as far as i can see in the writer, that way to render links is not supported by any code at the moment. writing such logic would probably require some monadic code, maybe similar to [`registerImage`](https://github.com/jgm/pandoc/blob/master/src/Text/Pandoc/Writers/RST.hs#L551-L563)?
+
+i see how using that syntax is desirable, but it can be considered further improvement. i think that the pull request we propose is already improving over the current behaviour. not sure whether the added value of styled links is enough for us to invest into it at the moment, maybe later
+
+can't read link specification sourceforge is down
+
+is there a way to explicitly render the link as an annotation?
+
+https://github.com/jgm/pandoc/issues/4368#issuecomment-366327012
+
+https://github.com/jgm/pandoc/issues/4373#issuecomment-366312623
 
 removed all errors in documents in pandoc-pdf translating to HTML,
 migrate our process from samples to full documents in this sense
