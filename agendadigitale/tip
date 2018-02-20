@@ -53,19 +53,39 @@
 
 
 
-stack tip man sky
-ground tip man sky
 
-i can follow the spontaneous clues and reflect levels
-it will take the resources needed for following it
-i cannot follow the complex plan if i understand it
 
-https://github.com/jgm/pandoc/issues/4373#issuecomment-366312623
 
-removed all errors in documents in pandoc-pdf translating to HTML,
-migrate our process from samples to full documents in this sense
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+post project
 
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli
 ogni file corrisponderà ad un sito
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
+

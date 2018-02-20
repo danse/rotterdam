@@ -1,0 +1,15 @@
+
+https://github.com/jgm/pandoc/pull/2079/files
+
+which could be what is now translated as rubric
+
+the case of a header contained in a block
+the structure of Element prevents us from representing
+
+what are the inlines in an Element?
+
+an `elementToRST` could be the best place where to host structure handling
+
+hierarchicalize seems coupled with elementToDocbook
+
+https://github.com/jgm/pandoc/issues/4373#issuecomment-366312623
