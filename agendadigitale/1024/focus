@@ -35,6 +35,7 @@
 
 
 
+data Tree a = Leaf a | Branch [Tree a]
 
 latek
 https://www.latex-tutorial.com/tutorials/tables/#Multirows
