@@ -1,3 +1,16 @@
+
+data Tree a = Leaf a | Branch [Tree a]
+
+combine :: Inline -> Inl ()
+combine i = do
+  outer <- gets stOuter
+  case (outer, i) of
+    (Link _ _ _, _)    -> collapse i
+    (Strong _, Emph _) -> collapse i
+    (Emph _, Strong _) -> emerge i
+    (_, Link _ _ _)    -> emerge i
+    (_, _)             -> collapse i
+
 {-# LANGUAGE OverloadedStrings, DeriveDataTypeable #-}
 
 class Functor f => Applicative f where

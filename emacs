@@ -1,6 +1,8 @@
 
 
 
+C-u before replace-string matches whole word
+
 C-u M-| -- filter through command
 
 find in multiple files: grep-find

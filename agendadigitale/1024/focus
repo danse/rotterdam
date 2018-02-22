@@ -36,10 +36,16 @@
 
 
 
+we can generate random well-formed tables built in this data model
 
+we have no guarantee that the parsed table is well-formed
 
+how would an oldToNew function look like
 
-data Tree a = Leaf a | Branch [Tree a]
+~/pandoc          -- to develop pandoc
+~/pandoc-types    -- to develop pandoc-types
+~/frankenstein/.. -- to build or cross-develop
+~/jgm/..          -- for comparisons
 
 latek
 https://www.latex-tutorial.com/tutorials/tables/#Multirows
