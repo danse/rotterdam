@@ -29,6 +29,8 @@
 
 
 
+https://github.com/posquit0/Awesome-CV
+
 
 
 learning and love have always been connected to me

@@ -1,20 +1,37 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 resolver :: OrderedSet Inlines -> Str -> Inline
 
 flattener :: Inline -> [(OrderedSet Inlines, Str)]
 
 i could write logic to flatten inlines
 
-not sure how to write this
-
-[Strong [Str "first", Str "second", Str "double", Str "last"]
-becomes
-[Strong [Str "first", Str "second", Emph [Str "double"], Str "last"]
-while
-[Emph [Str "first", Str "second"], Strong [Str "double"], Emph [Str "last"]]
-becomes
-[Emph [Str "first", Str "second", Strong [Str "double"], Str "last"]]
-flatten a nested inline so that
-in order to do this i shall
+in order to do this i shall flatten a nested inline
 
 https://github.com/jgm/pandoc/issues/4368#issuecomment-366744374

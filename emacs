@@ -1,4 +1,6 @@
 
+
+
 C-u M-| -- filter through command
 
 find in multiple files: grep-find
@@ -39,3 +41,6 @@ insert literal character: C-q
 rename file:
   dired-jump
   R
+
+font-lock-mode
+

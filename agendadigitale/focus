@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+per l'installazione di pandoc rimandi alla sua documentazione ufficiale. si ha una stima sul numero di utenti che seguirà questa procedura? immagino che molti utenti windows non si troverebbero a proprio agio con l'installazione ed uso di uno strumento da riga di comando. per adesso il modo più semplice di tradurre un doc in RST é quello di aggiungerlo al repo `doc2rst`, più avanti potremmo facilmente offrire una interfaccia web a pandoc attraverso il backend
+
+vedo che citi un flusso che vada direttamente da libreoffice ad RST, questa sarebbe un'alternativa a pandoc se non mi sbaglio?
+
+the same handling is given to nested links now, so for example *italics [link]() italics* is turned into *italics* [link]() *italics*, which is not what is proposed in 4339 but it keeps more information than the behaviour i proposed earlier
+
+4368
+
+post project
+
+l'obiettivo é collezionare documenti in un unico index.rst
+diviso per sezioni o capitoli
+ogni file corrisponderà ad un sito
+ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
+

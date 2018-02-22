@@ -1,0 +1,20 @@
+consider a spanning structure like the following, where i added row numbers in order to refer to them easily:
+
+```
+   a b c
+   - - -
+1  d e f
+2  g _ i
+3  l m _
+```
+
+here row 2 is connected to row 1 through cell `e` while it is connected to row 2 through cell `i`, so our parser will have to produce:
+
+```
+Sep def [Sep withBorder [Cell 'a', Cell 'b', Cell 'c'],
+         Sep def [Sep def [Cell 'd', Cell 'g', Cell 'l'],
+                  Sep def [Sep doubleWidth [Cell 'e'], Cell 'm'],
+                  Sep def [Cell 'f', Sep doubleWidth [Cell 'i']]]
+```
+
+basically an intermediate separator causes a change in direction
