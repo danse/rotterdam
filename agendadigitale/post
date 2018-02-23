@@ -1,0 +1,14 @@
+
+pandoc is powering the italian public administration
+
+in an ambitious modernisation program rolled out by the current italian government, we are developing a document flow based on standard formats like ODT and RST, and free software like pandoc.
+
+it's the first time i work for an institution in my country, and the general expectation here, to use an euphemism, is that there is a lot of work to be done before our public services can be considered efficient. nonetheless this time i've been impressed by the quality of the project.
+
+not only we are eschewing lock-in by relying on free software, not only the selection of the technology is, for once, one of the most advanced i know of, but we are also careful to contribute upstream as much as possible for a sustainable development
+
+this is a double success story for haskell: on one side, pandoc has been picked for its qualities and features, not out of opinions or expectations about the language it has been written in. on the other hand as a beginner on this big project i've been impressed by the results we could achieve so far
+
+the momentum on pandoc seems to be growing in the last months, with a significant daily volume of contributions and open issues. the project encompasses a plethora of formats and it would be easy in these conditions to grow bloated software and to collect hacks.
+
+i am passionate about free software but in the past i found it hard to contribute to big javascript and python projects
