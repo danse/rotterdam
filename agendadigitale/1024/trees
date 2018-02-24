@@ -1,0 +1,49 @@
+
+a
+ b
+  c
+   .
+  e
+   .
+d
+f
+ g
+  h
+   .
+
+a b c
+d b e
+f g h
+
+a
+ b
+  d
+   .
+ c
+  f
+   .
+e
+ -
+  g
+   .
+
+a b d
+a c f
+e e g
+
+depth first
+
+a 
+ b
+  -
+   .
+ c
+  d
+   .
+   .
+e
+ -
+
+a b b
+a c d
+e e d

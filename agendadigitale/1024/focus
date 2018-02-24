@@ -33,6 +33,34 @@
 
 
 
+
+
+
+
+
+the data model supports cell spans over non-contiguous cells
+
+well-formedness can be easily verified
+
+Cell = Attr [Blocks] | Ext
+Table = Table Int Int [Cell]
+
+a
+ b
+  *
+*
+ c
+  d
+e
+ e
+  *
+
+a b b
+a c d
+e e d
+
+i can imagine some ways to encode the table that would enforce some of the properties related to well-formed spans, but not all of the properties. i think that it's not worth having a complex data model if it doesn't give us strong guarantees ... better to keep it simple and write validation logic in the builders as you suggest
+
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 
 we can generate random well-formed tables built in this data model
@@ -43,7 +71,7 @@ how would an oldToNew function look like
 
 ~/pandoc          -- to develop pandoc
 ~/pandoc-types    -- to develop pandoc-types
-~/frankenstein/.. -- to build or cross-develop
+~/fork/..         -- to build or cross-develop
 ~/jgm/..          -- for comparisons
 
 latek
