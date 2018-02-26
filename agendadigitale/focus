@@ -76,25 +76,17 @@
 
 
 
-pandoc-test $ make update 
 
-images are filtered out, other odd things with links in strong text
-i think that 4368 has errors when passed on the files in docs2rst
-https://github.com/jgm/pandoc/pull/4370#issuecomment-368047458
 
-questi ultimi corsivi non andavano modificati
-https://github.com/italia/lg-misuraperformance-docs/pull/3/files/72d57b5df890b1353103a8ecb87ba9ebe245948d#diff-db4b047b30ffef7855b12b527860ac2cR1820
+
+
 
 here we have rubrics outside 
 https://anpr.interno.it/portale/documentazione-tecnica
 
-k=( 18app carta-docente )
-cd ~/docs2rst/
-filters=$(ls filters/ | while read f; do echo -n " --filter filters/${f}"; done)
-a="--wrap none ${filters}"
-d=input-docx; for s in ${k[@]}; do c=$d/$s/; ls $c | while read f; do ./frankenstein $c/$f $a -o output-rst/$s/${f%.docx}.rst; done; done;
-
-post project
+filter or pandoc?
+reduced to the minimum, but it seems to be an unrelated error
+[Para [Strong [Space], Strong [Space]]]
 
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli
