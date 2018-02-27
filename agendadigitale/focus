@@ -81,12 +81,14 @@
 
 
 
-in order to have them we would add a writer option
-empty lines between points in a list are optional
 
-when translated to RST into anpr.rst
+
+anyway i shall start from the HTML
+
+it's odd that the reduced file gets converted into a totally different markup
+
 here we have rubrics outside 
-https://anpr.interno.it/portale/documentazione-tecnica
+rubrics.native
 
 in `box.rst` one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
@@ -103,3 +105,4 @@ diviso per sezioni o capitoli
 ogni file corrisponderà ad un sito
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
 
+powering italy https://github.com/jgm/pandoc/pull/4259#issuecomment-359168026
