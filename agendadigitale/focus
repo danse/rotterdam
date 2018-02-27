@@ -89,18 +89,19 @@
 
 
 
-replace RST rubrics with strong text
-- rubrics are less readable than strong text markup
-- 
 
 
-this is rendered as a rubric because it's not at top level
 
-rubrics were added here
-https://github.com/jgm/pandoc/pull/2079
 
-here we have rubrics outside 
-rubrics.native
+
+
+
+
+
+
+
+
+
 
 in `box.rst` one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
