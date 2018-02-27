@@ -81,11 +81,21 @@
 
 
 
+
+in `box.rst` one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
+
+in order to have them we would add a writer option
+empty lines between points in a list are optional
+
 here we have rubrics outside 
 https://anpr.interno.it/portale/documentazione-tecnica
 
+https://github.com/atorin/pandoc-test/issues/24
+
 filter or pandoc?
 reduced to the minimum, but it seems to be an unrelated error
+there was a link but i simplified
 [Para [Strong [Space], Strong [Space]]]
 
 l'obiettivo é collezionare documenti in un unico index.rst
