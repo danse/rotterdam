@@ -83,9 +83,21 @@
 
 
 
-anyway i shall start from the HTML
 
-it's odd that the reduced file gets converted into a totally different markup
+
+
+
+
+
+replace RST rubrics with strong text
+- rubrics are less readable than strong text markup
+- 
+
+
+this is rendered as a rubric because it's not at top level
+
+rubrics were added here
+https://github.com/jgm/pandoc/pull/2079
 
 here we have rubrics outside 
 rubrics.native
