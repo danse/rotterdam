@@ -81,15 +81,15 @@
 
 
 
-
-in `box.rst` one can see the parsing error. the parser seems to fail
-recognising that the link is continuing to a new line
-
 in order to have them we would add a writer option
 empty lines between points in a list are optional
 
+when translated to RST into anpr.rst
 here we have rubrics outside 
 https://anpr.interno.it/portale/documentazione-tecnica
+
+in `box.rst` one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
 
 https://github.com/atorin/pandoc-test/issues/24
 
