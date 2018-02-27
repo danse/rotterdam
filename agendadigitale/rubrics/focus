@@ -1,13 +1,16 @@
 
 
 
---section-subtitles
+from april surely
+rm documentazione-tecnica.*
+
+alberto produces tables of contents with sphinx
 
 do rubrics appear in the table of contents?
 
 http://docutils.sourceforge.net/docs/ref/doctree.html#rubric
 
-replace RST rubrics with strong text
+replace RST rubrics with strong text?
 - rubrics are less readable than strong text markup?
 - indentation is harder to edit?
 
