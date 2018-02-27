@@ -1,163 +1,19 @@
-
-.. contents::
-
-.. raw:: html
-
-   <div id="template" class="pubblica spalla-dx">
-
-.. raw:: html
-
-   <div class="skip">
-
 `Contenuti della pagina <#main>`__ `Ricerca <#ricerca>`__
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div id="testata">
-
-.. raw:: html
-
-   <div id="ricerca">
-
-.. raw:: html
-
-   <div class="contenitore">
-
-.. raw:: html
-
-   <div id="contatti_ricerca">
-
 `Contatti <https://anpr.interno.it/portale/web/guest/contatti>`__
 
 Cerca:
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div id="logo">
-
-.. raw:: html
-
-   <div class="contenitore">
 
 |Home page ANPR|
 
 |Ministero dell'Interno|
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div id="menu-principale2">
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div id="navigazione">
-
-.. raw:: html
-
-   <div class="contenitore">
-
-.. raw:: html
-
-   <div id="ti-trovi">
-
 Ti trovi in: `Home <https://www.anpr.interno.it/portale/home>`__ -
 Documentazione tecnica
+Documentazione tecnica
+======================
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div id="main">
-
-.. raw:: html
-
-   <div class="contenitore">
-
-.. rubric:: Documentazione tecnica
-   :name: documentazione-tecnica
-   :class: principale documentazione-tecnica
-
-.. raw:: html
-
-   <div id="main-content" class="interna8020">
-
-.. raw:: html
-
-   <div class="portlet-layout">
-
-.. raw:: html
-
-   <div id="contenuti-pagina" role="main">
-
-.. raw:: html
-
-   <div id="column-1" class="portlet-column portlet-column-first span8">
-
-.. raw:: html
-
-   <div id="layout-column_column-1"
-   class="portlet-dropzone portlet-column-content portlet-column-content-first">
-
-.. raw:: html
-
-   <div id="p_p_id_56_INSTANCE_2OiLBml1fpLJ_"
-   class="portlet-boundary portlet-boundary_56_ portlet-static portlet-static-end portlet-borderless portlet-journal-content">
-
-.. raw:: html
-
-   <div class="portlet-borderless-container" style="">
-
-.. raw:: html
-
-   <div class="portlet-body">
-
-.. raw:: html
-
-   <div class="journal-content-article">
-
-.. rubric:: Comuni
-   :name: comuni
+Comuni
+------
 
 L’accesso ai servizi di ANPR avviene tramite l’area riservata di questo
 sito o tramite il sistema gestionale del comune integrato con i servizi
@@ -169,7 +25,7 @@ documento </portale/documents/20182/239162/aggiornamenti_23_02_2018.xlsx/94f83c9
 
 -  Accesso tramite il sito Web di ANPR (Web Application)
 
-   -  `Sito WEB di ANPR e specifiche di integrazione (Apertura nuova
+   -  `Sito WEB di ANPR e specifiche di integrazione(Apertura nuova
       finestra): <https://www.anpr.interno.it/portale/documents/20182/50186/Sito+WEB+di+ANPR+e+specifiche+di+integrazione17112017.pdf/2ab258a3-ad62-4220-8cbc-8cd9b4563832>`__
       (aggiornato al 17 novembre 2017)
    -  `Elenco delle funzionalità
@@ -225,9 +81,8 @@ documento </portale/documents/20182/239162/aggiornamenti_23_02_2018.xlsx/94f83c9
 -  `Configurazione del
    browser </portale/documents/20182/209665/Nota+configurazione+browser.pdf/224d3db3-036e-4534-b1b5-b3b11b530b21>`__
 
-.. rubric:: Pubbliche Amministrazioni ed Enti che erogano pubblici
-   servizi  
-   :name: pubbliche-amministrazioni-ed-enti-che-erogano-pubblici-servizi
+Pubbliche Amministrazioni ed Enti che erogano pubblici servizi  
+----------------------------------------------------------------
 
 L’accesso ai servizi di ANPR avviene tramite l’area riservata di questo
 sito o tramite i servizi che ANPR rende disponibili.
@@ -247,103 +102,13 @@ Di seguito la documentazione di riferimento:
    dell’oggetto cittadinanza)
 -  `Tabelle di decodifica </portale/tabelle-di-riferimento>`__
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div class="entry-links">
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div id="spalla-dx">
-
-.. raw:: html
-
-   <div id="column-2" class="portlet-column portlet-column-last span4">
-
-.. raw:: html
-
-   <div id="layout-column_column-2"
-   class="portlet-dropzone empty portlet-column-content portlet-column-content-last">
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
-
-.. rubric:: Piè di pagina
-   :name: piè-di-pagina
-   :class: skip
-
-.. raw:: html
-
-   <div class="contenitore">
+Piè di pagina
+=============
 
 -  `Note
    legali <https://anpr.interno.it/portale/web/guest/notelegali>`__
 -  `Privacy <https://anpr.interno.it/portale/web/guest/privacy>`__
 -  `Accessibilità <https://anpr.interno.it/portale/web/guest/accessibilita>`__
-
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   </div>
 
 .. |Home page ANPR| image:: https://anpr.interno.it/ANPR-theme/images/logo/anpr.png
    :width: 209px
