@@ -103,21 +103,27 @@
 
 
 
-in `box.rst` one can see the parsing error. the parser seems to fail
-recognising that the link is continuing to a new line
+
+
 
 https://github.com/atorin/pandoc-test/issues/24
+
+i wasn't able to reduce the test case, the code can guide me
+in `box.rst` one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
 
 filter or pandoc?
 reduced to the minimum, but it seems to be an unrelated error
 there was a link but i simplified
 [Para [Strong [Space], Strong [Space]]]
 
+4373
+
+1024
+
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli
 ogni file corrisponderà ad un sito
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
-
-powering italy https://github.com/jgm/pandoc/pull/4259#issuecomment-359168026
 
 https://teamdigitale.governo.it/
