@@ -1,0 +1,20 @@
+ agendadigitale (master)*$ pandoc -f native -t rst
+[Para [Strong [Space], Strong [Space]]]
+
+** **\ ** **
+ agendadigitale (master)*$ ~/docs2rst/fork -f native -t rst
+[Para [Strong [Space], Strong [Space]]]
+****\ ****
+ agendadigitale (master)*$ ~/docs2rst/fork -f native -t rst | rst2html > /dev/null 
+[Para [Strong [Space], Strong [Space]]]
+<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
+ agendadigitale (master)*$ rst2html > /dev/null 
+**** ****
+<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
+<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
+<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
+ agendadigitale (master)*$ rst2html > /dev/null 
+****
+<stdin>:1: (ERROR/3) Document or section may not begin with a transition.
+<stdin>:1: (ERROR/3) Document may not end with a transition.
+ agendadigitale (master)*$ 

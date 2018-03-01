@@ -3,11 +3,12 @@
 
 
 
-branch and issue, request, status
+issue, request, status
 4320, 4326, r
 4327, 4329, r
 4368, 4407, r
 4410, 4412, r
+4422, -, w
 
 r = review pending
 w = work missing

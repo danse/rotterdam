@@ -106,20 +106,42 @@
 
 
 
-https://github.com/atorin/pandoc-test/issues/24
 
-i wasn't able to reduce the test case, the code can guide me
-in `box.rst` one can see the parsing error. the parser seems to fail
-recognising that the link is continuing to a new line
 
-filter or pandoc?
-reduced to the minimum, but it seems to be an unrelated error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4422
+
+local copy of the RST doc
+
+producing the same error
+the central escaped space is kept this way also in our fork
 there was a link but i simplified
 [Para [Strong [Space], Strong [Space]]]
+ inline space
 
-4373
+i wasn't able to reduce the test case, the code can guide me
+in box.rst one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
+ long link in a table
 
-1024
+headers 4373
+
+tables 1024
 
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli
