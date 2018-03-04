@@ -123,15 +123,25 @@
 
 
 
-still i wouldn't duplicate list parsing logic
 
-i reckon the idea i had to detect such cases in the reader was wrong because these cases depend on the writing format
 
-good catch, the same problem has been tackled in the markdown writer. there the solution has been to duplicate the parsing logic in the writer and to handle the case of lists separately. furthermore, list markers are escaped only when a given extension is active
 
-olMarker which duplicates orderedListStart
 
-it doesn't seem to be escapeString because it's applied also to plain text
+
+what's the point of this pattern match with Plain?
+
+in the RST reader and the writer
+i should add the feature in a whole different way
+considering that this convention exists
+loose lists in an RST file will be packed if the file is passed through pandoc
+this is available for markdown but missing in RST
+
+we could consider encoding it explicitely using a div with attribute
+isTightList is like an informal encoding
+
+isTightList https://github.com/jgm/pandoc/blob/master/src/Text/Pandoc/Shared.hs#L542-L546
+
+4410
 
 4422
 
