@@ -58,6 +58,8 @@
 
 
 
+syntax errors in the docs
+
 in blockListToRST' paragraphs should be rendered with an empty line in the end
 
 isTightList works at the level of the abstract syntax tree
