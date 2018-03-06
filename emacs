@@ -1,5 +1,5 @@
 
-
+C-M-Space M-w select word or s exp after point and put it in the kill ring
 
 C-u before replace-string matches whole word
 

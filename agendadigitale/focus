@@ -58,6 +58,22 @@
 
 
 
+not sure whether to add this in the parser tests or in the command tests
+
+pandoc (4410)$ pandoc -f rst -t native
+- hi
+ 
+- there
+
+[BulletList
+ [[Plain [Str "hi"]]
+ ,[Plain [Str "there"]]]]
+
+the error is in the parser
+
+i can remove 4410-old in ~/pandoc
+
+4410
 
 producing the same error
 the central escaped space is kept this way also in our fork
@@ -65,11 +81,43 @@ there was a link but i simplified
 [Plain [Strong [Space], Strong [Space]]]
  inline space errors are very common in our docs2rst
 
-in blockListToRST' paragraphs should be rendered with an empty line in the end
-isTightList works at the level of the abstract syntax tree
- 4410
-
 in lack of urgence giving priority to conversations with jgm
+
+(
+
+it could be a reader option like --indented-code-classes=CLASSES
+
+it could not get a font parameter
+if it was an extension http://pandoc.org/MANUAL.html#extensions
+
+<w:r>
+  <w:rPr>
+    <w:rFonts w:eastAsia="Courier New" w:cs="Courier New" w:ascii="Courier New" w:hAnsi="Courier New"/>
+  </w:rPr>
+  <w:t>pandoc &lt;percorso/documento&gt; -t rst -o output.rst</w:t>
+</w:r>
+
+http://www.ecma-international.org/news/TC45_current_work/OpenXML%20White%20Paper.pdf
+
+http://www.ecma-international.org/publications/standards/Ecma-376.htm
+
+https://en.wikipedia.org/wiki/Office_Open_XML
+
+for example there seems to be an `rFonts` element
+
+from this i might reuse the font face string parsing logic
+
+i think that this is used just for math in some elements
+https://en.wikipedia.org/wiki/Symbol_(typeface)
+symbol font improvements
+https://github.com/jgm/pandoc/pull/1518
+the functions in texmath seem to support only a Symbol Font
+https://hackage.haskell.org/package/texmath-0.10.1.1/docs/Text-TeXMath-Unicode-Fonts.html
+
+in Docx.Parse the font seems to be used only for decoding
+while in Odt.StyleReader the font pitch is used as we want to use the face
+
+Docx.Parse and Odt.StyleReader work with fonts
 
 magari uno script in haskell che ci sviluppiamo noi che usi pandoc come una libreria per manipolare un DOCX formattando un certo font come codice
 
@@ -78,7 +126,7 @@ there is no information about the font in the native
 
 idea che avevo è: se si riesce a identificare il font, e si usa courier per formattare il codice in DOCX, basterebbe quello per creare la formattazione adeguata in RST
 
-semantic font
+semantic font)
 
 paragraph escaping 4422
 
@@ -97,5 +145,7 @@ l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli
 ogni file corrisponderà ad un sito
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
+
+https://medium.com/team-per-la-trasformazione-digitale/docs-italia-open-government-collaborazione-pubblica-amministrazione-progetti-linguaggio-b89ff330e21b
 
 https://teamdigitale.governo.it/
