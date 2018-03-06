@@ -59,91 +59,33 @@
 
 
 
+posso scrivere il documento in nativo per capire che tipo di transizione
+non sto correggendo bene
 
+questo degli headers è un problema fastidioso, ho dovuto eliminare il filtro
 
+headers 4373
 
+in blockListToRST' paragraphs should be rendered with an empty line in the end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-what's the point of this pattern match with Plain?
-
-in the RST reader and the writer
-i should add the feature in a whole different way
-considering that this convention exists
-loose lists in an RST file will be packed if the file is passed through pandoc
-this is available for markdown but missing in RST
-
-we could consider encoding it explicitely using a div with attribute
-isTightList is like an informal encoding
-
-isTightList https://github.com/jgm/pandoc/blob/master/src/Text/Pandoc/Shared.hs#L542-L546
+isTightList works at the level of the abstract syntax tree
 
 4410
 
-4422
+in lack of urgence giving priority to conversations with jgm
+
+magari uno script in haskell che ci sviluppiamo noi che usi pandoc come una libreria per manipolare un DOCX formattando un certo font come codice
+
+https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
+
+a font to link with a format should be used in the parser
+there is no information about the font in the native
+
+idea che avevo è: se si riesce a identificare il font, e si usa courier per formattare il codice in DOCX, basterebbe quello per creare la formattazione adeguata in RST
+
+semantic font
+
+paragraph escaping 4422
 
 local copy of the RST doc
 
@@ -157,8 +99,6 @@ i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
  long link in a table
-
-headers 4373
 
 tables 1024
 
