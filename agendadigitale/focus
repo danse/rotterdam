@@ -58,19 +58,20 @@
 
 
 
-syntax errors in the docs
+
+producing the same error
+the central escaped space is kept this way also in our fork
+there was a link but i simplified
+[Plain [Strong [Space], Strong [Space]]]
+ inline space errors are very common in our docs2rst
 
 in blockListToRST' paragraphs should be rendered with an empty line in the end
-
 isTightList works at the level of the abstract syntax tree
-
-4410
+ 4410
 
 in lack of urgence giving priority to conversations with jgm
 
 magari uno script in haskell che ci sviluppiamo noi che usi pandoc come una libreria per manipolare un DOCX formattando un certo font come codice
-
-https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
 a font to link with a format should be used in the parser
 there is no information about the font in the native
@@ -81,14 +82,6 @@ semantic font
 
 paragraph escaping 4422
 
-local copy of the RST doc
-
-producing the same error
-the central escaped space is kept this way also in our fork
-there was a link but i simplified
-[Para [Strong [Space], Strong [Space]]]
- inline space
-
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
@@ -97,6 +90,8 @@ recognising that the link is continuing to a new line
 headers 4373
 
 tables 1024
+
+https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
 l'obiettivo é collezionare documenti in un unico index.rst
 diviso per sezioni o capitoli

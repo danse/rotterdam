@@ -1,22 +1,22 @@
 
+review pending
 
+https://github.com/jgm/pandoc/issues/4320
+https://github.com/jgm/pandoc/pull/4326
 
+https://github.com/jgm/pandoc/issues/4327
+https://github.com/jgm/pandoc/pull/4329
 
+https://github.com/jgm/pandoc/issues/4368
+https://github.com/jgm/pandoc/pull/4407
 
-issue, request, status
-4320, 4326, r
-4327, 4329, r
-4368, 4407, r
-4410, 4412, r
-4422, -, w
+work missing
 
-r = review pending
-w = work missing
+https://github.com/jgm/pandoc/issues/4410
+https://github.com/jgm/pandoc/pull/
 
-updated on february 23
-
-crossing Pandoc issue numbers with our test naming and
-keeping a status for issues
+https://github.com/jgm/pandoc/issues/4422
+https://github.com/jgm/pandoc/pull/
 
 merged: 4248 4360
 
