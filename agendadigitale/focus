@@ -58,14 +58,6 @@
 
 
 
-
-posso scrivere il documento in nativo per capire che tipo di transizione
-non sto correggendo bene
-
-questo degli headers è un problema fastidioso, ho dovuto eliminare il filtro
-
-headers 4373
-
 in blockListToRST' paragraphs should be rendered with an empty line in the end
 
 isTightList works at the level of the abstract syntax tree
@@ -99,6 +91,8 @@ i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
  long link in a table
+
+headers 4373
 
 tables 1024
 
