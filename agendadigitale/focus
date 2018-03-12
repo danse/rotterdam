@@ -76,18 +76,6 @@
 
 
 
-the filter actually seems to work in a simple case
-
-the rendering works
-
-i added the filter but lists are still not loosened
-
-when done i can remove 4410-old in ~/pandoc
-
-4410 loose lists
-
-)
-
 (
 
 it could be a reader option like --indented-code-classes=CLASSES
