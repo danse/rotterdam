@@ -1,0 +1,31 @@
+          [ "within a Str inline" =:
+            strong (str " text ") =?> "**text**"
+          , "as individual inlines" =: 
+            strong (space <> str "text" <> space) =?> "**text**"
+          ]
+
+
+        , testGroup "inlines"
+          [ "gives priority to strong style over emphasis" =: -- #4368
+            emph (str "first" <> strong (str "second")) =?> "*first*\\ **second**"
+          , "filters out empty style inlines" =: -- #4434
+            strong (str "") =?> ""
+          , "filters out style inlines containing only spaces" =:
+            strong (str "  ") =?> ""
+          ]
+        , testGroup "dropEmpty"
+          [ testCase "drops empty inlines" $
+            dropEmpty [Strong [Str ""], Emph []] @?=
+            []
+          ]
+        , testGroup "stripString"
+          [ testCase "removes spaces in an Str" $
+            stripString (Strong [Str " text  "]) @?=
+            Strong [Str "text"]
+          , testCase "removes Spaces around an Str" $
+            stripString (Strong [Space, Str " text", Space, Space]) @?=
+            Strong [Str "text"]
+          , testCase "removes also a single space" $
+            stripString (Strong [Space]) @?=
+            Strong []
+          ]

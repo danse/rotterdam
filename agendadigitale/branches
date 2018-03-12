@@ -1,23 +1,41 @@
 
-review pending
+### pending feedback
 
-https://github.com/jgm/pandoc/issues/4320
+https://github.com/jgm/pandoc/pull/4438 refactor
+
+https://github.com/jgm/pandoc/pull/4437
+https://github.com/jgm/pandoc/issues/4434 empty inlines
+
 https://github.com/jgm/pandoc/pull/4326
+https://github.com/jgm/pandoc/issues/4320 don't wrap tables
 
-https://github.com/jgm/pandoc/issues/4327
 https://github.com/jgm/pandoc/pull/4329
+https://github.com/jgm/pandoc/issues/4327 white space in inlines
 
-https://github.com/jgm/pandoc/issues/4368
-https://github.com/jgm/pandoc/pull/4407
+https://github.com/jgm/pandoc/issues/4368 nested inlines
 
-work missing
+https://github.com/jgm/pandoc-types/pull/36 pad table headers
 
-https://github.com/jgm/pandoc/issues/4410
-https://github.com/jgm/pandoc/pull/
+### work missing
 
-https://github.com/jgm/pandoc/issues/4422
-https://github.com/jgm/pandoc/pull/
+https://github.com/jgm/pandoc/issues/4410 loose lists
 
-merged: 4248 4360
+https://github.com/jgm/pandoc/issues/4422 escape paragraphs
 
+### merged
 
+4248 4360
+
+### how to rebuild the fork
+
+git checkout italia/4327
+git branch -D 4327-4368 fork
+git merge italia/4368
+emacs test/Tests/Writers/RST.hs 
+emacs src/Text/Pandoc/Writers/RST.hs 
+git add src/Text/Pandoc/Writers/RST.hs test/Tests/Writers/RST.hs
+git commit
+git checkout -b 4327-4368
+git checkout master
+git checkout -tb fork
+git merge 4320 4327-4368 

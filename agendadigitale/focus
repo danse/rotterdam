@@ -58,30 +58,31 @@
 
 
 
-not sure whether to add this in the parser tests or in the command tests
 
-pandoc (4410)$ pandoc -f rst -t native
-- hi
- 
-- there
 
-[BulletList
- [[Plain [Str "hi"]]
- ,[Plain [Str "there"]]]]
 
-the error is in the parser
 
-i can remove 4410-old in ~/pandoc
 
-4410
 
-producing the same error
-the central escaped space is kept this way also in our fork
-there was a link but i simplified
-[Plain [Strong [Space], Strong [Space]]]
- inline space errors are very common in our docs2rst
 
-in lack of urgence giving priority to conversations with jgm
+
+
+
+
+
+
+
+
+
+(
+
+i added the filter but lists are still not loosened
+
+when done i can remove 4410-old in ~/pandoc
+
+4410 loose lists
+
+)
 
 (
 
@@ -128,6 +129,8 @@ idea che avevo è: se si riesce a identificare il font, e si usa courier per for
 
 semantic font)
 
+the 1024 log folder can be removed
+
 paragraph escaping 4422
 
 i wasn't able to reduce the test case, the code can guide me
@@ -138,6 +141,8 @@ recognising that the link is continuing to a new line
 headers 4373
 
 tables 1024
+
+file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
 
 https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
