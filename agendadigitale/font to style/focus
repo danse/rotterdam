@@ -32,20 +32,95 @@
 
 
 
-interoperability supported by independence from proprietary definitions
 
-there shall be links
 
-4 1 reference
-3 1 primer
 
-http://www.ecma-international.org/news/TC45_current_work/OpenXML%20White%20Paper.pdf
 
-http://www.ecma-international.org/publications/standards/Ecma-376.htm
 
-https://en.wikipedia.org/wiki/Office_Open_XML
 
-)
+
+
+
+
+
+https://hackage.haskell.org/package/xml-1.3.14/docs/Text-XML-Light-Types.html#t:Element
+
+X i also want to check what resolveDependentRunStyle is for, in Docx
+% in elemToRunStyle i want to check the element style
+
+elemToRunStyleD
+
+or set something in the reader state and read it straight away
+i can set the style in the returned elements
+i cannot set a state
+
+dirty code done, the type carousel starts
+
+we can ignore it in runToInlines
+now elemToRunStyleD, add the font name to the run style
+
+envFont :: Font which is a singleton
+
+hopefully it's possible to add it to a pPr?
+
+so i want to store it as part of a Docx
+
+envFont is part of ReaderEnv
+
+elemToRunElems has font parsing
+
+elemToRunElem?
+
+elemToRun in Parse is where the font attributes can become part of RunStyle
+
+<w:r>
+  <w:rPr>
+    <w:rFonts
+        w:eastAsia="Courier New"
+        w:cs="Courier New"
+        w:ascii="Courier New"
+        w:hAnsi="Courier New"/>
+  </w:rPr>
+  <w:t>pandoc &lt;percorso/documento&gt; -t rst -o output.rst</w:t>
+</w:r>
+
+i could add the transformation to the otherwise branch of runStyleToTransform
+
+an hack would work only on `runToInlines (Run` and bodyPartToBlocks otherwise
+
+runToInlines
+...
+parPartToInlines
+
+i want to start from the `otherwise` branch
+
+because it gets translated directly into strings
+while the run is more problematic
+
+so i want to wrap it to add div attributes
+bodyPartToBlocks branches depending on the element
+
+it's also called recursively by the table, list and other handlers
+bodyPartToBlocks seems to be the place for divs
+
+maybe there is no need to extend the data model
+
+https://github.com/python-openxml/python-docx
+
+`archiveToDocx` is not exported
+
+a standalone script can ignore the Docx data model
+
+in this case a standalone script is the simplest solution
+it seems to me that we can add a style where we can read a font
+
+also because i want to list fonts before applying
+it might be easier to work at XML level reading the font and adding the style
+
+font defined in a run is for an inline element
+so given what i've read in the structure
+
+wordprocessingml
 
 data BodyPart = Paragraph ParagraphStyle [ParPart]
               | ListItem ParagraphStyle String String (Maybe Level) [ParPart]
@@ -72,24 +147,11 @@ a font seems to be parsed in getSymChar but that's not what i'm looking for
 envFont is part of ReaderEnv
 w:rFonts is available element-wise
 
-the original motivation for this change is to detect DOCX code blocks that are not marked as such. pandoc expects code to be styled as "SourceCode" but this practice doesn't seem so common in the documents we translate. by using this option we can develop filters that apply the style where a monospaced font (`Courier New` in our case) is found. we can also contribute the styling logic to pandoc but this change is more generic and more likely to be useful for other users and other purposes
-
 it could be a reader option like --font-as-attr
 it could be a reader option like --indented-code-classes=CLASSES
 
 it could not get a font parameter
 if it was an extension http://pandoc.org/MANUAL.html#extensions
-
-<w:r>
-  <w:rPr>
-    <w:rFonts
-        w:eastAsia="Courier New"
-        w:cs="Courier New"
-        w:ascii="Courier New"
-        w:hAnsi="Courier New"/>
-  </w:rPr>
-  <w:t>pandoc &lt;percorso/documento&gt; -t rst -o output.rst</w:t>
-</w:r>
 
 for example there seems to be an `rFonts` element
 

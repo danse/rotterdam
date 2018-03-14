@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`t` text
+properties cannot be arbitrarily nested
+a run is a contiguous piece of text with identical properties
+can contain text or `rPr`
+`r` run
+which in turn can contain default run properties in a `rPr` element
+and paragraph properties in a `pPr` element
+a paragraph can contain one or more runs
+`p` paragraph
+`body`
+`document`
+
+WordprocessingML page 11 path from root to leaf
+
+the archive is one package each file is one part
+
+each part has a case-insensivite part name and a content type
+
+logically a flat collection of parts
+
+http://www.ecma-international.org/news/TC45_current_work/OpenXML%20White%20Paper.pdf
+
