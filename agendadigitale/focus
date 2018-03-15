@@ -94,8 +94,8 @@ file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-mar
 https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
 l'obiettivo é collezionare documenti in un unico index.rst
-diviso per sezioni o capitoli
-ogni file corrisponderà ad un sito
+che corrisponderà ad un sito diviso per sezioni o capitoli
+
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
 
 https://medium.com/team-per-la-trasformazione-digitale/docs-italia-open-government-collaborazione-pubblica-amministrazione-progetti-linguaggio-b89ff330e21b
