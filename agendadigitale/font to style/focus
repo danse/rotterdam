@@ -40,6 +40,16 @@
 
 
 
+and i'm not taking those into consideration
+anyway it considers run properties
+differently from the function i modified
+elemToRunStyle seems to parse properties
+
+the latter is unlikely because of the other test results
+or not fishing the right attribute
+on the run i could either be mixing wrongly with the parent
+
+on the par i think that i'm not reading the style yet
 
 (
 
@@ -77,6 +87,9 @@ a simple idea for starters
 this longer task
 
 https://hackage.haskell.org/package/xml-1.3.14/docs/Text-XML-Light-Types.html#t:Element
+
+ i want to understand resolveDependentRunStyle
+before merging
 
 X i also want to check what resolveDependentRunStyle is for, in Docx
 % in elemToRunStyle i want to check the element style
