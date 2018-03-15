@@ -41,16 +41,10 @@
 
 
 
+(
 
-
-
-
-
-
-a comment would help
-the meaning of `isElem` into Util is not that straightforward
-
-there are many maybes in the code
+that finer tests are a good investment at the moment
+given that the interface is not great i'm not sure anymore
 
 type NameSpaces = [(String, String)]
  
@@ -63,6 +57,20 @@ except for Jesse Rosenthal (jkr) and John McFarlane
 this file didn't see much contribution
 but finer tests can help also newcomers in the future
 tests aren't that fine-grained at the moment
+
+)
+
+w:r w:rPr -- w is the namespace alias, the element names are fixed
+
+ namespaces passed everywhere
+ WrongElem
+refactoring
+
+the meaning of `isElem` into Util is not that straightforward
+a comment would help
+it does what it says but it's surprising that such function is needed
+
+there are many maybes in the code
 
 uncomfortable code
 a simple idea for starters
