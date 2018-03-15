@@ -43,7 +43,30 @@
 
 
 
-big companies like adults have more proprietary data
+
+
+
+
+a comment would help
+the meaning of `isElem` into Util is not that straightforward
+
+there are many maybes in the code
+
+type NameSpaces = [(String, String)]
+ 
+elemToRun :: NameSpaces -> Element -> D Run
+
+via finer tests
+while new contributors can easier be introduced to interesting parts
+the authors probably have a deeper knowledge of the dynamics
+except for Jesse Rosenthal (jkr) and John McFarlane
+this file didn't see much contribution
+but finer tests can help also newcomers in the future
+tests aren't that fine-grained at the moment
+
+uncomfortable code
+a simple idea for starters
+this longer task
 
 https://hackage.haskell.org/package/xml-1.3.14/docs/Text-XML-Light-Types.html#t:Element
 
