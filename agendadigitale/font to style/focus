@@ -32,24 +32,29 @@
 
 
 
+from font to fonts
 
+a filter that lists fonts
 
+<w:r>
+  <w:rPr>
+    <w:rFonts
+        w:eastAsia="Courier New"
+        w:cs="Courier New"
+        w:ascii="Courier New"
+        w:hAnsi="Courier New"/>
+  </w:rPr>
+  <w:t>pandoc &lt;percorso/documento&gt; -t rst -o output.rst</w:t>
+</w:r>
 
+ i want to understand resolveDependentRunStyle
+before merging
 
-
-
-
-
-and i'm not taking those into consideration
-anyway it considers run properties
-differently from the function i modified
-elemToRunStyle seems to parse properties
-
-the latter is unlikely because of the other test results
-or not fishing the right attribute
-on the run i could either be mixing wrongly with the parent
-
-on the par i think that i'm not reading the style yet
+but most of all, walking the critical path first
+limiting the amount of complexity to tackle at once for this task
+proposing a small change set and
+a bit defensive towards
+i'm hacking in the minimal functionality, for polishing it later
 
 (
 
@@ -74,11 +79,8 @@ w:r w:rPr -- w is the namespace alias, the element names are fixed
 
  namespaces passed everywhere
  WrongElem
+ isElement used multiple times and within element-specific functions
 refactoring
-
-the meaning of `isElem` into Util is not that straightforward
-a comment would help
-it does what it says but it's surprising that such function is needed
 
 there are many maybes in the code
 
@@ -88,138 +90,8 @@ this longer task
 
 https://hackage.haskell.org/package/xml-1.3.14/docs/Text-XML-Light-Types.html#t:Element
 
- i want to understand resolveDependentRunStyle
-before merging
-
-X i also want to check what resolveDependentRunStyle is for, in Docx
-% in elemToRunStyle i want to check the element style
-
-elemToRunStyleD
-
-or set something in the reader state and read it straight away
-i can set the style in the returned elements
-i cannot set a state
-
-dirty code done, the type carousel starts
-
-we can ignore it in runToInlines
-now elemToRunStyleD, add the font name to the run style
-
-envFont :: Font which is a singleton
-
-hopefully it's possible to add it to a pPr?
-
-so i want to store it as part of a Docx
-
-envFont is part of ReaderEnv
-
-elemToRunElems has font parsing
-
-elemToRunElem?
-
-elemToRun in Parse is where the font attributes can become part of RunStyle
-
-<w:r>
-  <w:rPr>
-    <w:rFonts
-        w:eastAsia="Courier New"
-        w:cs="Courier New"
-        w:ascii="Courier New"
-        w:hAnsi="Courier New"/>
-  </w:rPr>
-  <w:t>pandoc &lt;percorso/documento&gt; -t rst -o output.rst</w:t>
-</w:r>
-
-i could add the transformation to the otherwise branch of runStyleToTransform
-
-an hack would work only on `runToInlines (Run` and bodyPartToBlocks otherwise
-
-runToInlines
-...
-parPartToInlines
-
-i want to start from the `otherwise` branch
-
-because it gets translated directly into strings
-while the run is more problematic
-
-so i want to wrap it to add div attributes
-bodyPartToBlocks branches depending on the element
-
-it's also called recursively by the table, list and other handlers
-bodyPartToBlocks seems to be the place for divs
-
-maybe there is no need to extend the data model
-
-https://github.com/python-openxml/python-docx
-
-`archiveToDocx` is not exported
-
-a standalone script can ignore the Docx data model
-
-in this case a standalone script is the simplest solution
-it seems to me that we can add a style where we can read a font
-
-also because i want to list fonts before applying
-it might be easier to work at XML level reading the font and adding the style
-
-font defined in a run is for an inline element
-so given what i've read in the structure
-
-wordprocessingml
-
-data BodyPart = Paragraph ParagraphStyle [ParPart]
-              | ListItem ParagraphStyle String String (Maybe Level) [ParPart]
-              | Tbl String TblGrid TblLook [Row]
-              | OMathPara [Exp]
-              deriving Show
-
-type D = ExceptT DocxError (ReaderT ReaderEnv (State ReaderState))
-
-elemToBody :: NameSpaces -> Element -> D Body
-elemToBodyPart :: NameSpaces -> Element -> D BodyPart
-elemToParPart :: NameSpaces -> Element -> D ParPart
-childElemToRun :: NameSpaces -> Element -> D Run
-elemToRunElems
-
-a `Div Attr [Block]` seems to be the only option
-ideally i would have a div or a para or a generic container
-how does a `D [RunElem]` map to a pandoc element?
-
-there i can refactor in order to get the strings before converting to font
-
-elemToRunElems looks like what i'm looking for
-a font seems to be parsed in getSymChar but that's not what i'm looking for
-envFont is part of ReaderEnv
-w:rFonts is available element-wise
-
-it could be a reader option like --font-as-attr
-it could be a reader option like --indented-code-classes=CLASSES
-
-it could not get a font parameter
-if it was an extension http://pandoc.org/MANUAL.html#extensions
-
-for example there seems to be an `rFonts` element
-
-from this i might reuse the font face string parsing logic
-
-i think that this is used just for math in some elements
-https://en.wikipedia.org/wiki/Symbol_(typeface)
-symbol font improvements
-https://github.com/jgm/pandoc/pull/1518
-the functions in texmath seem to support only a Symbol Font
-https://hackage.haskell.org/package/texmath-0.10.1.1/docs/Text-TeXMath-Unicode-Fonts.html
-
-in Docx.Parse the font seems to be used only for decoding
-while in Odt.StyleReader the font pitch is used as we want to use the face
-
-Docx.Parse and Odt.StyleReader work with fonts
-
-magari uno script in haskell che ci sviluppiamo noi che usi pandoc come una libreria per manipolare un DOCX formattando un certo font come codice
-
-a font to link with a format should be used in the parser
-there is no information about the font in the native
-
-idea che avevo è: se si riesce a identificare il font, e si usa courier per formattare il codice in DOCX, basterebbe quello per creare la formattazione adeguata in RST
+idea che avevo è: se si riesce a identificare il font, e si usa
+courier per formattare il codice in DOCX, basterebbe quello per creare
+la formattazione adeguata in RST
 
 semantic font
