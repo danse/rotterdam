@@ -32,20 +32,10 @@
 
 
 
-from font to fonts
 
-a filter that lists fonts
+options
 
-<w:r>
-  <w:rPr>
-    <w:rFonts
-        w:eastAsia="Courier New"
-        w:cs="Courier New"
-        w:ascii="Courier New"
-        w:hAnsi="Courier New"/>
-  </w:rPr>
-  <w:t>pandoc &lt;percorso/documento&gt; -t rst -o output.rst</w:t>
-</w:r>
+stack build && stack exec doc-font-to-style-exe "Courier 10 Pitch" < ../pandoc/test/docx/fonts-as-attributes.docx | pandoc -f json -t rst
 
  i want to understand resolveDependentRunStyle
 before merging
@@ -74,8 +64,6 @@ but finer tests can help also newcomers in the future
 tests aren't that fine-grained at the moment
 
 )
-
-w:r w:rPr -- w is the namespace alias, the element names are fixed
 
  namespaces passed everywhere
  WrongElem
