@@ -33,12 +33,17 @@
 
 
 
-options
-
-stack build && stack exec doc-font-to-style-exe "Courier 10 Pitch" < ../pandoc/test/docx/fonts-as-attributes.docx | pandoc -f json -t rst
+ i think that it's dereferencing a style name
+ 
 
  i want to understand resolveDependentRunStyle
 before merging
+
+i developed this as an option but it could be an extension like `styles`
+
+options
+
+stack build && stack exec doc-font-to-style-exe "Courier 10 Pitch" < ../pandoc/test/docx/fonts-as-attributes.docx | pandoc -f json -t rst
 
 but most of all, walking the critical path first
 limiting the amount of complexity to tackle at once for this task
@@ -46,40 +51,6 @@ proposing a small change set and
 a bit defensive towards
 i'm hacking in the minimal functionality, for polishing it later
 
-(
-
-that finer tests are a good investment at the moment
-given that the interface is not great i'm not sure anymore
-
-type NameSpaces = [(String, String)]
- 
-elemToRun :: NameSpaces -> Element -> D Run
-
-via finer tests
-while new contributors can easier be introduced to interesting parts
-the authors probably have a deeper knowledge of the dynamics
-except for Jesse Rosenthal (jkr) and John McFarlane
-this file didn't see much contribution
-but finer tests can help also newcomers in the future
-tests aren't that fine-grained at the moment
-
-)
-
- namespaces passed everywhere
- WrongElem
- isElement used multiple times and within element-specific functions
-refactoring
-
-there are many maybes in the code
-
 uncomfortable code
 a simple idea for starters
 this longer task
-
-https://hackage.haskell.org/package/xml-1.3.14/docs/Text-XML-Light-Types.html#t:Element
-
-idea che avevo è: se si riesce a identificare il font, e si usa
-courier per formattare il codice in DOCX, basterebbe quello per creare
-la formattazione adeguata in RST
-
-semantic font

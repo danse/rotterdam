@@ -77,13 +77,17 @@
 
 
 
-
 paragraph escaping 4422
 
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
  long link in a table
+
+dereferenced
+
+with changes from alberto
+in `guida-docs-italia` i can find the last document
 
 headers 4373
 
