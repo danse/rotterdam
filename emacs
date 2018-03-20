@@ -1,5 +1,5 @@
 
-
+C-M s \ b w o r d \ b
 
 C-M-Space M-w select word or s exp after point and put it in the kill ring
 
