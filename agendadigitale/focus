@@ -36,50 +36,33 @@
 
 
 
+in order to open an issue, are there tests about this part?
 
+so it might be due to the double list
 
+in a BlockQuote it will work
 
+i can replicate in a BulletList
 
+but it's useful
+i use less the navigation in the same buffer because i go directly to files
 
+first i could try with a simpler test case featuring nesting
 
+tracking it through the type system
+in theory i could have a look at the implementation for lists of lists of blocks
 
+it calls walkM which is the class application
 
+walkBlockM seems to call correctly the table cells
 
+the code here is highly abstract
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+probably the walk logic
 
 code blocks merge fails within a table, test 2
+
+tables 1024
 
 paragraph escaping 4422
 
@@ -88,25 +71,23 @@ in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
  long link in a table
 
-dereferenced
+headers 4373
 
 with changes from alberto
 in `guida-docs-italia` i can find the last document
 
-headers 4373
-
-tables 1024
+https://medium.com/team-per-la-trasformazione-digitale/docs-italia-open-government-collaborazione-pubblica-amministrazione-progetti-linguaggio-b89ff330e21b
 
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
 
 https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
+dereferenced
+
 l'obiettivo é collezionare documenti in un unico index.rst
 che corrisponderà ad un sito diviso per sezioni o capitoli
 
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
-
-https://medium.com/team-per-la-trasformazione-digitale/docs-italia-open-government-collaborazione-pubblica-amministrazione-progetti-linguaggio-b89ff330e21b
 
 https://github.com/teamdigitale/licenses
 

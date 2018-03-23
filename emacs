@@ -1,4 +1,9 @@
 
+
+
+use `a` in dired to visit without opening a new buffer
+https://www.emacswiki.org/emacs/DiredReuseDirectoryBuffer#toc2
+
 C-M s \ b w o r d \ b
 
 C-M-Space M-w select word or s exp after point and put it in the kill ring
@@ -32,10 +37,6 @@ mark and delete like in dired
 
 ----
 
-replace-string
-
-----
-
 insert literal character: C-q
 
 `global-auto-revert-mode`: reload all files when they change
@@ -47,4 +48,6 @@ rename file:
   R
 
 font-lock-mode
+
+replace-string
 

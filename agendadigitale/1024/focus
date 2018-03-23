@@ -37,42 +37,20 @@
 
 
 
+it also has comments in general about the data model but it seems ignored
+first comment on dependent types, the second is the proposal by mb21
+https://github.com/jgm/pandoc/issues/1024#issuecomment-318936094
 
-the data model supports cell spans over non-contiguous cells
+the last proposal from jgm is rather essential
+by proposing a pull request with these core changes i can help unlocking
+but there can be a set of core changes enabling the community to help
+this feature seems rather far because it requires a lot of changes
 
-well-formedness can be easily verified
-
-Cell = Attr [Blocks] | Ext
-Table = Table Int Int [Cell]
-
-a
- b
-  *
-*
- c
-  d
-e
- e
-  *
-
-a b b
-a c d
-e e d
-
-i can imagine some ways to encode the table that would enforce some of the properties related to well-formed spans, but not all of the properties. i think that it's not worth having a complex data model if it doesn't give us strong guarantees ... better to keep it simple and write validation logic in the builders as you suggest
+a more precise estimation can be very useful for planning
 
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
-
 we can generate random well-formed tables built in this data model
-
 we have no guarantee that the parsed table is well-formed
-
-how would an oldToNew function look like
-
-~/pandoc          -- to develop pandoc
-~/pandoc-types    -- to develop pandoc-types
-~/fork/..         -- to build or cross-develop
-~/jgm/..          -- for comparisons
 
 latek
 https://www.latex-tutorial.com/tutorials/tables/#Multirows
