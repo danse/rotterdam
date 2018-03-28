@@ -1,4 +1,6 @@
 
+git clean -df
+
 # rebase up to the first commit in the current or specified branch
 git rebase -i --root master
 
