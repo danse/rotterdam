@@ -32,35 +32,7 @@
 
 
 
-
-
-
-
-in order to open an issue, are there tests about this part?
-
-so it might be due to the double list
-
-in a BlockQuote it will work
-
-i can replicate in a BulletList
-
-but it's useful
-i use less the navigation in the same buffer because i go directly to files
-
-first i could try with a simpler test case featuring nesting
-
-tracking it through the type system
-in theory i could have a look at the implementation for lists of lists of blocks
-
-it calls walkM which is the class application
-
-walkBlockM seems to call correctly the table cells
-
-the code here is highly abstract
-
-probably the walk logic
-
-code blocks merge fails within a table, test 2
+pandoc-types 39
 
 tables 1024
 
@@ -69,7 +41,7 @@ paragraph escaping 4422
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
- long link in a table
+long link in a table ^
 
 headers 4373
 
@@ -82,13 +54,17 @@ file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-mar
 
 https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
+http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+
+https://github.com/teamdigitale/licenses
+
+https://teamdigitale.governo.it
+
+https://trello.com/b/yT6ZASJV/docsitalia-contenuti
+
 dereferenced
 
 l'obiettivo é collezionare documenti in un unico index.rst
 che corrisponderà ad un sito diviso per sezioni o capitoli
 
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
-
-https://github.com/teamdigitale/licenses
-
-https://teamdigitale.governo.it
