@@ -32,19 +32,32 @@
 
 
 
+data Cell = Cell [BodyPart]
+            deriving Show
 
+Tbl String TblGrid TblLook [Row]
 
+and having an existing implementation would still be helpful
+that can happen also in other cases
 
+but the work will have to be redone if the data model changes
+i think that most of the work will be in the reader and writer
 
+candidate data models
+i'm not sure that the idea is useful, i can consider it later
+when i will know better the reading and writing functions
 
-it also has comments in general about the data model but it seems ignored
-first comment on dependent types, the second is the proposal by mb21
-https://github.com/jgm/pandoc/issues/1024#issuecomment-318936094
+so i can have a `Div ("", [], [("col-span", 3)])`
+type TableCell = [Block]
 
 the last proposal from jgm is rather essential
 by proposing a pull request with these core changes i can help unlocking
 but there can be a set of core changes enabling the community to help
 this feature seems rather far because it requires a lot of changes
+
+it also has comments in general about the data model but it seems ignored
+first comment on dependent types, the second is the proposal by mb21
+https://github.com/jgm/pandoc/issues/1024#issuecomment-318936094
 
 a more precise estimation can be very useful for planning
 

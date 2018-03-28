@@ -34,19 +34,20 @@
 
 
 
-tables 1024
-
-paragraph escaping 4422
-
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
 long link in a table ^
 
+tables 1024
+
+paragraph escaping 4422
+
+nested inlines filter to pandoc 4368
+
 headers 4373
 
-with changes from alberto
-in `guida-docs-italia` i can find the last document
+in `guida-docs-italia` i can find the last document with changes from alberto
 
 https://medium.com/team-per-la-trasformazione-digitale/docs-italia-open-government-collaborazione-pubblica-amministrazione-progetti-linguaggio-b89ff330e21b
 
