@@ -31,6 +31,26 @@
 
 
 
+https://github.com/jgm/pandoc/issues/1024#issuecomment-354303232 by @mb21
+
+type Rowspan = Int
+type Colspan = Int
+type Caption = [Block]
+type ShortCaption = [Inline]
+type Colwidth = Maybe Double
+data Cell = Cell       Attr Rowspan Colspan [Block]
+          | HeaderCell Attr Rowspan Colspan [Block]
+          | NoCell -- if this slot is taken by anoter cell's row/colspan (idea from docutils snippet above)
+type Row = [Cell]
+-- constructor for Table in Block:
+   | Table Attr Caption ShortCaption [(Alignment, Colwidth)] [Row]
+
+
+
+
+
+
+
 
 data Cell = Cell [BodyPart]
             deriving Show
