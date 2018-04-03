@@ -31,8 +31,45 @@
 
 
 
+review priorities
+
+it seems like a raw block won't do
+how to write the "table of contents" directive?
 
 
+
+
+
+
+-- media in "index/img"
+
+--| get the path corresponding to some heading
+-- >>> getPath "my section àccented"
+-- "index/my-section-accented.rst"
+getPath :: String -> String
+
+headings = filter isHeading1 document
+sections = multiBreak isHeading1 document
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+would this be a filter with IO?
 
 then one could collect until the next headers
 extracting the first headers is easy
