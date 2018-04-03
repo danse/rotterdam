@@ -2,8 +2,8 @@ import Data.List
 import Data.Monoid
 
 -- | Multiple version of break, like a `split` that keeps the delimiter
--- >>> multiBreak (==' ') "bla bla bla b"
--- ["bla"," bla"," bla"," b"]
+-- >>> multiBreak (=='-') "bla-bla-bla-b"
+-- ["bla","-bla","-bla","-b"]
 multiBreak :: (a -> Bool) -> [a] -> [[a]]
 multiBreak p [] = []
 multiBreak p l@(h:t)

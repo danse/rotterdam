@@ -31,52 +31,23 @@
 
 
 
-review priorities
+
+
+getting a path out of header inlines is more complex than expected
+
+enter goes up and adds a row on top if it's easy
 
 it seems like a raw block won't do
 how to write the "table of contents" directive?
 
-
-
-
-
-
--- media in "index/img"
-
---| get the path corresponding to some heading
--- >>> getPath "my section àccented"
--- "index/my-section-accented.rst"
-getPath :: String -> String
-
-headings = filter isHeading1 document
-sections = multiBreak isHeading1 document
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-would this be a filter with IO?
-
-then one could collect until the next headers
-extracting the first headers is easy
+this would be a filter with IO
 
 sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
 
 tables 1024
+
+https://github.com/jgm/pandoc-types/pull/36 has been merged so #4059
+could be fixed
 
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
