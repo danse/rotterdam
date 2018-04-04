@@ -30,17 +30,9 @@
 
 
 
+use Pandoc as a library to read the table of contents and the files in index
 
-
-
-getting a path out of header inlines is more complex than expected
-
-enter goes up and adds a row on top if it's easy
-
-it seems like a raw block won't do
-how to write the "table of contents" directive?
-
-this would be a filter with IO
+for the other direction we probably want to follow a different approach
 
 sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
 
@@ -62,7 +54,9 @@ headers 4373
 
 in `guida-docs-italia` i can find the last document with changes from alberto
 
-https://medium.com/team-per-la-trasformazione-digitale/docs-italia-open-government-collaborazione-pubblica-amministrazione-progetti-linguaggio-b89ff330e21b
+forum.italia.it
+
+https://medium.com/team-per-la-trasformazione-digitale
 
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
 
@@ -71,6 +65,8 @@ https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 
 https://github.com/teamdigitale/licenses
+
+https://github.com/italia/docs.italia.it
 
 https://teamdigitale.governo.it
 
