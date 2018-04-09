@@ -1,0 +1,82 @@
+
+but there could be some side effects due to the state of the media bag
+anyway this should lead to a span being returned
+
+called by fetchMediaResource in fillMediaBag
+downloadOrRead s = do
+the exception is probably triggered within 
+
+which causes an error while trying to write at the end of writeMedia?
+maybe the reader returns empty file paths
+
+-- | Extract media from the mediabag into a directory.
+extractMedia :: FilePath -> Pandoc -> PandocIO Pandoc
+extractMedia dir d = do
+  media <- getMediaBag
+  case [fp | (fp, _, _) <- mediaDirectory media] of
+        []  -> return d
+        fps -> do
+          mapM_ (writeMedia dir media) fps
+          return $ walk (adjustImagePath dir fps) d
+
+-- Write the contents of a media bag to a path.
+writeMedia :: FilePath -> MediaBag -> FilePath -> PandocIO ()
+writeMedia dir mediabag subpath = do
+  -- we join and split to convert a/b/c to a\b\c on Windows;
+  -- in zip containers all paths use /
+  let fullpath = dir </> normalise subpath
+  let mbcontents = lookupMedia subpath mediabag
+  case mbcontents of
+       Nothing -> throwError $ PandocResourceNotFound subpath
+       Just (_, bs) -> do
+         report $ Extracting fullpath
+         liftIOError (createDirectoryIfMissing True) (takeDirectory fullpath)
+         liftIOError (\p -> BL.writeFile p bs) fullpath
+
+-- | Traverse tree, filling media bag for any images that
+-- aren't already in the media bag.
+fillMediaBag :: PandocMonad m => Pandoc -> m Pandoc
+fillMediaBag d = walkM handleImage d
+  where handleImage :: PandocMonad m => Inline -> m Inline
+        handleImage (Image attr lab (src, tit)) = catchError
+          (do mediabag <- getMediaBag
+              case lookupMedia src mediabag of
+                Just (_, _) -> return $ Image attr lab (src, tit)
+                Nothing -> do
+                  (fname, mt, bs) <- fetchMediaResource src
+                  insertMedia fname mt bs
+                  return $ Image attr lab (fname, tit))
+          (\e ->
+              case e of
+                PandocResourceNotFound _ -> do
+                  report $ CouldNotFetchResource src
+                            "replacing image with description"
+                  -- emit alt text
+                  return $ Span ("",["image"],[]) lab
+                PandocHttpError u er -> do
+                  report $ CouldNotFetchResource u
+                            (show er ++ "\rReplacing image with description.")
+                  -- emit alt text
+                  return $ Span ("",["image"],[]) lab
+                _ -> throwError e)
+        handleImage x = return x
+
+Class.hs
+
+    doc <- sourceToDoc sources >>=
+              (   (if isJust (optExtractMedia opts)
+                      then fillMediaBag
+                      else return)
+              >=> return . addMetadata metadata
+              >=> applyTransforms transforms
+              >=> applyFilters readerOpts filters' [format]
+              >=> maybe return extractMedia (optExtractMedia opts)
+              )
+App.hs
+
+it doesn't happen just copying a page with an image
+it happens with any writer
+pandoc: media/.: openBinaryFile: inappropriate type (Is a directory)
+no issues about that apparently but found some code in a shared module
+happen only with --extract-media
+ODT errors

@@ -30,11 +30,57 @@
 
 
 
-use Pandoc as a library to read the table of contents and the files in index
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- le immagini sono andate perse
+x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
+
+to-sphinx is the hardest filter to use autonomously
+
+ linter:
+riferimenti a normattiva
+link rotti
+
+storia sullo snippet per consultazioni pubbliche
+
+tradurre e fare il div
+
+2406b3e1c3b4414cf2a71b70f772c2dcf9ab179a # my change
+1166f3ae1287bf9cabd3572af47e4d9e72ca8a5e # before the split
+
+the limitations with the filter approach are not so clear to me, for
+writing at least
+
+filter to check external links
+
+qui https://etherpad.net/p/FZS7vpgZMf ci sono le bozze di due storie che descrivono quello che volevamo fare ieri sera, così che possa lavorarci ed il processo possa filare liscio la prossima volta ... che ne pensate?
+
+use Pandoc as a library to read the table of contents and the files in index
 for the other direction we probably want to follow a different approach
 
 sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
+
+https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
 
 tables 1024
 
@@ -71,6 +117,9 @@ https://github.com/italia/docs.italia.it
 https://teamdigitale.governo.it
 
 https://trello.com/b/yT6ZASJV/docsitalia-contenuti
+
+http://markup.rocks
+https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
 dereferenced
 

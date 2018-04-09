@@ -22,4 +22,13 @@ multiBreak p l@(h:t)
 between p1 p2 s = fst $ break p2 rest
   where (doNotSatisfy, (satisfy:rest)) = break p1 s
 
+-- | like `until` but for monadic functions
+-- >>> let p a = Just (a > 3)
+-- >>> untilM p (+1) 0
+-- Just 4
+untilM :: Monad m => (a -> m Bool) -> (a -> a) -> a -> m a
+untilM p f i = do
+  r <- p i
+  if r then pure i else untilM p f (f i)
+
 main = pure ()
