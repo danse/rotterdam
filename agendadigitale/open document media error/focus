@@ -1,4 +1,33 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let's see the tests for ODT
+
 but there could be some side effects due to the state of the media bag
 anyway this should lead to a span being returned
 
@@ -80,3 +109,8 @@ pandoc: media/.: openBinaryFile: inappropriate type (Is a directory)
 no issues about that apparently but found some code in a shared module
 happen only with --extract-media
 ODT errors
+
+
+https://docs.google.com/document/d/1z3rmA-fdug8bu-UBCGdvwAM25_4SEv7BH6UGWsmy-6U/edit#
+
+2.4.2 pagina 19
