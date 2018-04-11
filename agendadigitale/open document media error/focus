@@ -26,7 +26,71 @@
 
 
 
-let's see the tests for ODT
+
+
+
+
+
+
+
+
+
+
+
+the second error could be in extractMedia
+the first error is in fillMediaBag
+
+it's "m/."
+
+it seems caused by an empty path
+we want to focus on the second error which is the fatal one
+
+https://github.com/jgm/pandoc/issues/4344
+
+il file esiste
+
+Image ("",[],[("width","0.5618in"),("height","0.2256in")]) [] ("./ObjectReplacements/Object 1","")
+
+questo viene eseguito su un doctree già parsato
+
+downloadOrRead might contain some nastiness
+fetchMediaResource might be reader-specific
+how to test this?
+lookupMedia could be the failing function
+it replaces src with the file name
+
+-- | Traverse tree, filling media bag for any images that
+-- aren't already in the media bag.
+fillMediaBag :: PandocMonad m => Pandoc -> m Pandoc
+fillMediaBag d = walkM handleImage d
+  where handleImage :: PandocMonad m => Inline -> m Inline
+        handleImage (Image attr lab (src, tit)) = catchError
+          (do mediabag <- getMediaBag
+              case lookupMedia src mediabag of
+                Just (_, _) -> return $ Image attr lab (src, tit)
+                Nothing -> do
+                  (fname, mt, bs) <- fetchMediaResource src
+                  insertMedia fname mt bs
+                  return $ Image attr lab (fname, tit))
+          (\e ->
+              case e of
+                PandocResourceNotFound _ -> do
+                  report $ CouldNotFetchResource src
+                            "replacing image with description"
+                  -- emit alt text
+                  return $ Span ("",["image"],[]) lab
+                PandocHttpError u er -> do
+                  report $ CouldNotFetchResource u
+                            (show er ++ "\rReplacing image with description.")
+                  -- emit alt text
+                  return $ Span ("",["image"],[]) lab
+                _ -> throwError e)
+        handleImage x = return x
+
+Class.hs
+
+i want to understand better how the media bag works
+optExtractMedia doesn't even get to the reader
 
 but there could be some side effects due to the state of the media bag
 anyway this should lead to a span being returned
@@ -62,33 +126,6 @@ writeMedia dir mediabag subpath = do
          liftIOError (createDirectoryIfMissing True) (takeDirectory fullpath)
          liftIOError (\p -> BL.writeFile p bs) fullpath
 
--- | Traverse tree, filling media bag for any images that
--- aren't already in the media bag.
-fillMediaBag :: PandocMonad m => Pandoc -> m Pandoc
-fillMediaBag d = walkM handleImage d
-  where handleImage :: PandocMonad m => Inline -> m Inline
-        handleImage (Image attr lab (src, tit)) = catchError
-          (do mediabag <- getMediaBag
-              case lookupMedia src mediabag of
-                Just (_, _) -> return $ Image attr lab (src, tit)
-                Nothing -> do
-                  (fname, mt, bs) <- fetchMediaResource src
-                  insertMedia fname mt bs
-                  return $ Image attr lab (fname, tit))
-          (\e ->
-              case e of
-                PandocResourceNotFound _ -> do
-                  report $ CouldNotFetchResource src
-                            "replacing image with description"
-                  -- emit alt text
-                  return $ Span ("",["image"],[]) lab
-                PandocHttpError u er -> do
-                  report $ CouldNotFetchResource u
-                            (show er ++ "\rReplacing image with description.")
-                  -- emit alt text
-                  return $ Span ("",["image"],[]) lab
-                _ -> throwError e)
-        handleImage x = return x
 
 Class.hs
 
@@ -103,13 +140,12 @@ Class.hs
               )
 App.hs
 
-it doesn't happen just copying a page with an image
-it happens with any writer
-pandoc: media/.: openBinaryFile: inappropriate type (Is a directory)
-no issues about that apparently but found some code in a shared module
-happen only with --extract-media
-ODT errors
 
+it happens with any writer
+[WARNING] Could not fetch resource './ObjectReplacements/Object 1': replacing image with description
+pandoc: media/.: openBinaryFile: inappropriate type (Is a directory)
+no issues about that apparently
+happens only with --extract-media
 
 https://docs.google.com/document/d/1z3rmA-fdug8bu-UBCGdvwAM25_4SEv7BH6UGWsmy-6U/edit#
 

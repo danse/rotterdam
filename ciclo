@@ -140,11 +140,6 @@ https://nodesecurity.io/
 https://github.com/RetireJS/retire.js
  node security
 
-deployment
-https://github.com/seek-oss/serverless-haskell#readme
-https://serverless.com/framework/
-https://wiki.haskell.org/Web/Cloud
-
 function greeter(person: string) { return "Hello, " + person; }
 
 last.fm gives interesting tags and context

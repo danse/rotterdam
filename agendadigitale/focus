@@ -29,63 +29,70 @@
 
 
 
+tutto dovrebbe passare attraverso il data model di pandoc
+per esempio nel gestire direttive sphinx non riconosciute
+se fosse un wrapper di pandoc ne erediterebbe le limitazioni
 
+$ sphinxLint index.rst --filter someFilter --levels 2,3
+$ sphinx2rst dir | pandoc -i rst -o rst --filter someFilter | rst2sphinx dir
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-http://lg-acquisizione-e-riuso-software-per-la-pa.readthedocs.io/it/latest/acquisizione-software/macro-fase-1-individuazione-delle-esigenze.html?highlight=disponibilit%C3%A0%20di%20bilancio
-
-- le immagini sono andate perse
-x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
-
+from-sphinx could be a filter but the index.rst is not worth it
 to-sphinx is the hardest filter to use autonomously
+
+tests
+modules
+installation
+dependencies
+ limitations with the filter approach
 
  linter:
 riferimenti a normattiva
 link rotti
 
+in futuro potrebbe essere il flusso automatico
+il flusso supporto è il primo a ricevere i miglioramenti
+
+ automatico, non esistente
+ supporto, esistente e in miglioramento
+ utente, esistente e in miglioramento
+flussi
+
+(
+
+il tema del servizio di traduzione è a sè stante
+
+ migliore incapsulamento e distribuzione
+ direzione opposta
+si possono migliorare diversi aspetti del flusso
+ documentazione
+ merge upstream
+il suo uso si può rendere più autonomo in parti
+
+il flusso per sphinx è a buon punto
+
+)
+
+- le immagini sono andate perse
+x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
+sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
+
 storia sullo snippet per consultazioni pubbliche
 
-tradurre e fare il div
-
-2406b3e1c3b4414cf2a71b70f772c2dcf9ab179a # my change
-1166f3ae1287bf9cabd3572af47e4d9e72ca8a5e # before the split
-
-the limitations with the filter approach are not so clear to me, for
-writing at least
-
-filter to check external links
-
-qui https://etherpad.net/p/FZS7vpgZMf ci sono le bozze di due storie che descrivono quello che volevamo fare ieri sera, così che possa lavorarci ed il processo possa filare liscio la prossima volta ... che ne pensate?
+tradurre e fare il diff
 
 use Pandoc as a library to read the table of contents and the files in index
 for the other direction we probably want to follow a different approach
 
-sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
-
 https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
-
-tables 1024
 
 https://github.com/jgm/pandoc-types/pull/36 has been merged so #4059
 could be fixed
+
+tables 1024
+
+filters to pandoc
+ nested inlines 4368
+ headers 4373
 
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
@@ -94,21 +101,20 @@ long link in a table ^
 
 paragraph escaping 4422
 
-nested inlines filter to pandoc 4368
-
-headers 4373
-
 in `guida-docs-italia` i can find the last document with changes from alberto
+
+file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
+
+https://github.com/msprev/panzer
+https://atom.io/packages/rst-preview-pandoc
+http://markup.rocks
+https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
+
+https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
 
 forum.italia.it
 
 https://medium.com/team-per-la-trasformazione-digitale
-
-file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
-
-https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
-
-http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 
 https://github.com/teamdigitale/licenses
 
@@ -118,12 +124,7 @@ https://teamdigitale.governo.it
 
 https://trello.com/b/yT6ZASJV/docsitalia-contenuti
 
-http://markup.rocks
-https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
-
+http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 dereferenced
-
-l'obiettivo é collezionare documenti in un unico index.rst
-che corrisponderà ad un sito diviso per sezioni o capitoli
 
 ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso

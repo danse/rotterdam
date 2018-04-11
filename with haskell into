@@ -1,3 +1,16 @@
+
+  deployment
+
+       https://github.com/stackbuilders/hapistrano
+docker https://bitbucket.org/accursoft/haskell-cloud/
+heroku (outdated) https://github.com/begriffs/heroku-buildpack-ghc
+serverless https://github.com/seek-oss/serverless-haskell
+
+  bots
+
+https://github.com/JustusAdam/marvin could have problems with files see #17
+https://github.com/klappvisor/haskell-telegram-api
+
 cryptocurrencies         https://github.com/input-output-hk/cardano-sl
                          https://github.com/haskoin/haskoin
                          https://github.com/input-output-hk/cardano-sl/
@@ -13,3 +26,4 @@ isomorphic frontend      https://github.com/haskell-miso/miso
 desktop multimedia       https://github.com/lettier/movie-monad
 relational databases     https://tathougies.github.io/beam/
 watch files              https://github.com/schell/steeloverseer
+
