@@ -29,32 +29,38 @@
 
 
 
-tutto dovrebbe passare attraverso il data model di pandoc
-per esempio nel gestire direttive sphinx non riconosciute
-se fosse un wrapper di pandoc ne erediterebbe le limitazioni
+ 
+testo guida docs2rst -> Alberto
 
-$ sphinxLint index.rst --filter someFilter --levels 2,3
-$ sphinx2rst dir | pandoc -i rst -o rst --filter someFilter | rst2sphinx dir
+filtro inline upstream
 
-from-sphinx could be a filter but the index.rst is not worth it
-to-sphinx is the hardest filter to use autonomously
+aggiungo paragrafo di installazione -> Alberto
+https://github.com/italia/pandoc-font-to-style
 
-tests
-modules
-installation
-dependencies
- limitations with the filter approach
+ applico filtro ...
+ Courier non codice
+ DOCX -> doc.rst
+approccio iterativo
 
- linter:
-riferimenti a normattiva
-link rotti
+mettersi nei panni di utenti che vogliono provare ad usare questo strumento
+
+agevolare l'uso di pandoc il più possibile
+
+formazione prossima
+
+- le immagini sono andate perse
+- doppio indice fatto manualmente da Alberto
+x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
+sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
 
 in futuro potrebbe essere il flusso automatico
 il flusso supporto è il primo a ricevere i miglioramenti
 
+il secondo flusso è il privilegiato
+
  automatico, non esistente
- supporto, esistente e in miglioramento
  utente, esistente e in miglioramento
+ supporto, esistente e in miglioramento
 flussi
 
 (
@@ -68,20 +74,9 @@ si possono migliorare diversi aspetti del flusso
  merge upstream
 il suo uso si può rendere più autonomo in parti
 
-il flusso per sphinx è a buon punto
+il flusso DOCX -> Sphinx è a buon punto
 
 )
-
-- le immagini sono andate perse
-x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
-sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
-
-storia sullo snippet per consultazioni pubbliche
-
-tradurre e fare il diff
-
-use Pandoc as a library to read the table of contents and the files in index
-for the other direction we probably want to follow a different approach
 
 https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
 

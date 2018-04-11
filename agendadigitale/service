@@ -12,8 +12,9 @@ servirebbe una macchina con permessi di amministratore
 
 heroku non mi semplifica la vita in questo caso
 
+curl -X POST -d @documento.docx http://user:pass@conversione.italia.it
+
 https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line#3008448
-$ curl -X POST -d @myfilename http://user:pass@myhost/hudson/job/_jobName_/postBuildResult
  
 da usare con CURL o https://www.getpostman.com/ o altro
 si potrebbe pensare di partire da un servizio con interfaccia not autenticata

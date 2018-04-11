@@ -3,8 +3,6 @@
 
 https://github.com/jgm/pandoc/pull/4474 fonts as attributes
 
-https://github.com/jgm/pandoc-types/pull/36 pad table headers
-
 ### work missing
 
 https://github.com/jgm/pandoc/issues/4368 nested inlines
@@ -13,5 +11,10 @@ https://github.com/jgm/pandoc/issues/4422 escape paragraphs
 
 ### merged
 
-4248 4360 4327 4434 4320
+4248 bullet points and quoted paragraphs
+4360 max table width reading DOCX
+4327 hanging white space in RST inlines
+4434 empty inlines
+4320 option not to wrap tables
+pandoc-types#36 consistent row tables
 

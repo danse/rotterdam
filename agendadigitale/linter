@@ -1,0 +1,22 @@
+
+
+
+tutto dovrebbe passare attraverso il data model di pandoc
+per esempio nel gestire direttive sphinx non riconosciute
+se fosse un wrapper di pandoc ne erediterebbe le limitazioni
+
+$ sphinxLint index.rst --filter someFilter --levels 2,3
+$ sphinx2rst dir | pandoc -i rst -o rst --filter someFilter | rst2sphinx dir
+
+from-sphinx could be a filter but the index.rst is not worth it
+to-sphinx is the hardest filter to use autonomously
+
+tests
+modules
+installation
+dependencies
+ limitations with the filter approach
+
+ linter:
+riferimenti a normattiva
+link rotti
