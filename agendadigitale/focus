@@ -29,10 +29,21 @@
 
 
 
- 
-testo guida docs2rst -> Alberto
+
+
 
 filtro inline upstream
+
+(
+
+--extract-media media
+--wrap none
+--filter remove-quotes.hs
+
+italia/pandoc-filters
+italia/pandoc-docs2rst
+
+)
 
 aggiungo paragrafo di installazione -> Alberto
 https://github.com/italia/pandoc-font-to-style
@@ -96,8 +107,6 @@ long link in a table ^
 
 paragraph escaping 4422
 
-in `guida-docs-italia` i can find the last document with changes from alberto
-
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
 
 https://github.com/msprev/panzer
@@ -105,7 +114,7 @@ https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
-https://github.com/atorin/test-guida-docs-italia/blob/master/index.rst#supporto-alla-conversione
+guida-docs-italia.readthedocs.io
 
 forum.italia.it
 
