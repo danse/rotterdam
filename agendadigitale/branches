@@ -1,11 +1,12 @@
 
 ### pending feedback
 
+https://github.com/jgm/pandoc/issues/4368 nested inlines
+https://github.com/jgm/pandoc/pull/4554
+
 https://github.com/jgm/pandoc/pull/4474 fonts as attributes
 
-### work missing
-
-https://github.com/jgm/pandoc/issues/4368 nested inlines
+### work in progress
 
 https://github.com/jgm/pandoc/issues/4422 escape paragraphs
 

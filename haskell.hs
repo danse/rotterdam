@@ -1,4 +1,10 @@
 
+modify r f = r{ field =  f (field r) }
+
+-XNamedFieldPuns
+f (C {a}) = a
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/syntax-extns.html#record-puns
+
 data Tree a = Leaf a | Branch [Tree a]
 
 combine :: Inline -> Inl ()

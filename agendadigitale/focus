@@ -32,21 +32,33 @@
 
 
 
-filtro inline upstream
 
-(
 
---extract-media media
---wrap none
---filter remove-quotes.hs
 
-italia/pandoc-filters
-italia/pandoc-docs2rst
 
-)
 
-aggiungo paragrafo di installazione -> Alberto
-https://github.com/italia/pandoc-font-to-style
+
+
+
+
+
+
+
+
+
+
+
+after the refactoring we can apply transformations to inlines in a
+bottom-up direction, thus it becomes possible to transform inlines
+flattening them according to the the readability criteria discussed in
+#4368
+
+https://trello.com/c/oeHCxr46/185-files-di-esempio-conversione-rst
+
+se l'installazione di docs2rst con una versione di pandoc aggiornata
+è una barriera per Alberto
+sarà una barriera anche per gli altri utenti
+che vogliono convertire
 
  applico filtro ...
  Courier non codice
@@ -64,41 +76,22 @@ formazione prossima
 x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
 sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
 
-in futuro potrebbe essere il flusso automatico
-il flusso supporto è il primo a ricevere i miglioramenti
-
-il secondo flusso è il privilegiato
-
- automatico, non esistente
- utente, esistente e in miglioramento
- supporto, esistente e in miglioramento
-flussi
-
 (
 
-il tema del servizio di traduzione è a sè stante
-
- migliore incapsulamento e distribuzione
- direzione opposta
-si possono migliorare diversi aspetti del flusso
+ incapsulamento e distribuzione
  documentazione
  merge upstream
 il suo uso si può rendere più autonomo in parti
-
-il flusso DOCX -> Sphinx è a buon punto
 
 )
 
 https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
 
-https://github.com/jgm/pandoc-types/pull/36 has been merged so #4059
-could be fixed
-
-tables 1024
-
 filters to pandoc
  nested inlines 4368
  headers 4373
+
+tables 1024
 
 i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
@@ -131,4 +124,11 @@ https://trello.com/b/yT6ZASJV/docsitalia-contenuti
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 dereferenced
 
-ogni cosa ben tradotta da pandoc evita lavoro manuale tedioso
+https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
+
+DOCX -> Sphinx: upstream
+ODT -> Sphinx: interruption
+reverse, linter, posts, guides, user feedback: prototyping & design
+
+ogni cosa ben tradotta evita lavoro manuale tedioso
+

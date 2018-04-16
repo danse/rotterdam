@@ -15,7 +15,7 @@
    id="svg3342"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="steps.svg">
+   sodipodi:docname="intro.svg">
   <defs
      id="defs3344">
     <marker
@@ -87,7 +87,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8774497"
-     inkscape:cx="339.55635"
+     inkscape:cx="330.23519"
      inkscape:cy="526.1811"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -123,7 +123,7 @@
          sodipodi:role="line"
          id="tspan3352"
          x="111.19157"
-         y="449.14508">document.md</tspan></text>
+         y="449.14508">doc.md</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:316.00000858%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -134,7 +134,7 @@
          sodipodi:role="line"
          id="tspan3356"
          x="263.98212"
-         y="449.14508">document.docx</tspan></text>
+         y="449.14508">doc.docx</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:316.00000858%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -145,7 +145,7 @@
          sodipodi:role="line"
          id="tspan3360"
          x="418.0459"
-         y="449.14508">document.odt</tspan></text>
+         y="449.14508">doc.odt</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:316.00000858%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -171,14 +171,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:316.00000858%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="350.4754"
-       y="493.22348"
+       x="359.53024"
+       y="520.92065"
        id="text3367"
        sodipodi:linespacing="316.00001%"><tspan
          sodipodi:role="line"
          id="tspan3369"
-         x="350.4754"
-         y="493.22348"
+         x="359.53024"
+         y="520.92065"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:monospace;-inkscape-font-specification:monospace">$ pandoc &lt;sorgente.ext&gt; --extract-media media/ -o doc.rst</tspan></text>
   </g>
 </svg>
