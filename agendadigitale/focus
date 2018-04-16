@@ -48,10 +48,7 @@
 
 
 
-after the refactoring we can apply transformations to inlines in a
-bottom-up direction, thus it becomes possible to transform inlines
-flattening them according to the the readability criteria discussed in
-#4368
+
 
 https://trello.com/c/oeHCxr46/185-files-di-esempio-conversione-rst
 
