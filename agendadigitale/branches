@@ -8,6 +8,8 @@ https://github.com/jgm/pandoc/pull/4474 fonts as attributes
 
 ### work in progress
 
+https://github.com/jgm/pandoc/issues/4561 parse emph link
+
 https://github.com/jgm/pandoc/issues/4422 escape paragraphs
 
 ### merged

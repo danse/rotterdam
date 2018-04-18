@@ -50,43 +50,65 @@
 
 
 
-https://trello.com/c/oeHCxr46/185-files-di-esempio-conversione-rst
 
-se l'installazione di docs2rst con una versione di pandoc aggiornata
-è una barriera per Alberto
-sarà una barriera anche per gli altri utenti
-che vogliono convertire
+
+
+
+
+
+
+
+normattiva
+
+duplicazione in `media/media`
+
+add compression of resulting dirs
+
+useless headers added by pandoc in CIE manual
+
+errori nelle tabelle negli avvisi
+
+errore relativo agli avvisi SPID
+
+4561
+
+ media files
+https://github.com/italia/pandoc-docs2rst/issues/3
+
+https://github.com/italia/pandoc-docs2rst/issues/2 wrap tables
+
+4559 open document
+
+formatted-as-code-with-errors.rst
+
+DOCX -> Sphinx: upstream
+ODT -> Sphinx: interruption
+reverse, linter, posts, guides, user feedback: prototyping & design
 
  applico filtro ...
  Courier non codice
  DOCX -> doc.rst
 approccio iterativo
-
 mettersi nei panni di utenti che vogliono provare ad usare questo strumento
-
 agevolare l'uso di pandoc il più possibile
 
 formazione prossima
 
-- le immagini sono andate perse
-- doppio indice fatto manualmente da Alberto
-x il file introduzione-e-contesto-normativo (stesso titolo) è stato sovrascritto nella seconda creazione
-sphinx https://trello.com/c/i1ouuRq5/90-io-come-utente-vorrei-partire-da-un-docx-e-ottenere-una-cartella-di-file-rst-pronti-da-includere-in-docs-italia
+https://groups.google.com/forum/#!topic/pandoc-discuss/SIwE9dhGF4U
+b948ca6d multiple codeblocks to be tested
 
-(
+  linee guida acquisizione e riuso software per la pubblica amministrazione
+ - le immagini sono andate perse
+ - doppio indice fatto manualmente da Alberto
+ x file sovrascritto
+https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
 
  incapsulamento e distribuzione
  documentazione
- merge upstream
-il suo uso si può rendere più autonomo in parti
-
-)
+ headers upstream
+spread the assisted flow
 
 https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
-
-filters to pandoc
- nested inlines 4368
- headers 4373
 
 tables 1024
 
@@ -104,6 +126,8 @@ https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
+stack repl --only-main
+
 guida-docs-italia.readthedocs.io
 
 forum.italia.it
@@ -118,14 +142,10 @@ https://teamdigitale.governo.it
 
 https://trello.com/b/yT6ZASJV/docsitalia-contenuti
 
+https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+
 dereferenced
-
-https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
-
-DOCX -> Sphinx: upstream
-ODT -> Sphinx: interruption
-reverse, linter, posts, guides, user feedback: prototyping & design
 
 ogni cosa ben tradotta evita lavoro manuale tedioso
 
