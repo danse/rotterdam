@@ -22,11 +22,11 @@ serial = do
   n <- many1 digit
   pure (read n)
 
-nys = do
+p = do
   a <- norm
   many1 space
   c <- year
- many1 space
+  many1 space
   b <- serial
   pure (Reference a b c)
 
