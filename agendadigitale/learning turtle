@@ -1,0 +1,3 @@
+using file functions from System.Posix and System.Directory in order to have string file paths
+
+learning files can get processed when someone wants to learn the same

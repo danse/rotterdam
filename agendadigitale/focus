@@ -60,7 +60,12 @@
 
 
 
-normattiva linker
+
+
+
+linker-step
+
+https://github.com/italia/pandoc-docs2rst/issues/5
 
 duplicazione in `media/media`
 
