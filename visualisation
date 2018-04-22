@@ -1,5 +1,45 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+spectral analysis of time series
+http://rstudio-pubs-static.s3.amazonaws.com/9428_1197bd003ebd43c49b429f22ea4f36e5.html
+https://stat.ethz.ch/R-manual/R-devel/library/stats/html/spectrum.html
+
+http://textvis.lnu.se/
+
 on click data.push([x, y])
  voronoi
 treemaps https://cse512-14w.github.io/fp-plvines-djpeter/final/paper-plvines-djpeter.pdf
