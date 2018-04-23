@@ -65,103 +65,19 @@
 
 
 
-side pressure affects those paths and the focus itself
-focus paths
-the ways side pressure can be turned into back pressure
-
-https://www.idealista.it/immobile/14025810/
-bistrot 4
-
-lunedì ore dodici vico della lanterna quattordici 81802
-https://www.idealista.it/immobile/14024932/
-
-weekend
-
-è strano che sia notFollowedBy ` piuttosto che <
-
-il fallimento potrebbe essere dovuto al mancato match del secondo >
-
-once again i feel the need for single parser tests
-
-i don't think so
-is updateStrPos giving this "potentially"?
-
-potentially?
-
--- treat these as potentially non-text when parsing inline:
-specialChars :: [Char]
-specialChars = "\\`|*_<>$:/[]{}()-.\"'\8216\8217\8220\8221"
-
-< is a special char, yet it makes it to some Str s
-
-str :: Monad m => RSTParser m Inlines
-str = do
-  let strChar = noneOf ("\t\n " ++ specialChars)
-  result <- many1 strChar
-  updateLastStrPos
-  return $ B.str result
-
-maybe a better solution would be to keep using string but allow < in a string
-
-the RST parser doubles links whose title is an URI
-
-any char?
-or i can write one
-there is probably another parser for raw text
-
-it probably fails on the special characters
-
-how?
-it fails exactly the same so str fails
-
-inline :: PandocMonad m => RSTParser m Inlines
-inline = choice [ note          -- can start with whitespace, so try before ws
-                , whitespace
-                , link
-                , str
-                , endline
-                , strong
-                , emph
-                , code
-                , subst
-                , interpretedRole
-                , smart
-                , hyphens
-                , escapedChar
-                , symbol ] <?> "inline"
 
 
-there is understanding and reliance
-this code is developed without too much testing of specific functions
 
-but a str is also an inline
-it seems like the <content> would be a str but not an inline
-i don't understand how the change from inline to str affects the result
 
-probably i could parse text rather than inline within a link
+4583 title drop
 
- linker-step (master)$ cat test.rst
-`http://loc <http://loc>`__
- linker-step (master)$ cat test.rst.native 
-[Para [Link ("",[],[]) [Link ("",[],[]) [Str "http://loc"] ("http://loc","")] ("http://loc","")]]
-
-if i can fix this today the writers will be able to use the linker
-
-linker-step
-
-https://github.com/italia/pandoc-docs2rst/issues/5
+https://github.com/italia/pandoc-docs2rst/issues/5 image
 
 duplicazione in `media/media`
 
 add compression of resulting dirs
 
-useless headers added by pandoc in CIE manual
-
-errori nelle tabelle negli avvisi
-
-errore relativo agli avvisi SPID
-
-4561
+4561 pasing emphasis around an URI
 
  media files
 https://github.com/italia/pandoc-docs2rst/issues/3

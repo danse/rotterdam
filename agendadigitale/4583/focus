@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i wonder whether the run is discarded before being turned in a body part
+
+bodyToOutput :: PandocMonad m => Body -> DocxContext m (Meta, [Block])
+bodyToOutput (Body bps) = do
+  let (metabps, blkbps) = sepBodyParts bps
+  meta <- bodyPartsToMeta metabps
+  blks <- smushBlocks <$> mapM bodyPartToBlocks blkbps
+  blks' <- rewriteLinks $ blocksToDefinitions $ blocksToBullets $ toList blks
+  blks'' <- removeOrphanAnchors blks'
+  return (meta, blks'')
+
+another problem is the text not being parsed, regardless of the style
+
+the style is a problem
+
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+        <w:rPr>
+          <w:lang w:val="it-IT"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr/>
+      </w:r>
+    </w:p>
