@@ -69,7 +69,11 @@
 
 
 
-4583 title drop
+
+
+4581 double link parsing
+
+4583 meta title
 
 https://github.com/italia/pandoc-docs2rst/issues/5 image
 
@@ -77,7 +81,7 @@ duplicazione in `media/media`
 
 add compression of resulting dirs
 
-4561 pasing emphasis around an URI
+4561 parsing emphasis around an URI
 
  media files
 https://github.com/italia/pandoc-docs2rst/issues/3
