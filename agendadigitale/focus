@@ -35,16 +35,14 @@
 
 
 
-
-
-
-https://github.com/italia/pandoc-docs2rst/issues/5 image
+4559 open document
 
 benchmarks
 https://github.com/italia/pandoc/commit/5c45bba2b0930f7c2453abdffafd7ca3bcebe361#commitcomment-28709611
 4581 double link parsing
+4561 parsing emphasis around an URI
 
-4559 open document
+https://github.com/italia/pandoc-docs2rst/issues/5 image
 
  media files
 https://github.com/italia/pandoc-docs2rst/issues/3
@@ -54,8 +52,6 @@ formatted-as-code-with-errors.rst
 duplicazione in `media/media`
 
 add compression of resulting dirs
-
-4561 parsing emphasis around an URI
 
 https://github.com/italia/pandoc-docs2rst/issues/2 wrap tables
 
@@ -69,8 +65,6 @@ reverse, linter, posts, guides, user feedback: prototyping & design
 approccio iterativo
 mettersi nei panni di utenti che vogliono provare ad usare questo strumento
 agevolare l'uso di pandoc il più possibile
-
-formazione prossima
 
 https://groups.google.com/forum/#!topic/pandoc-discuss/SIwE9dhGF4U
 b948ca6d multiple codeblocks to be tested
@@ -90,10 +84,16 @@ https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
 
 tables 1024
 
+(
+
 i wasn't able to reduce the test case, the code can guide me
+
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
-long link in a table ^
+
+parsing a long link in a table
+
+)
 
 paragraph escaping 4422
 
