@@ -1,0 +1,4 @@
+stack bench --ba --list
+stack bench --ba "rst writer"
+http://www.serpentine.com/criterion/tutorial.html#using-the-criterion-command-line
+

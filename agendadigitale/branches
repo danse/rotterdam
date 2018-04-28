@@ -1,11 +1,11 @@
 
 ### pending feedback
 
+italia/4581
 https://github.com/jgm/pandoc/issues/4581 nested inline parsing
+4561 parsing emphasis around an URI
 
-https://github.com/jgm/pandoc/issues/4368 nested inlines
-https://github.com/jgm/pandoc/pull/4554
-
+italia/fonts-as-attributes
 https://github.com/jgm/pandoc/pull/4474 fonts as attributes
 
 ### work in progress
@@ -17,9 +17,11 @@ https://github.com/jgm/pandoc/issues/4422 escape paragraphs
 ### merged
 
 4248 bullet points and quoted paragraphs
-4360 max table width reading DOCX
-4327 hanging white space in RST inlines
-4434 empty inlines
 4320 option not to wrap tables
+4327 hanging white space in RST inlines
+4360 max table width reading DOCX
+4368 nested inlines
+4434 empty inlines
+
 pandoc-types#36 consistent row tables
 

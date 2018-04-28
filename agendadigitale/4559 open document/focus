@@ -42,6 +42,128 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+we want to show as much info coming from the IO error as possible
+and the type of Log message which is still to be updated
+and presents the problem of the path
+which could have a lot in common with liftIOError
+in Class i've got a draft for this protectFromIOException
+https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Exception.html#v:displayException
+
+For the error logging i looked for a way to preserve information from the IO error. An IO error like `media/.: openBinaryFile: inappropriate type (Is a directory)` can give helpful troubleshooting information to the users in case of errors in a path or problems with permission
+
+we want it to be rendered as clearly as possible
+
+catching the error
+
+so i think that the malformed path is added in a call to insertMedia'
+but my attempt to intercept this when it's added to the media bag failed
+by logging out the subpath i see that the problem is indeed a '' subpath
+
+the error might be only indirectly related to the warning
+
+[WARNING] Could not fetch resource './ObjectReplacements/Object 1': replacing image with description
+
+-- | Fetch local or remote resource (like an image) and provide data suitable
+-- for adding it to the MediaBag.
+fetchMediaResource :: PandocMonad m
+              => String -> m (FilePath, Maybe MimeType, BL.ByteString)
+fetchMediaResource src = do
+  (bs, mt) <- downloadOrRead src
+  let ext = fromMaybe (takeExtension src)
+                      (mt >>= extensionFromMimeType)
+  let bs' = BL.fromChunks [bs]
+  let basename = showDigest $ sha1 bs'
+  let fname = basename <.> ext
+  return (fname, mt, bs')
+
+insertMedia is used directly in Odt.ContentReader
+
+but i think that the media bag is handled in pure code
+it would be better to prevent adding a malformed entry to the media bag
+
+[] 4559 open document (master)*$ pandoc --log log --verbose 4559.odt --extract-mia media -o 4559.rst  && cat 4559.rst && cat log
+text text
+[] 4559 open document (master)*$ 
+
+but where no warning is shown to the user
+branch 4559 contains a commit that saves the rest of the document
+
+tryIOError :: IO a -> IO (Either IOError a)
+rather than liftIOError i probably want to resolve the eithers?
+
+it's a warning, so it should show up
+
+still no error, maybe the quiet level is too high
+
+in this case i want to catch the generic IO error, write something and continue
+but all branches in that function terminate the program
+in Text.Pandoc.Error i wanted to extract the explanation part
+
+    • Couldn't match type ‘PandocError’ with ‘[Char]’
+
+      CouldNotFetchResource fp s ->
+           ["path" .= Text.pack fp,
+            "message" .= Text.pack s]
+
+             catchError (getTrans fallbackFile)
+               (\e -> do
+                 report $ CouldNotLoadTranslations (renderLang lang)
+
+it does not show any warning to the user
+this saves the rest of the doc
+
+-- Write the contents of a media bag to a path.
+writeMedia :: FilePath -> MediaBag -> FilePath -> PandocIO ()
+writeMedia dir mediabag subpath = do
+  -- we join and split to convert a/b/c to a\b\c on Windows;
+  -- in zip containers all paths use /
+  let fullpath = dir </> unEscapeString (normalise subpath)
+  let mbcontents = lookupMedia subpath mediabag
+  case mbcontents of
+       Nothing -> throwError $ PandocResourceNotFound subpath
+       Just (_, bs) -> (do
+         report $ Extracting fullpath
+         liftIOError (createDirectoryIfMissing True) (takeDirectory fullpath)
+         liftIOError (\p -> BL.writeFile p bs) fullpath
+         ) `catchError` (const (logOutput (Fetching "franco's")))
+
+how to catch exceptions in a PandocIO monad?
+
+i guess i want to trigger a warning rather than explode
+
 no it doesn't fail because mediaDirectory is returning paths from the bag
 
 hard to say. it's a lookup in the media bag

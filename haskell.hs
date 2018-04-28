@@ -1,3 +1,8 @@
+{-
+
+stack build --ghc-options=-O0 wai warp
+
+-}
 
 modify r f = r{ field =  f (field r) }
 

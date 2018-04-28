@@ -34,13 +34,7 @@
 
 
 
-
 4559 open document
-
-benchmarks
-https://github.com/italia/pandoc/commit/5c45bba2b0930f7c2453abdffafd7ca3bcebe361#commitcomment-28709611
-4581 double link parsing
-4561 parsing emphasis around an URI
 
 https://github.com/italia/pandoc-docs2rst/issues/5 image
 
@@ -49,6 +43,10 @@ https://github.com/italia/pandoc-docs2rst/issues/3
 
 formatted-as-code-with-errors.rst
 
+and it could come from the document source
+it could be one of the other parts of the path
+ma non capisco la duplicazione
+la cartella è aggiunta in extractMedia -> writeMedia
 duplicazione in `media/media`
 
 add compression of resulting dirs

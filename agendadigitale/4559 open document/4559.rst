@@ -1,5 +1,1 @@
-text |image0|\ text
-
-.. |image0| image:: ./ObjectReplacements/Object 1
-   :width: 0.5618in
-   :height: 0.2256in
+text text
