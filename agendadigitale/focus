@@ -32,11 +32,11 @@
 
 
 
+4559 open document
 
+https://github.com/italia/pandoc-docs2rst/issues/5 image
 
 pandoc-docs2rst has one syntax error after the last update
-
-it would be good to copy `document.rst` to `document-syntax-check.rst` when the linker is active, and to perform the syntax check on that one as well, in order to detect regressions and other errors that could affect our users
 
 (
 
@@ -46,25 +46,25 @@ ehi @alberto, la logica che avevi pensato per gli stili annidiati è stata appro
 
 )
 
-4559 open document
-
- agendadigitale (master)*$ pandoc para-strong-linebreak.native -t rst | rst2html > /dev/null 
-<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
-
-https://github.com/italia/pandoc-docs2rst/issues/5 image
-
- media files
-https://github.com/italia/pandoc-docs2rst/issues/3
-
-formatted-as-code-with-errors.rst
-
 and it could come from the document source
 it could be one of the other parts of the path
 ma non capisco la duplicazione
 la cartella è aggiunta in extractMedia -> writeMedia
 duplicazione in `media/media`
 
-add compression of resulting dirs
+ agendadigitale (master)*$ pandoc para-strong-linebreak.native -t rst | rst2html > /dev/null 
+<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
+
+it would be good to copy `document.rst` to `document-syntax-check.rst` when the linker is active, and to perform the syntax check on that one as well, in order to detect regressions and other errors that could affect our users
+
+ input media directories
+https://github.com/italia/pandoc-docs2rst/issues/3
+
+formatted-as-code-with-errors.rst
+i probably want to merge code blocks as in the filter removed below
+pandoc-filters 9ec719b34f11d6e488043ba791c83578bbf52bd6
+
+compression of output dirs
 
 https://github.com/italia/pandoc-docs2rst/issues/2 wrap tables
 
@@ -79,18 +79,16 @@ approccio iterativo
 mettersi nei panni di utenti che vogliono provare ad usare questo strumento
 agevolare l'uso di pandoc il più possibile
 
-https://groups.google.com/forum/#!topic/pandoc-discuss/SIwE9dhGF4U
-b948ca6d multiple codeblocks to be tested
-
   linee guida acquisizione e riuso software per la pubblica amministrazione
  - le immagini sono andate perse
  - doppio indice fatto manualmente da Alberto
- x file sovrascritto
+ v file sovrascritto
 https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
 
- incapsulamento e distribuzione
- documentazione
- headers upstream
+ - incapsulamento e distribuzione
+ - documentazione
+ - headers upstream
+ v inlines upstream
 spread the assisted flow
 
 https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
