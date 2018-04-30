@@ -1,6 +1,6 @@
 {-
 
-stack build --ghc-options=-O0 wai warp
+stack build --ghc-options=-O0
 
 -}
 

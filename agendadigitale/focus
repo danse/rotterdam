@@ -34,7 +34,22 @@
 
 
 
+pandoc-docs2rst has one syntax error after the last update
+
+it would be good to copy `document.rst` to `document-syntax-check.rst` when the linker is active, and to perform the syntax check on that one as well, in order to detect regressions and other errors that could affect our users
+
+(
+
+quello che rimane è la traduzione in sphinx e l'applicazione del linker
+
+ehi @alberto, la logica che avevi pensato per gli stili annidiati è stata approvata in pandoc 2.2, quindi uno dei principali filtri in `pandoc-docs2rst` non è più necessario. anche il filtro che univa i blocchi di codice consecutivi non è più necessario. questo nell'ottica di rendere gli utenti il più possibile autonomi come avevamo detto.
+
+)
+
 4559 open document
+
+ agendadigitale (master)*$ pandoc para-strong-linebreak.native -t rst | rst2html > /dev/null 
+<stdin>:1: (WARNING/2) Inline strong start-string without end-string.
 
 https://github.com/italia/pandoc-docs2rst/issues/5 image
 
