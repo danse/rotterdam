@@ -49,11 +49,31 @@
 
 
 
+
+
+https://mail.google.com/mail/u/0/#inbox/163218e536298651
+
 https://github.com/italia/pandoc-docs2rst/issues/5 image
 
 as an user i want to convert RST files to a Sphinx structure autonomously
 
 (
+
+ pandoc (master)*$ git diff
+diff --git a/test/Tests/Writers/RST.hs b/test/Tests/Writers/RST.hs
+index a1a4510..0e5b908 100644
+--- a/test/Tests/Writers/RST.hs
++++ b/test/Tests/Writers/RST.hs
+@@ -71,6 +71,8 @@ tests = [ testGroup "rubrics"
+         , testGroup "inlines"
+           [ "are removed when empty" =: -- #4434
+             plain (strong (str "")) =?> ""
++          , "are removed when empty" =: -- #4434
++            plain (strong (str "\n\n\n")) =?> ""
+           , "do not cause the introduction of extra spaces when removed" =:
+             plain (strong (str "") <> emph (str "text")) =?> "*text*"
+           , "spaces are stripped at beginning and end" =:
+ pandoc (master)*$ 
 
         (
 
