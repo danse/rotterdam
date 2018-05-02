@@ -74,25 +74,10 @@
 
 
 
-
-we want to show as much info coming from the IO error as possible
-and the type of Log message which is still to be updated
-and presents the problem of the path
-which could have a lot in common with liftIOError
-in Class i've got a draft for this protectFromIOException
-https://hackage.haskell.org/package/base-4.11.1.0/docs/Control-Exception.html#v:displayException
-
-For the error logging i looked for a way to preserve information from the IO error. An IO error like `media/.: openBinaryFile: inappropriate type (Is a directory)` can give helpful troubleshooting information to the users in case of errors in a path or problems with permission
-
-we want it to be rendered as clearly as possible
-
-catching the error
-
-so i think that the malformed path is added in a call to insertMedia'
-but my attempt to intercept this when it's added to the media bag failed
-by logging out the subpath i see that the problem is indeed a '' subpath
-
-the error might be only indirectly related to the warning
+ pandoc (4559)*$ stack exec -- pandoc ~/rotterdam/agendadigitale/4559\ open\ document/4559.odt -o /tmp/4559.rst --extract-media media
+[WARNING] Could not fetch resource './ObjectReplacements/Object 1': replacing image with description
+[WARNING] IO Error (ignored): media/.: openBinaryFile: inappropriate type (Is a directory)
+ pandoc (4559)*$ cat /tmp/4559.rst 
 
 [WARNING] Could not fetch resource './ObjectReplacements/Object 1': replacing image with description
 

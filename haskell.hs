@@ -1,3 +1,9 @@
+
+
+
+PatternGuards
+https://wiki.haskell.org/Pattern_guard
+
 {-
 
 stack build --ghc-options=-O0

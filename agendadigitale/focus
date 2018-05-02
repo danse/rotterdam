@@ -50,7 +50,7 @@
 
 
 
-(
+
 
  docs2rst-5 (master)*$ pandoc -t native caption.docx  -f docx+styles
 [Header 1 ("test-di-conversione",[],[]) [Str "Test",Space,Str "di",Space,Str "conversione"]
@@ -107,8 +107,6 @@ inlinebreak/
 https://github.com/jgm/pandoc/issues/4618
 
 )
-
-4559 open document
 
 pandoc-docs2rst has one syntax error after the last update
 
