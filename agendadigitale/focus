@@ -123,7 +123,7 @@ https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-document
  v inlines upstream
 spread the assisted flow
 
-figure https://github.com/jgm/pandoc/issues/3177
+figure data model https://github.com/jgm/pandoc/issues/3177
 
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
 
@@ -135,8 +135,6 @@ https://github.com/msprev/panzer
 https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
-
-stack repl --only-main
 
 guida-docs-italia.readthedocs.io
 
@@ -150,12 +148,10 @@ https://github.com/italia/docs.italia.it
 
 https://teamdigitale.governo.it
 
-https://trello.com/b/yT6ZASJV/docsitalia-contenuti
-
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 
-dereferenced
+dereference
 
 ogni cosa ben tradotta evita lavoro manuale tedioso
 

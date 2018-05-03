@@ -26,17 +26,10 @@
 
 
 
-
-
-
-
-
-
-
-
 https://github.com/topics/xml-editor
 
 multiple fonts part 1, L.1.9.2
+relax schema   part 1, B
 
 namespaces https://en.wikipedia.org/wiki/XML_namespace
 
@@ -44,10 +37,8 @@ namespaces https://en.wikipedia.org/wiki/XML_namespace
 
 interoperability supported by independence from proprietary definitions
 
-there shall be links
-
-4 1 reference
-3 1 primer
+the structure of the forth edition spec is different from what listed
+in the structure section of the white paper
 
 http://www.ecma-international.org/news/TC45_current_work/OpenXML%20White%20Paper.pdf
 

@@ -4,11 +4,9 @@
 PatternGuards
 https://wiki.haskell.org/Pattern_guard
 
-{-
-
 stack build --ghc-options=-O0
 
--}
+stack repl --only-main
 
 modify r f = r{ field =  f (field r) }
 
