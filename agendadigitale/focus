@@ -55,7 +55,23 @@
 
 
 
+maybe the method is not valid
+
+ esempio-docsitalia (master)*$ diff --suppress-common-lines writer.odt.rst writer.rst | wc -l
+626
+ esempio-docsitalia (master)*$ diff --suppress-common-lines writer.docx.rst writer.rst | wc -l
+539
+
+in tables there seem to be different errors in each format
+
+in writer ODT loses code and quotes
+
+a caption is written with a par by the DOCX writer
+
 source, image with caption, table with caption
+
+https://trello.com/c/oeHCxr46/185 file di esempio
+
 https://trello.com/c/n96GjLfN/196 compare ODT DOCX
 
 https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
