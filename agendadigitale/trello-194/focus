@@ -38,10 +38,16 @@
 
 
 
-single data type
-check
-reuse the code
+
+
+branch trello-194
+
+v warnings
+v reuse the Docx code
+v reuse the Parse code
+test fail
 pull request
+check line length over all the commits
 
 so it would make sense to unify also the data type
 
