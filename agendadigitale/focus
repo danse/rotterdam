@@ -53,10 +53,7 @@
 
 
 
-
-
-https://trello.com/c/xqp6nbjw/194-conversione-della-didascalia-di-unimmagine
-https://github.com/italia/pandoc-docs2rst/issues/5 image
+https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
 
 pandoc-docs2rst has one syntax error after the last update
 
@@ -66,18 +63,42 @@ ma non capisco la duplicazione
 la cartella è aggiunta in extractMedia -> writeMedia
 duplicazione in `media/media`
 
-it would be good to copy `document.rst` to `document-syntax-check.rst` when the linker is active, and to perform the syntax check on that one as well, in order to detect regressions and other errors that could affect our users
-
- input media directories
-https://github.com/italia/pandoc-docs2rst/issues/3
+https://github.com/italia/pandoc-docs2rst/issues/3 copy input media dir
 
 formatted-as-code-with-errors.rst
-i probably want to merge code blocks as in the filter removed below
+i also want to merge code blocks as in the filter removed below
 pandoc-filters 9ec719b34f11d6e488043ba791c83578bbf52bd6
 
 compression of output dirs
 
 https://github.com/italia/pandoc-docs2rst/issues/2 wrap tables
+
+tables 1024
+
+(
+
+we could copy `document.rst` to `unlinked-document-check.rst` when the
+linker is active, and perform the syntax check on that one as well, in
+order to detect regressions and other errors that could affect our
+users
+
+not doing it for now in order to keep the structure of documents
+simpler for the users
+
+)
+
+(
+
+i wasn't able to reduce the test case, the code can guide me
+
+in box.rst one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
+
+parsing a long link in a table
+
+)
+
+paragraph escaping 4422
 
 DOCX -> Sphinx: upstream
 ODT -> Sphinx: interruption
@@ -101,23 +122,6 @@ https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-document
  - headers upstream
  v inlines upstream
 spread the assisted flow
-
-https://trello.com/c/y2bwEdkE/169-guida-alla-conversione-con-pandoc
-
-tables 1024
-
-(
-
-i wasn't able to reduce the test case, the code can guide me
-
-in box.rst one can see the parsing error. the parser seems to fail
-recognising that the link is continuing to a new line
-
-parsing a long link in a table
-
-)
-
-paragraph escaping 4422
 
 figure https://github.com/jgm/pandoc/issues/3177
 
