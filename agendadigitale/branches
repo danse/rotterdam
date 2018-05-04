@@ -11,9 +11,9 @@ https://github.com/jgm/pandoc/issues/4581 nested inline parsing
 italia/fonts-as-attributes
 https://github.com/jgm/pandoc/pull/4474 fonts as attributes
 
-https://github.com/jgm/pandoc/issues/4618 line breaks within inlines
-
 ### work in progress
+
+https://github.com/jgm/pandoc/issues/4618 line breaks within inlines
 
 https://github.com/jgm/pandoc/issues/4422 escape paragraphs
 

@@ -30,6 +30,14 @@
 
 
 
+
+ 1 $ cat visualise.sh 
+stack exec exmargination-tornado ../rotterdam/agendadigitale/crumbs/*
+
+where are the old crumbs? ~/pacemaker/
+
+poca efficacia -> uso abbondante -> abitudine -> dipendenza
+
 http://holloway.co.nz/doctored/
 
 https://en.wikipedia.org/wiki/Data_lake
