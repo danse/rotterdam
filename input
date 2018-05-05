@@ -31,6 +31,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+il lavoro libero aiuta a ridurre possibili conflitti
+
  1 $ cat visualise.sh 
 stack exec exmargination-tornado ../rotterdam/agendadigitale/crumbs/*
 
