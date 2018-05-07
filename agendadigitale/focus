@@ -39,8 +39,10 @@
 
 
 
+nel file di Davide la didascalia non mostra nessuna formattazione speciale
+https://github.com/italia/docs-italia-theme/blob/bootstrap-italia/demo_docs/source/capitolo_2.rst#sottoparagrafo-con-mappa-concettuale
 
-
+le didascalie sono rappresentate come paragrafi con stile
 
 ho aggiunto un'immagine ad esempio.docx, manca la tabella con didascalia
 
