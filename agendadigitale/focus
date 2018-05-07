@@ -41,47 +41,6 @@
 
 
 
-note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
-
-now that 4559 is merged i can open an issue for the image
-
-possiamo dire che quella pagina è un prototipo non evolutivo del convertitore web citato da @fra. volendo svilupparne uno che sia evolutivo, dovremmo fondarlo su una tecnologia che ci permetta di scalare in termini di complessità, per esempio un web framework
-
-otherwise accepting json input
-maybe we can do it with a pandoc wrapper like the existing ones
-it requires a way to pass command line options through
-accepting any pandoc-document as an input is more convenient for the users
-
-che ne pensi delle opzioni sui livelli?
-
-`pandoc-to-sphinx`
-
-from any pandoc-compatible document to a set of files ready to be
-published on read the docs
-
-#### Status
-
-This is pre-alpha at the moment, it's an usable evolutionary prototype
-
-#### Installation
-
-This is an Haskell package and can be installed from its sources with
-[stack](https://docs.haskellstack.org/en/stable/GUIDE/)
-
-#### Usage
-
-After installation, typing `pandoc-to-sphinx --help` will give you the
-following:
-
-```
-pandoc-to-sphinx <document.ext> <output-dir>
-
-
--l --level: (optional) the section level to use for splitting the document
-
--s --second-split: (optional) the level for the second split
-
-```
 
 ho aggiunto un'immagine ad esempio.docx, manca la tabella con didascalia
 
@@ -105,6 +64,27 @@ https://trello.com/c/oeHCxr46/185 file di esempio
 https://trello.com/c/n96GjLfN/196 compare ODT DOCX
 
 https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
+
+(
+
+note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
+
+now that 4559 is merged i can open an issue for the image
+
+)
+
+(
+
+otherwise accepting json input
+maybe we can do it with a pandoc wrapper like the existing ones
+it requires a way to pass command line options through
+accepting any pandoc-document as an input is more convenient for the users
+
+che ne pensi delle opzioni sui livelli?
+
+pandoc-to-sphinx-readme.md
+
+)
 
 pandoc-docs2rst has one syntax error after the last update
 
