@@ -36,6 +36,19 @@
 
 
 
+(
+
+otherwise accepting json input
+maybe we can do it with a pandoc wrapper like the existing ones
+it requires a way to pass command line options through
+accepting any pandoc-document as an input is more convenient for the users
+
+che ne pensi delle opzioni sui livelli?
+
+pandoc-to-sphinx-readme.md
+
+)(
+
 files di esempio
 
 non ho trovato niente di esplicito nello standard su questo tema
@@ -49,24 +62,11 @@ nel writer le didascalie sono rappresentate come paragrafi con stile
 
 https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
 
-(
+)(
 
 note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
 
 now that 4559 is merged i can open an issue for the image
-
-)
-
-(
-
-otherwise accepting json input
-maybe we can do it with a pandoc wrapper like the existing ones
-it requires a way to pass command line options through
-accepting any pandoc-document as an input is more convenient for the users
-
-che ne pensi delle opzioni sui livelli?
-
-pandoc-to-sphinx-readme.md
 
 )
 
