@@ -1,6 +1,12 @@
 
 
 
+C-x C-e eval before point
+
+M-:
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Lisp-Eval.html
+
 use `a` in dired to visit without opening a new buffer
 https://www.emacswiki.org/emacs/DiredReuseDirectoryBuffer#toc2
 
