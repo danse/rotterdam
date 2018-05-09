@@ -1,6 +1,17 @@
 
 
 
+(
+
+main :: IO ()
+main = getArgs >>= \case
+  [] -> error "usage: FILE OPTIONS"
+src:opts -> pandoc src $ PandocOpts $ map T.pack opts
+
+from https://github.com/Hogeyama/pandoc-wrapper/blob/master/Main.hs
+
+)
+
 PatternGuards
 https://wiki.haskell.org/Pattern_guard
 
