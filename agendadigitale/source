@@ -102,9 +102,20 @@
 
 
 
-alternativamente si può scegliere il paragrafo con stile
 
-per lo meno servirà agli utenti che scelgono di usare open office
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 the error doesn't happen when the to-sphinx filter is disabled
@@ -125,31 +136,9 @@ the stack exec thing
 
 
 
-è un passaggio complesso da spiegare
-dagli utenti con libreoffice
-la didascalia nel formato corretto può essere applicata
 
-ci serve sapere se gli utenti possono usare un formato o l'altro?
-
-non ho trovato niente di esplicito nello standard su questo tema
-
-o la didascalia interna
-o adottiamo i paragrafi
-
-a caption is written with a par by the DOCX writer
-
-nel writer le didascalie sono rappresentate come paragrafi con stile
-
-tutto all'interno del reader
-che è un po' come un tunnel attraverso i tipi del data model
-seguendo la convenzione
-gli elementi vanno salvati in maniera un po' diversa
-in quel caso il markup indica una figure
-si tratta di leggere il testo dagli elementi
 
 https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
-
-)
 
 mentre le celle richiedono reader e writer
 la didascalia è all'interno del reader
@@ -244,15 +233,9 @@ https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
 guida-docs-italia.readthedocs.io
 
-forum.italia.it
-
-https://medium.com/team-per-la-trasformazione-digitale
-
 https://github.com/teamdigitale/licenses
 
 https://github.com/italia/docs.italia.it
-
-https://teamdigitale.governo.it
 
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
@@ -262,3 +245,10 @@ dereference
 ogni cosa ben tradotta evita lavoro manuale tedioso
 
 http://lg-interoperabilita.readthedocs.io/en/latest/index.html
+
+https://teamdigitale.governo.it
+
+forum.italia.it
+
+https://medium.com/team-per-la-trasformazione-digitale
+

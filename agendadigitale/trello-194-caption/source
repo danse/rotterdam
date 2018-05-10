@@ -40,6 +40,13 @@
 
 
 
+tutto all'interno del reader
+che è un po' come un tunnel attraverso i tipi del data model
+seguendo la convenzione
+gli elementi vanno salvati in maniera un po' diversa
+in quel caso il markup indica una figure
+si tratta di leggere il testo dagli elementi
+
 branch trello-194
 
 v warnings
