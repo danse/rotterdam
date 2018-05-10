@@ -48,23 +48,17 @@
 
 
 
-(
 
 
 
-funziona commentando makeSphinx
-
-https://trello.com/c/uI19N8yu/218-come-tech-writer-voglio-usare-convert-docs-italia-senza-stack-exec
-
-)
-
-pandoc-to-sphinx clean up
 
 trello-100 celle che spaziano
 
 (
 
-files di esempio
+
+
+ci serve sapere se gli utenti possono usare un formato o l'altro?
 
 non ho trovato niente di esplicito nello standard su questo tema
 
