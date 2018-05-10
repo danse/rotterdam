@@ -39,9 +39,28 @@
 
 
 
-trello-100 celle che spaziano
 
-pandoc-to-sphinx
+
+
+
+
+
+
+
+
+(
+
+
+
+funziona commentando makeSphinx
+
+https://trello.com/c/uI19N8yu/218-come-tech-writer-voglio-usare-convert-docs-italia-senza-stack-exec
+
+)
+
+pandoc-to-sphinx clean up
+
+trello-100 celle che spaziano
 
 (
 
@@ -75,8 +94,6 @@ i also want to merge code blocks as in the filter removed below
 pandoc-filters 9ec719b34f11d6e488043ba791c83578bbf52bd6
 
 compression of output dirs
-
-https://github.com/italia/pandoc-docs2rst/issues/2 wrap tables
 
 tables 1024
 
