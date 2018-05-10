@@ -52,11 +52,82 @@
 
 
 
-trello-100 celle che spaziano
-
-(
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alternativamente si può scegliere il paragrafo con stile
+
+per lo meno servirà agli utenti che scelgono di usare open office
+
+
+the error doesn't happen when the to-sphinx filter is disabled
+
+ten fingers thinking
+
+the stack exec thing
+
+
+
+
+
+
+
+
+
+
+
+
+
+è un passaggio complesso da spiegare
+dagli utenti con libreoffice
+la didascalia nel formato corretto può essere applicata
 
 ci serve sapere se gli utenti possono usare un formato o l'altro?
 
@@ -69,9 +140,26 @@ a caption is written with a par by the DOCX writer
 
 nel writer le didascalie sono rappresentate come paragrafi con stile
 
+tutto all'interno del reader
+che è un po' come un tunnel attraverso i tipi del data model
+seguendo la convenzione
+gli elementi vanno salvati in maniera un po' diversa
+in quel caso il markup indica una figure
+si tratta di leggere il testo dagli elementi
+
 https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
 
-)(
+)
+
+mentre le celle richiedono reader e writer
+la didascalia è all'interno del reader
+ci vuole di più per la didascalia o per le celle?
+
+trello-100 celle che spaziano
+
+one can feel will within any context
+
+(
 
 note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
 
@@ -79,7 +167,9 @@ now that 4559 is merged i can open an issue for the image
 
 )
 
-pandoc-docs2rst has one syntax error after the last update
+about:performance
+
+~/pandoc-docs2rst/syntax-check-errors
 
 https://github.com/italia/pandoc-docs2rst/issues/3 copy input media dir
 
