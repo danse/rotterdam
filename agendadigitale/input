@@ -34,6 +34,12 @@
 
 
 
+isn't this a case that should be flattened?
+https://github.com/jgm/pandoc/issues/3973
+
+and i could quickly run a regression syntax check
+not sure if --wrap=preserve works but it would be a more usable option
+why is https://github.com/jgm/pandoc/issues/4320 still open?
 
 convertibile via ODT o via DOCX
 https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
