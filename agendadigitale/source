@@ -110,21 +110,107 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+come tech writer, vorrei non dovermi preoccupare del metodo da seguire per inserire una didascalia
+
+
+
+
+
+
+da quel che vedo nel tuo file `.docx`, il metodo "insert caption" su word genera un paragrafo con stile caption, infatti si può scrivere fra didascalia ed immagine, rendendo più difficile il funzionamento di un nostro filtro. lo stesso metodo, in libreoffice, genera
+
+suggerire metodo paragrafi
+
+
+
+una caption RST
+
+
+
+
+
+
+
+uh, ora capisco! ^^; che confusione! Dunque usando il menu contestuale di libreoffice, la didascalia viene codificata in un certo modo, mentre usandolo in word la didascalia viene codificata diversamente, come paragrafo! 
+
+setQuery(minute)
+
+nel doc Alberto dice che il metodo del menu contestuale funziona
+possiamo concludere ripristinando il filtro?
+https://trello.com/c/xqp6nbjw/194-conversione-della-didascalia-di-unimmagine
+
 (
 
-saranno meglio orientate dopo la riunione di martedì
+Content Controls are ignored by the DOCX reader
+https://github.com/jgm/pandoc/issues/2587
 
-. carte più rapide
+se usiamo l'admonition questo può causare problemi con il linker
+https://github.com/jgm/pandoc/issues/4511
 
+open RST issues seem mostly at the level of the ones opened by me
 
+https://github.com/jgm/pandoc/issues/4564
+https://github.com/jgm/pandoc/issues/3698
+selezione di issues per Alberto per valutarne l'utilità
 
-abbiamo promosso anche logica complessa
-gli altri errori li abbiamo risolti
-quella delle tabelle è l'unica barriera che non abbiamo oltrepassato
+mi sembrava fosse ristretto ma la sorgente apre la strada
 
-. carte consistenti
+https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3AODT+label%3Areader
+https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ADOCX+label%3Areader
+https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ARST+label%3Awriter
+
+cambiamo approccio? fra le issues ODT/DOCX -> RST quali hanno la priorità
 
 )
+
+ma mi piacerebbe che fosse più divertente
+il tipo di impatto che cerco non richiede molte ore
+
+isn't this a case that should be flattened?
+https://github.com/jgm/pandoc/issues/3973
+
+and i could quickly run a regression syntax check
+not sure if --wrap=preserve works but it would be a more usable option
+why is https://github.com/jgm/pandoc/issues/4320 still open?
+
+se voglio fare prove ulteriori con ODT
+
+esempio di Google Docs convertibile via ODT o via DOCX
+https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
+per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
 
 the error doesn't happen when the to-sphinx filter is disabled
 the stack exec thing

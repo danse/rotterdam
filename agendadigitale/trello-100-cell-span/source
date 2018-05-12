@@ -40,25 +40,16 @@
 
 
 
-Content Controls are ignored by the DOCX reader
-https://github.com/jgm/pandoc/issues/2587
 
-se usiamo l'admonition questo può causare problemi con il linker
-https://github.com/jgm/pandoc/issues/4511
 
-open RST issues seem mostly at the level of the ones opened by me
+(
 
-https://github.com/jgm/pandoc/issues/4564
-https://github.com/jgm/pandoc/issues/3698
-selezione di issues per Alberto per valutarne l'utilità
+indipendentemente dagli allineamenti
+quindi si può migliorare sulle spazianti portando un beneficio agli utenti
 
-mi sembrava fosse ristretto ma la sorgente apre la strada
+eliminare le due celle in quel caso
 
-https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3AODT+label%3Areader
-https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ADOCX+label%3Areader
-https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ARST+label%3Awriter
-
-cambiamo approccio? fra le issues ODT/DOCX -> RST quali hanno la priorità
+comunque si può dire di non affidarsi agli allineamenti
 
 is there any issue about rendering widths in RST?
 
@@ -66,6 +57,8 @@ custom widths are not shown anyway
 
 how are such custom widths rendered in RST?
 looking at the example
+
+)
 
 and having an existing implementation would still be helpful
 that can happen also in other cases
