@@ -136,48 +136,8 @@
 
 
 
-da quel che vedo nel tuo file `.docx`, il metodo "insert caption" su word genera un paragrafo con stile caption, infatti si può scrivere fra didascalia ed immagine, rendendo più difficile il funzionamento di un nostro filtro. lo stesso metodo, in libreoffice, genera
 
-suggerire metodo paragrafi
 
-una caption RST
-
-(
-
-(come tech writer, vorrei non dovermi preoccupare del metodo da seguire per inserire una didascalia)
-
-attualmente conosciamo due metodi per inserire una didascalia di immagine, che conducono a risultati diversi in base all'applicazione in cui sono usati:
-
-#### metodo del paragrafo con stile
-
-questo metodo consiste nel far seguire un'immagine da un paragrafo con stile "caption". usare questo metodo produce lo stesso file sia con word che con libreoffice
-
-#### metodo del menu contestuale
-
-consiste nel cliccare sull'immagine col tasto destro e selezionare "inserisci didascalia" dal menu contestuale. quando usato con word, questo metodo produce lo stesso risultato del paragrafo con stile. quando il metodo del menu contestuale viene usato con libreoffice, la didascalia viene aggiunta con un formato differente, che possiamo dire _interno_ all'immagine.
-
-#### formati e traduzione
-
-un documento `.docx` può contenere quindi didascalie strutturate in due formati alternativi:
-
-- immagine seguita da paragrafo "Caption"
-- formato interno all'immagine
-
-il primo può essere convertito con pandoc usando un filtro che forniamo in `pandoc-filters`, mentre il secondo non è al momento convertito con pandoc
-
-#### impatto stimato sugli utenti
-
-il fatto che il formato interno non sia tradotto da pandoc significa che gli utenti libreoffice che usano il metodo del menu contestuale avranno dei problemi, per questo nella guida consigliamo di seguire il metodo del paragrafo con stile
-
-#### questa carta
-
-vorremmo che gli utenti non debbano preoccuparsi del metodo da seguire per tradurre una didascalia. per ottenere questo serve la carta ((come tech writer voglio ignorare il filtro `...` )), inoltre servirebbe che pandoc traducesse correttamente le didascalie _interne_, il che è l'oggetto di questa carta.
-
-)
-
-https://trello.com/c/xqp6nbjw/194-conversione-della-didascalia-di-unimmagine
-
-https://github.com/danse/esempio-docsitalia/pull/1
 
 (
 
@@ -203,6 +163,10 @@ cambiamo approccio? fra le issues ODT/DOCX -> RST quali hanno la priorità
 
 )
 
+https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
+
+trello-100 celle che spaziano
+
 ma mi piacerebbe che fosse più divertente
 il tipo di impatto che cerco non richiede molte ore
 
@@ -225,14 +189,6 @@ the stack exec thing
 https://github.com/italia/publiccode.yml
 
 ten fingers thinking
-
-https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
-
-mentre le celle richiedono reader e writer
-la didascalia è all'interno del reader
-ci vuole di più per la didascalia o per le celle?
-
-trello-100 celle che spaziano
 
 one can feel will within any context
 
