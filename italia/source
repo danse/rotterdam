@@ -158,9 +158,13 @@
 
 
 
+and i could quickly run a regression syntax check
+not sure if --wrap=preserve works but it would be a more usable option
+why is https://github.com/jgm/pandoc/issues/4320 still open?
 
+la cosa preziosa lì è che un breve articolo faccia da introduzione e punto di collegamento fra le diverse risorse offerte da designers italia e sulla strategia di sviluppo del team.
 
-
+ho letto ed ammirato l'articolo sul tech writing https://medium.com/designers-italia/guide-faq-e-documenti-il-mestiere-del-tech-writer-42b8928b86a8
 
 (
 
@@ -177,8 +181,6 @@ caption in a table
 trello-100 celle che spaziano
 
 (
-
-credo di dover solo aggiornare la card
 
 supportare caption embedded in word -> menu, libreoffice, .docx
  così rimmarrebbe da:
@@ -217,14 +219,19 @@ cambio approccio. fra le issues ODT/DOCX -> RST quali hanno la priorità
 
 )
 
-(
+((guida alla conversione)
 
 lavorare su un documento in maniera condivisa e pubblicare sul web
 condividere un documento word con utenti mobili
  non so come si chiama il formato di wikipedia
 pubblicare la mia documentazione su un wiki
 come posso produrre un PDF o un DOCX se non ho word?
-che sia anche introduzione ai formati di markup
+
+conversione
+formati human-readable, markup
+formati machine-readable, DOCX, ODT
+
+che sia anche introduzione a formati, markup e conversione
 avrebbe comunque senso scrivere una introduzione a pandoc
 
 which makes things more indirect
@@ -248,10 +255,6 @@ il tipo di impatto che cerco non richiede molte ore
 
 isn't this a case that should be flattened?
 https://github.com/jgm/pandoc/issues/3973
-
-and i could quickly run a regression syntax check
-not sure if --wrap=preserve works but it would be a more usable option
-why is https://github.com/jgm/pandoc/issues/4320 still open?
 
 se voglio fare prove ulteriori con ODT
 esempio di Google Docs convertibile via ODT o via DOCX
