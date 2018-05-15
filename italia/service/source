@@ -60,6 +60,22 @@
 
 
 
+
+
+
+
+
+raised hands
+
+http://hackage.haskell.org/package/zip-1.0.0/docs/Codec-Archive-Zip.html
+zip-conduit sembra ragionevole
+http://hackage.haskell.org/package/zip-conduit-0.2.2.2/docs/Codec-Archive-Zip.html
+
+non fornisce hook alla fine, solo operazioni manuali
+un buon modello di integrazione?
+converte i files quando si fa l'upload su S3
+https://github.com/claudiajs/pandoc-aws-lambda-binary
+
 for any service to call it
 pandoc could be encapsulated in a docker container
 
@@ -141,8 +157,6 @@ productive
 avrebbe senso se innescasse sviluppo
 un prototipo della quale credo si possa fornire in una settimana
 è anche emerso il tema della web app
-
-https://github.com/claudiajs/pandoc-aws-lambda-binary
 
 panzer o curl
 
