@@ -1,0 +1,23 @@
+
+
+without the need of using a file system
+in order to enable the use of pandoc programmatically
+the pandoc monad seems designed
+
+pandoc as a service and wrapping pandoc
+
+PandocPure seems to be convenient for programmatic use
+
+files can be provided via stFiles
+
+openURL throws an error in Class.PandocPure
+
+credo che runIO' sia l'ultima istruzione
+
+se ha senso per facilitare l'uso di pandoc in servizi ed altri wrapper
+che può essere eseguita nella monade pandoc
+possiamo proporre di estrarre la parte di convertWithOpts
+
+credo si tratti di riscrivere `convertWithOpts` o usare il file system
+la media bag dovrebbe essere un dizionario di path con dati
+
