@@ -31,24 +31,14 @@
 
 
 
-extensions are an example of feature designed for markdown first
-so models leak into native from that direction
-and the design of a new syntax
-the development of pandoc often stems from markdown users
-
-so this is something worth deepening
-and it tries to render something that is not in the reader
-it accesses options
-i'm a bit baffled by the logic the template uses
-in `pandoc-to-sphinx` i could use this
-a table of contents is added by the default template
-https://github.com/jgm/pandoc-templates/blob/master/default.rst
 
 
 
-rilevante da esplorare per adesso
-fatta di pareti dure e vie tortuose
-chi sa trovarsi ad agio in una miniera
+
+
+
+
+
 
 growing complexity as a feature of successful sourcing
 

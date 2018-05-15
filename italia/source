@@ -164,9 +164,7 @@
 
 (
 
-to be interpreted as the caption for that element
-i'd expect any styled paragraph which is next to a table or image
-the idea about a caption above or below sounds confusing to me
+the idea about a caption above or below sounds confusing to me i'd expect any styled paragraph which is next to a table or image to be interpreted as the caption for that element
 
 the situation for an image caption in a `.docx` document is similar
 
@@ -180,6 +178,8 @@ trello-100 celle che spaziano
 
 (
 
+credo di dover solo aggiornare la card
+
 supportare caption embedded in word -> menu, libreoffice, .docx
  così rimmarrebbe da:
 
@@ -190,8 +190,6 @@ libre docs -> embedded -> works
 )
 
 (
-
-
 
 3147 bidirectional text
 
@@ -208,10 +206,6 @@ admonition blocks not converted back from HTML to RST
 https://github.com/jgm/pandoc/issues/4511
 
 open RST issues seem mostly at the level of the ones opened by me
-
-https://github.com/jgm/pandoc/issues/4564 list tables
-https://github.com/jgm/pandoc/issues/3698 RST reference location
-selezione di issues per Alberto per valutarne l'utilità
 
 mi sembrava fosse ristretto ma la sorgente apre la strada
 
@@ -260,7 +254,6 @@ not sure if --wrap=preserve works but it would be a more usable option
 why is https://github.com/jgm/pandoc/issues/4320 still open?
 
 se voglio fare prove ulteriori con ODT
-
 esempio di Google Docs convertibile via ODT o via DOCX
 https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
 per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
