@@ -59,12 +59,14 @@ http://blog.nkb.fr/everyones-a-media
 
 https://wiki.haskell.org/The_Monad.Reader/Issue2/EternalCompatibilityInTheory
 
-stack points
+stack comment
 
 powers of ten was a contribute to the inventor of the moog synth
 
 https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
 
+ 1 $ cat margin-data.json 
+[{"time":"2017-08-20T13:37:38.718429Z","value":0.5,"description":"creative writing"}] 1 $ 
  ~ $ lt pacemaker/
 meetingscribe/
 campwest/
