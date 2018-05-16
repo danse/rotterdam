@@ -17,124 +17,51 @@
 
 
 
+il lavoro maggiore è bypassare il file system
+regardless of adoption
+in that case is worth developing within my contract
+performances are in favour of a mono solution
+
+che è nato nel tempo e può darsi sia eliminato
+stiamo sperimentando su pandoc-docs2rst
+il metodo univoco di adesso è pandoc
+ci piacerebbe offrire un metodo univoco
+perchè l'interfaccia web non sarebbe presentabile
+se lavorassi da solo su questo probabilmente non potremmo verificare l'ipotesi
+e ci permetterebbe di verificare l'ipotesi di Giuseppe
+fornire pandoc è più semplice
+  for long term performances
+  puntando agli utenti poco abituati alla riga di comando
+ pandoc
+  pipeline framework  
+  puntando ai super users
+ convert-docs-italia
+fornire:
+
+while we also want to ease adoption as much as possible
+which we wanted to make superfluous for super users
+
+i used haskell for our evolutive convert-docs-italia
+
+that could be bash, python
+
+is better to be done from a resident team
+choosing a framework for connecting the pipeline
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-perchè ci sarebbe molto codice pandoc da modificare
-mi sembra piccola
-la probabilità di processare i files in memoria
-
-sembra recuperato
-
-raised hands
-
-http://hackage.haskell.org/package/zip-1.0.0/docs/Codec-Archive-Zip.html
-http://hackage.haskell.org/package/zip-conduit-0.2.2.2/docs/Codec-Archive-Zip.html
-
-for any service to call it
-pandoc could be encapsulated in a docker container
-
-a temp directory?
-
-(
-
-i'm further from a pure function than i thought
-
-extractMedia and writeMedia return in PandocIO
-
-dove vengono salvate le immagini?
-
-può funzionare senza confezione perdendo le immagini
-di aggiungere il confezionamento
-si tratterebbe di estrarre la parte di monade pandoc da convertWithOpts
-
-)
 
 cercando di capire se è opportuno aprire questo capitolo nella circostanza
 
-stima o prototipo del servizio web
 
+ i files temporanei vengono rimossi automaticamente
+ restituire l'archivio
+ copiare il risultato con la cartella media in un archivio
+ creare una cartella temporanea
+come minimo si vorrà
+
+offra agli utenti le stesse funzionalità di `convert-docs-italia`,
 vogliamo capire meglio il costo di un servizio web non autenticato che
-offra agli utenti le stesse funzionalità di `convert-docs-italia`, il
 comando fornito da `pandoc-docs2rst`.
 
 and dry other channels before the end of the cycle
@@ -144,82 +71,14 @@ do we want to wrap `convert-docs-italia`?
 
 which one is the best prototype?
 
-naturalmente permette di lavorare su files
-streaming di dati in memoria costante
-no credo che conduit sia per uno scopo diverso
-forse conduit può essere un buon framework?
 
-(
+quello che si può servire a `curl` si può servire ad un client web
 
-anche questo sembra non supportare gli archivi
-https://github.com/mrded/pandoc-as-a-service javascript
-
-https://www.docverter.com ruby, not updated
-
-)
-
-convertWithOpts :: Opt -> IO ()
-
-media bag in the pure monad?
-pandoc itself ...
-can i have a CGI that returns an archive without using the file system?
-
-uno zip
-
-che problemi presenta la cartella media?
-
-funziona sulla mia macchina
-return a zip
-upload rather then enter
-
-considerati i limiti di `pandoc-docs2rst`
-in effetti potrebbe semplificare la vita anche a noi
-
-https://pandoc.org/try/
 
 https://www.stackage.org/package/wai
 
-avremmo tempo per verificare la risposta dell'utenza
-se riuscissi a mettere su un prototipo in queste settimane
-
-potrebbe essere il modo migliore di servire gli utenti
-
-perchè le ultime possono saltare
-pianificare le attività critiche all'inizio
-
-la webapp potrebbe essere un ritorno allo sviluppo centrato sulla conversione
-
-productive
-
-avrebbe senso se innescasse sviluppo
-un prototipo della quale credo si possa fornire in una settimana
-è anche emerso il tema della web app
-
-panzer o curl
-
-https://hackage.haskell.org/package/wai-middleware-throttle
-https://github.com/acw/rate-limit
-
-digital ocean non fornisce free tier
-
-servirebbe una macchina con permessi di amministratore
-
-heroku non mi semplifica la vita in questo caso
-
 curl -X POST -d @documento.docx http://user:pass@conversione.italia.it
-
 https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line#3008448
- 
-da usare con CURL o https://www.getpostman.com/ o altro
-si potrebbe pensare di partire da un servizio con interfaccia not autenticata
-
-
-
-ed alla risoluzione di errori critici
-che non assorba tutte le risorse utili all'assistenza alla conversione
-non vedo un modo semplice di fornirlo
-e risolverebbe alcuni problemi
-anche se un servizio automatico migliorerebbe l'esperienza utente
 
 https://developer.github.com/webhooks/
 https://github.com/phadej/github

@@ -1,5 +1,37 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+getReader
+getWriter
+runPure
+pensavo non fosse difficile passare ad un archivio
+
+funziona sulla mia macchina
+return a zip
+upload rather then enter
+
+anche se l'esempio fa a meno di convertWithOpts
+
+perchè ci sarebbe molto codice pandoc da modificare
+mi sembra piccola
+la probabilità di processare i files in memoria
+
 without the need of using a file system
 in order to enable the use of pandoc programmatically
 the pandoc monad seems designed
@@ -20,4 +52,32 @@ possiamo proporre di estrarre la parte di convertWithOpts
 
 credo si tratti di riscrivere `convertWithOpts` o usare il file system
 la media bag dovrebbe essere un dizionario di path con dati
+
+http://hackage.haskell.org/package/zip-1.0.0/docs/Codec-Archive-Zip.html
+http://hackage.haskell.org/package/zip-conduit-0.2.2.2/docs/Codec-Archive-Zip.html
+
+i'm further from a pure function than i thought
+
+extractMedia and writeMedia return in PandocIO
+
+dove vengono salvate le immagini?
+
+può funzionare senza confezione perdendo le immagini
+di aggiungere il confezionamento
+si tratterebbe di estrarre la parte di monade pandoc da convertWithOpts
+
+naturalmente permette di lavorare su files
+streaming di dati in memoria costante
+no credo che conduit sia per uno scopo diverso
+forse conduit può essere un buon framework?
+
+convertWithOpts :: Opt -> IO ()
+
+media bag in the pure monad?
+pandoc itself ...
+can i have a CGI that returns an archive without using the file system?
+
+uno zip
+
+che problemi presenta la cartella media?
 
