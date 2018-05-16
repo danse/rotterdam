@@ -214,7 +214,25 @@
 
 
 
-offrire agli utenti un servizio `curl` è una soluzione
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+intermedia
+offrire agli utenti un servizio `curl` è una buona soluzione
  su mac il linker non funziona
 e le limitazioni ai sistemi operativi
 con le difficoltà di installazione di `pandoc-docs2rst`
