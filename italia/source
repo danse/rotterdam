@@ -196,6 +196,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+offrire agli utenti un servizio `curl` è una soluzione
+ su mac il linker non funziona
+e le limitazioni ai sistemi operativi
+con le difficoltà di installazione di `pandoc-docs2rst`
+
+- di buono normattiva, courier, `-s`
+- errore box dovuto probabilmente al linker
+- su questo documento, ODT ha dato risultati disastrosi
+
+cambiamenti con update-all
+
 (
 
 come utente di `pandoc-docs2rst` voglio evitare di gestire il repository dei filtri

@@ -65,23 +65,57 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+perchè ci sarebbe molto codice pandoc da modificare
+mi sembra piccola
+la probabilità di processare i files in memoria
+
 sembra recuperato
 
 raised hands
 
 http://hackage.haskell.org/package/zip-1.0.0/docs/Codec-Archive-Zip.html
-zip-conduit sembra ragionevole
 http://hackage.haskell.org/package/zip-conduit-0.2.2.2/docs/Codec-Archive-Zip.html
-
-non fornisce hook alla fine, solo operazioni manuali
-un buon modello di integrazione?
-converte i files quando si fa l'upload su S3
-https://github.com/claudiajs/pandoc-aws-lambda-binary
 
 for any service to call it
 pandoc could be encapsulated in a docker container
 
 a temp directory?
+
+(
 
 i'm further from a pure function than i thought
 
@@ -93,10 +127,15 @@ può funzionare senza confezione perdendo le immagini
 di aggiungere il confezionamento
 si tratterebbe di estrarre la parte di monade pandoc da convertWithOpts
 
+)
+
 cercando di capire se è opportuno aprire questo capitolo nella circostanza
 
 stima o prototipo del servizio web
-vogliamo capire meglio il costo di un servizio web non autenticato che offra agli utenti le stesse funzionalità di `convert-docs-italia`, il comando fornito da `pandoc-docs2rst`.
+
+vogliamo capire meglio il costo di un servizio web non autenticato che
+offra agli utenti le stesse funzionalità di `convert-docs-italia`, il
+comando fornito da `pandoc-docs2rst`.
 
 and dry other channels before the end of the cycle
 we can adapt depending on the nesting level where users will respond more
@@ -105,11 +144,9 @@ do we want to wrap `convert-docs-italia`?
 
 which one is the best prototype?
 
+naturalmente permette di lavorare su files
 streaming di dati in memoria costante
 no credo che conduit sia per uno scopo diverso
-
-Easily combine different data sources (HTTP, files) with data consumers (XML/CSV processors)
-
 forse conduit può essere un buon framework?
 
 (
@@ -135,14 +172,12 @@ funziona sulla mia macchina
 return a zip
 upload rather then enter
 
-in effetti potrebbe semplificare la vita anche a noi 🤔
+considerati i limiti di `pandoc-docs2rst`
+in effetti potrebbe semplificare la vita anche a noi
 
 https://pandoc.org/try/
 
 https://www.stackage.org/package/wai
-
-thread webapp e deploy
-https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1525435383000127
 
 avremmo tempo per verificare la risposta dell'utenza
 se riuscissi a mettere su un prototipo in queste settimane
