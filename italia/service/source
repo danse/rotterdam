@@ -17,6 +17,9 @@
 
 
 
+
+
+
 il lavoro maggiore è bypassare il file system
 regardless of adoption
 in that case is worth developing within my contract
@@ -43,7 +46,7 @@ which we wanted to make superfluous for super users
 
 i used haskell for our evolutive convert-docs-italia
 
-that could be bash, python
+that could be bash, python, or a message queue
 
 is better to be done from a resident team
 choosing a framework for connecting the pipeline
