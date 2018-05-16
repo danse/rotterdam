@@ -1,0 +1,10 @@
+quello che si può servire a `curl` si può servire ad un client web
+
+https://www.stackage.org/package/wai
+
+curl -X POST -d @documento.docx http://user:pass@conversione.italia.it
+https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line#3008448
+
+https://developer.github.com/webhooks/
+https://github.com/phadej/github
+

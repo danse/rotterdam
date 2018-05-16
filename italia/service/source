@@ -48,11 +48,7 @@ that could be bash, python
 is better to be done from a resident team
 choosing a framework for connecting the pipeline
 
-
-
-
 cercando di capire se è opportuno aprire questo capitolo nella circostanza
-
 
  i files temporanei vengono rimossi automaticamente
  restituire l'archivio
@@ -60,29 +56,10 @@ cercando di capire se è opportuno aprire questo capitolo nella circostanza
  creare una cartella temporanea
 come minimo si vorrà
 
-offra agli utenti le stesse funzionalità di `convert-docs-italia`,
-vogliamo capire meglio il costo di un servizio web non autenticato che
-comando fornito da `pandoc-docs2rst`.
-
 and dry other channels before the end of the cycle
 we can adapt depending on the nesting level where users will respond more
 this way we offer support on nested tools
 do we want to wrap `convert-docs-italia`?
 
 which one is the best prototype?
-
-
-quello che si può servire a `curl` si può servire ad un client web
-
-
-https://www.stackage.org/package/wai
-
-curl -X POST -d @documento.docx http://user:pass@conversione.italia.it
-https://stackoverflow.com/questions/3007253/send-post-xml-file-using-curl-command-line#3008448
-
-https://developer.github.com/webhooks/
-https://github.com/phadej/github
-
-con una sola interfaccia testuale?
-che margini abbiamo per mettere su un servizio automatico minimo
 
