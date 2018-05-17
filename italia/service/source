@@ -32,6 +32,7 @@
 
 
 
+
 il lavoro maggiore è bypassare il file system
 regardless of adoption
 in that case is worth developing within my contract
@@ -46,10 +47,10 @@ se lavorassi da solo su questo probabilmente non potremmo verificare l'ipotesi
 e ci permetterebbe di verificare l'ipotesi di Giuseppe
 fornire pandoc è più semplice
   for long term performances
-  puntando agli utenti poco abituati alla riga di comando
+  per utenti poco abituati alla riga di comando
  pandoc
   pipeline framework  
-  puntando ai super users
+  per utenti disposti a sperimentare
  convert-docs-italia
 fornire:
 
@@ -74,7 +75,10 @@ come minimo si vorrà
 and dry other channels before the end of the cycle
 we can adapt depending on the nesting level where users will respond more
 this way we offer support on nested tools
-do we want to wrap `convert-docs-italia`?
 
+do we want to wrap `convert-docs-italia`?
+- web convert-docs-italia
+- web pandoc
+- convert-docs-italia
 which one is the best prototype?
 
