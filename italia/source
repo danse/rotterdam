@@ -32,14 +32,21 @@
 
 
 
+
+questo cambiamento è un po' misterioso
+cambiamenti con update-all
+
+selezione di issues per Alberto per valutarne l'utilità
+https://github.com/jgm/pandoc/issues/3698 RST reference location
+https://github.com/jgm/pandoc/issues/4564 list tables
+
+tempo a disposizione
+
 humans first
 
 humble ugly boring concrete great diving
 
 diving from one focus to the other
-
-questo cambiamento è un po' misterioso
-cambiamenti con update-all
 
 first payment
 
@@ -62,6 +69,14 @@ productive
 raised hands
 
 sembra recuperato
+
+(
+
+note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
+
+now that 4559 is merged i can open an issue for the image
+
+)
 
 (
 
@@ -229,13 +244,7 @@ https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
 
 )
 
-(
 
-note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
-
-now that 4559 is merged i can open an issue for the image
-
-)
 
 (
 
