@@ -29,46 +29,59 @@
 
 
 
+adesso parte di essa viene appesa alla fine del documento!
+prima stava correttamente in una delle footnotes
+è la nota di pagina 45
+regression/
 
+differente risultato di conversione in pandoc-docs2rst
+posso provare senza linker e poi chiudere la issue
 
-
-
-questo cambiamento è un po' misterioso
-cambiamenti con update-all
-
-selezione di issues per Alberto per valutarne l'utilità
-https://github.com/jgm/pandoc/issues/3698 RST reference location
-https://github.com/jgm/pandoc/issues/4564 list tables
-
-tempo a disposizione
-
-humans first
-
-humble ugly boring concrete great diving
-
-diving from one focus to the other
-
-first payment
-
-engage attivare utenti
-
-tenere il server e la logica nello stesso processo serve alla scalabilità
-
-coordinarsi e pianificare i prossimi mesi
-a metà del contratto è il momento per affrontare i temi più complessi
-
-il ritmo di conversione è stato stabile
+and i could quickly run a regression syntax check
+not sure if --wrap=preserve works but it would be a more usable option
+why is https://github.com/jgm/pandoc/issues/4320 still open?
 
 - di buono normattiva, courier, `-s`
 - errore box dovuto probabilmente al linker
 - su questo documento, ODT ha dato risultati disastrosi
 https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
 
+output/loose/Guida tecnica metriche software - per pubblicazione
+perchè ci sono tanti div e raw HTML?
+
+priorità ai nostri casi d'uso
+
+selezione di issues per Alberto per valutarne l'utilità
+https://github.com/jgm/pandoc/issues/3698 RST reference location
+https://github.com/jgm/pandoc/issues/4564 list tables
+
+possiamo pianificare il tempo a disposizione
+
+~/pandoc-to-sphinx
+
+it's better to maintain my conversion toolkit ready
+before starting long tasks
+
+humans first
+
+humble ugly boring concrete great diving
+
+payment
+
+engage attivare utenti
+
+tenere il server e la logica nello stesso processo serve alla scalabilità
+
+diving from one focus to the other
+
+coordinarsi e pianificare i prossimi mesi
+a metà del contratto è il momento per affrontare i temi più complessi
+
+il ritmo di conversione è stato stabile
+
 productive
 
 raised hands
-
-sembra recuperato
 
 (
 
@@ -99,10 +112,6 @@ pull request
 
 valore semantico dello stile
 lo stile è parte del contenuto
-
-and i could quickly run a regression syntax check
-not sure if --wrap=preserve works but it would be a more usable option
-why is https://github.com/jgm/pandoc/issues/4320 still open?
 
 trello-100 celle che spaziano
 
