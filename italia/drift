@@ -31,25 +31,20 @@
 
 
 
-no mudding
-
-changing folders ed il processo alle intenzioni
 
 
-come per le tabelle?
 
 un comando possiamo vederlo come una scatola nera
 trasformarla su un server è un passo molto più complicato?
 
-ha usato pandoc solo i primi tempi
-e solo il try online
-soprattutto per le tabelle
+il try online per le tabelle da che formato?
+(
+  ha usato pandoc solo i primi tempi
+  e solo il try online
+  soprattutto per le tabelle
+)
 
 error signature as a key to search for it on the web
-
- pandoc-docs2rst (detached*)$ . update-all.sh 
-couldn't parse docx file
-pandoc: document.rst: openBinaryFile: does not exist (No such file or directory)
 
 selezione di issues per Alberto per valutarne l'utilità
 https://github.com/jgm/pandoc/issues/3698 RST reference location
