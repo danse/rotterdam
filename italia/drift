@@ -36,7 +36,6 @@
 
 
 
-
 ha usato pandoc solo i primi tempi
 e solo il try online
 soprattutto per le tabelle
@@ -45,12 +44,18 @@ selezione di issues per Alberto per valutarne l'utilità
 https://github.com/jgm/pandoc/issues/3698 RST reference location
 https://github.com/jgm/pandoc/issues/4564 list tables
 
+rise convergence
+fall fragmentation
+
 possiamo pianificare il tempo a disposizione
 
 adesso parte di essa viene appesa alla fine del documento!
 prima stava correttamente in una delle footnotes
 è la nota di pagina 45
 regression/
+
+to let flow
+un onda è un processo comprensibile e partecipativo
 
 and i could quickly run a regression syntax check
 not sure if --wrap=preserve works but it would be a more usable option
