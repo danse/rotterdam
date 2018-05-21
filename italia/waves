@@ -27,15 +27,17 @@
 
 
 
-buongiorno Alberto! ci sentiremo oggi o sei impegnato?
 
+
+
+differente risultato di conversione in pandoc-docs2rst
+posso provare senza linker e poi chiudere la issue
+
+a moving center
 adesso parte di essa viene appesa alla fine del documento!
 prima stava correttamente in una delle footnotes
 è la nota di pagina 45
 regression/
-
-differente risultato di conversione in pandoc-docs2rst
-posso provare senza linker e poi chiudere la issue
 
 and i could quickly run a regression syntax check
 not sure if --wrap=preserve works but it would be a more usable option
