@@ -34,17 +34,12 @@
 
 
 
-un comando possiamo vederlo come una scatola nera
-trasformarla su un server è un passo molto più complicato?
 
-il try online per le tabelle da che formato?
-(
-  ha usato pandoc solo i primi tempi
-  e solo il try online
-  soprattutto per le tabelle
-)
 
-error signature as a key to search for it on the web
+
+ha usato pandoc solo i primi tempi
+e solo il try online
+soprattutto per le tabelle
 
 selezione di issues per Alberto per valutarne l'utilità
 https://github.com/jgm/pandoc/issues/3698 RST reference location
@@ -52,7 +47,6 @@ https://github.com/jgm/pandoc/issues/4564 list tables
 
 possiamo pianificare il tempo a disposizione
 
-a moving center
 adesso parte di essa viene appesa alla fine del documento!
 prima stava correttamente in una delle footnotes
 è la nota di pagina 45
@@ -70,8 +64,6 @@ https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/
 output/loose/Guida tecnica metriche software - per pubblicazione
 perchè ci sono tanti div e raw HTML?
 
-derive to wrap up clean up while opening other circles
-
 non è un cattivo risultato per un prototipo che costa poco mantenere
 permettendo di tradurre
 hanno rivelato errori anche nella mia versione
@@ -82,8 +74,9 @@ un esperimento che ci è costato cinque minuti
 
 facebook pucha
 
+a moving center
+error signature
 dalle sorgenti del futuro
-
 nessuna barriera
 
 high frequencies for a new source
