@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+se il lavoro del team ha orizzonte a settembre
+la soluzione intermedia con curl ha meno senso
+
+il lavoro maggiore è bypassare il file system
+regardless of adoption
+in that case is worth developing within my contract
+performances are in favour of a mono solution
+
+che è nato nel tempo e può darsi sia eliminato
+stiamo sperimentando su pandoc-docs2rst
+il metodo univoco di adesso è pandoc
+ci piacerebbe offrire un metodo univoco
+perchè l'interfaccia web non sarebbe presentabile
+se lavorassi da solo su questo probabilmente non potremmo verificare l'ipotesi
+e ci permetterebbe di verificare l'ipotesi di Giuseppe
+fornire pandoc è più semplice
+  for long term performances
+  per utenti poco abituati alla riga di comando
+ pandoc
+  pipeline framework  
+  per utenti disposti a sperimentare
+ convert-docs-italia
+fornire:
+
+while we also want to ease adoption as much as possible
+which we wanted to make superfluous for super users
+
+i used haskell for our evolutive convert-docs-italia
+
+that could be bash, python, or a message queue
+
+is better to be done from a resident team
+choosing a framework for connecting the pipeline
+
+cercando di capire se è opportuno aprire questo capitolo nella circostanza
+
+ i files temporanei vengono rimossi automaticamente
+ restituire l'archivio
+ copiare il risultato con la cartella media in un archivio
+ creare una cartella temporanea
+come minimo si vorrà
+
+and dry other channels before the end of the cycle
+we can adapt depending on the nesting level where users will respond more
+this way we offer support on nested tools
+
+do we want to wrap `convert-docs-italia`?
+- web convert-docs-italia
+- web pandoc
+- convert-docs-italia
+which one is the best prototype?
+
