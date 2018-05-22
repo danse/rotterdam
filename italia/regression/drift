@@ -62,18 +62,11 @@ links in una sezione codice
 - soapAction="http://bonus.mibact.it/VerificaVoucher/Check"/>
 + soapAction="\ http://bonus.mibact.it/VerificaVoucher/Check%22/>
 
-è bello ogni tanto avviare il server hoogle :)
-
 GHC option to show the errors
 
-l'hook potrebbe richiedere al dev di salvare i files cambiati
-più una metrica che una test suite
 questi files potrebbero far parte di un hook
-
-e dei test
-in base all'andamento della prototipazione
-può diventare un prodotto o no
-ciascun prototipo esistente o potenziale
+più una metrica che una test suite
+l'hook potrebbe richiedere al dev di salvare i files cambiati
 
 to-sphinx: nomi files
 linker: links
@@ -86,6 +79,7 @@ il cambiamento da . a ) nelle liste sembra essere casuale
 just drives to welcoming spaces
 we want no bottlenecks on the path through the source
 diving continuously offers new channels
+
 loud quiet
 
 to-sphinx   | ......
@@ -99,19 +93,13 @@ gli errori ai livelli più semplici hanno più impatto
 la complessità è maggiore
 questa analisi di regressione prende più tempo del solito
 
- casi d'uso che possiamo supportare
-riconoscimento codice da font DOCX
-ODT -> RST
-HTML -> RST
-DOCX -> RST
-to-sphinx
-linter
-linker
-web
-
 https://trello.com/c/oI4y4RsP/230-regressione-in-convert-docs-italia
 output/loose/Guida tecnica metriche software - per pubblicazione/document.rst
 adesso parte di essa viene appesa alla fine del documento!
 prima stava correttamente in una delle footnotes
 è la nota di pagina 45
+
+- nota
+- links
+- file names
 

@@ -45,7 +45,10 @@
 
 
 
+
 regression/
+
+mi piacerebbe concentrare il lavoro a giugno
 
 and i could quickly run a regression syntax check
 not sure if --wrap=preserve works but it would be a more usable option
@@ -55,6 +58,8 @@ why is https://github.com/jgm/pandoc/issues/4320 still open?
 - errore box dovuto probabilmente al linker
 - su questo documento, ODT ha dato risultati disastrosi
 https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
+
+la connettività è un problema
 
 output/loose/Guida tecnica metriche software - per pubblicazione
 perchè ci sono tanti div e raw HTML?
