@@ -62,12 +62,26 @@
 
 
 
+and i could quickly run a regression syntax check
+not sure if --wrap=preserve works but it would be a more usable option
+why is https://github.com/jgm/pandoc/issues/4320 still open?
+
+code in tables, i can read this better
+https://github.com/jgm/pandoc/issues/4644
+
 the error doesn't happen when the to-sphinx filter is disabled
 the stack exec thing
+
+- di buono normattiva, courier, `-s`
+- errore box dovuto probabilmente al linker
+- su questo documento, ODT ha dato risultati disastrosi
+https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
 
 a good research problem is important and solvable
 most important thing in a research career is the choice of problems to work on
 https://twitter.com/EdwardTufte/status/999239478484103169
+
+a - b c . d e
 
 mi capita poco di lavorare in un editor come docs e preferisco markdown
 
@@ -87,20 +101,11 @@ un servizio che copi convertWithOpts
 
 forse non c'è da preoccuparsi per le performances?
 
-docx - google, funziona facilmente e affidabilmente
+docx - google funziona facilmente e affidabilmente
 
 regression/
 
 mi piacerebbe concentrare il lavoro a giugno
-
-and i could quickly run a regression syntax check
-not sure if --wrap=preserve works but it would be a more usable option
-why is https://github.com/jgm/pandoc/issues/4320 still open?
-
-- di buono normattiva, courier, `-s`
-- errore box dovuto probabilmente al linker
-- su questo documento, ODT ha dato risultati disastrosi
-https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
 
 la connettività è un problema
 
