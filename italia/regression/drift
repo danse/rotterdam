@@ -55,8 +55,33 @@
 
 
 
-vorrei risolvere il problema dei nomi files prima del commit dei cambiamenti
+
+
+
+
+
+
+
+
+
+
+
+le conseguenze nella postura
+
+desiderando
+
+
+
+
+
 logica sui nomi files to-sphinx.hs
+
+ nota
+ links
+regression
+
+un tuffo nella contaminazione interna
+oil
 
 links in una sezione codice
 - soapAction="http://bonus.mibact.it/VerificaVoucher/Check"/>
@@ -64,14 +89,18 @@ links in una sezione codice
 
 GHC option to show the errors
 
-questi files potrebbero far parte di un hook
+i files potrebbero far parte di un hook
 più una metrica che una test suite
 l'hook potrebbe richiedere al dev di salvare i files cambiati
 
-to-sphinx: nomi files
-linker: links
 output/18app/linee-guida-esercenti/index/header-added-by-pandoc-3.rst
 e poi nel file sopra ci sono le dimensioni delle immagini in più
+
+https://trello.com/c/oI4y4RsP/230-regressione-in-convert-docs-italia
+output/loose/Guida tecnica metriche software - per pubblicazione/document.rst
+adesso parte di essa viene appesa alla fine del documento!
+prima stava correttamente in una delle footnotes
+è la nota di pagina 45
 
 piuttosto che deterministico
 il cambiamento da . a ) nelle liste sembra essere casuale
@@ -92,14 +121,4 @@ gli errori ai livelli più semplici hanno più impatto
 - convert
 la complessità è maggiore
 questa analisi di regressione prende più tempo del solito
-
-https://trello.com/c/oI4y4RsP/230-regressione-in-convert-docs-italia
-output/loose/Guida tecnica metriche software - per pubblicazione/document.rst
-adesso parte di essa viene appesa alla fine del documento!
-prima stava correttamente in una delle footnotes
-è la nota di pagina 45
-
-- nota
-- links
-- file names
 
