@@ -86,25 +86,53 @@
 
 
 
- italia (master)*$ pandoc Untitled\ 1.odt --wrap none -t rst | wc -l
-3
- italia (master)*$ pandoc Untitled\ 1.odt --wrap auto -t rst | wc -l
-9
- italia (master)*$ pandoc Untitled\ 1.odt --wrap preserve -t rst | wc -l
-3
-non c'è un valore di default per le colonne?
-output/istruzioni_consultazioni_pubbliche/introduzione_forum/document.rst
-output/18app/info-privacy/document.rst
-  let colwidth = if writerWrapText opts == WrapAuto
-                    then Just $ writerColumns opts
-                    else Nothing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+l'ultima verifica ha mostrato che preserve ha impatto sul nostro caso
+a/output/18app/linee-guida-esercenti/document-unlinked.rst
+we can close this
+i think that now both `none` and `preserve` are correctly applied to tables
+why is https://github.com/jgm/pandoc/issues/4320 still open?
+writerWrapText
+nonsemantic newlines
+by finding it out i will also get it right
+if i get `preserve` right, applying it to tables shouldn't be difficult
+earlier
+lupo
+compact
 and i could quickly run a regression syntax check
 not sure if --wrap=preserve works but it would be a more usable option
-why is https://github.com/jgm/pandoc/issues/4320 still open?
 
+maggio
 giugno
 luglio
 agosto
+
+regolare come farsi male
+i nostri spazi sono navi
+spoglio tutto da conoscere
+il time tracker porta ad attribuire tutti i livelli del lavoro
+espressione di relazione unidirezionale
 
 code in tables, i can read this better
 https://github.com/jgm/pandoc/issues/4644
@@ -177,15 +205,16 @@ ci sono state più differenze di quelle che mi aspettavo
 mi ha permesso di analizzare con precisione
 un esperimento che ci è costato cinque minuti
 
-facebook pucha
+error web identity
 
-a moving center
-error signature
 dalle sorgenti del futuro
 nessuna barriera
 
-high frequencies for a new source
-an eye
+new frequencies for a new source
+
+a moving center
+eyes
+
 the frame where the loops come back to close like the tracker
 
 drive
@@ -427,7 +456,10 @@ https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
+https://github.com/italia/docs-italia-theme
+https://github.com/italia/docs-italia-starter-kit
 guida-docs-italia.readthedocs.io
+ contengono un documento di esempio
 
 https://github.com/teamdigitale/licenses
 
