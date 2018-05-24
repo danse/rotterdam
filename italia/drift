@@ -105,23 +105,46 @@
 
 
 
+mi aspetto che il risultato sia comunque come con auto
+forse varrà la pena provare un'altra volta con preserve
+ci saranno dei cambiamenti quando aggiungeremo il filtro col font
+neanche nel codice (non letto come codice) sembra fare una differenza
+nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
+preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
+nessuna differenza fra preserve ed auto, in tutti i documenti
 
 
 
-l'ultima verifica ha mostrato che preserve ha impatto sul nostro caso
-a/output/18app/linee-guida-esercenti/document-unlinked.rst
-we can close this
-i think that now both `none` and `preserve` are correctly applied to tables
-why is https://github.com/jgm/pandoc/issues/4320 still open?
-writerWrapText
-nonsemantic newlines
-by finding it out i will also get it right
-if i get `preserve` right, applying it to tables shouldn't be difficult
+
+
+
+
+
+
+
 earlier
 lupo
 compact
-and i could quickly run a regression syntax check
-not sure if --wrap=preserve works but it would be a more usable option
+
+
+
+
+
+
+
+
+
+
+
+
+creerò la card
+https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527182987000448?thread_ts=1527169988.000001&cid=C7QPPNC3X
+
+the error doesn't happen when the to-sphinx filter is disabled
+the stack exec thing
+
+italia/progetto-argomento-docs
+https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
 
 maggio
 giugno
@@ -129,16 +152,10 @@ luglio
 agosto
 
 regolare come farsi male
-i nostri spazi sono navi
+casa nostra è una barca
 spoglio tutto da conoscere
 il time tracker porta ad attribuire tutti i livelli del lavoro
 espressione di relazione unidirezionale
-
-code in tables, i can read this better
-https://github.com/jgm/pandoc/issues/4644
-
-the error doesn't happen when the to-sphinx filter is disabled
-the stack exec thing
 
 - di buono normattiva, courier, `-s`
 - errore box dovuto probabilmente al linker
@@ -221,9 +238,11 @@ drive
 
 priorità ai nostri casi d'uso
 
-selezione di issues per Alberto per valutarne l'utilità
+issue per Alberto per valutarne l'utilità
 https://github.com/jgm/pandoc/issues/3698 RST reference location
+
 https://github.com/jgm/pandoc/issues/4564 list tables
+https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
 
 ~/pandoc-to-sphinx
 
@@ -455,6 +474,8 @@ https://github.com/msprev/panzer
 https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
+
+https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
 
 https://github.com/italia/docs-italia-theme
 https://github.com/italia/docs-italia-starter-kit
