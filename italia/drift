@@ -62,9 +62,49 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ italia (master)*$ pandoc Untitled\ 1.odt --wrap none -t rst | wc -l
+3
+ italia (master)*$ pandoc Untitled\ 1.odt --wrap auto -t rst | wc -l
+9
+ italia (master)*$ pandoc Untitled\ 1.odt --wrap preserve -t rst | wc -l
+3
+non c'è un valore di default per le colonne?
+output/istruzioni_consultazioni_pubbliche/introduzione_forum/document.rst
+output/18app/info-privacy/document.rst
+  let colwidth = if writerWrapText opts == WrapAuto
+                    then Just $ writerColumns opts
+                    else Nothing
 and i could quickly run a regression syntax check
 not sure if --wrap=preserve works but it would be a more usable option
 why is https://github.com/jgm/pandoc/issues/4320 still open?
+
+giugno
+luglio
+agosto
 
 code in tables, i can read this better
 https://github.com/jgm/pandoc/issues/4644
