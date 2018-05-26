@@ -44,6 +44,551 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mezzo
+immaginazione realizzazione comunicazione
+sei molti selvaggi da non disprezzare
+il pensiero politico vintage come la moda
+r i r ?
+free your eyes
+porta per la materia
+una via di fuga dalla *trappola* del formato
+amare globale
+pensamos en raices
+we are losing the habit to batch
+drive
+mi capita poco di lavorare in un editor come docs e preferisco markdown
+sostituire una regola con un'altra regola è più facile che rimuoverla
+docs italia non è ancora attivo
+compact
+
+maggio
+giugno
+luglio
+agosto
+
+mi aspetto che il risultato sia comunque come con auto
+forse varrà la pena provare un'altra volta con preserve
+ci saranno dei cambiamenti quando aggiungeremo il filtro col font
+neanche nel codice (non letto come codice) sembra fare una differenza
+nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
+preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
+nessuna differenza fra preserve ed auto, in tutti i documenti
+
+((list tables)
+
+Come tech writer voglio che pandoc produca list tables
+
+Questa issue https://github.com/jgm/pandoc/issues/4564 propone una modifica di l'uso di list tables 
+
+advantages https://github.com/jgm/pandoc/issues/4564#issuecomment-388303992
+
+@alberto e @gpalestra, è da un po' che ho adocchiato questa issue
+
+per cercare di capire se la feature proposta ci riguarda. Vi è capitato di prendere in considerazione le list tables? http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table Sarebbero più comode da mantenere? Considerate anche che attualmente produciamo tabelle molto larghe per evitare problemi come questo https://github.com/jgm/pandoc/issues/4644
+
+https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
+
+creerò la card
+https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527182987000448?thread_ts=1527169988.000001&cid=C7QPPNC3X
+https://gist.githubusercontent.com/NickVolynkin/3a87d1d2b53090dd6bc8b731cd512cf4/raw/b3e35a0fa31df6bb1bf59f59d0bda5622c27842e/list-table-example.rst
+
+)
+
+the error doesn't happen when the to-sphinx filter is disabled
+the stack exec thing
+
+italia/progetto-argomento-docs
+https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
+
+riposare è una forma di resistenza esistenziale che preferiamo evitare
+ci costa l'indebolimento di cuore e degli altri organi vitali
+lo sgocciolare delle forze, dei sensi e delle volontà
+una schiena morbida può comunque cavalcare le onde
+and from that principle of pleasure
+sneak energy back in the system
+from a different entry
+
+- di buono normattiva, courier, `-s`
+- errore box dovuto probabilmente al linker
+- su questo documento, ODT ha dato risultati disastrosi
+https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
+
+a good research problem is important and solvable
+most important thing in a research career is the choice of problems to work on
+https://twitter.com/EdwardTufte/status/999239478484103169
+
+
+gli utenti possono convertire un DOCX passando attraverso Google Docs
+ed il plugin
+il plugin chiede permessi che non vorrei dare
+
+un servizio che copi convertWithOpts
+
+forse non c'è da preoccuparsi per le performances?
+
+docx - google funziona facilmente e affidabilmente
+
+regression/
+
+mi piacerebbe concentrare il lavoro a giugno
+
+la connettività è un problema
+
+output/loose/Guida tecnica metriche software - per pubblicazione
+perchè ci sono tanti div e raw HTML?
+
+ha usato pandoc solo i primi tempi
+e solo il try online
+soprattutto per le tabelle
+
+rise convergence
+fall fragmentation
+
+possiamo pianificare il tempo a disposizione
+
+emacs
+ long line copy behaviour
+ macros
+ version control
+
+to let flow
+un onda è un processo comprensibile e partecipativo
+
+non è un cattivo risultato per un prototipo che costa poco mantenere
+permettendo di tradurre
+hanno rivelato errori anche nella mia versione
+cercavo migliorie nell'installazione
+ci sono state più differenze di quelle che mi aspettavo
+mi ha permesso di analizzare con precisione
+un esperimento che ci è costato cinque minuti
+
+error web identity
+
+dalle sorgenti del futuro
+nessuna barriera
+
+new frequencies for a new source
+
+a moving center
+eyes
+
+the frame where the loops come back to close like the tracker
+
+priorità ai nostri casi d'uso
+
+issue per Alberto per valutarne l'utilità
+https://github.com/jgm/pandoc/issues/3698 RST reference location
+
+https://github.com/jgm/pandoc/issues/4564 list tables
+https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
+
+~/pandoc-to-sphinx
+
+it's better to maintain my conversion toolkit ready
+before starting long tasks
+
+humans first
+
+humble ugly boring concrete great diving
+
+payment
+
+engage attivare utenti
+
+tenere il server e la logica nello stesso processo serve alla scalabilità
+
+diving from one focus to the other
+
+coordinarsi e pianificare i prossimi mesi
+a metà del contratto è il momento per affrontare i temi più complessi
+
+il ritmo di conversione è stato stabile
+
+productive
+
+raised hands
+
+(
+
+note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
+
+now that 4559 is merged i can open an issue for the image
+
+)
+
+(
+
+come utente di `pandoc-docs2rst` voglio evitare di gestire il repository dei filtri
+
+come utente di `pandoc-docs2rst` voglio evitare di gestire il linker alla normativa
+
+abbiamo semplificato l'installazione e la manutenzione di `pandoc-docs2rst` aggiungendo pandoc fra le dipendenze gestite da stack, così che gli utenti non debbano preoccuparsi della versione di pandoc utilizzata.
+
+rimangono altre due dipendenze che chiediamo di gestire agli
+
+possibilità di errore
+% carta 
+linker a normattiva
+pandoc-filters
+
+)
+
+pull request
+
+valore semantico dello stile
+lo stile è parte del contenuto
+
+trello-100 celle che spaziano
+
+https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
+
+isn't this a case that should be flattened?
+https://github.com/jgm/pandoc/issues/3973
+
+se voglio fare prove ulteriori con ODT
+esempio di Google Docs convertibile via ODT o via DOCX
+https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
+per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
+
+https://github.com/italia/publiccode.yml
+
+ten fingers thinking
+
+one can feel will within any context
+
+about:performance
+
+~/pandoc-docs2rst/syntax-check-errors
+
+https://github.com/italia/pandoc-docs2rst/issues/3 copy input media dir
+
+formatted-as-code-with-errors.rst
+i also want to merge code blocks as in the filter removed below
+pandoc-filters 9ec719b34f11d6e488043ba791c83578bbf52bd6
+
+compression of output dirs
+
+tables 1024
+
+paragraph escaping 4422
+
+DOCX -> Sphinx: upstream
+ODT -> Sphinx: interruption
+reverse, linter, posts, guides, user feedback: prototyping & design
+
+  linee guida acquisizione e riuso software per la pubblica amministrazione
+ - le immagini sono andate perse
+ - doppio indice fatto manualmente da Alberto
+ v file sovrascritto
+https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
+
+ - incapsulamento e distribuzione
+ - documentazione
+ - headers upstream
+ v inlines upstream
+spread the assisted flow
+
+(
+
+the idea about a caption above or below sounds confusing to me i'd expect any styled paragraph which is next to a table or image to be interpreted as the caption for that element
+
+the situation for an image caption in a `.docx` document is similar
+
+https://github.com/jgm/pandoc/issues/3874#issuecomment-371497401
+https://github.com/jgm/pandoc/issues/3874
+caption in a table
+
+)
+
+(
+
+supportare caption embedded in word -> menu, libreoffice, .docx
+ così rimmarrebbe da:
+
+ menu contestuale
+word docs -> styled par -> filter -> works
+libre docs -> embedded -> works
+
+)
+
+(
+
+3147 bidirectional text
+
+starting from the oldest
+i could dive in
+
+Content Controls are ignored by the DOCX reader
+https://github.com/jgm/pandoc/issues/2587
+
+DOCX reader issues, Sort Oldest
+
+se usiamo l'admonition questo può causare problemi con il linker
+admonition blocks not converted back from HTML to RST
+https://github.com/jgm/pandoc/issues/4511
+
+open RST issues seem mostly at the level of the ones opened by me
+
+mi sembrava fosse ristretto ma la sorgente apre la strada
+
+https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3AODT+label%3Areader
+https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ADOCX+label%3Areader
+https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ARST+label%3Awriter
+
+cambio approccio. fra le issues ODT/DOCX -> RST quali hanno la priorità
+
+)
+
+((guida alla conversione)
+
+lavorare su un documento in maniera condivisa e pubblicare sul web
+condividere un documento word con utenti mobili
+ non so come si chiama il formato di wikipedia
+pubblicare la mia documentazione su un wiki
+come posso produrre un PDF o un DOCX se non ho word?
+
+conversione
+formati human-readable, markup
+formati machine-readable, DOCX, ODT
+
+che sia anche introduzione a formati, markup e conversione
+avrebbe comunque senso scrivere una introduzione a pandoc
+
+which makes things more indirect
+in our case, we also have the step towards sphinx documents
+
+when the target is a format readily produced by pandoc
+è più facile scrivere un tutorial simile
+
+quanto al workflow tramite markup
+alcuni tutorial lì sembrano riferirsi non tanto a pandoc
+
+potremmo scrivere una introduzione in italiano
+https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
+
+)
+
+
+
+(
+
+we could copy `document.rst` to `unlinked-document-check.rst` when the
+linker is active, and perform the syntax check on that one as well, in
+order to detect regressions and other errors that could affect our
+users
+
+not doing it for now in order to keep the structure of documents
+simpler for the users
+
+)
+
+(
+
+i wasn't able to reduce the test case, the code can guide me
+
+in box.rst one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
+
+parsing a long link in a table
+
+)
+
+figure data model https://github.com/jgm/pandoc/issues/3177
+
+file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
+
+file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html
+http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+http://docutils.sourceforge.net/docs/
+
+https://github.com/msprev/panzer
+https://atom.io/packages/rst-preview-pandoc
+http://markup.rocks
+https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
+
+https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
+
+https://github.com/italia/docs-italia-theme
+https://github.com/italia/docs-italia-starter-kit
+guida-docs-italia.readthedocs.io
+ contengono un documento di esempio
+
+https://github.com/teamdigitale/licenses
+
+https://github.com/italia/docs.italia.it
+
+https://hackage.haskell.org/package/tasty-1.0.1.1#readme
+http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+
+dereference
+
+https://github.com/jgm/pandoc/wiki/Roadmap
+
+ogni cosa ben tradotta evita lavoro manuale tedioso
+
+http://lg-interoperabilita.readthedocs.io/en/latest/index.html
+
+https://teamdigitale.governo.it
+
+forum.italia.it
+
+https://medium.com/team-per-la-trasformazione-digitale
+
+the first thing i gifted myself was a whole lot of public space
+starting my work day. society shouldn't be like this. we are working
+to change this
+
+animale in una gabbia mentale
+
+changing our idea of comfort takes opportunities
+
+finding a new dimension in a relationship
+or chatting with calm with a colleague
+maybe it can be as simple as an idea arrived when we were with friends
+not even the most remarkable
+they being the first of a series of events, and maybe 
+the impact of turning points seems disregardable soon
+
+costruire in condizione di incertezza a livello governativo
+
+siamo uomini non ingranaggi
+
+con la preoccupazione del mangiare e dell'affitto
+restare all'altezza della responsabilità
+
+it's getting more and more productive
+
+the pandoc wiki could host info about caption formats
+
+that feature affects a small percentage of users
+
+and a method
+wouldn't we like to have a shared perspective on the horizon?
+before diving into tasks
+
+that's why opening the decision process is worth its cost
+
+and its bottlenecks
+we don't know the adoption we are going to support
+
+so some formalization is needed
+but the artifacts include the possibility of being handed over
+of course it can be leaner
+it feels odd to grow a process for a single dev
+
+che è la cosa più importante che abbiamo
+cioè della nostra efficace collaborazione
+sono l'ossatura della nostra comunicazione interna
+ma più accessibili
+con un'usabilità inferiore ad altre tecnologie
+web apps
+
+i put it here in front of everyone
+
+effective work is more enjoyable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 pouring oil towards the humans on the other end of the networks
 
 yet you don't want it to stop too soon
