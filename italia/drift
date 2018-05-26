@@ -98,12 +98,31 @@
 
 
 
+one drift
+angela
+rotterdam italia rotterdam ? r i r ?
 
 
+mezzo
+immaginazione realizzazione comunicazione
+sei molti selvaggi da non disprezzare
+il pensiero politico vintage come la moda
+free your eyes
+porta per la materia
+una via di fuga dalla *trappola* del formato
+amare globale
+pensamos en raices
+we are losing the habit to batch
+drive
+mi capita poco di lavorare in un editor come docs e preferisco markdown
+sostituire una regola con un'altra regola è più facile che rimuoverla
+docs italia non è ancora attivo
+compact
 
-
-
-
+maggio
+giugno
+luglio
+agosto
 
 mi aspetto che il risultato sia comunque come con auto
 forse varrà la pena provare un'altra volta con preserve
@@ -113,49 +132,31 @@ nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
 preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
 nessuna differenza fra preserve ed auto, in tutti i documenti
 
+((list tables)
 
+Come tech writer voglio che pandoc produca list tables
 
+Questa issue https://github.com/jgm/pandoc/issues/4564 propone una modifica di l'uso di list tables 
 
+advantages https://github.com/jgm/pandoc/issues/4564#issuecomment-388303992
 
+@alberto e @gpalestra, è da un po' che ho adocchiato questa issue
 
+per cercare di capire se la feature proposta ci riguarda. Vi è capitato di prendere in considerazione le list tables? http://docutils.sourceforge.net/docs/ref/rst/directives.html#list-table Sarebbero più comode da mantenere? Considerate anche che attualmente produciamo tabelle molto larghe per evitare problemi come questo https://github.com/jgm/pandoc/issues/4644
 
-
-
-
-earlier
-lupo
-compact
-
-
-
-
-
-
-
-
-
-
-
+https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
 
 creerò la card
 https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527182987000448?thread_ts=1527169988.000001&cid=C7QPPNC3X
+https://gist.githubusercontent.com/NickVolynkin/3a87d1d2b53090dd6bc8b731cd512cf4/raw/b3e35a0fa31df6bb1bf59f59d0bda5622c27842e/list-table-example.rst
+
+)
 
 the error doesn't happen when the to-sphinx filter is disabled
 the stack exec thing
 
 italia/progetto-argomento-docs
 https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
-
-maggio
-giugno
-luglio
-agosto
-
-regolare come farsi male
-casa nostra è una barca
-spoglio tutto da conoscere
-il time tracker porta ad attribuire tutti i livelli del lavoro
-espressione di relazione unidirezionale
 
 - di buono normattiva, courier, `-s`
 - errore box dovuto probabilmente al linker
@@ -166,21 +167,10 @@ a good research problem is important and solvable
 most important thing in a research career is the choice of problems to work on
 https://twitter.com/EdwardTufte/status/999239478484103169
 
-a - b c . d e
-
-mi capita poco di lavorare in un editor come docs e preferisco markdown
 
 gli utenti possono convertire un DOCX passando attraverso Google Docs
 ed il plugin
 il plugin chiede permessi che non vorrei dare
-
-sostituire una regola con un'altra regola è più facile che rimuoverla
-
-le porte per la materia
-
-docs italia non è ancora attivo
-
-juntando alejando raices
 
 un servizio che copi convertWithOpts
 
@@ -233,8 +223,6 @@ a moving center
 eyes
 
 the frame where the loops come back to close like the tracker
-
-drive
 
 priorità ai nostri casi d'uso
 
@@ -337,13 +325,6 @@ paragraph escaping 4422
 DOCX -> Sphinx: upstream
 ODT -> Sphinx: interruption
 reverse, linter, posts, guides, user feedback: prototyping & design
-
- applico filtro ...
- Courier non codice
- DOCX -> doc.rst
-approccio iterativo
-mettersi nei panni di utenti che vogliono provare ad usare questo strumento
-agevolare l'uso di pandoc il più possibile
 
   linee guida acquisizione e riuso software per la pubblica amministrazione
  - le immagini sono andate perse
