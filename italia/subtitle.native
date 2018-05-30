@@ -1,0 +1,2 @@
+Pandoc (Meta {unMeta = fromList [("subtitle",MetaInlines [Str "Sottotitolo"]),("title",MetaInlines [Str "Titolo"])]})
+[]
