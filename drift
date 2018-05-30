@@ -110,21 +110,24 @@
 
 
 
-- code errors
-v round trip open markup nell'esempio
-v table and image captions
-v docs2rst
-v list table card
-v doc8
- v ricerche sullo stile degli headers
-v migro esempio
-v licenza
-v merge pull request esempio
- v riunione con Alberto
-v guida al linguaggio
-v inviare guida convert-docs-italia
-maggio 28
+
+
+
+
+
+
+
+
+
+
 mezzo
+https://github.com/italia/pandoc-docs2rst/issues/12
+https://groups.google.com/forum/#!msg/pandoc-discuss/NzRkZdKgphk/_o9Jskx8DAAJ
+vorrei rigenerarlo ma non ho il sorgente
+il documento sembra scritto con wrap auto
+title underline too short
+formatted-as-code-with-errors.rst
+- code errors
 drive
 un servizio che copi convertWithOpts
 output/loose/Guida tecnica ... div e raw HTML alla fine del linked
@@ -166,10 +169,6 @@ sublimaciòn
 la conoscenza può essere espressa con parole diverse
 designers italia, dalla parte dei cittadini
 compact
-
-formatted-as-code-with-errors.rst
-i also want to merge code blocks as in the filter removed below
-pandoc-filters 9ec719b34f11d6e488043ba791c83578bbf52bd6
 
 - didascalia della tabella viene duplicata #3874
 - didascalia della figura, filtro non applicato
