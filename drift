@@ -121,30 +121,76 @@
 
 
 
-mezzo
-definizione formato ed esempi, direttive, numeri di pagina, sottotitoli
-https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
-https://github.com/jgm/pandoc/issues/4583 closed title metadata
-https://github.com/italia/pandoc-docs2rst/issues/12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+doc/
+ buone-pratiche.md
+ comandi/
+  pandoc-to-sphinx.md
+  convert-docs-italia.md
+  pandoc-font-to-style.md
+ 
+it has to be addictive to be successful
+The populist victory in Italy now could not come at a worse time for the European Union. A corruption scandal in Spain has led to the ouster of that country’s prime minister, whose government had been a model for the central authorities in Brussels. Britain is leaving. Chancellor Angela Merkel of Germany is weakened. President Emmanuel Macron of France is a pro-Europe leader in search of partners. Poland and Hungary are rolling back democracy. The United States president is waging a trade war on European allies, while more and more Europeans look to Russia’s strongman, Vladimir V. Putin, as a model.
+filters intro
+rename repo, separate regression logic
+split const 3 sembra corrispondere
+split const 2 dà headers di livello 1
+split errors, pandoc-to-sphinx, sottotitoli, opzione livelli
+standard definizione formato ed esempi e direttive, decorazioni, list tables
+standard https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
+subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
 stack exec convert-docs-italia
 pandoc-docs2rst - convert-docs-italia - pandoc-to-sphinx
+https://github.com/italia/docs.italia.it/issues
+https://github.com/italia/docs.italia.it
+senso di sostenibilità
+evolversi
+equilibrio immaginato ed equilibrio espresso
+scrittura antitecnologica
 vorrei rigenerarlo ma non ho il sorgente
 il documento sembra scritto con wrap auto
 title underline too short
 formatted-as-code-with-errors.rst
-- code errors
-drive
-un servizio che copi convertWithOpts
+code errors
+nowhere
+communities
+si va avanti attraverso i cambiamenti
+. costruire sensibilità futura
+non dimentichiamo le cose, le cancelliamo
 output/loose/Guida tecnica ... div e raw HTML alla fine del linked
 regression/ nota links
-docx - google facilme ed affidabile
+docx - google facile ed affidabile
 la conversione è secondaria all'adozione - confronto documenti esistenti
 a `-f --fragment` option seems more natural to me
 http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
 https://github.com/geophf/1HaskellADay/issues/1
 docs italia non è ancora attivo
-mi capita poco di lavorare in un editor come docs e preferisco markdown
-we are losing the habit to batch
+. mi capita poco di lavorare in un editor come docs e preferisco markdown
+. we are losing the skill to batch
 valore semantico dello stile, lo stile è parte del contenuto
 https://github.com/italia/publiccode.yml
 ~/pandoc-docs2rst/syntax-check-errors
@@ -163,18 +209,37 @@ sei molti selvaggi da non disprezzare
 il pensiero politico vintage come la moda
 amare globale
 encierro relajante
-entendemos en raices
-nonostante l'intelligenza artificiale sia una realtà continuiamo a considerare la mente altro dal corpo
+sintetisamos en raices
+nonostante le reti continuiamo a considerare la mente altro dal corpo
 il nemico è il nostro stato culturale
 porta per la materia
 mental models
-free your eyes
 una questione di vie
 sublimaciòn
 la conoscenza può essere espressa con parole diverse
 designers italia, dalla parte dei cittadini
-Volevo anche ricordarti che in fase di installazione di stack alcuni file sono andati in errore perché non decomprimeva alcuni file, ho installato unzip e quando ho riprovato è andato tutto liscio!
+Viernes otra vez y caí en cuenta
+Caerse con dolor y levantarte cuesta
+Tiren sus apuestas, que yo le voy a ésta
+Andaba por ahí con mis sueños en la cuesta
+Al fin sabes lo que quieres y es muy sencillo 
+Caminando tranquilo sin nada en los bolsillos
+Muchas veces nos caímos contra el piso
+Y nadie me avisó, yo hice caso omiso
+Te chocas contra el mundo si un par de veces
+Te rompe tu por dentro y luego crece
+Crece, y no se desaparece y no porque es necesario
+Sino por que lo mereces
+reality in out mind
 compact
+
+dalle sorgenti del futuro che vogliamo
+nessuna barriera
+interferences guide to new sources
+moving centers
+eyes
+registers the visits of
+the frame where the loops come back to close like the tracker
 
 - didascalia della tabella viene duplicata #3874
 - didascalia della figura, filtro non applicato
@@ -253,16 +318,6 @@ mi ha permesso di analizzare con precisione
 un esperimento che ci è costato cinque minuti
 
 error web identity
-
-dalle sorgenti del futuro
-nessuna barriera
-
-new frequencies for a new source
-
-a moving center
-eyes
-
-the frame where the loops come back to close like the tracker
 
 priorità ai nostri casi d'uso
 
@@ -460,8 +515,6 @@ http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.ht
 
 https://github.com/teamdigitale/licenses
 
-https://github.com/italia/docs.italia.it
-
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 
@@ -478,10 +531,6 @@ https://teamdigitale.governo.it
 forum.italia.it
 
 https://medium.com/team-per-la-trasformazione-digitale
-
-the first thing i gifted myself was a whole lot of public space
-starting my work day. society shouldn't be like this. we are working
-to change this
 
 animale in una gabbia mentale
 
@@ -540,80 +589,29 @@ now that you have more energy within
 
 dreams meet coming from different faces
 
-e chi è abituato a gridarsi di tagliarsi la testa
-fra persone che preferiscono eliminare i ma ed i no dal proprio discorso
-da come mi esprimo mi rendo conto del contrasto
-
 che non possa essere attaccata, che non lasci spiragli?
 è normale considerare un'espressione come una fortezza
 
 the cycles that are not for now
-
-removing the dry waves
-
 indossiamo la necessità come una bandiera
-
 npm audit
-
 just setQuery(minute) to see it in the bar ;)
-
-prima di cominciare di nuovo presto con piacere
-e non mi sono reso conto del risultato
-stamani ricordavo solo il risultato e non il processo
-e aiuta a svilupparlo
-però il processo diverte e va al punto
-preferirei voce o danza, un caffè di ritrovo al sole come a berlino o madrid
-comunque valido
-è un processo in trincea elettronico-hippie
-il processo mi è piaciuto, la performance mi ha deluso
-
 soft ware doesn't lock
-
 now in an app i can detect bad programming
-
-Some people don't really know how to deal with feelings, openness, etc., so why disturb them and yourself?
-
-mi dispiace, ho perso il cellulare col tuo messaggio :(
-
-which now also means friendships
-internet speed, for example
-while i try staying positive my resources get throttled
-
 the opposite of experience
-
 paranoias are built upon the unlikely 
-
 one learns when to use an experiment and when not
-
 reality - perception
-
 the scientific method or the discovery method
-
 come posso evitare che la negatività si rifletta sul mio lavoro?
-
 not used to smiles
-
-
 l'hai voluto ma come ti sta?
-
 basta uno statunitense per farmi sentire negli stati uniti
-
-a volte mi chiedo se è quella strada così vuota che mi ha intristito
-
-meta x specific, precise, personal
-
-
-
-Come progettare un servizio digitale per la pubblica amministrazione http://design-italia.readthedocs.io/it/latest/doc/service-design/gestione-dei-progetti.html. Commenti? Qui https://forum.italia.it/t/project-management/3282
-
-
-
 
 a . a
 a. a
 a .a
 a.a
-
 
 a : b
 a :b
