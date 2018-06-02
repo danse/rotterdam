@@ -155,6 +155,9 @@
 --filters che peschi da path o da una cartella precisa
 trasformo i filtri usati in comandi
 
+the error doesn't happen when the to-sphinx filter is disabled
+the stack exec thing
+
 docsitalia-conversion-utils
 conversion-regression-tests
 pandoc-filters
@@ -168,6 +171,7 @@ rename repo, separate regression logic
 split const 3 sembra corrispondere
 split const 2 dà headers di livello 1
 split errors, pandoc-to-sphinx, sottotitoli, opzione livelli
+reverse, linter, posts, guides, user feedback: prototyping & design
 standard definizione formato ed esempi e direttive, decorazioni, list tables
 standard https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
 subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
@@ -269,6 +273,8 @@ agosto
  5
  5
 
+possiamo pianificare il tempo a disposizione
+
 5 giugno
 5 giugno
 5 giugno
@@ -312,9 +318,6 @@ nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
 preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
 nessuna differenza fra preserve ed auto, in tutti i documenti
 
-the error doesn't happen when the to-sphinx filter is disabled
-the stack exec thing
-
 - di buono normattiva, courier, `-s`
 - errore box dovuto probabilmente al linker
 - su questo documento, ODT ha dato risultati disastrosi
@@ -324,111 +327,15 @@ gli utenti possono convertire un DOCX passando attraverso Google Docs
 ed il plugin
 il plugin chiede permessi che non vorrei dare
 
-riposare è una forma di resistenza esistenziale che preferiamo evitare
-ci costa l'indebolimento di cuore e degli altri organi vitali
-lo sgocciolare delle forze, dei sensi e delle volontà
-una schiena morbida può comunque cavalcare le onde
-and from that principle of pleasure
-sneak energy back in the system
-from a different entry
-
-a good research problem is important and solvable
-most important thing in a research career is the choice of problems to work on
-https://twitter.com/EdwardTufte/status/999239478484103169
+| riposare è una forma di resistenza esistenziale che preferiamo evitare
+| ci costa l'indebolimento di cuore e degli altri organi vitali
+| lo sgocciolare delle forze, dei sensi e delle volontà
+| una schiena morbida può comunque cavalcare le onde
+| and from that principle of pleasure
+| sneak energy back in the system
+| from a different entry
 
 italia/progetto-argomento-docs https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
-
-rise fragmentation
-fall simplification
-
-possiamo pianificare il tempo a disposizione
-
-emacs
- long line copy behaviour
- macros
- version control
- delete an emptied buffer while visiting it
-
-to let flow
-un onda è un processo comprensibile e partecipativo
-
-non è un cattivo risultato per un prototipo che costa poco mantenere
-permettendo di tradurre
-hanno rivelato errori anche nella mia versione
-cercavo migliorie nell'installazione
-ci sono state più differenze di quelle che mi aspettavo
-mi ha permesso di analizzare con precisione
-un esperimento che ci è costato cinque minuti
-
-error web identity
-
-priorità ai nostri casi d'uso
-
-issue per Alberto per valutarne l'utilità
-https://github.com/jgm/pandoc/issues/3698 RST reference location
-
-https://github.com/jgm/pandoc/issues/4564 list tables
-https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
-
-~/pandoc-to-sphinx
-
-it's better to maintain my conversion toolkit ready
-before starting long tasks
-
-humans first
-
-humble ugly boring concrete great diving
-
-payment
-
-engage attivare utenti
-
-tenere il server e la logica nello stesso processo serve alla scalabilità
-
-diving from one focus to the other
-
-coordinarsi e pianificare i prossimi mesi
-a metà del contratto è il momento per affrontare i temi più complessi
-
-il ritmo di conversione è stato stabile
-
-productive
-
-raised hands
-
-(
-
-note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
-
-now that 4559 is merged i can open an issue for the image
-
-)
-
-(
-
-come utente di `pandoc-docs2rst` voglio evitare di gestire il repository dei filtri
-
-come utente di `pandoc-docs2rst` voglio evitare di gestire il linker alla normativa
-
-abbiamo semplificato l'installazione e la manutenzione di `pandoc-docs2rst` aggiungendo pandoc fra le dipendenze gestite da stack, così che gli utenti non debbano preoccuparsi della versione di pandoc utilizzata.
-
-rimangono altre due dipendenze che chiediamo di gestire agli
-
-possibilità di errore
-% carta 
-linker a normattiva
-pandoc-filters
-
-)
-
-se voglio fare prove ulteriori con ODT
-esempio di Google Docs convertibile via ODT o via DOCX
-https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
-per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
-
-DOCX -> Sphinx: upstream
-ODT -> Sphinx: interruption
-reverse, linter, posts, guides, user feedback: prototyping & design
 
   linee guida acquisizione e riuso software per la pubblica amministrazione
  - le immagini sono andate perse
@@ -436,10 +343,68 @@ reverse, linter, posts, guides, user feedback: prototyping & design
  v file sovrascritto
 https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
 
+| most important thing in a research career
+| is the choice of problems to work on
+| a good research problem is important and solvable
+| https://twitter.com/EdwardTufte/status/999239478484103169
+
+rise fragmentation
+fall simplification
+
+. emacs
+   macros
+   version control
+   long line copy behaviour
+   delete an emptied buffer while visiting it
+
+. to let flow
+. un onda è un processo comprensibile e partecipativo
+
+| un esperimento che ci è costato cinque minuti
+| mi ha permesso di analizzare con precisione
+| ci sono state più differenze di quelle che mi aspettavo
+| cercavo migliorie nell'installazione
+| hanno rivelato errori anche nella mia versione
+| permettendo di tradurre
+| non è un cattivo risultato per un prototipo che costa poco mantenere
+
+error web identity
+
+priorità ai nostri casi d'uso
+
+humans first
+
+irrelevant ugly boring concrete dive
+
+. payment
+
+engage attivare utenti
+
+tenere il server e la logica nello stesso processo serve alla scalabilità
+
+il ritmo di conversione è stato stabile
+
+. productive
+
+. raised hands
+
+note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
+now that 4559 is merged i can open an issue for the image
+
+anche per ridurre le possibilità di errore
+come utente di `pandoc-docs2rst` voglio evitare di gestire
+ repository dei filtri
+ linker alla normativa
+
+se voglio fare prove ulteriori con ODT
+esempio di Google Docs convertibile via ODT o via DOCX
+https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
+per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
+
 ten fingers thinking
 one can feel will within any context
 
-about:performance firefox
+firefox about:performance
 
 (
 
@@ -453,6 +418,11 @@ libre docs -> embedded -> works
 )
 
 (
+
+https://github.com/jgm/pandoc/issues/3698 RST reference location
+
+https://github.com/jgm/pandoc/issues/4564 list tables
+https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
 
 3147 bidirectional text
 
@@ -509,45 +479,21 @@ https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
 
 )
 
-
-
-(
-
-we could copy `document.rst` to `unlinked-document-check.rst` when the
-linker is active, and perform the syntax check on that one as well, in
-order to detect regressions and other errors that could affect our
-users
-
-not doing it for now in order to keep the structure of documents
-simpler for the users
-
-)
-
-(
-
 i wasn't able to reduce the test case, the code can guide me
-
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
-
 parsing a long link in a table
 
-)
-
 figure data model https://github.com/jgm/pandoc/issues/3177
-
 https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
-
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html
 http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
 http://docutils.sourceforge.net/docs/
-
 https://github.com/msprev/panzer
 https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
-
 https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
 
 https://github.com/italia/docsitalia-esempiformattazione-docs
@@ -555,8 +501,6 @@ https://github.com/italia/docs-italia-theme/tree/bootstrap-italia/demo_docs/sour
 https://github.com/italia/docs-italia-starter-kit
 http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#il-formato-restructuredtext-rst
  contengono un documento di esempio
-
-https://github.com/teamdigitale/licenses
 
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
@@ -566,6 +510,8 @@ dereference
 https://github.com/jgm/pandoc/wiki/Roadmap
 
 ogni cosa ben tradotta evita lavoro manuale tedioso
+
+https://github.com/teamdigitale/licenses
 
 http://lg-interoperabilita.readthedocs.io/en/latest/index.html
 
@@ -646,7 +592,7 @@ paranoias are built upon the unlikely
 one learns when to use an experiment and when not
 reality - perception
 the scientific method or the discovery method
-come posso evitare che la negatività si rifletta sul mio lavoro?
+. tengo la negatività fuori dal lavoro
 not used to smiles
 l'hai voluto ma come ti sta?
 basta uno statunitense per farmi sentire negli stati uniti
