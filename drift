@@ -146,12 +146,21 @@
 
 
 
-doc/
- buone-pratiche.md
- comandi/
-  pandoc-to-sphinx.md
-  convert-docs-italia.md
-  pandoc-font-to-style.md
+
+
+
+
+
+
+--filters che peschi da path o da una cartella precisa
+trasformo i filtri usati in comandi
+
+docsitalia-conversion-utils
+conversion-regression-tests
+pandoc-filters
+
+ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
+vollenweider
 it has to be addictive to be successful
 The populist victory in Italy now could not come at a worse time for the European Union. A corruption scandal in Spain has led to the ouster of that country’s prime minister, whose government had been a model for the central authorities in Brussels. Britain is leaving. Chancellor Angela Merkel of Germany is weakened. President Emmanuel Macron of France is a pro-Europe leader in search of partners. Poland and Hungary are rolling back democracy. The United States president is waging a trade war on European allies, while more and more Europeans look to Russia’s strongman, Vladimir V. Putin, as a model.
 filters intro
@@ -168,6 +177,8 @@ https://github.com/italia/docs.italia.it/issues
 https://github.com/italia/docs.italia.it
 senso di sostenibilità
 evolversi
+quizas editar
+come è possibile che non ci siano post nuovi?
 equilibrio immaginato ed equilibrio espresso
 scrittura antitecnologica
 vorrei rigenerarlo ma non ho il sorgente
@@ -230,8 +241,6 @@ Te rompe tu por dentro y luego crece
 Crece, y no se desaparece y no porque es necesario
 Sino por que lo mereces
 reality in out mind
-compact
-
 dalle sorgenti del futuro che vogliamo
 nessuna barriera
 interferences guide to new sources
@@ -239,6 +248,41 @@ moving centers
 eyes
 registers the visits of
 the frame where the loops come back to close like the tracker
+compact
+
+giugno
+
+ 5 9-4 
+ 5
+ 5
+ 5
+
+luglio
+
+ 5
+ 5
+ 5
+ 5
+
+agosto
+
+ 5
+ 5
+
+5 giugno
+5 giugno
+5 giugno
+5 giugno
+
+. luglio
+. luglio
+5 luglio
+5 luglio
+
+5 agosto
+5 agosto
+5 agosto
+5 agosto
 
 - didascalia della tabella viene duplicata #3874
 - didascalia della figura, filtro non applicato
@@ -254,7 +298,6 @@ potremmo mantenere una pagina in inglese sul wiki di pandoc con le scelte stilis
 potremmo farvi riferimento noi ed il resto della comunità RST pandoc
 magari comincerò con una bozza nel pomeriggio
 
-giugno
 luglio
 agosto
 
@@ -304,6 +347,7 @@ emacs
  long line copy behaviour
  macros
  version control
+ delete an emptied buffer while visiting it
 
 to let flow
 un onda è un processo comprensibile e partecipativo
@@ -684,26 +728,19 @@ open for looking later
 open, then close, dance
 othering
 closeting
-pass-by portal
-project half life
 proprietary platforms like introducers, trainers
 prosemirror #free #web #editor
 public shelf recycling
 pursuing multiple goals
- quotes
 in mathematics, the art of asking questions is more valuable than solving problems. -- Georg Cantor
 "Measuring programming progress by lines of code is like measuring aircraft building progress by weight." - Bill Gates
 "Things that are impossible just take longer" - Ian Hickson
 relax for the action rather than relax after the action
 salti con la corda
-seed and recept interferences
 seed creative
-shamelessness can be challenging but powerful
-size matters
-sometimes the only thing you can build is a small pebble on top of another
+. sometimes building is a small pebble on top of another
 sometimes the trigger is the shell
 occupational wellness
-switch from deletable to keep
 symptom coherence
 target strategies
 textup
@@ -715,4 +752,4 @@ what justifies the ends needs to justify also the means
 when humans listen to music, our amygdalae often light up in response
 word recycling
 work your selves
-writing electronically thought me how to write better with pen and paper, where i can't edit
+
