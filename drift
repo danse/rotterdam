@@ -152,16 +152,24 @@
 
 
 
+
+    mys makeSphinx
+    mys "test -e media && cp -r media index" -- for Sphinx
+add-headers-filter
+figure-filter
 --filters che peschi da path o da una cartella precisa
 trasformo i filtri usati in comandi
 
+i expect the stack exec problem to disappear
 the error doesn't happen when the to-sphinx filter is disabled
-the stack exec thing
 
+docsitalia-conversion-commands
 docsitalia-conversion-utils
 conversion-regression-tests
 pandoc-filters
 
+https://www.goingnowhere.org/en/forums
+nowhere
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 vollenweider
 it has to be addictive to be successful
@@ -190,8 +198,6 @@ il documento sembra scritto con wrap auto
 title underline too short
 formatted-as-code-with-errors.rst
 code errors
-nowhere
-communities
 si va avanti attraverso i cambiamenti
 . costruire sensibilità futura
 non dimentichiamo le cose, le cancelliamo
@@ -223,7 +229,6 @@ sei molti selvaggi da non disprezzare
 il pensiero politico vintage come la moda
 amare globale
 encierro relajante
-sintetisamos en raices
 nonostante le reti continuiamo a considerare la mente altro dal corpo
 il nemico è il nostro stato culturale
 porta per la materia
