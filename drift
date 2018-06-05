@@ -125,62 +125,48 @@
 
 
 
+sandbox
+
+http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
+
+http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    mys makeSphinx
-    mys "test -e media && cp -r media index" -- for Sphinx
+il metodo adatto allo scopo
+daModificare = ["Anpr", "Anas"]
+.
 add-headers-filter
 figure-filter
---filters che peschi da path o da una cartella precisa
+.
+mys "test -e media && cp -r media index" -- for Sphinx
 trasformo i filtri usati in comandi
-
+filters intro
+separate regression logic
 i expect the stack exec problem to disappear
 the error doesn't happen when the to-sphinx filter is disabled
-
+-
 docsitalia-conversion-commands
-docsitalia-conversion-utils
 conversion-regression-tests
 pandoc-filters
-
+-
+split errors, pandoc-to-sphinx, sottotitoli, opzione livelli
+reverse, linter, posts, guides, user feedback: prototyping & design
+standard definizione formato ed esempi e direttive, decorazioni, list tables
+.
+more experimental than what i want to sell
 https://www.goingnowhere.org/en/forums
 nowhere
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 vollenweider
-it has to be addictive to be successful
-The populist victory in Italy now could not come at a worse time for the European Union. A corruption scandal in Spain has led to the ouster of that country’s prime minister, whose government had been a model for the central authorities in Brussels. Britain is leaving. Chancellor Angela Merkel of Germany is weakened. President Emmanuel Macron of France is a pro-Europe leader in search of partners. Poland and Hungary are rolling back democracy. The United States president is waging a trade war on European allies, while more and more Europeans look to Russia’s strongman, Vladimir V. Putin, as a model.
-filters intro
-rename repo, separate regression logic
+it's competing with designer's tools
+the populist victory in italy now could not come at a worse time for the european union. a corruption scandal in spain has led to the ouster of that country’s prime minister, whose government had been a model for the central authorities in brussels. britain is leaving. chancellor angela merkel of germany is weakened. president emmanuel macron of france is a pro-europe leader in search of partners. poland and hungary are rolling back democracy. the united states president is waging a trade war on european allies, while more and more europeans look to russia’s strongman, vladimir v. putin, as a model.
+.
 split const 3 sembra corrispondere
 split const 2 dà headers di livello 1
-split errors, pandoc-to-sphinx, sottotitoli, opzione livelli
-reverse, linter, posts, guides, user feedback: prototyping & design
-standard definizione formato ed esempi e direttive, decorazioni, list tables
+.
 standard https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
 subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
 stack exec convert-docs-italia
@@ -258,42 +244,6 @@ eyes
 registers the visits of
 the frame where the loops come back to close like the tracker
 compact
-
-giugno
-
- 5 9-4 
- 5
- 5
- 5
-
-luglio
-
- 5
- 5
- 5
- 5
-
-agosto
-
- 5
- 5
-
-possiamo pianificare il tempo a disposizione
-
-5 giugno
-5 giugno
-5 giugno
-5 giugno
-
-. luglio
-. luglio
-5 luglio
-5 luglio
-
-5 agosto
-5 agosto
-5 agosto
-5 agosto
 
 - didascalia della tabella viene duplicata #3874
 - didascalia della figura, filtro non applicato
