@@ -120,10 +120,32 @@
 
 
 
+GG edit
+commands refactoring
+encoding and command line issue
 
-
-docsitalia-comandi-conversione
-e
+add-headers-filter
+figure-filter
+.
+Comandi Conversione             italiano nella documentazione utente
+docsitalia-conversion-commands  inglese nel software di interesse generale
+.
+mys "test -e media && cp -r media index" -- for Sphinx
+trasformo i filtri usati in comandi
+filters intro
+separate regression logic
+i expect the stack exec problem to disappear
+the error doesn't happen when the to-sphinx filter is disabled
+.
+docsitalia-conversion-commands
+conversion-regression-tests
+pandoc-filters
+.
+split errors, sottotitoli, opzione livelli
+standard definizione formato ed esempi e direttive, decorazioni, list tables
+standard https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
+reverse, linter, posts, guides, user feedback: prototyping & design
+.
 ai lettori che non siano programmatori professionisti
 vorrei sapere l'effetto che fa
 (che ci appartiene)
@@ -131,8 +153,11 @@ per far capire che i filtri possono essere qualcosa di semplice e leggibile
 che risolva un problema ai nostri utenti, al di là della conversione.
 Mi sono cimentato nello scrivere il più semplice filtro pandoc
 .
+https://github.com/italia/docs.italia.it/issues/35
 pandoc: Cannot decode byte '\x97': Data.Text.Encoding.Fusion.streamUtf8: Invalid UTF-8 stream
-import 
+Pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
+https://hackage.haskell.org/package/text-1.2.3.0/docs/Data-Text-Internal-Encoding-Fusion.html#v:streamUtf8
+.
 la guida alla carta di identità elettronica
 installare e verificare i permessi, #prj_docsitalia
 tutti molto impegnati su diversi fronti
@@ -141,40 +166,22 @@ terminatori di linea per windows in rST
 il comando non su path forse non erano amministratori
 7-8 tutti windows tranne uno
 il file di esempio è stato utile
-
+.
 - password Github
 - permessi
 sandbox
 http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
 http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
 .
-Comandi Conversione             italiano nella documentazione utente
-docsitalia-conversion-commands  inglese nel software di interesse generale
 .
-track mezz'ora
+track
+mezz'ora
+20 nomading from dive to drift
+.
 tunnel musicale
-.
-https://github.com/pablopers/ISTATRapportoannuale2018
 il metodo adatto allo scopo
+https://github.com/pablopers/ISTATRapportoannuale2018
 spacemacs + intero
-.
-add-headers-filter
-figure-filter
-.
-mys "test -e media && cp -r media index" -- for Sphinx
-trasformo i filtri usati in comandi
-filters intro
-separate regression logic
-i expect the stack exec problem to disappear
-the error doesn't happen when the to-sphinx filter is disabled
--
-docsitalia-conversion-commands
-conversion-regression-tests
-pandoc-filters
--
-split errors, pandoc-to-sphinx, sottotitoli, opzione livelli
-reverse, linter, posts, guides, user feedback: prototyping & design
-standard definizione formato ed esempi e direttive, decorazioni, list tables
 .
 more experimental than what i want to sell
 https://www.goingnowhere.org/en/forums
@@ -187,18 +194,14 @@ the populist victory in italy now could not come at a worse time for the europea
 split const 3 sembra corrispondere
 split const 2 dà headers di livello 1
 .
-standard https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
 subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
-stack exec convert-docs-italia
-pandoc-docs2rst - convert-docs-italia - pandoc-to-sphinx
 https://github.com/italia/docs.italia.it/issues
 https://github.com/italia/docs.italia.it
 senso di sostenibilità
 evolversi
-quizas editar
 come è possibile che non ci siano post nuovi?
 equilibrio immaginato ed equilibrio espresso
-scrittura antitecnologica
+scrittura atecnologica
 vorrei rigenerarlo ma non ho il sorgente
 il documento sembra scritto con wrap auto
 title underline too short
