@@ -122,21 +122,41 @@
 
 
 
+docsitalia-comandi-conversione
+e
+ai lettori che non siano programmatori professionisti
+vorrei sapere l'effetto che fa
+(che ci appartiene)
+per far capire che i filtri possono essere qualcosa di semplice e leggibile
+che risolva un problema ai nostri utenti, al di là della conversione.
+Mi sono cimentato nello scrivere il più semplice filtro pandoc
+.
+pandoc: Cannot decode byte '\x97': Data.Text.Encoding.Fusion.streamUtf8: Invalid UTF-8 stream
+import 
+la guida alla carta di identità elettronica
+installare e verificare i permessi, #prj_docsitalia
+tutti molto impegnati su diversi fronti
+riga di comando seguendoli uno ad uno
+terminatori di linea per windows in rST
+il comando non su path forse non erano amministratori
+7-8 tutti windows tranne uno
+il file di esempio è stato utile
 
-
-
+- password Github
+- permessi
 sandbox
-
 http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
-
 http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
-
-
-
-
-
+.
+Comandi Conversione             italiano nella documentazione utente
+docsitalia-conversion-commands  inglese nel software di interesse generale
+.
+track mezz'ora
+tunnel musicale
+.
+https://github.com/pablopers/ISTATRapportoannuale2018
 il metodo adatto allo scopo
-daModificare = ["Anpr", "Anas"]
+spacemacs + intero
 .
 add-headers-filter
 figure-filter
