@@ -145,6 +145,58 @@
 
 
 
+
+
+
+
+
+
+(a -> m b) -> (b -> m c) -> a -> c
+if `index` already exists: remove and write, keep and quit, ask user with force option
+build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
+https://wiki.haskell.org/How_to_write_a_Haskell_program
+https://wiki.haskell.org/Hierarchical_module_names
+https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
+https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
+https://www.haskell.org/cabal/users-guide
+https://www.haskell.org/cabal
+mys "test -e media && cp -r media index" -- for sphinx
+separate regression logic
+i expect the stack exec problem to disappear
+the error doesn't happen when the to-sphinx filter is disabled
+docs-italia-conversion-tests
+pandoc-font-to-style
+
+tmp $ echo ciao > doc.rst
+tmp $ converti doc.rst
+converti: Prelude.head: empty list
+
+-- |
+-- prop> sort xs == (sort . sort) (xs :: [Int])
+https://hackage.haskell.org/package/doctest
+
+perché l'interruzione non vale la creazione di un repo
+in questo caso non ho un piano di compatibilità
+
+and we go
+
+commands refactoring
+manuale pandoc
+split errors, sottotitoli, opzione livelli
+split const
+ 3 sembra corrispondere
+ 2 dà headers di livello 1
+standard
+ loose lists (filtro-stile-liste)
+ definizione formato ed esempi e direttive, decorazioni, list tables
+ https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
+reverse, linter, posts, guides, user feedback: prototyping & design
+
+pandoc: Cannot decode byte '\x97': Data.Text.Encoding.Fusion.streamUtf8: Invalid UTF-8 stream
+pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
+https://hackage.haskell.org/package/text-1.2.3.0/docs/Data-Text-Internal-Encoding-Fusion.html#v:streamUtf8
+.
+
 sensibilità
 potenzialità
  non espressa è destinata a spegnersi
@@ -168,41 +220,7 @@ convertitore web scelta elettiva, pandoc
 diversità per la ricerca
 conformità per la soluzione
 
-commands refactoring
-gg edit
-encoding and command line issue
-split errors, sottotitoli, opzione livelli
-standard definizione formato ed esempi e direttive, decorazioni, list tables
-standard https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
-reverse, linter, posts, guides, user feedback: prototyping & design
 
-Warning: Installation path /home/opiccolo/.local/bin not found on the PATH environment variable.
-.
-mys "test -e media && cp -r media index" -- for Sphinx
-trasformo i filtri usati in comandi add-headers-filter, figure-filter
-filters intro
-separate regression logic
-split const 3 sembra corrispondere
-split const 2 dà headers di livello 1
-i expect the stack exec problem to disappear
-the error doesn't happen when the to-sphinx filter is disabled
-.
-docsitalia-comandi-conversione
-conversion-regression-tests
-pandoc-filters
-.
-https://github.com/italia/docs.italia.it/issues/35
-pandoc: Cannot decode byte '\x97': Data.Text.Encoding.Fusion.streamUtf8: Invalid UTF-8 stream
-Pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
-https://hackage.haskell.org/package/text-1.2.3.0/docs/Data-Text-Internal-Encoding-Fusion.html#v:streamUtf8
-.
-la guida alla carta di identità elettronica
-riga di comando seguendoli uno ad uno
-terminatori di linea per windows in rST
-il comando non su path forse non erano amministratori
-7-8 windows tranne uno
-il file di esempio è stato utile
-.
 il codice rST è un po' sporco
 credenziali Github, si può usare anche senza commit automatico
 Davide

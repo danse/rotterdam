@@ -1,4 +1,8 @@
 
+
+
+git push --delete origin refactoring
+
 git clean -df
 
 # rebase up to the first commit in the current or specified branch
