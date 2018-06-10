@@ -151,21 +151,13 @@
 
 
 
+
+mys "test -e media && cp -r media index" -- for sphinx
 (a -> m b) -> (b -> m c) -> a -> c
 if `index` already exists: remove and write, keep and quit, ask user with force option
-build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
-https://wiki.haskell.org/How_to_write_a_Haskell_program
-https://wiki.haskell.org/Hierarchical_module_names
-https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
-https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
-https://www.haskell.org/cabal/users-guide
-https://www.haskell.org/cabal
-mys "test -e media && cp -r media index" -- for sphinx
-separate regression logic
-i expect the stack exec problem to disappear
-the error doesn't happen when the to-sphinx filter is disabled
 docs-italia-conversion-tests
 pandoc-font-to-style
+build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
 
 tmp $ echo ciao > doc.rst
 tmp $ converti doc.rst
@@ -230,6 +222,12 @@ sandbox
 http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
 http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
 .
+https://wiki.haskell.org/How_to_write_a_Haskell_program
+https://wiki.haskell.org/Hierarchical_module_names
+https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
+https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
+https://www.haskell.org/cabal/users-guide
+https://www.haskell.org/cabal
 il metodo adatto allo scopo
 spacemacs + intero
 more experimental than what i want to sell
