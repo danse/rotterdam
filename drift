@@ -140,32 +140,83 @@
 
 
 
+While assisting my users in a project that relies on pandoc, i found myself developing some small scripts which made me think of a new convention: pandoc sinks and pandoc sources. Here the idea is explained in detail, let me know what you think about it. If you find this useful, we could add it to the wiki.
 
+  parsing with pandoc
+ convenzioni
+ manuale
+ merge fork
+ merge quotes
+ list tables
+ issues in comandi-conversione
 
+. piano
 
+ 5 9  - 4  |
+ 5 16 - 11 |
+ 5
+ 5
+giugno
 
+ 5
+ 5
+ 5
+ 5
+luglio
 
+ 5
+ 5
+agosto
 
+possiamo pianificare il tempo a disposizione
 
+marco andolina
+giuseppe pomidoro
+erica badu
 
+http://blog.penelopetrunk.com/2008/04/04/writing-without-typos-is-totally-outdated
 
+..glossary, ..epigraph, ..highlights e tutti i box
 
+in Docs Italia il testo delle note deve essere inserito alla fine del paragrafo che contiene la nota
 
+glossario
 
-mys "test -e media && cp -r media index" -- for sphinx
+è necessario usare l’opzione :numbered:. 
+
+il documento non dovrebbe contenere sezioni oltre il quarto livello.
+
+https://github.com/italia/docsitalia-esempiformattazione-docs
+https://github.com/italia/docs-italia-theme/tree/bootstrap-italia/demo_docs/source
+https://github.com/italia/docs-italia-starter-kit
+http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#il-formato-restructuredtext-rst
+ contengono un documento di esempio
+.
+la scrittura di doc, come la conversione, come un problema aperto e
+non meccanizzabile su cui vogliamo assistere gli utenti ad esprimersi
+.
+convenzioni
+
+XI
+
+ tmp $ fg
+pandoc-to-sphinx Guida\ tecnica\ metriche\ software\ -\ per\ pubblicazione.docx
+^C
+
+https://github.com/jgm/pandoc/issues/4320
+wrap
+
+adottare le list tables risolverebbe il problema delle righe lunghe
+
 (a -> m b) -> (b -> m c) -> a -> c
+
 if `index` already exists: remove and write, keep and quit, ask user with force option
-docs-italia-conversion-tests
 pandoc-font-to-style
 build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
 
-tmp $ echo ciao > doc.rst
-tmp $ converti doc.rst
-converti: Prelude.head: empty list
-
+https://hackage.haskell.org/package/doctest
 -- |
 -- prop> sort xs == (sort . sort) (xs :: [Int])
-https://hackage.haskell.org/package/doctest
 
 perché l'interruzione non vale la creazione di un repo
 in questo caso non ho un piano di compatibilità
@@ -236,6 +287,8 @@ ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 vollenweider
 these contents are competing with designer's tools
 subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
+conversione documento
+https://github.com/italia/docs-italia-comandi-conversione/issues
 https://github.com/italia/docs.italia.it/issues
 https://github.com/italia/docs.italia.it
 senso di sostenibilità
@@ -322,6 +375,9 @@ del pensiero sopravvive la parte che sa adattarsi ai fatti
 editing ed il processo alle intenzioni
 to be a main link between two networks is gratifying and tiring
 il piacere è come il fuoco
+leaning on a door
+tune sintonizzare
+sourcing as an usability methodology
 compact
 
 - didascalia della tabella viene duplicata #3874
@@ -529,12 +585,6 @@ https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
-
-https://github.com/italia/docsitalia-esempiformattazione-docs
-https://github.com/italia/docs-italia-theme/tree/bootstrap-italia/demo_docs/source
-https://github.com/italia/docs-italia-starter-kit
-http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#il-formato-restructuredtext-rst
- contengono un documento di esempio
 
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
