@@ -137,38 +137,14 @@
 
 
 
+Re: Custom roles and directives for reStructuredText? 
+https://groups.google.com/forum/#!topic/pandoc-discuss/TKO1Z1JQKj8
 
-
+https://spdx.org
+https://github.com/torvalds/linux/blob/master/kernel/sched/swait.c
+https://www.gnu.org/licenses/gpl-howto.html
 
 While assisting my users in a project that relies on pandoc, i found myself developing some small scripts which made me think of a new convention: pandoc sinks and pandoc sources. Here the idea is explained in detail, let me know what you think about it. If you find this useful, we could add it to the wiki.
-
-  parsing with pandoc
- convenzioni
- manuale
- merge fork
- merge quotes
- list tables
- issues in comandi-conversione
-
-. piano
-
- 5 9  - 4  |
- 5 16 - 11 |
- 5
- 5
-giugno
-
- 5
- 5
- 5
- 5
-luglio
-
- 5
- 5
-agosto
-
-possiamo pianificare il tempo a disposizione
 
 marco andolina
 giuseppe pomidoro
@@ -574,6 +550,15 @@ in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
 parsing a long link in a table
 
+Sphinx format for Pandoc
+https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8
+
+Which convention is used for decorations when writing rST headers?
+https://groups.google.com/forum/#!topic/pandoc-discuss/NzRkZdKgphk
+
+convert pandoc to javascript
+https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
+
 figure data model https://github.com/jgm/pandoc/issues/3177
 https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
@@ -583,7 +568,6 @@ http://docutils.sourceforge.net/docs/
 https://github.com/msprev/panzer
 https://atom.io/packages/rst-preview-pandoc
 http://markup.rocks
-https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
 
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
