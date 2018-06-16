@@ -14,6 +14,7 @@
 
 
 
+                                       
 
 
 
@@ -61,90 +62,30 @@
 
 
 
+drift
+source
+focus
+root
+stack
 
+attaccare il caricatore guardando il device
 
+22 minuti mv nomi/*/* queue
 
+acqua con ossigeno
 
+truncate lines by default
 
+skylighting library, which is used for code syntax highlighting.
 
+contribuire > il codice
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Re: Custom roles and directives for reStructuredText? 
+Custom roles and directives for reStructuredText? 
 https://groups.google.com/forum/#!topic/pandoc-discuss/TKO1Z1JQKj8
 
 https://spdx.org
 https://github.com/torvalds/linux/blob/master/kernel/sched/swait.c
 https://www.gnu.org/licenses/gpl-howto.html
-
-While assisting my users in a project that relies on pandoc, i found myself developing some small scripts which made me think of a new convention: pandoc sinks and pandoc sources. Here the idea is explained in detail, let me know what you think about it. If you find this useful, we could add it to the wiki.
 
 marco andolina
 giuseppe pomidoro
@@ -183,8 +124,6 @@ https://github.com/jgm/pandoc/issues/4320
 wrap
 
 adottare le list tables risolverebbe il problema delle righe lunghe
-
-(a -> m b) -> (b -> m c) -> a -> c
 
 if `index` already exists: remove and write, keep and quit, ask user with force option
 pandoc-font-to-style
@@ -354,6 +293,13 @@ il piacere è come il fuoco
 leaning on a door
 tune sintonizzare
 sourcing as an usability methodology
+ci fa male ci fa bene ci fa
+cerco materia da ascoltare
+loop it through
+il mio posto per ballare liberamente
+enjoy writing
+il vento a favore
+drift is where flow marks waves
 compact
 
 - didascalia della tabella viene duplicata #3874
@@ -365,13 +311,6 @@ round trip open markup nell'esempio
 https://github.com/jgm/pandoc/issues/4373
 https://github.com/jgm/pandoc/commit/24f68654e919a8ff138d0a1fcfbf8e045b8ae38b
 headers upstream
-
-potremmo mantenere una pagina in inglese sul wiki di pandoc con le scelte stilistiche, questa e quella delle tabelle per esempio
-potremmo farvi riferimento noi ed il resto della comunità RST pandoc
-magari comincerò con una bozza nel pomeriggio
-
-luglio
-agosto
 
 isn't this a case that should be flattened?
 https://github.com/jgm/pandoc/issues/3973

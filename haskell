@@ -1,4 +1,7 @@
 
+newtype Work = W String
+type FirstName = String
+
 pvp.haskell.org
 
 (

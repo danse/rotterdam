@@ -1,24 +1,28 @@
+
+ errori linker - regressione su trello 
+ come tech writer voglio ignorare il metodo per la didascalia
   quotes
   figure
  filters to merge
- fork 174
   parsing with pandoc
   4th level warning
  convenzioni
+ fork 174
  manuale
  pubblicazione su hackage per updates più semplici
-  18 licenza
-  13 options per pandoc-to-sphinx
+ #4618 inlines with a line break
+ errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
   3 cartella media
+  13 options per pandoc-to-sphinx
+  18 licenza
   20 didascalia
-  19 portale
  comandi-conversione summer isssues
  list tables
 
 piano
 
- 14, 15      portale, list tables
- 5 18 - 22 | 
+ 15          list tables
+ 5 18 - 22 | didascalia
  5 25 - 29 |
 giugno
 
