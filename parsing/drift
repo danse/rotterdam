@@ -23,13 +23,18 @@
 
 
 
+f = string "rfc"
+f :: Parsec String b String
+f = string "re"
+ref = do
+  n <- norm
+  sep
+  Digits s y <- z
+  pure (Reference n s y)
+p = parseTest ref
 
-
-
-
-
-
-
+this folder was called `normattiva`
+i want to turn it into a resource about parsing
 
 *Main> parseTest (many1 (string "a" >> notFollowedBy (string "ab"))>> string "ab") $ "aaaab"
 parse error at (line 1, column 6):

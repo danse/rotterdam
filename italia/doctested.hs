@@ -1,5 +1,7 @@
 import Data.List
 import Data.Monoid
+import Text.ParserCombinators.ReadP hiding (between)
+import Data.Char (isDigit)
 
 -- | Multiple version of break, like a `split` that keeps the delimiter
 -- >>> multiBreak (=='-') "bla-bla-bla-b"
@@ -30,5 +32,12 @@ untilM :: Monad m => (a -> m Bool) -> (a -> a) -> a -> m a
 untilM p f i = do
   r <- p i
   if r then pure i else untilM p f (f i)
+
+-- | like `until` but for monadic functions
+-- >>> last $ readP_to_S startsWithRFC "rfc1234rest"
+-- ("1234","rest")
+startsWithRFC = do
+  string "rfc" +++ string "RFC"
+  many (satisfy isDigit)
 
 main = pure ()
