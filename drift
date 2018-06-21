@@ -19,7 +19,6 @@
 
 
 
-                                       
 
 
 
@@ -36,47 +35,33 @@
 
 
 
+the bug pablo found with external images
 
+- possibilità di ingrandimento della cartella?
+- cancellare .stack dopo la compilazione? o un'opzione cleanup quando serva
+lo spazio è un problema più che il tempo
+per adesso si può considerare a posto
+precompilati su Github per ruoli ansible ubuntu 16 04 o superiore 64 bit
 
+cellulare sul conto
 
+aggiungo i comandi, modifico il titolo conversione con pandoc
+correggo pull request
+https://github.com/italia/docs-italia-guide/issues
+https://github.com/italia/docs-italia-guide/blob/master/index.rst
+http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#migrazione-su-docs-italia-di-documentazione-esistente
+scrivo che nel fork vogliamo poche differenze
+comandi da copiare a mano? come si usano all'inizio
+Docs Italia link
 
+sommario
+descrizione
+requisiti
+installazione
+primi passi
+per approfondire
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+waves
 drift
 source
 focus
@@ -91,12 +76,18 @@ acqua con ossigeno
 
 truncate lines by default
 
-skylighting library, which is used for code syntax highlighting.
+
 
 contribuire > il codice
 
+Sphinx format for Pandoc
+https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8
+
 Custom roles and directives for reStructuredText? 
 https://groups.google.com/forum/#!topic/pandoc-discuss/TKO1Z1JQKj8
+
+parse options for unknown reStructuredText directives into div arguments
+https://github.com/jgm/pandoc/issues/4715
 
 https://spdx.org
 https://github.com/torvalds/linux/blob/master/kernel/sched/swait.c
@@ -174,8 +165,6 @@ sensibilità
 potenzialità
  non espressa è destinata a spegnersi
 
-cellulare sul conto
-https://medium.com/designers-italia/le-parole-sono-importanti-4e2cdbf35ede
 strana efficacia
 freedom from the device
 
@@ -504,9 +493,6 @@ i wasn't able to reduce the test case, the code can guide me
 in box.rst one can see the parsing error. the parser seems to fail
 recognising that the link is continuing to a new line
 parsing a long link in a table
-
-Sphinx format for Pandoc
-https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8
 
 Which convention is used for decorations when writing rST headers?
 https://groups.google.com/forum/#!topic/pandoc-discuss/NzRkZdKgphk
