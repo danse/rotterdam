@@ -1,29 +1,26 @@
-  3 cartella media
-  13 options per pandoc-to-sphinx
-  18 licenza
-  20 didascalia
-  26 primo livello
- comandi-conversione ..... summer isssues
+ come tech writer voglio ignorare il metodo per la didascalia
+ pubblicazione su hackage per updates più semplici
+ quotes filter to merge
+ convenzioni
 
  fisso le dipendenze
  errori linker - regressione su trello 
- come tech writer voglio ignorare il metodo per la didascalia
- quotes filter to merge
- figure filter to merge
- convenzioni
- fork 174
- pubblicazione su hackage per updates più semplici
  manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
  #4618 inlines with a line break
  errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
- comandi-conversione ..... summer isssues
  tutti i test hanno un index vuoto
+ deployment dockerhub
+ summer 3 cartella media
+ summer 18 licenza
+ summer 20 didascalia
+ summer 26 primo livello
+ errori note ed immagini negli headers
  list tables
 
 piano
 
- 18 19 20 21 22 - list tables, didascalia
- 25 - 29 |
+          21 22
+ 25 26 27 28 29
 giugno
 
  .
@@ -35,7 +32,7 @@ luglio
  5
  5
  5
- .
+ 2
 agosto
 
 possiamo pianificare il tempo a disposizione
