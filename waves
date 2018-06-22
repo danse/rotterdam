@@ -25,10 +25,21 @@
 
 
 
+https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
+filter with arguments
+
+magari utile per il README di docs-italia-comandi-conversione
+o per il README di converti
+https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
+
+using ... in statically linked applications requires at runtime the
+shared libraries from the glibc version used for linking
+
+stack overflow message
 
 
 
-
+https://ro-che.info/articles/2015-10-26-static-linking-ghc
 
 
 

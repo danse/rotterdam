@@ -8,32 +8,31 @@
  manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
  #4618 inlines with a line break
  errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
- tutti i test hanno un index vuoto
- deployment dockerhub
- summer 3 cartella media
- summer 18 licenza
- summer 20 didascalia
- summer 26 primo livello
  errori note ed immagini negli headers
  list tables
+ summer 3 cartella media
+ tutti i test hanno un index vuoto
+ summer 26 primo livello
+ summer 20 didascalia
+ summer 18 licenza
+ deployment
 
-piano
 
-          21 22
- 25 26 27 28 29
+
+                  24
+ 25    27 28 
 giugno
-
- .
- 5
- 5
- 5
+ 4
+ 4
+ 4
 luglio
-
- 5
- 5
- 5
- 2
+ 4
+ 4
+ 4
+ 4
 agosto
+ 1
+settembre
 
 possiamo pianificare il tempo a disposizione
 
