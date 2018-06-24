@@ -22,8 +22,42 @@
 
 
 
+settembre
+ 2
+agosto
+ 5
+ 4
+ 3
+ 5
+luglio
+ 5
+ 5
+ 4
 
 
+
+ tutti i test hanno un index vuoto
+ deployment
+ summer 18 licenza
+ summer 20 didascalia
+ summer 26 primo livello
+ summer 3 cartella media
+ list tables
+ errori note ed immagini negli headers
+ errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
+ #4618 inlines with a line break
+ manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
+ errori linker - regressione su trello 
+ fisso le dipendenze
+
+ convenzioni
+ quotes filter to merge
+ pubblicazione su hackage per updates più semplici
+ come tech writer voglio ignorare il metodo per la didascalia
+
+ends
+
+taxfix berlino
 
 https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
 filter with arguments
@@ -32,19 +66,9 @@ magari utile per il README di docs-italia-comandi-conversione
 o per il README di converti
 https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
 
-using ... in statically linked applications requires at runtime the
-shared libraries from the glibc version used for linking
-
 stack overflow message
 
-
-
 https://ro-che.info/articles/2015-10-26-static-linking-ghc
-
-
-
-
-
 
 the bug pablo found with external images
 
@@ -53,8 +77,6 @@ the bug pablo found with external images
 lo spazio è un problema più che il tempo
 per adesso si può considerare a posto
 precompilati su Github per ruoli ansible ubuntu 16 04 o superiore 64 bit
-
-cellulare sul conto
 
 aggiungo i comandi, modifico il titolo conversione con pandoc
 correggo pull request
@@ -86,8 +108,6 @@ attaccare il caricatore guardando il device
 acqua con ossigeno
 
 truncate lines by default
-
-
 
 contribuire > il codice
 
