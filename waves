@@ -18,8 +18,7 @@
 
 
 
-
-
+        
 
 
 settembre
@@ -36,8 +35,6 @@ luglio
 
 
 
- tutti i test hanno un index vuoto
- deployment
  summer 18 licenza
  summer 20 didascalia
  summer 26 primo livello
@@ -56,6 +53,12 @@ luglio
  come tech writer voglio ignorare il metodo per la didascalia
 
 ends
+
+fra installazione e contribuire
+## Convertire un documento
+[DA COMPLETARE]
+
+https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 
 taxfix berlino
 
@@ -88,11 +91,11 @@ comandi da copiare a mano? come si usano all'inizio
 Docs Italia link
 
 sommario
-descrizione
 requisiti
+descrizione
 installazione
-primi passi
-per approfondire
+primi passi      %
+per approfondire %
 
 waves
 drift
@@ -100,6 +103,26 @@ source
 focus
 root
 stack
+
+vorrei rigenerarlo ma non ho il sorgente
+il documento sembra scritto con wrap auto
+title underline too short
+formatted-as-code-with-errors.rst
+code errors
+
+output/loose/Guida tecnica ... div e raw HTML alla fine del linked
+regression/ nota links
+
+docx - google facile ed affidabile
+la conversione è secondaria all'adozione - confronto documenti esistenti
+valore semantico dello stile, lo stile è parte del contenuto
+https://github.com/italia/publiccode.yml
+~/docs-italia-tests-conversione/syntax-check-errors
+
+tables 1024
+trello-100 celle che spaziano
+paragraph escaping 4422
+https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
 
 attaccare il caricatore guardando il device
 
@@ -131,13 +154,9 @@ erica badu
 http://blog.penelopetrunk.com/2008/04/04/writing-without-typos-is-totally-outdated
 
 ..glossary, ..epigraph, ..highlights e tutti i box
-
 in Docs Italia il testo delle note deve essere inserito alla fine del paragrafo che contiene la nota
-
 glossario
-
 è necessario usare l’opzione :numbered:. 
-
 il documento non dovrebbe contenere sezioni oltre il quarto livello.
 
 https://github.com/italia/docsitalia-esempiformattazione-docs
@@ -145,318 +164,58 @@ https://github.com/italia/docs-italia-theme/tree/bootstrap-italia/demo_docs/sour
 https://github.com/italia/docs-italia-starter-kit
 http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#il-formato-restructuredtext-rst
  contengono un documento di esempio
-.
+
 la scrittura di doc, come la conversione, come un problema aperto e
 non meccanizzabile su cui vogliamo assistere gli utenti ad esprimersi
-.
-convenzioni
 
-XI
 
- tmp $ fg
-pandoc-to-sphinx Guida\ tecnica\ metriche\ software\ -\ per\ pubblicazione.docx
-^C
 
-https://github.com/jgm/pandoc/issues/4320
-wrap
 
-adottare le list tables risolverebbe il problema delle righe lunghe
+
+
+
+
+
+
+
+
+
 
 if `index` already exists: remove and write, keep and quit, ask user with force option
-pandoc-font-to-style
+
 build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
 
 https://hackage.haskell.org/package/doctest
 -- |
 -- prop> sort xs == (sort . sort) (xs :: [Int])
 
-perché l'interruzione non vale la creazione di un repo
-in questo caso non ho un piano di compatibilità
-
 and we go
 
-commands refactoring
-manuale pandoc
-split errors, sottotitoli, opzione livelli
-split const
- 3 sembra corrispondere
- 2 dà headers di livello 1
-standard
- loose lists (filtro-stile-liste)
- definizione formato ed esempi e direttive, decorazioni, list tables
- https://developersitalia.slack.com/archives/C9T4ELD4G/p1527675565000181
-reverse, linter, posts, guides, user feedback: prototyping & design
-
-pandoc: Cannot decode byte '\x97': Data.Text.Encoding.Fusion.streamUtf8: Invalid UTF-8 stream
-pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
-https://hackage.haskell.org/package/text-1.2.3.0/docs/Data-Text-Internal-Encoding-Fusion.html#v:streamUtf8
-.
-
-sensibilità
-potenzialità
- non espressa è destinata a spegnersi
-
-strana efficacia
-freedom from the device
-
-You did send us your invoices #16 - #27
-We need to know when you received payment.
-
-stand up for the right to think under pressure
-bisogni indotti, desideri, aspirazioni e necessità
-
-tax declaration 2016
-quando internet si blocca vorrei rompere la tastiera sul tavolo
-
-convertitore web scelta elettiva, pandoc
-
-diversità per la ricerca
-conformità per la soluzione
 
 
-il codice rST è un po' sporco
-credenziali Github, si può usare anche senza commit automatico
-Davide
-tutti molto impegnati su diversi fronti
-- permessi
-sandbox
-http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
-http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
-.
-https://wiki.haskell.org/How_to_write_a_Haskell_program
-https://wiki.haskell.org/Hierarchical_module_names
-https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
-https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
-https://www.haskell.org/cabal/users-guide
-https://www.haskell.org/cabal
-il metodo adatto allo scopo
-spacemacs + intero
-more experimental than what i want to sell
-https://www.goingnowhere.org/en/forums
-ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
-vollenweider
-these contents are competing with designer's tools
-subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
-conversione documento
-https://github.com/italia/docs-italia-comandi-conversione/issues
-https://github.com/italia/docs.italia.it/issues
-https://github.com/italia/docs.italia.it
-senso di sostenibilità
-evolversi
-come è possibile che non ci siano post nuovi?
-equilibrio immaginato ed equilibrio espresso
-scrittura atecnologica
-vorrei rigenerarlo ma non ho il sorgente
-il documento sembra scritto con wrap auto
-title underline too short
-formatted-as-code-with-errors.rst
-code errors
-si va avanti attraverso i cambiamenti
-. costruire sensibilità futura
-non dimentichiamo le cose, le cancelliamo
-output/loose/Guida tecnica ... div e raw HTML alla fine del linked
-regression/ nota links
-docx - google facile ed affidabile
-la conversione è secondaria all'adozione - confronto documenti esistenti
-a `-f --fragment` option seems more natural to me
-http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
-https://github.com/geophf/1HaskellADay/issues/1
-docs italia non è ancora attivo
-. mi capita poco di lavorare in un editor come docs e preferisco markdown
-. we are losing the skill to batch
-valore semantico dello stile, lo stile è parte del contenuto
-https://github.com/italia/publiccode.yml
-~/pandoc-docs2rst/syntax-check-errors
-https://github.com/italia/pandoc-docs2rst/issues/3 copy input media dir
-compression of output dirs
-tables 1024
-trello-100 celle che spaziano
-paragraph escaping 4422
-https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
-. sostituire per rimuovere
-la connettività è un problema
-sentimento immaginazione verifica comunicazione sentimento
-health rotterdam italia rotterdam
-sentimiento comprensiòn
-sei molti selvaggi da non disprezzare
-il pensiero politico vintage come la moda
-amare globale
-encierro relajante
-nonostante le reti continuiamo a considerare la mente altro dal corpo
-il nemico è il nostro stato culturale
-porta per la materia
-mental models
-una questione di vie
-sublimaciòn
-la conoscenza può essere espressa con parole diverse
-designers italia, dalla parte dei cittadini
-Viernes otra vez y caí en cuenta
-Caerse con dolor y levantarte cuesta
-Tiren sus apuestas, que yo le voy a ésta
-Andaba por ahí con mis sueños en la cuesta
-Al fin sabes lo que quieres y es muy sencillo 
-Caminando tranquilo sin nada en los bolsillos
-Muchas veces nos caímos contra el piso
-Y nadie me avisó, yo hice caso omiso
-Te chocas contra el mundo si un par de veces
-Te rompe tu por dentro y luego crece
-Crece, y no se desaparece y no porque es necesario
-Sino por que lo mereces
-reality in out mind
-dalle sorgenti del futuro che vogliamo
-nessuna barriera
-interferences guide to new sources
-moving centers
-eyes
-registers the visits of
-the frame where the loops come back to close like the tracker
-buona qualità ma poco rendimento
-e sì che internet è arrivato a mostrarci la realtà e ci sciocca
-a ragusa sapevo delle caverne
-la terra gira intorno al sole, la luna le gira intorno
-immagino di chiederti scusa perché sto bene come prima
-diving the tought can emerge real as well
-basta scintille ed onde
-mi tengo quelli accesi
-non c'è aria per nuovi sogni
-il tempo portabile da una cartella all'altra farebbe comodo
-coprirsi all'ombra per spogliarsi al sole
-del pensiero sopravvive la parte che sa adattarsi ai fatti
-editing ed il processo alle intenzioni
-to be a main link between two networks is gratifying and tiring
-il piacere è come il fuoco
-leaning on a door
-tune sintonizzare
-sourcing as an usability methodology
-ci fa male ci fa bene ci fa
-cerco materia da ascoltare
-loop it through
-il mio posto per ballare liberamente
-enjoy writing
-il vento a favore
-drift is where flow marks waves
-essere o esserci
-compact
 
-- didascalia della tabella viene duplicata #3874
-- didascalia della figura, filtro non applicato
-- autonumerazione non esiste in word
-- doppio underscore nei links
-round trip open markup nell'esempio
 
-https://github.com/jgm/pandoc/issues/4373
-https://github.com/jgm/pandoc/commit/24f68654e919a8ff138d0a1fcfbf8e045b8ae38b
-headers upstream
 
-isn't this a case that should be flattened?
-https://github.com/jgm/pandoc/issues/3973
 
-mi aspetto che il risultato sia comunque come con auto
-forse varrà la pena provare un'altra volta con preserve
-ci saranno dei cambiamenti quando aggiungeremo il filtro col font
-neanche nel codice (non letto come codice) sembra fare una differenza
-nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
-preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
-nessuna differenza fra preserve ed auto, in tutti i documenti
 
-- di buono normattiva, courier, `-s`
-- errore box dovuto probabilmente al linker
-- su questo documento, ODT ha dato risultati disastrosi
-https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
 
-gli utenti possono convertire un DOCX passando attraverso Google Docs
-ed il plugin
-il plugin chiede permessi che non vorrei dare
 
-| riposare è una forma di resistenza esistenziale che preferiamo evitare
-| ci costa l'indebolimento di cuore e degli altri organi vitali
-| lo sgocciolare delle forze, dei sensi e delle volontà
-| una schiena morbida può comunque cavalcare le onde
-| and from that principle of pleasure
-| sneak energy back in the system
-| from a different entry
 
-italia/progetto-argomento-docs https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
 
-  linee guida acquisizione e riuso software per la pubblica amministrazione
- - le immagini sono andate perse
- - doppio indice fatto manualmente da Alberto
- v file sovrascritto
-https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
-
-| most important thing in a research career
-| is the choice of problems to work on
-| a good research problem is important and solvable
-| https://twitter.com/EdwardTufte/status/999239478484103169
-
-rise fragmentation
-fall simplification
-
-. emacs
-   macros
-   version control
-   long line copy behaviour
-   delete an emptied buffer while visiting it
-
-. to let flow
-. un onda è un processo comprensibile e partecipativo
-
-| un esperimento che ci è costato cinque minuti
-| mi ha permesso di analizzare con precisione
-| ci sono state più differenze di quelle che mi aspettavo
-| cercavo migliorie nell'installazione
-| hanno rivelato errori anche nella mia versione
-| permettendo di tradurre
-| non è un cattivo risultato per un prototipo che costa poco mantenere
-
-error web identity
-
-priorità ai nostri casi d'uso
-
-humans first
-
-irrelevant ugly boring concrete dive
-
-. payment
-
-engage attivare utenti
-
-tenere il server e la logica nello stesso processo serve alla scalabilità
-
-il ritmo di conversione è stato stabile
-
-. productive
-
-. raised hands
 
 note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
 now that 4559 is merged i can open an issue for the image
-
-anche per ridurre le possibilità di errore
-come utente di `pandoc-docs2rst` voglio evitare di gestire
- repository dei filtri
- linker alla normativa
 
 se voglio fare prove ulteriori con ODT
 esempio di Google Docs convertibile via ODT o via DOCX
 https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
 per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
 
-ten fingers thinking
-one can feel will within any context
-
-firefox about:performance
-
-(
-
 supportare caption embedded in word -> menu, libreoffice, .docx
  così rimmarrebbe da:
-
  menu contestuale
 word docs -> styled par -> filter -> works
 libre docs -> embedded -> works
-
-)
 
 (
 
@@ -520,32 +279,78 @@ https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
 
 )
 
-i wasn't able to reduce the test case, the code can guide me
-in box.rst one can see the parsing error. the parser seems to fail
-recognising that the link is continuing to a new line
-parsing a long link in a table
 
-Which convention is used for decorations when writing rST headers?
-https://groups.google.com/forum/#!topic/pandoc-discuss/NzRkZdKgphk
+pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
 
-convert pandoc to javascript
-https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
-figure data model https://github.com/jgm/pandoc/issues/3177
-https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
-file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
-file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html
-http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
-http://docutils.sourceforge.net/docs/
-https://github.com/msprev/panzer
-https://atom.io/packages/rst-preview-pandoc
-http://markup.rocks
-https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
 
-https://hackage.haskell.org/package/tasty-1.0.1.1#readme
-http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+sensibilità
+potenzialità
+ non espressa è destinata a spegnersi
 
-dereference
+strana efficacia
+freedom from the device
+
+You did send us your invoices #16 - #27
+We need to know when you received payment.
+
+stand up for the right to think under pressure
+bisogni indotti, desideri, aspirazioni e necessità
+
+tax declaration 2016
+quando internet si blocca vorrei rompere la tastiera sul tavolo
+
+
+
+diversità per la ricerca
+conformità per la soluzione
+
+il codice rST è un po' sporco
+credenziali Github, si può usare anche senza commit automatico
+Davide
+tutti molto impegnati su diversi fronti
+- permessi
+sandbox
+http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
+http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
+
+- didascalia della tabella viene duplicata #3874
+- didascalia della figura, filtro non applicato
+- autonumerazione non esiste in word
+- doppio underscore nei links
+round trip open markup nell'esempio
+
+https://github.com/jgm/pandoc/issues/4373
+https://github.com/jgm/pandoc/commit/24f68654e919a8ff138d0a1fcfbf8e045b8ae38b
+headers upstream
+
+isn't this a case that should be flattened?
+https://github.com/jgm/pandoc/issues/3973
+
+mi aspetto che il risultato sia comunque come con auto
+forse varrà la pena provare un'altra volta con preserve
+ci saranno dei cambiamenti quando aggiungeremo il filtro col font
+neanche nel codice (non letto come codice) sembra fare una differenza
+nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
+preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
+nessuna differenza fra preserve ed auto, in tutti i documenti
+
+- di buono normattiva, courier, `-s`
+- errore box dovuto probabilmente al linker
+- su questo documento, ODT ha dato risultati disastrosi
+https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
+
+gli utenti possono convertire un DOCX passando attraverso Google Docs
+ed il plugin
+il plugin chiede permessi che non vorrei dare
+
+italia/progetto-argomento-docs https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
+
+  linee guida acquisizione e riuso software per la pubblica amministrazione
+ - le immagini sono andate perse
+ - doppio indice fatto manualmente da Alberto
+ v file sovrascritto
+https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
 
 https://github.com/jgm/pandoc/wiki/Roadmap
 
@@ -560,26 +365,6 @@ https://teamdigitale.governo.it
 forum.italia.it
 
 https://medium.com/team-per-la-trasformazione-digitale
-
-animale in una gabbia mentale
-
-changing our idea of comfort takes opportunities
-
-finding a new dimension in a relationship
-or chatting with calm with a colleague
-maybe it can be as simple as an idea arrived when we were with friends
-not even the most remarkable
-they being the first of a series of events, and maybe 
-the impact of turning points seems disregardable soon
-
-costruire in condizione di incertezza a livello governativo
-
-siamo uomini non ingranaggi
-
-con la preoccupazione del mangiare e dell'affitto
-restare all'altezza della responsabilità
-
-it's getting more and more productive
 
 the pandoc wiki could host info about caption formats
 
@@ -610,7 +395,201 @@ i put it here in front of everyone
 
 effective work is more enjoyable
 
-poring oil towards the humans on the other end of the networks
+https://wiki.haskell.org/How_to_write_a_Haskell_program
+https://wiki.haskell.org/Hierarchical_module_names
+https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
+https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
+https://www.haskell.org/cabal/users-guide
+https://www.haskell.org/cabal
+il metodo adatto allo scopo
+spacemacs + intero
+more experimental than what i want to sell
+
+ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
+vollenweider
+these contents are competing with designer's tools
+subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
+
+
+https://github.com/italia/docs.italia.it/issues
+https://github.com/italia/docs.italia.it
+senso di sostenibilità
+evolversi
+come è possibile che non ci siano post nuovi?
+equilibrio immaginato ed equilibrio espresso
+scrittura atecnologica
+
+
+si va avanti attraverso i cambiamenti
+. costruire sensibilità futura
+non dimentichiamo le cose, le cancelliamo
+
+a `-f --fragment` option seems more natural to me
+http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
+https://github.com/geophf/1HaskellADay/issues/1
+docs italia non è ancora attivo
+. mi capita poco di lavorare in un editor come docs e preferisco markdown
+. we are losing the skill to batch
+. sostituire per rimuovere
+la connettività è un problema
+sentimento immaginazione verifica comunicazione sentimento
+health rotterdam italia rotterdam
+sentimiento comprensiòn
+sei molti selvaggi da non disprezzare
+il pensiero politico vintage come la moda
+amare globale
+encierro relajante
+nonostante le reti continuiamo a considerare la mente altro dal corpo
+il nemico è il nostro stato culturale
+porta per la materia
+mental models
+una questione di vie
+sublimaciòn
+la conoscenza può essere espressa con parole diverse
+designers italia, dalla parte dei cittadini
+reality in out mind
+dalle sorgenti del futuro che vogliamo
+nessuna barriera
+interferences guide to new sources
+moving centers
+eyes
+registers the visits of
+the frame where the loops come back to close like the tracker
+buona qualità ma poco rendimento
+e sì che internet è arrivato a mostrarci la realtà e ci sciocca
+a ragusa sapevo delle caverne
+la terra gira intorno al sole, la luna le gira intorno
+immagino di chiederti scusa perché sto bene come prima
+diving the tought can emerge real as well
+basta scintille ed onde
+mi tengo quelli accesi
+non c'è aria per nuovi sogni
+il tempo portabile da una cartella all'altra farebbe comodo
+coprirsi all'ombra per spogliarsi al sole
+del pensiero sopravvive la parte che sa adattarsi ai fatti
+editing ed il processo alle intenzioni
+to be a main link is gratifying and tiring
+il piacere è come il fuoco
+leaning on a door
+tune sintonizzare
+sourcing as an usability methodology
+ci fa male ci fa bene ci fa
+cerco materia da ascoltare
+loop it through
+il mio posto per ballare liberamente
+enjoy writing
+il vento a favore
+drift is where flow marks waves
+essere o esserci
+compact
+
+| riposare è una forma di resistenza esistenziale che preferiamo evitare
+| ci costa l'indebolimento di cuore e degli altri organi vitali
+| lo sgocciolare delle forze, dei sensi e delle volontà
+| una schiena morbida può comunque cavalcare le onde
+| and from that principle of pleasure
+| sneak energy back in the system
+| from a different entry
+
+| most important thing in a research career
+| is the choice of problems to work on
+| a good research problem is important and solvable
+| https://twitter.com/EdwardTufte/status/999239478484103169
+
+rise fragmentation
+fall simplification
+
+. emacs
+   macros
+   version control
+   long line copy behaviour
+   delete an emptied buffer while visiting it
+
+. to let flow
+. un onda è un processo comprensibile e partecipativo
+
+| un esperimento che ci è costato cinque minuti
+| mi ha permesso di analizzare con precisione
+| ci sono state più differenze di quelle che mi aspettavo
+| cercavo migliorie nell'installazione
+| hanno rivelato errori anche nella mia versione
+| permettendo di tradurre
+| non è un cattivo risultato per un prototipo che costa poco mantenere
+
+error web identity
+
+priorità ai nostri casi d'uso
+
+humans first
+
+irrelevant ugly boring concrete dive
+
+. payment
+
+engage attivare utenti
+
+tenere il server e la logica nello stesso processo serve alla scalabilità
+
+il ritmo di conversione è stato stabile
+
+. productive
+
+. raised hands
+
+ten fingers thinking
+one can feel will within any context
+
+firefox about:performance
+
+i wasn't able to reduce the test case, the code can guide me
+in box.rst one can see the parsing error. the parser seems to fail
+recognising that the link is continuing to a new line
+parsing a long link in a table
+
+Which convention is used for decorations when writing rST headers?
+https://groups.google.com/forum/#!topic/pandoc-discuss/NzRkZdKgphk
+
+convert pandoc to javascript
+https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
+
+figure data model https://github.com/jgm/pandoc/issues/3177
+https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
+file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
+file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html
+http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+http://docutils.sourceforge.net/docs/
+https://github.com/msprev/panzer
+https://atom.io/packages/rst-preview-pandoc
+http://markup.rocks
+https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
+
+https://hackage.haskell.org/package/tasty-1.0.1.1#readme
+http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+
+dereference
+
+animale in una gabbia mentale
+
+changing our idea of comfort takes opportunities
+
+finding a new dimension in a relationship
+or chatting with calm with a colleague
+maybe it can be as simple as an idea arrived when we were with friends
+not even the most remarkable
+they being the first of a series of events, and maybe 
+the impact of turning points seems disregardable soon
+
+costruire in condizione di incertezza a livello governativo
+
+siamo uomini non ingranaggi
+
+con la preoccupazione del mangiare e dell'affitto
+restare all'altezza della responsabilità
+
+it's getting more and more productive
+
+
+pouring oil towards the humans on the other end of the networks
 
 yet you don't want it to stop too soon
 you feel it playing with all barriers
@@ -635,7 +614,7 @@ the scientific method or the discovery method
 . tengo la negatività fuori dal lavoro
 not used to smiles
 l'hai voluto ma come ti sta?
-basta uno statunitense per farmi sentire negli stati uniti
+basta uno straniero per farmi sentire all'estero
 
 a . a
 a. a
@@ -708,7 +687,7 @@ meta is powerful but always meta would lead us to an end
 when does meta stop being helpful?
 multiculture
 my desk is a blue batik
-Max Weber
+max weber
 one day i want my business address to be the name of a square
 open for looking later
 open, then close, dance
