@@ -16,7 +16,25 @@
 
 
 
- ref
+
+
+
+
+
+
+
+/10 luglio.md
+
+| perché vogliamo che tutto sia pubblico
+| alla fine di luglio non vogliamo più issue di conversione su trello
+| migrazione fuori da trello
+
+convenzioni https://docs.google.com/document/d/1KxqDqT-ydveMc2_eQbDVSt-73Toc-auUPvOcNbUDLwg/edit?usp=sharing
+
+goal driven processes
+content driven channels
+
+ issues
  guida        
  filtri
  comandi
@@ -34,9 +52,10 @@ luglio
 
 
  list tables
- summer 18 licenza
+ summer 32 errore divisione in sezioni
  summer 20 didascalia
  summer 26 primo livello
+ guida
  convertire un documento
  errori note ed immagini negli headers
  errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
@@ -45,12 +64,12 @@ luglio
  errori linker - regressione su trello 
  fisso le dipendenze
 
+ends
+
  convenzioni
  quotes filter to merge
  pubblicazione su hackage per updates più semplici
  come tech writer voglio ignorare il metodo per la didascalia
-
-ends
 
 fra installazione e contribuire
 ## Convertire un documento
