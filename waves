@@ -16,13 +16,11 @@
 
 
 
+ ref
+ guida        
+ filtri
+ comandi
 
-
-        
-
-
-settembre
- 2
 agosto
  5
  4
@@ -35,11 +33,11 @@ luglio
 
 
 
+ list tables
  summer 18 licenza
  summer 20 didascalia
  summer 26 primo livello
- summer 3 cartella media
- list tables
+ convertire un documento
  errori note ed immagini negli headers
  errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
  #4618 inlines with a line break
