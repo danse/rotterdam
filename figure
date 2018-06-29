@@ -1,0 +1,25 @@
+
+
+
+dopo 3177 potremmo avere un equivalente di 4737 per DOCX
+https://github.com/jgm/pandoc/issues/3177
+https://github.com/jgm/pandoc/issues/4737
+
+ ~ $ pandoc -f native -t html
+[Para [Image ("",[],[]) [Str "alt",Space,Str "text"] ("lalune.jpg","fig:")]]
+<figure>
+<img src="lalune.jpg" alt="alt text" /><figcaption>alt text</figcaption>
+</figure>
+
+,Para [Image ("",[],[(),()]) [Str "Libri",Space,Str "antichi",Space,Str "con",Space,Str "copertina",Space,Str "rigida",Space,Str "su",Space,Str "uno",Space,Str "scaffale."] ("media/image1.jpeg","Libri antichi")]
+
+ ~ $ pandoc -t native docs-italia-test-conversione/input/test/caption.docx 
+
+ ~ $ pandoc -t native
+![alt text](lalune.jpg) 
+[Para [Image ("",[],[]) [Str "alt",Space,Str "text"] ("lalune.jpg","fig:")]]
+
+alt text e didascalia
+https://github.com/italia/docs-italia-comandi-conversione/issues/5
+
+

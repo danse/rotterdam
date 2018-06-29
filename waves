@@ -23,7 +23,29 @@
 
 
 
-/10 luglio.md
+producers and consumers, formerly sinks and sources
+https://groups.google.com/forum/#!topic/pandoc-discuss/kc5wJsNe0L0
+
+note pandoc -> comandi-conversione => comandi-conversione => guida a docs
+
+  maybe via smaller sections?
+ easy update
+ partial translation 
+enable
+
+pandoc manual in other languages?
+
+aggiungo i comandi, modifico il titolo conversione con pandoc
+https://github.com/italia/docs-italia-guide/issues
+https://github.com/italia/docs-italia-guide/blob/master/index.rst
+http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#migrazione-su-docs-italia-di-documentazione-esistente
+scrivo che nel fork vogliamo poche differenze
+comandi da copiare a mano? come si usano all'inizio
+Docs Italia link
+
+~/declaration 2016
+
+./10 luglio.md
 
 | perché vogliamo che tutto sia pubblico
 | alla fine di luglio non vogliamo più issue di conversione su trello
@@ -38,6 +60,7 @@ content driven channels
  guida        
  filtri
  comandi
+ tests
 
 agosto
  5
@@ -58,6 +81,7 @@ luglio
  summer 17 stopwords
  guida
  convertire un documento
+ ./figure
  errori note ed immagini negli headers
  errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
  #4618 inlines with a line break
@@ -99,21 +123,21 @@ lo spazio è un problema più che il tempo
 per adesso si può considerare a posto
 precompilati su Github per ruoli ansible ubuntu 16 04 o superiore 64 bit
 
-aggiungo i comandi, modifico il titolo conversione con pandoc
-correggo pull request
-https://github.com/italia/docs-italia-guide/issues
-https://github.com/italia/docs-italia-guide/blob/master/index.rst
-http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#migrazione-su-docs-italia-di-documentazione-esistente
-scrivo che nel fork vogliamo poche differenze
-comandi da copiare a mano? come si usano all'inizio
-Docs Italia link
-
 sommario
 requisiti
 descrizione
 installazione
 primi passi      %
 per approfondire %
+
+ emacs
+close shell on exit
+truncate lines by default
+spacemacs + intero
+macros
+version control
+long line copy behaviour
+delete an emptied buffer while visiting it
 
 waves
 drift
@@ -147,8 +171,6 @@ attaccare il caricatore guardando il device
 22 minuti mv nomi/*/* queue
 
 acqua con ossigeno
-
-truncate lines by default
 
 contribuire > il codice
 
@@ -208,18 +230,6 @@ https://hackage.haskell.org/package/doctest
 -- prop> sort xs == (sort . sort) (xs :: [Int])
 
 and we go
-
-
-
-
-
-
-
-
-
-
-
-
 
 note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
 now that 4559 is merged i can open an issue for the image
@@ -309,13 +319,9 @@ potenzialità
 strana efficacia
 freedom from the device
 
-You did send us your invoices #16 - #27
-We need to know when you received payment.
-
 stand up for the right to think under pressure
 bisogni indotti, desideri, aspirazioni e necessità
 
-tax declaration 2016
 quando internet si blocca vorrei rompere la tastiera sul tavolo
 
 
@@ -420,7 +426,6 @@ https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descr
 https://www.haskell.org/cabal/users-guide
 https://www.haskell.org/cabal
 il metodo adatto allo scopo
-spacemacs + intero
 more experimental than what i want to sell
 
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
@@ -516,12 +521,6 @@ compact
 
 rise fragmentation
 fall simplification
-
-. emacs
-   macros
-   version control
-   long line copy behaviour
-   delete an emptied buffer while visiting it
 
 . to let flow
 . un onda è un processo comprensibile e partecipativo
