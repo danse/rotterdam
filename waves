@@ -23,6 +23,43 @@
 
 
 
+
+
+converti nell'help parla di `.docx` files
+
+cosa vogliamo esporre agli utenti come opzioni?
+va bene avere un comando che wrappa tutto
+
+-Conversione con pandoc
+-~~~~~~~~~~~~~~~~~~~~~~
++Comandi per la conversione di formato
++~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ehilà, magari questa https://github.com/italia/docs-italia-starter-kit/issues/8 è una cosa semplice da chiudere
+
+prox settimana - lunedì 16 verso le 15
+ chiamata di chiusura
+
+questa settimana
+ rimane sostanzialmente la revisione della guida - pull request
+ sottoporrei varie issues
+
+i want to replicate then answer
+we want the issue to be tackled on pandoc/issues
+                                  .
+i data files nelle dipendenze
+sembra essere un limite nel modo in cui cabal gestisce
+i binari non sono portabili
+https://github.com/jgm/pandoc/search?p=2&q=data+files&type=Issues
+https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application
+https://duckduckgo.com/?q=haskell+stack+%22could+not+find+data+file%22&t=canonical&ia=qa
+https://github.com/italia/docs-italia-comandi-conversione/issues/35#issuecomment-401947775
+i binari dei comandi generati non vanno bene
+https://developersitalia.slack.com/archives/CB3DD6S1L/p1530567980000226
+
+convertitore
+https://docs-italia-staging.teamdigitale.it/converti/
+
 producers and consumers, formerly sinks and sources
 https://groups.google.com/forum/#!topic/pandoc-discuss/kc5wJsNe0L0
 
@@ -44,8 +81,6 @@ comandi da copiare a mano? come si usano all'inizio
 Docs Italia link
 
 ~/declaration 2016
-
-./10 luglio.md
 
 | perché vogliamo che tutto sia pubblico
 | alla fine di luglio non vogliamo più issue di conversione su trello
@@ -72,9 +107,12 @@ luglio
  5
  4
 
+ends
 
-
- list tables
+ related to Alberto
+ converti-web
+ deployment
+ list tables - the wrapped long lines are very ugly
  summer 32 errore divisione in sezioni
  summer 20 didascalia
  summer 26 primo livello
@@ -88,8 +126,6 @@ luglio
  manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
  errori linker - regressione su trello 
  fisso le dipendenze
-
-ends
 
  convenzioni
  quotes filter to merge
