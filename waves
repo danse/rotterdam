@@ -28,48 +28,12 @@
 
 
 
-http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
-
-((guida alla conversione)
-
-lavorare su un documento in maniera condivisa e pubblicare sul web
-condividere un documento word con utenti mobili
- non so come si chiama il formato di wikipedia
-pubblicare la mia documentazione su un wiki
-come posso produrre un PDF o un DOCX se non ho word?
-
-conversione
-formati human-readable, markup
-formati machine-readable, DOCX, ODT
-
-che sia anche introduzione a formati, markup e conversione
-avrebbe comunque senso scrivere una introduzione a pandoc
-
-which makes things more indirect
-in our case, we also have the step towards sphinx documents
-
-when the target is a format readily produced by pandoc
-è più facile scrivere un tutorial simile
-
-quanto al workflow tramite markup
-alcuni tutorial lì sembrano riferirsi non tanto a pandoc
-
-potremmo scrivere una introduzione in italiano
-https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
-
-)
-
-contribuire > il codice
-
 sommario
 requisiti
 descrizione
 installazione
 primi passi      %
 per approfondire %
-
-https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
-filter with arguments
 
 fra installazione e contribuire
 ## Convertire un documento
@@ -79,13 +43,15 @@ magari utile per il README di docs-italia-comandi-conversione
 o per il README di converti
 https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
 
-scrivo che nel fork vogliamo poche differenze
-comandi da copiare a mano? come si usano all'inizio
-Docs Italia link
+./introduzione o tutorial o post
 
-convertire un documento
+alla fine di luglio non vogliamo più issue di conversione su trello
+perché vogliamo che tutto sia pubblico
 
-manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
+open source community building
+https://government.github.io/best-practices/community-building/
+
+http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
 
 ~/declaration 2016
 
@@ -119,16 +85,13 @@ https://docs-italia-staging.teamdigitale.it/converti/
 producers and consumers, formerly sinks and sources
 https://groups.google.com/forum/#!topic/pandoc-discuss/kc5wJsNe0L0
 
+filter with arguments
+https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
+
   maybe via smaller sections?
  easy update
  partial translation 
 enable
-
-pandoc manual in other languages?
-
-| perché vogliamo che tutto sia pubblico
-| alla fine di luglio non vogliamo più issue di conversione su trello
-| migrazione fuori da trello
 
 convenzioni https://docs.google.com/document/d/1KxqDqT-ydveMc2_eQbDVSt-73Toc-auUPvOcNbUDLwg/edit?usp=sharing
 

@@ -1,0 +1,22 @@
+potremmo scrivere una introduzione in italiano
+https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
+
+alcuni tutorial lì sembrano riferirsi non tanto a pandoc
+quanto al workflow tramite markup
+
+it's easier to write a similar tutorial
+when the target is a format readily produced by pandoc
+
+avrebbe comunque senso scrivere una introduzione a pandoc
+che sia anche introduzione a formati, markup e conversione
+
+ conversione
+formati machine-readable, DOCX, ODT
+formati human-readable, markup
+
+lavorare su un documento in maniera condivisa e pubblicare sul web
+condividere un documento word con utenti mobili
+ non so come si chiama il formato di wikipedia
+pubblicare la mia documentazione su un wiki
+come posso produrre un PDF o un DOCX se non ho word?
+
