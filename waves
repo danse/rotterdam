@@ -27,12 +27,6 @@
 
 
 
-  documenti
- progetti
-organizzazione
-
-terminatori di linea per windows in rST
-
 sommario
 requisiti
 descrizione
@@ -48,15 +42,10 @@ magari utile per il README di docs-italia-comandi-conversione
 o per il README di converti
 https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
 
-./introduzione o tutorial o post
-
 alla fine di luglio non vogliamo più issue di conversione su trello
 perché vogliamo che tutto sia pubblico
 
-open source community building
-https://government.github.io/best-practices/community-building/
-
-http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
+terminatori di linea per windows in rST
 
 ~/declaration 2016
 
@@ -102,6 +91,17 @@ convenzioni https://docs.google.com/document/d/1KxqDqT-ydveMc2_eQbDVSt-73Toc-auU
 
 goal driven processes
 content driven channels
+
+  documenti
+ progetti
+organizzazione
+
+./introduzione o tutorial o post
+
+open source community building
+https://government.github.io/best-practices/community-building/
+
+http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
 
  issues
  filtri
