@@ -25,17 +25,73 @@
 
 
 
+
+
+
+http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
+
+((guida alla conversione)
+
+lavorare su un documento in maniera condivisa e pubblicare sul web
+condividere un documento word con utenti mobili
+ non so come si chiama il formato di wikipedia
+pubblicare la mia documentazione su un wiki
+come posso produrre un PDF o un DOCX se non ho word?
+
+conversione
+formati human-readable, markup
+formati machine-readable, DOCX, ODT
+
+che sia anche introduzione a formati, markup e conversione
+avrebbe comunque senso scrivere una introduzione a pandoc
+
+which makes things more indirect
+in our case, we also have the step towards sphinx documents
+
+when the target is a format readily produced by pandoc
+è più facile scrivere un tutorial simile
+
+quanto al workflow tramite markup
+alcuni tutorial lì sembrano riferirsi non tanto a pandoc
+
+potremmo scrivere una introduzione in italiano
+https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
+
+)
+
+contribuire > il codice
+
+sommario
+requisiti
+descrizione
+installazione
+primi passi      %
+per approfondire %
+
+https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
+filter with arguments
+
+fra installazione e contribuire
+## Convertire un documento
+[DA COMPLETARE]
+
+magari utile per il README di docs-italia-comandi-conversione
+o per il README di converti
+https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
+
+scrivo che nel fork vogliamo poche differenze
+comandi da copiare a mano? come si usano all'inizio
+Docs Italia link
+
+convertire un documento
+
+manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
+
+~/declaration 2016
+
 converti nell'help parla di `.docx` files
 
-cosa vogliamo esporre agli utenti come opzioni?
-va bene avere un comando che wrappa tutto
-
--Conversione con pandoc
--~~~~~~~~~~~~~~~~~~~~~~
-+Comandi per la conversione di formato
-+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-ehilà, magari questa https://github.com/italia/docs-italia-starter-kit/issues/8 è una cosa semplice da chiudere
+come è possibile che non ci siano post nuovi?
 
 prox settimana - lunedì 16 verso le 15
  chiamata di chiusura
@@ -63,24 +119,12 @@ https://docs-italia-staging.teamdigitale.it/converti/
 producers and consumers, formerly sinks and sources
 https://groups.google.com/forum/#!topic/pandoc-discuss/kc5wJsNe0L0
 
-note pandoc -> comandi-conversione => comandi-conversione => guida a docs
-
   maybe via smaller sections?
  easy update
  partial translation 
 enable
 
 pandoc manual in other languages?
-
-aggiungo i comandi, modifico il titolo conversione con pandoc
-https://github.com/italia/docs-italia-guide/issues
-https://github.com/italia/docs-italia-guide/blob/master/index.rst
-http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#migrazione-su-docs-italia-di-documentazione-esistente
-scrivo che nel fork vogliamo poche differenze
-comandi da copiare a mano? come si usano all'inizio
-Docs Italia link
-
-~/declaration 2016
 
 | perché vogliamo che tutto sia pubblico
 | alla fine di luglio non vogliamo più issue di conversione su trello
@@ -92,7 +136,6 @@ goal driven processes
 content driven channels
 
  issues
- guida        
  filtri
  comandi
  tests
@@ -110,20 +153,17 @@ luglio
 ends
 
  related to Alberto
- converti-web
+ opzioni converti
  deployment
  list tables - the wrapped long lines are very ugly
  summer 32 errore divisione in sezioni
  summer 20 didascalia
  summer 26 primo livello
  summer 17 stopwords
- guida
- convertire un documento
  ./figure
  errori note ed immagini negli headers
  errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
  #4618 inlines with a line break
- manuale https://trello.com/b/yT6ZASJV/docsitalia-contenuti
  errori linker - regressione su trello 
  fisso le dipendenze
 
@@ -132,20 +172,9 @@ ends
  pubblicazione su hackage per updates più semplici
  come tech writer voglio ignorare il metodo per la didascalia
 
-fra installazione e contribuire
-## Convertire un documento
-[DA COMPLETARE]
-
 https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 
 taxfix berlino
-
-https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
-filter with arguments
-
-magari utile per il README di docs-italia-comandi-conversione
-o per il README di converti
-https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
 
 stack overflow message
 
@@ -158,13 +187,6 @@ the bug pablo found with external images
 lo spazio è un problema più che il tempo
 per adesso si può considerare a posto
 precompilati su Github per ruoli ansible ubuntu 16 04 o superiore 64 bit
-
-sommario
-requisiti
-descrizione
-installazione
-primi passi      %
-per approfondire %
 
  emacs
 close shell on exit
@@ -208,8 +230,6 @@ attaccare il caricatore guardando il device
 
 acqua con ossigeno
 
-contribuire > il codice
-
 Sphinx format for Pandoc
 https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8
 
@@ -226,6 +246,7 @@ https://www.gnu.org/licenses/gpl-howto.html
 marco andolina
 giuseppe pomidoro
 erica badu
+vollenweider
 
 http://blog.penelopetrunk.com/2008/04/04/writing-without-typos-is-totally-outdated
 
@@ -243,19 +264,6 @@ http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.ht
 
 la scrittura di doc, come la conversione, come un problema aperto e
 non meccanizzabile su cui vogliamo assistere gli utenti ad esprimersi
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 if `index` already exists: remove and write, keep and quit, ask user with force option
 
@@ -314,39 +322,7 @@ cambio approccio. fra le issues ODT/DOCX -> RST quali hanno la priorità
 
 )
 
-((guida alla conversione)
-
-lavorare su un documento in maniera condivisa e pubblicare sul web
-condividere un documento word con utenti mobili
- non so come si chiama il formato di wikipedia
-pubblicare la mia documentazione su un wiki
-come posso produrre un PDF o un DOCX se non ho word?
-
-conversione
-formati human-readable, markup
-formati machine-readable, DOCX, ODT
-
-che sia anche introduzione a formati, markup e conversione
-avrebbe comunque senso scrivere una introduzione a pandoc
-
-which makes things more indirect
-in our case, we also have the step towards sphinx documents
-
-when the target is a format readily produced by pandoc
-è più facile scrivere un tutorial simile
-
-quanto al workflow tramite markup
-alcuni tutorial lì sembrano riferirsi non tanto a pandoc
-
-potremmo scrivere una introduzione in italiano
-https://github.com/jgm/pandoc/wiki/Documentation-and-Tutorials
-
-)
-
-
 pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
-
-
 
 sensibilità
 potenzialità
@@ -359,8 +335,6 @@ stand up for the right to think under pressure
 bisogni indotti, desideri, aspirazioni e necessità
 
 quando internet si blocca vorrei rompere la tastiera sul tavolo
-
-
 
 diversità per la ricerca
 conformità per la soluzione
@@ -406,12 +380,6 @@ il plugin chiede permessi che non vorrei dare
 
 italia/progetto-argomento-docs https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
 
-  linee guida acquisizione e riuso software per la pubblica amministrazione
- - le immagini sono andate perse
- - doppio indice fatto manualmente da Alberto
- v file sovrascritto
-https://trello.com/c/VJXvsh7k/163-come-tech-writer-voglio-convertire-un-documento-da-struttura-sphinx-a-docx-o-odt-conversione-inversa
-
 https://github.com/jgm/pandoc/wiki/Roadmap
 
 ogni cosa ben tradotta evita lavoro manuale tedioso
@@ -439,9 +407,9 @@ that's why opening the decision process is worth its cost
 and its bottlenecks
 we don't know the adoption we are going to support
 
+of course it can be leaner
 so some formalization is needed
 but the artifacts include the possibility of being handed over
-of course it can be leaner
 it feels odd to grow a process for a single dev
 
 che è la cosa più importante che abbiamo
@@ -465,40 +433,32 @@ il metodo adatto allo scopo
 more experimental than what i want to sell
 
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
-vollenweider
 these contents are competing with designer's tools
 subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
-
 
 https://github.com/italia/docs.italia.it/issues
 https://github.com/italia/docs.italia.it
 senso di sostenibilità
 evolversi
-come è possibile che non ci siano post nuovi?
 equilibrio immaginato ed equilibrio espresso
 scrittura atecnologica
-
 
 si va avanti attraverso i cambiamenti
 . costruire sensibilità futura
 non dimentichiamo le cose, le cancelliamo
 
 a `-f --fragment` option seems more natural to me
-http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
 https://github.com/geophf/1HaskellADay/issues/1
 docs italia non è ancora attivo
 . mi capita poco di lavorare in un editor come docs e preferisco markdown
 . we are losing the skill to batch
 . sostituire per rimuovere
-la connettività è un problema
 sentimento immaginazione verifica comunicazione sentimento
-health rotterdam italia rotterdam
 sentimiento comprensiòn
-sei molti selvaggi da non disprezzare
+sei molti selvaggi da apprezzare
 il pensiero politico vintage come la moda
 amare globale
 encierro relajante
-nonostante le reti continuiamo a considerare la mente altro dal corpo
 il nemico è il nostro stato culturale
 porta per la materia
 mental models
@@ -517,10 +477,10 @@ the frame where the loops come back to close like the tracker
 buona qualità ma poco rendimento
 e sì che internet è arrivato a mostrarci la realtà e ci sciocca
 a ragusa sapevo delle caverne
-la terra gira intorno al sole, la luna le gira intorno
+. la luna intorno alla terra intorno al sole
 immagino di chiederti scusa perché sto bene come prima
 diving the tought can emerge real as well
-basta scintille ed onde
+. scintille ed onde
 mi tengo quelli accesi
 non c'è aria per nuovi sogni
 il tempo portabile da una cartella all'altra farebbe comodo
@@ -528,7 +488,6 @@ coprirsi all'ombra per spogliarsi al sole
 del pensiero sopravvive la parte che sa adattarsi ai fatti
 editing ed il processo alle intenzioni
 to be a main link is gratifying and tiring
-il piacere è come il fuoco
 leaning on a door
 tune sintonizzare
 sourcing as an usability methodology
@@ -641,17 +600,16 @@ restare all'altezza della responsabilità
 
 it's getting more and more productive
 
-
 pouring oil towards the humans on the other end of the networks
 
-yet you don't want it to stop too soon
-you feel it playing with all barriers
 now that you have more energy within
+you feel it playing with all barriers
+yet you don't want it to stop too soon
 
-dreams meet coming from different faces
+dreams meet from different sides
 
-che non possa essere attaccata, che non lasci spiragli?
 è normale considerare un'espressione come una fortezza
+che non possa essere attaccata, che non lasci spiragli?
 
 the cycles that are not for now
 indossiamo la necessità come una bandiera
@@ -659,8 +617,7 @@ npm audit
 just setQuery(minute) to see it in the bar ;)
 soft ware doesn't lock
 now in an app i can detect bad programming
-the opposite of experience
-paranoias are built upon the unlikely 
+paranoias are built upon the unlikely, the opposite of experience
 one learns when to use an experiment and when not
 reality - perception
 the scientific method or the discovery method
@@ -678,7 +635,6 @@ a : b
 a :b
 a: b
 a:b
-
 
 ho paura del sistema che avevo sognato
 one can read many interruptions on a drift
@@ -726,7 +682,6 @@ it can cut both ways
 label keep and search for "not keep" rather than delete
 (lameness + pressure) x authority
 la mia prosa si adatta alla pagina come la poesia si adatta al ritmo
-lavado de cerebro
 many discussions can raise and fall without you
 life is an everchanging landscape
 i prefer to jump
