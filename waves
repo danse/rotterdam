@@ -25,14 +25,8 @@
 
 
 
-
-
-sommario
-requisiti
-descrizione
-installazione
-primi passi      %
-per approfondire %
+converti diventerà più robusto e semplice
+quindi potremo indirizzare gli utenti principianti all'uso del comando
 
 fra installazione e contribuire
 ## Convertire un documento
@@ -48,8 +42,6 @@ perché vogliamo che tutto sia pubblico
 terminatori di linea per windows in rST
 
 ~/declaration 2016
-
-converti nell'help parla di `.docx` files
 
 come è possibile che non ci siano post nuovi?
 
@@ -97,9 +89,6 @@ content driven channels
 organizzazione
 
 ./introduzione o tutorial o post
-
-open source community building
-https://government.github.io/best-practices/community-building/
 
 http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
 
