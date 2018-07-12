@@ -6,14 +6,14 @@
 Qui forniamo alcuni suggerimenti su come strutturare un README in modo
 che risulti accessibile ed interessante per i potenziali lettori.
 
-Cominciamo elencando il ruolo delle sezioni: l'idea non è tanto quella
-di stabilire una nomenclatura fissa, ma più che altro di suggerire un
-percorso che i lettori possano seguire.
-
 Ipotesi:
 - i lettori arrivano al README senza la minima conoscenza riguardo il software
 - i lettori sono anche solo parzialmente interessati a contribuire e all'aspetto tecnico del software, perchè siamo su Github
 - i lettori hanno delle vaghe aspettative create dal nome del repo
+
+Cominciamo elencando il ruolo delle sezioni: l'idea non è tanto quella
+di stabilire una nomenclatura fissa, ma più che altro di suggerire un
+percorso che i lettori possano seguire.
 
 Ogni sezione è accompagnata da un valore in percentuale che indica la
 lungezza relativa al totale del README. Ovviamente si tratta solo di
