@@ -19,12 +19,12 @@ Ogni sezione è accompagnata da un valore in percentuale che indica la
 lungezza relativa al totale del README. Ovviamente si tratta solo di
 un'indicazione
 
-## sommario -- 7%
+## sommario ~ 7%
 
 Suggeriamo di cominciare con una sezione estremamente breve ed
 estremamente chiara che inquadri i contenuti
 
-## requisiti -- 7%
+## requisiti ~ 7%
 
 Se alcuni utenti sono esclusi dall'uso del software, è meglio
 spiegarlo subito in modo che non investano tempo restando poi delusi
@@ -35,24 +35,24 @@ software data la fase attuale. Per esempio se il software è ancora in
 fase sperimentale, ha senso avvertire gli utenti meno esperti in modo
 da evitare confusione e mal di testa
 
-## descrizione -- 30%
+## descrizione ~ 30%
 
 Qui si possono estendere i contenuti del sommario, entrando più nel
 dettaglio delle funzioni fornite. Questa sezione fornisce ai lettori
 la motivazione per intraprendere l'installazione
 
-## installazione -- 20%
+## installazione ~ 20%
 
 Se l'installazione è troppo complessa, molti utenti non
 l'intraprenderanno. Meglio concentrarsi sul caso più semplice, e
 trattare i casi più complessi in documenti dedicati
 
-## primi passi -- 30%
+## primi passi ~ 30%
 
 Qui si possono guidare gli utenti mostrando come usare il software
 dopo che l'instalazione è andata a buon fine
 
-## per approfondire -- 6%
+## per approfondire ~ 6%
 
 Un elenco di puntatori ad altre risorse
 
