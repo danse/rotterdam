@@ -29,6 +29,12 @@ estremamente chiara che inquadri i contenuti
 Se alcuni utenti sono esclusi dall'uso del software, è meglio
 spiegarlo subito in modo che non investano tempo restando poi delusi
 
+Spesso non si tratta di esclusione vera e propria, ma solo di indicare
+gli utenti che più facilmente possono utilizzare e collaborare al
+software data la fase attuale. Per esempio se il software è ancora in
+fase sperimentale, ha senso avvertire gli utenti meno esperti in modo
+da evitare confusione e mal di testa
+
 ## descrizione -- 30%
 
 Qui si possono estendere i contenuti del sommario, entrando più nel
@@ -49,6 +55,22 @@ dopo che l'instalazione è andata a buon fine
 ## per approfondire -- 6%
 
 Un elenco di puntatori ad altre risorse
+
+# I lettori cui ci si orienta
+
+La semplicità cui aspiriamo nello scrivere i requisiti e nel
+descrivere l'installazione ci porta ad indirizzarci verso alcuni
+utenti che siano già familiari con alcuni dei concetti su cui si basa
+lo sviluppo del software. Per esempio se il repo contiene una macro o
+un plugin, la semplicità ci porta a mettere ben in chiaro di che si
+tratta, indirizzandoci ad utenti che siano familiari con l'interprete
+di macro o col software che supporta il plugin.
+
+Questo non significa che si vogliano escludere gli altri utenti. Un
+progetto può nascere in un ambito per diverse ragioni e, una volta che
+ne sia stata apprezzata l'utilità, venire
+[portato](https://it.wikipedia.org/wiki/Portabilit%C3%A0) in altri
+ambiti
 
 # Gestione della motivazione
 
