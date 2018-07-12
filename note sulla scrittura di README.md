@@ -84,5 +84,7 @@ Alla struttura indicata sopra si potrebbe aggiungere la _filosofia del
 progetto_ (come parte del sommario) o la visione di lungo termine
 (magari alla fine della descrizione) come indicato nel seguente doc:
 [open source community
-building](https://government.github.io/best-practices/community-building/)
+building](https://government.github.io/best-practices/community-building/). I
+puntatori a _come contribuire_ potrebbero far parte della sezione
+finale _per approfondire_.
 
