@@ -78,6 +78,13 @@ Notate come le sezioni tecniche (requisiti ed installazione) siano
 intervallate dalle sezioni che spiegano il contesto ed i benefici per
 l'utente (sommario, descrizione, primi passi)
 
+# Contenuti per gli sviluppatori
+
+Se il software è già interessante per utenti che non siano
+sviluppatori, preferisco scrivere informazioni sullo sviluppo in un
+file dedicato, per esempio `sviluppo.md`. Mi sembra una buona idea
+iniziare quel file con una sezione sul codice
+
 # Vedi anche
 
 Alla struttura indicata sopra si potrebbe aggiungere la _filosofia del
