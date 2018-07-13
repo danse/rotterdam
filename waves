@@ -42,6 +42,34 @@
 
 
 
+pandoc:embed_data_files
+
+docs.docker.com
+
+root@15e4419aeb5d:/# ./docker-comandi-test/pandoc 
+Could not find data file /home/francesco/docs-italia-comandi-conversione/.stack-work/install/x86_64-linux/lts-10.10/8.2.2/share/x86_64-linux-ghc-8.2.2/pandoc-2.2.174/data/abbreviations
+
+ rotterdam (master)*$ sudo cp ~/.local/bin/* /var/lib/docker/volumes/docker-comandi-test/_data
+
+i want to remove all those files with sudo later
+
+ rotterdam (master)*$ docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
+root@15e4419aeb5d:/# 
+
+ rotterdam (master)*$ docker run -ti ubuntu bash
+root@5a1dbad978e5:/# wget --help
+bash: wget: command not found
+root@5a1dbad978e5:/# curl --help
+bash: curl: command not found
+
+credo che la logica in App e Class funzionerà se le compilerò col flag
+se fare il build usando il flag genera un eseguibile completo
+replicando la issue con un'immagine di docker posso verificare
+
+https://www.haskell.org/cabal/users-guide/developing-packages.html#accessing-data-files-from-package-code
+
+https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-data-files
+
 i data files nelle dipendenze
 sembra essere un limite nel modo in cui cabal gestisce
 i binari non sono portabili
@@ -387,12 +415,6 @@ i put it here in front of everyone
 
 effective work is more enjoyable
 
-https://wiki.haskell.org/How_to_write_a_Haskell_program
-https://wiki.haskell.org/Hierarchical_module_names
-https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
-https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
-https://www.haskell.org/cabal/users-guide
-https://www.haskell.org/cabal
 il metodo adatto allo scopo
 more experimental than what i want to sell
 

@@ -1,4 +1,11 @@
 
+https://wiki.haskell.org/How_to_write_a_Haskell_program
+https://wiki.haskell.org/Hierarchical_module_names
+https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
+https://www.haskell.org/cabal/users-guide/developing-packages.html#package-descriptions
+https://www.haskell.org/cabal/users-guide
+https://www.haskell.org/cabal
+
 newtype Work = W String
 type FirstName = String
 
