@@ -25,36 +25,23 @@
 
 
 
-converti diventerà più robusto e semplice
-quindi potremo indirizzare gli utenti principianti all'uso del comando
 
-fra installazione e contribuire
-## Convertire un documento
-[DA COMPLETARE]
 
-magari utile per il README di docs-italia-comandi-conversione
-o per il README di converti
-https://github.com/jgm/pandoc/wiki/Pandoc-wrappers-and-interfaces
 
-alla fine di luglio non vogliamo più issue di conversione su trello
-perché vogliamo che tutto sia pubblico
 
-terminatori di linea per windows in rST
 
-~/declaration 2016
 
-come è possibile che non ci siano post nuovi?
 
-prox settimana - lunedì 16 verso le 15
- chiamata di chiusura
 
-questa settimana
- rimane sostanzialmente la revisione della guida - pull request
- sottoporrei varie issues
 
-i want to replicate then answer
-we want the issue to be tackled on pandoc/issues
-                                  .
+
+
+
+
+
+
+
+
 i data files nelle dipendenze
 sembra essere un limite nel modo in cui cabal gestisce
 i binari non sono portabili
@@ -65,8 +52,27 @@ https://github.com/italia/docs-italia-comandi-conversione/issues/35#issuecomment
 i binari dei comandi generati non vanno bene
 https://developersitalia.slack.com/archives/CB3DD6S1L/p1530567980000226
 
-convertitore
-https://docs-italia-staging.teamdigitale.it/converti/
+converti diventerà più robusto e semplice
+quindi potremo indirizzare gli utenti principianti all'uso del comando
+
+fra installazione e contribuire
+## Convertire un documento
+[DA COMPLETARE]
+
+alla fine di luglio non vogliamo più issue di conversione su trello
+perché vogliamo che tutto sia pubblico
+
+when scrolling through long outputs
+a wrapper which adds a very visible coloured marker to the command line
+
+terminatori di linea per windows in rST
+
+come è possibile che non ci siano post nuovi?
+
+i want to replicate then answer
+we want the issue to be tackled on pandoc/issues
+                                  .
+convertitore web https://docs-italia-staging.teamdigitale.it/converti/
 
 producers and consumers, formerly sinks and sources
 https://groups.google.com/forum/#!topic/pandoc-discuss/kc5wJsNe0L0
