@@ -40,7 +40,13 @@
 
 
 
+How to build a portable executable that uses pandoc as a library?
 
+Information about this topic is scattered here and there, so i thought of opening an issue where to collect knowledge in order to eventually improve the documentation.
+
+https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application
+
+l'errore è ancora lì
 
 pandoc:embed_data_files
 
@@ -73,9 +79,7 @@ https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-dat
 i data files nelle dipendenze
 sembra essere un limite nel modo in cui cabal gestisce
 i binari non sono portabili
-https://github.com/jgm/pandoc/search?p=2&q=data+files&type=Issues
-https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application
-https://duckduckgo.com/?q=haskell+stack+%22could+not+find+data+file%22&t=canonical&ia=qa
+
 https://github.com/italia/docs-italia-comandi-conversione/issues/35#issuecomment-401947775
 i binari dei comandi generati non vanno bene
 https://developersitalia.slack.com/archives/CB3DD6S1L/p1530567980000226
