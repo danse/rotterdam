@@ -1,0 +1,47 @@
+-*- mode: grep; default-directory: "~/pandoc/" -*-
+Grep started at Mon Jul 16 16:26:46
+
+find . -type f -exec grep --color -nH -e embed_data_files {} +
+./changelog:248:    was compiled with `embed_data_files` (and sometimes it looked
+./changelog:3616:    `embed_data_files` flag is set.  `file-embed` gives us better dependency
+./changelog:6189:  * Make cabal require `hsb2hs` >= 0.3.1 if `embed_data_files` specified.
+./changelog:6365:    when the `embed_data_files` flag is used.  Instead of having a phase
+./changelog:8995:      `--self-contained` on pandoc compiled with `embed_data_files` (#833).
+./changelog:9666:  * Use the `hsb2hs` preprocessor instead of TH for embed_data_files.
+./changelog:9673:    list of embedded data files, if the `embed_data_files` flag is selected.
+./changelog:10408:  * Added an `embed_data_files` cabal flag.  This causes all
+./changelog:10439:    embed_data_files flag.
+./pandoc.cabal:329:flag embed_data_files
+./pandoc.cabal:407:  if flag(embed_data_files)
+./Makefile:10:	stack install --resolver=$(RESOLVER) --ghc-options='$(GHCOPTS)' --install-ghc --flag 'pandoc:embed_data_files' --fast --test --test-arguments='-j4 --hide-successes $(TESTARGS)'
+./Makefile:13:	stack install --resolver=$(RESOLVER) --flag 'pandoc:embed_data_files' --flag 'pandoc:weigh-pandoc' --flag 'pandoc:trypandoc' --bench --no-run-benchmarks --test --test-arguments='-j4 --hide-successes' --ghc-options '-Wall -Werror -fno-warn-unused-do-bind -O0 -j4 $(GHCOPTS)'
+./Makefile:21:	stack test --resolver=$(RESOLVER) --flag 'pandoc:embed_data_files' --fast --test-arguments='-j4 --hide-successes $(TESTARGS)' --ghc-options '$(GHCOPTS)'
+./Makefile:112:	ssh -t macfarlane 'cd src/pandoc && git pull && ~/.local/bin/stack install --flag pandoc:trypandoc --flag pandoc:embed_data_files && cd trypandoc && sudo make install'
+./default.nix:50:          "-fembed_data_files"
+./stack.yaml:4:    embed_data_files: true
+./stack.yaml:8:    embed_data_files: true
+Binary file ./.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup-config matches
+./CONTRIBUTING.md:279:  - `Text.Pandoc.Data` is used to embed data files when the `embed_data_files`
+./stack.lts9.yaml:4:    embed_data_files: true
+./stack.lts9.yaml:8:    embed_data_files: true
+Binary file ./dist/setup-config matches
+./linux/Dockerfile:27:    --flag 'pandoc:embed_data_files' \
+./linux/Dockerfile:29:    --flag 'pandoc-citeproc:embed_data_files' \
+./linux/Dockerfile:36:    --flag 'pandoc:embed_data_files' \
+./linux/Dockerfile:38:    --flag 'pandoc-citeproc:embed_data_files' \
+./linux/Dockerfile:45:    --flag 'pandoc:embed_data_files' \
+./linux/Dockerfile:47:    --flag 'pandoc-citeproc:embed_data_files' \
+./linux/Dockerfile:55:      --flag 'pandoc:embed_data_files' \
+./linux/Dockerfile:57:      --flag 'pandoc-citeproc:embed_data_files' \
+./INSTALL.md:225:    - `embed_data_files`: embed all data files into the binary (default no).
+./INSTALL.md:259:With cabal, add `-fembed_data_files` to the `cabal configure`
+./INSTALL.md:262:With stack, use `--flag pandoc:embed_data_files`.
+./.travis.yml:35:  - env: BUILD=cabal GHCVER=7.10.3 CABALVER=1.22 OPTS="-O0 -Wall -fno-warn-unused-do-bind -Werror" FLAGS="fast embed_data_files" CABALARGS=""
+./.travis.yml:44:  - env: BUILD=cabal GHCVER=8.2.2 CABALVER=1.24 OPTS="-O0 -Wall -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wnoncanonical-monadfail-instances -fno-warn-unused-do-bind -Werror" FLAGS="fast embed_data_files" CABALARGS="--enable-benchmarks"
+./.travis.yml:48:  - env: BUILD=cabal GHCVER=8.2.2 CABALVER=2.0 OPTS="-O0 -Wall -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wnoncanonical-monadfail-instances -fno-warn-unused-do-bind -Werror" FLAGS="fast embed_data_files" CABALARGS="--enable-benchmarks"
+./.travis.yml:52:  - env: BUILD=cabal GHCVER=8.4.1 CABALVER=2.0 OPTS="-O0 -Wall -Wincomplete-record-updates -Wnoncanonical-monad-instances -Wnoncanonical-monadfail-instances -fno-warn-unused-do-bind -Werror" FLAGS="fast embed_data_files" CABALARGS="--enable-benchmarks"
+./.travis.yml:115:      stack --no-terminal --install-ghc $ARGS build --only-dependencies --fast --flag 'pandoc:embed_data_files' --flag 'aeson:fast' --jobs 2
+./.travis.yml:130:      stack --no-terminal $ARGS test --fast --flag 'aeson:fast' --flag pandoc:embed_data_files --haddock --no-haddock-deps --ghc-options="$OPTS" --test-arguments='--hide-successes'
+./doc/using-the-pandoc-api.md:298:`embed_data_files` flag, they are embedded in the binary).
+
+Grep exited abnormally with code 1 at Mon Jul 16 16:27:14

@@ -40,49 +40,94 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+diversificarsi
+
+antica e potente comunicazione
+
+where you want to be
+
+ rapido sostenuto
+ lieve grave
+ diretto indiretto
+laban
+
+volersi legare
+
+ricerca comunicazione traduzione formalizzazione
+
+         ||||||/
+         |||||/
+         ||||/
+         |||/
+         ||/
+         |/
+         /
+                                   
+https://en.wikipedia.org/wiki/Dali_City
+
+some products feed a cyclical system
+
+tahini
+
+errore immagini da link esterno
+https://github.com/italia/docs-italia-comandi-conversione/issues/33
+
+alla fine di luglio non vogliamo più issue di conversione su trello
+perché vogliamo che tutto sia pubblico
+
+why is servant a type level domain-specific language
+https://haskell-servant.github.io/posts/2018-07-12-servant-dsl-typelevel.html
+
+https://github.com/andreafabrizi/Dropbox-Uploader
+
+https://github.com/ncw/rclone
+
+se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
+
+cartella di dropbox sul disco esterno
+
+upload di `foto`
+dopo vorrei fare upload delle altre cartelle
+
+~/.dropbox-dist/dropboxd
+
 How to build a portable executable that uses pandoc as a library?
 
 Information about this topic is scattered here and there, so i thought of opening an issue where to collect knowledge in order to eventually improve the documentation.
 
-https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application
+[This stack overflow question](https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application) provides a lot of useful information but it's outdated.
 
-l'errore è ancora lì
+[This](https://github.com/italia/docs-italia-comandi-conversione/commit/29786f1331634e69dc3c295beae5a8e6ce1594f5#diff-fafd0cdcd559a7b124cc61c29413fb54) is what i did in order to make my pandoc-derived tool portable. I would like to add a few lines to the official doc, but i'm not sure where.
 
-pandoc:embed_data_files
+forse in App e Class possiamo far esplodere il processo se la dipendenza manca?
+
+./embed data files
+
+embed_data_files
 
 docs.docker.com
 
-root@15e4419aeb5d:/# ./docker-comandi-test/pandoc 
-Could not find data file /home/francesco/docs-italia-comandi-conversione/.stack-work/install/x86_64-linux/lts-10.10/8.2.2/share/x86_64-linux-ghc-8.2.2/pandoc-2.2.174/data/abbreviations
-
- rotterdam (master)*$ sudo cp ~/.local/bin/* /var/lib/docker/volumes/docker-comandi-test/_data
-
+sudo cp ~/.local/bin/* /var/lib/docker/volumes/docker-comandi-test/_data
 i want to remove all those files with sudo later
 
- rotterdam (master)*$ docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
+docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
 root@15e4419aeb5d:/# 
 
- rotterdam (master)*$ docker run -ti ubuntu bash
-root@5a1dbad978e5:/# wget --help
-bash: wget: command not found
-root@5a1dbad978e5:/# curl --help
-bash: curl: command not found
-
-credo che la logica in App e Class funzionerà se le compilerò col flag
-se fare il build usando il flag genera un eseguibile completo
-replicando la issue con un'immagine di docker posso verificare
-
 https://www.haskell.org/cabal/users-guide/developing-packages.html#accessing-data-files-from-package-code
-
 https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-data-files
-
-i data files nelle dipendenze
-sembra essere un limite nel modo in cui cabal gestisce
-i binari non sono portabili
-
-https://github.com/italia/docs-italia-comandi-conversione/issues/35#issuecomment-401947775
-i binari dei comandi generati non vanno bene
-https://developersitalia.slack.com/archives/CB3DD6S1L/p1530567980000226
 
 converti diventerà più robusto e semplice
 quindi potremo indirizzare gli utenti principianti all'uso del comando
@@ -91,19 +136,13 @@ fra installazione e contribuire
 ## Convertire un documento
 [DA COMPLETARE]
 
-alla fine di luglio non vogliamo più issue di conversione su trello
-perché vogliamo che tutto sia pubblico
-
 when scrolling through long outputs
 a wrapper which adds a very visible coloured marker to the command line
 
 terminatori di linea per windows in rST
 
-come è possibile che non ci siano post nuovi?
+multiversum: come è possibile che non ci siano post nuovi?
 
-i want to replicate then answer
-we want the issue to be tackled on pandoc/issues
-                                  .
 convertitore web https://docs-italia-staging.teamdigitale.it/converti/
 
 producers and consumers, formerly sinks and sources
@@ -136,6 +175,9 @@ http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/sugger
  tests
 
 il 15 settembre è il limite massimo
+
+settembre
+ 1
 agosto
  5
  4
@@ -144,13 +186,10 @@ agosto
 luglio
  5
  5
- 4
+ 3
 
 ends
 
- related to Alberto
- opzioni converti
- deployment
  list tables - the wrapped long lines are very ugly
  summer 32 errore divisione in sezioni
  summer 20 didascalia
@@ -554,7 +593,10 @@ https://groups.google.com/forum/#!topic/pandoc-discuss/NzRkZdKgphk
 convert pandoc to javascript
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
 
-figure data model https://github.com/jgm/pandoc/issues/3177
+ figure data model https://github.com/jgm/pandoc/issues/3177
+https://github.com/jgm/pandoc/issues/4776
+https://github.com/jgm/pandoc/issues/4737
+
 https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
 file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html
