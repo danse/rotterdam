@@ -53,6 +53,111 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+questo farebbe fallire il filtro perchè il primo paragrafo ha uno stile
+[Div ("",[],[("custom-style","FirstParagraph")])
+ [Para [Image ("",[],[("width","2.0833333333333335in"),("height","2.0833333333333335in")]) [Str "alt"] ("media/rId20.jpg","title")]]
+,Div ("",[],[("custom-style","Caption")])
+ [Para [Str "caption"]]]
+
+ tags $ ls | while read dir; do echo -n "$dir "; ls "$dir" | wc -l; done
+
+./italia/branches
+
+taxfix berlino
+
+expertise reversal effect
+
+serious games
+
+a system you can change
+
+come fornire un collegamento fra issues e versione dove vengono risolte?
+includendo il numero di issue nel changelog
+come ricavare automaticamente il numero di issue?
+se la issue è stata chiusa con un commit
+si possono collezionare le issues chiuse dal tag precedente
+git log v0.3..HEAD --oneline
+
+della logica di converti
+una versione in linguaggio naturale
+diventa difficile mantenere
+
+https://trello.com/francescoocchipinti/cards
+
+markdown visual editor https://stackedit.io/app
+
+daf8d1db here the work around blockListToRST
+https://github.com/jgm/pandoc/commit/daf8d1db
+
+ho assegnato tutte le summer issues a milestones
+https://github.com/italia/docs-italia-comandi-conversione/milestones?direction=asc&sort=due_date&state=open
+
+https://github.com/jgm/pandoc/issues/4564
+
 diversificarsi
 
 antica e potente comunicazione
@@ -67,6 +172,16 @@ laban
 volersi legare
 
 ricerca comunicazione traduzione formalizzazione
+
+ errori note ed immagini negli headers
+ errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
+ errori linker - regressione su trello 
+ fisso le dipendenze
+
+ convenzioni
+ quotes filter to merge
+ pubblicazione su hackage per updates più semplici
+ come tech writer voglio ignorare il metodo per la didascalia
 
          ||||||/
          |||||/
@@ -85,8 +200,8 @@ tahini
 errore immagini da link esterno
 https://github.com/italia/docs-italia-comandi-conversione/issues/33
 
-alla fine di luglio non vogliamo più issue di conversione su trello
-perché vogliamo che tutto sia pubblico
+fatto -- alla fine di luglio non vogliamo più issue di conversione su trello
+         perché vogliamo che tutto sia pubblico
 
 why is servant a type level domain-specific language
 https://haskell-servant.github.io/posts/2018-07-12-servant-dsl-typelevel.html
@@ -104,20 +219,6 @@ dopo vorrei fare upload delle altre cartelle
 
 ~/.dropbox-dist/dropboxd
 
-How to build a portable executable that uses pandoc as a library?
-
-Information about this topic is scattered here and there, so i thought of opening an issue where to collect knowledge in order to eventually improve the documentation.
-
-[This stack overflow question](https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application) provides a lot of useful information but it's outdated.
-
-[This](https://github.com/italia/docs-italia-comandi-conversione/commit/29786f1331634e69dc3c295beae5a8e6ce1594f5#diff-fafd0cdcd559a7b124cc61c29413fb54) is what i did in order to make my pandoc-derived tool portable. I would like to add a few lines to the official doc, but i'm not sure where.
-
-forse in App e Class possiamo far esplodere il processo se la dipendenza manca?
-
-./embed data files
-
-embed_data_files
-
 docs.docker.com
 
 sudo cp ~/.local/bin/* /var/lib/docker/volumes/docker-comandi-test/_data
@@ -125,12 +226,6 @@ i want to remove all those files with sudo later
 
 docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
 root@15e4419aeb5d:/# 
-
-https://www.haskell.org/cabal/users-guide/developing-packages.html#accessing-data-files-from-package-code
-https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-data-files
-
-converti diventerà più robusto e semplice
-quindi potremo indirizzare gli utenti principianti all'uso del comando
 
 fra installazione e contribuire
 ## Convertire un documento
@@ -140,8 +235,6 @@ when scrolling through long outputs
 a wrapper which adds a very visible coloured marker to the command line
 
 terminatori di linea per windows in rST
-
-multiversum: come è possibile che non ci siano post nuovi?
 
 convertitore web https://docs-italia-staging.teamdigitale.it/converti/
 
@@ -169,49 +262,7 @@ organizzazione
 
 http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
 
- issues
- filtri
- comandi
- tests
-
-il 15 settembre è il limite massimo
-
-settembre
- 1
-agosto
- 5
- 4
- 3
- 5
-luglio
- 5
- 5
- 3
-
-ends
-
- list tables - the wrapped long lines are very ugly
- summer 32 errore divisione in sezioni
- summer 20 didascalia
- summer 26 primo livello
- summer 17 stopwords
- ./figure
- errori note ed immagini negli headers
- errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
- #4618 inlines with a line break
- errori linker - regressione su trello 
- fisso le dipendenze
-
- convenzioni
- quotes filter to merge
- pubblicazione su hackage per updates più semplici
- come tech writer voglio ignorare il metodo per la didascalia
-
 https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
-
-taxfix berlino
-
-stack overflow message
 
 https://ro-che.info/articles/2015-10-26-static-linking-ghc
 
@@ -465,8 +516,9 @@ ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 these contents are competing with designer's tools
 subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
 
-https://github.com/italia/docs.italia.it/issues
+https://github.com/italia/docs.italia.it/issues/new
 https://github.com/italia/docs.italia.it
+
 senso di sostenibilità
 evolversi
 equilibrio immaginato ed equilibrio espresso
@@ -563,7 +615,7 @@ priorità ai nostri casi d'uso
 
 humans first
 
-irrelevant ugly boring concrete dive
+                       ugly boring concrete dive
 
 . payment
 
@@ -609,6 +661,10 @@ https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_p
 
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+
+                                   |
+     ------------------------ docs italia -----------------------------
+                                   |
 
 dereference
 
