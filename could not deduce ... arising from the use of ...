@@ -1,0 +1,9 @@
+the function had a monad in an unused return value
+
+basically the checker does not know which instance to pick
+
+these potential instances exist
+the type variable is ambiguous
+
+the checker cannot deduce that i'm respecting my constraints
+
