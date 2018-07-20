@@ -1,0 +1,8 @@
+How to build a portable executable that uses pandoc as a library?
+
+Information about this topic is scattered here and there, so i thought of opening an issue where to collect knowledge in order to eventually improve the documentation.
+
+[This stack overflow question](https://stackoverflow.com/questions/35491660/can-i-automatically-embed-pandocs-default-templates-in-my-application) provides a lot of useful information but it's outdated.
+
+[This](https://github.com/italia/docs-italia-comandi-conversione/commit/29786f1331634e69dc3c295beae5a8e6ce1594f5#diff-fafd0cdcd559a7b124cc61c29413fb54) is what i did in order to make my pandoc-derived tool portable. I would like to add a few lines to the official doc, but i'm not sure where.
+

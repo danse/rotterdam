@@ -1,3 +1,8 @@
+{-
+
+ check these running `doctest doctested.hs`
+
+-}
 import Data.List
 import Data.Monoid
 import Text.ParserCombinators.ReadP hiding (between)
@@ -39,5 +44,14 @@ untilM p f i = do
 startsWithRFC = do
   string "rfc" +++ string "RFC"
   many (satisfy isDigit)
+
+-- | default maybe
+-- >>> def 3 (Just 2)
+-- 2
+-- >>> def 3 Nothing
+-- 3
+def :: a -> Maybe a -> a
+def a1 (Just a2) = a2
+def a1 Nothing   = a1
 
 main = pure ()

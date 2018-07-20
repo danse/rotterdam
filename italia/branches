@@ -1,8 +1,11 @@
 
 ### pending feedback
 
-italia/4581
-https://github.com/jgm/pandoc/issues/4581 nested inline parsing
+italia/4564 list tables
+https://github.com/jgm/pandoc/pull/4780
+
+italia/4581 nested inline parsing
+https://github.com/jgm/pandoc/pull/4582
 4561 parsing emphasis around an URI
 
 italia/fonts-as-attributes
