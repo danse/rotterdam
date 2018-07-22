@@ -120,11 +120,19 @@
 
 
 
-lisp literal scratch lisp interaction
 
-"attention, the ac power wattage and type" xps dell
 
 o2
+
+lisp literal scratch lisp interaction
+close shell on exit
+truncate lines by default
+spacemacs + intero
+macros
+version control
+long line copy behaviour
+delete an emptied buffer while visiting it
+ emacs
 
 questo farebbe fallire il filtro perchè il primo paragrafo ha uno stile
 [Div ("",[],[("custom-style","FirstParagraph")])
@@ -283,14 +291,7 @@ lo spazio è un problema più che il tempo
 per adesso si può considerare a posto
 precompilati su Github per ruoli ansible ubuntu 16 04 o superiore 64 bit
 
- emacs
-close shell on exit
-truncate lines by default
-spacemacs + intero
-macros
-version control
-long line copy behaviour
-delete an emptied buffer while visiting it
+"attention, the ac power wattage and type"
 
 waves
 drift
