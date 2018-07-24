@@ -96,35 +96,60 @@
 
 
 
-and one folder on every device
-one folder for every device
- so to update without conflicts i want
-default upload behaviour is overwrite
 
-vogliamo dare priorità alle issues più brevi?
 
-mi fa riflettere sul rischio che le milestones siano troppo corte
-l'andamento di 20 nella sesta milestone
 
-semplicità
 
-comando per sincronizzare atlantis
-e lì può andare il nuovo numero
+
+
+
+
+
+
+
+
 
 # docs-italia-progetto-conversione
 documentazione di progetto relativa a pandoc ed altri comandi di
 conversione di formato
 - [branches.md](branches.md): informazioni sui branches in italia/pandoc
+- [note di analisi]()
+ - [celle che spaziano]()
+ - [didascalie]()
 
-but what it wants presents some issues
-it could just use the existing
-so in order to do what it wants
+posizione -> processo
 
-come passi con lo stesso piede
+main = hakyll $ do
+ match "..." $ do
+  ...
+  compile pandoc
+ match "..." $ do
+  ...
+  compile copy
+
+https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
+
+wittgenstein
+
+comando per sincronizzare atlantis
+e lì può andare il nuovo numero
 
 o2
 
 chiavi coliving
+
+Consiglio a tutti l’opzione Preferences -> Sidebar -> Unread & Starred. Non cambia nulla nei fatti, ma è incredibile l’effetto psicologico
+
+stack builders
+
+and one folder on every device
+one folder for every device
+ so to update without conflicts i want
+default upload behaviour is overwrite
+
+semplicità
+
+come passi con lo stesso piede
 
  · - · - · - · - · - ·
 
@@ -151,13 +176,7 @@ long line copy behaviour
 delete an emptied buffer while visiting it
  emacs
 
-questo farebbe fallire il filtro perchè il primo paragrafo ha uno stile
-[Div ("",[],[("custom-style","FirstParagraph")])
- [Para [Image ("",[],[("width","2.0833333333333335in"),("height","2.0833333333333335in")]) [Str "alt"] ("media/rId20.jpg","title")]]
-,Div ("",[],[("custom-style","Caption")])
- [Para [Str "caption"]]]
-
- tags $ ls | while read dir; do echo -n "$dir "; ls "$dir" | wc -l; done
+tags $ ls | while read dir; do echo -n "$dir "; ls "$dir" | wc -l; done
 
 taxfix berlino
 
@@ -230,9 +249,6 @@ tahini
 errore immagini da link esterno
 https://github.com/italia/docs-italia-comandi-conversione/issues/33
 
-fatto -- alla fine di luglio non vogliamo più issue di conversione su trello
-         perché vogliamo che tutto sia pubblico
-
 why is servant a type level domain-specific language
 https://haskell-servant.github.io/posts/2018-07-12-servant-dsl-typelevel.html
 
@@ -241,8 +257,6 @@ https://github.com/andreafabrizi/Dropbox-Uploader
 https://github.com/ncw/rclone
 
 se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
-
-cartella di dropbox sul disco esterno
 
 docs.docker.com
 
@@ -262,12 +276,6 @@ a wrapper which adds a very visible coloured marker to the command line
 terminatori di linea per windows in rST
 
 convertitore web https://docs-italia-staging.teamdigitale.it/converti/
-
-producers and consumers, formerly sinks and sources
-https://groups.google.com/forum/#!topic/pandoc-discuss/kc5wJsNe0L0
-
-filter with arguments
-https://groups.google.com/forum/#!topic/pandoc-discuss/LIAfgkZKUiE
 
   maybe via smaller sections?
  easy update
@@ -292,14 +300,6 @@ https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 https://ro-che.info/articles/2015-10-26-static-linking-ghc
 
 the bug pablo found with external images
-
-- possibilità di ingrandimento della cartella?
-- cancellare .stack dopo la compilazione? o un'opzione cleanup quando serva
-lo spazio è un problema più che il tempo
-per adesso si può considerare a posto
-precompilati su Github per ruoli ansible ubuntu 16 04 o superiore 64 bit
-
-"attention, the ac power wattage and type"
 
 waves
 drift
