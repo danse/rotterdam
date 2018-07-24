@@ -96,12 +96,20 @@
 
 
 
+and one folder on every device
+one folder for every device
+ so to update without conflicts i want
+default upload behaviour is overwrite
 
+vogliamo dare priorità alle issues più brevi?
 
+mi fa riflettere sul rischio che le milestones siano troppo corte
+l'andamento di 20 nella sesta milestone
 
+semplicità
 
-
-
+comando per sincronizzare atlantis
+e lì può andare il nuovo numero
 
 # docs-italia-progetto-conversione
 documentazione di progetto relativa a pandoc ed altri comandi di
@@ -121,8 +129,6 @@ chiavi coliving
  · - · - · - · - · - ·
 
 martedì
-
-new phone number on dropbox waves
 
 haskell read and show to file
 
@@ -237,11 +243,6 @@ https://github.com/ncw/rclone
 se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
 
 cartella di dropbox sul disco esterno
-
-upload di `foto`
-dopo vorrei fare upload delle altre cartelle
-
-~/.dropbox-dist/dropboxd
 
 docs.docker.com
 
