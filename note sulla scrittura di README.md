@@ -15,6 +15,15 @@ Cominciamo elencando il ruolo delle sezioni: l'idea non è tanto quella
 di stabilire una nomenclatura fissa, ma più che altro di suggerire un
 percorso che i lettori possano seguire.
 
+```
+ ~ 7%  sommario
+ ~ 7%  requisiti
+ ~ 30% descrizione
+ ~ 20% installazione
+ ~ 30% primi passi
+ ~ 6%  per approfondire
+```
+
 Ogni sezione è accompagnata da un valore in percentuale che indica la
 lungezza relativa al totale del README. Ovviamente si tratta solo di
 un'indicazione

@@ -4,6 +4,7 @@
 italia/4564 list tables
 https://github.com/jgm/pandoc/pull/4780
 
+https://github.com/jgm/pandoc/issues/4792
 italia/4581 nested inline parsing
 https://github.com/jgm/pandoc/pull/4582
 4561 parsing emphasis around an URI

@@ -103,29 +103,37 @@
 
 
 
+# docs-italia-progetto-conversione
+documentazione di progetto relativa a pandoc ed altri comandi di
+conversione di formato
+- [branches.md](branches.md): informazioni sui branches in italia/pandoc
 
+but what it wants presents some issues
+it could just use the existing
+so in order to do what it wants
 
+come passi con lo stesso piede
 
+o2
 
+chiavi coliving
 
+ · - · - · - · - · - ·
 
-
-
-
+martedì
 
 new phone number on dropbox waves
 
 haskell read and show to file
 
-terra
-infrastruttura
-comunicaciòn
-deconstruir
-comprensibile
-oggetto
+caverna
 arte
-
-o2
+oggetto
+comprensibile
+deconstruir
+comunicaciòn
+infrastruttura
+terra
 
 lisp literal scratch lisp interaction
 close shell on exit
@@ -145,13 +153,9 @@ questo farebbe fallire il filtro perchè il primo paragrafo ha uno stile
 
  tags $ ls | while read dir; do echo -n "$dir "; ls "$dir" | wc -l; done
 
-./italia/branches
-
 taxfix berlino
 
 expertise reversal effect
-
-serious games
 
 a system you can change
 
