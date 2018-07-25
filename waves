@@ -109,6 +109,39 @@
 
 
 
+
+pull request
+documenti di prova
+
+se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
+
+daf8d1db here the work around blockListToRST
+https://github.com/jgm/pandoc/commit/daf8d1db
+
+https://github.com/jgm/pandoc/issues/4564
+
+ errori note ed immagini negli headers
+ errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
+ errori linker - regressione su trello 
+ fisso le dipendenze
+
+ convenzioni
+ quotes filter to merge
+ pubblicazione su hackage per updates più semplici
+ come tech writer voglio ignorare il metodo per la didascalia
+
+errore immagini da link esterno
+https://github.com/italia/docs-italia-comandi-conversione/issues/33
+
+why is servant a type level domain-specific language
+https://haskell-servant.github.io/posts/2018-07-12-servant-dsl-typelevel.html
+
+https://github.com/andreafabrizi/Dropbox-Uploader
+
+https://trello.com/francescoocchipinti/cards
+
+ >·
+
 # docs-italia-progetto-conversione
 documentazione di progetto relativa a pandoc ed altri comandi di
 conversione di formato
@@ -153,8 +186,6 @@ come passi con lo stesso piede
 
  · - · - · - · - · - ·
 
-martedì
-
 haskell read and show to file
 
 caverna
@@ -191,21 +222,7 @@ se la issue è stata chiusa con un commit
 si possono collezionare le issues chiuse dal tag precedente
 git log v0.3..HEAD --oneline
 
-della logica di converti
-una versione in linguaggio naturale
-diventa difficile mantenere
-
-https://trello.com/francescoocchipinti/cards
-
 markdown visual editor https://stackedit.io/app
-
-daf8d1db here the work around blockListToRST
-https://github.com/jgm/pandoc/commit/daf8d1db
-
-ho assegnato tutte le summer issues a milestones
-https://github.com/italia/docs-italia-comandi-conversione/milestones?direction=asc&sort=due_date&state=open
-
-https://github.com/jgm/pandoc/issues/4564
 
 diversificarsi
 
@@ -222,16 +239,6 @@ volersi legare
 
 ricerca comunicazione traduzione formalizzazione
 
- errori note ed immagini negli headers
- errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
- errori linker - regressione su trello 
- fisso le dipendenze
-
- convenzioni
- quotes filter to merge
- pubblicazione su hackage per updates più semplici
- come tech writer voglio ignorare il metodo per la didascalia
-
          ||||||/
          |||||/
          ||||/
@@ -240,23 +247,11 @@ ricerca comunicazione traduzione formalizzazione
          |/
          /
                                    
-https://en.wikipedia.org/wiki/Dali_City
+china https://en.wikipedia.org/wiki/Dali_City
 
 some products feed a cyclical system
 
 tahini
-
-errore immagini da link esterno
-https://github.com/italia/docs-italia-comandi-conversione/issues/33
-
-why is servant a type level domain-specific language
-https://haskell-servant.github.io/posts/2018-07-12-servant-dsl-typelevel.html
-
-https://github.com/andreafabrizi/Dropbox-Uploader
-
-https://github.com/ncw/rclone
-
-se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
 
 docs.docker.com
 
