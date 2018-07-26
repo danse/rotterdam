@@ -110,12 +110,17 @@
 
 
 
-https://github.com/italia/docs-italia-comandi-conversione/milestones?direction=asc&sort=due_date&state=open
+
+come posso creare gli archivi con `zip`?
 
 pull request
 documenti di prova
 
 se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
+
+https://github.com/pcapriotti/optparse-applicative/wiki/Bash-Completion
+
+https://github.com/italia/docs-italia-comandi-conversione/milestones?direction=asc&sort=due_date&state=open
 
 daf8d1db here the work around blockListToRST
 https://github.com/jgm/pandoc/commit/daf8d1db
@@ -161,6 +166,8 @@ main = hakyll $ do
  match "..." $ do
   ...
   compile copy
+
+josh godsiff - the human side of haskell
 
 https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
 
@@ -780,7 +787,7 @@ indirect self control
 in dreams begin responsibilities
 infrastructure is defined by its invisibility
 interferencias
-in tweet out - problems due to algorithmic noise
+in tweet out avoiding algorithmic noise
 it can cut both ways
 label keep and search for "not keep" rather than delete
 (lameness + pressure) x authority
