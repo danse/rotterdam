@@ -111,15 +111,40 @@
 
 
 
-come posso creare gli archivi con `zip`?
 
-pull request
-documenti di prova
+
+
+
+
+
+
+
+abbiamo molte issues e ne verranno molte altre, processo ed issues
+casi ed esempi
+selezione pubblicazioni e discussioni sul canale?
+________
+riunione
+
+ esempi
+ casi
+ errori di sintassi
+ ridefinizioni semantiche
+ funzionalità sphinx
+ conversione (pandoc)
+dimensioni
+
+converti e confronto con rst, ma come organizzarlo?
+
+ora le ho alleggerite per fare spazio alle priorità di Pablo ed Alberto
+.
+dalla più vicina alla più lontana
+che mi sembra fattibile anche nel peggiore dei casi
+sto riempiendo le milestones con un carico
 
 se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
+arroz caldoso
 
 https://github.com/pcapriotti/optparse-applicative/wiki/Bash-Completion
-
 https://github.com/italia/docs-italia-comandi-conversione/milestones?direction=asc&sort=due_date&state=open
 
 daf8d1db here the work around blockListToRST
@@ -128,7 +153,6 @@ https://github.com/jgm/pandoc/commit/daf8d1db
 https://github.com/jgm/pandoc/issues/4564
 
  errori note ed immagini negli headers
- errori di sintassi dovuti ad inline vuoti 18app/linee-guida-esercenti
  errori linker - regressione su trello 
  fisso le dipendenze
 
