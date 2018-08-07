@@ -1,7 +1,0 @@
-
-
-Ground = Atom | Scope
-Scope = [Ground]
-
-root :: Scope -> Atom
-tip :: Scope -> Atom

@@ -89,77 +89,35 @@
 
 
 
+gitbook
 
+nuovo nome esempi formattazione?
 
+pandoc-font-to-style meno prominente
 
+https://github.com/italia/docs-italia-pandoc-filters/issues/2
+individuiamo e documentiamo il modo più semplice per usare questi filtri
 
+ . - . - .
 
+i contenuti ed i cittadini al centro
+https://docs.google.com/document/d/11gAc0TusLLY-Z0cJXW57Z5PbZnE-q3-CWp754u5RyxY/edit
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-abbiamo molte issues e ne verranno molte altre, processo ed issues
-casi ed esempi
-selezione pubblicazioni e discussioni sul canale?
-________
-riunione
+se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
 
  esempi
  casi
+ formati
  errori di sintassi
  ridefinizioni semantiche
  funzionalità sphinx
  conversione (pandoc)
 dimensioni
 
-converti e confronto con rst, ma come organizzarlo?
-
-ora le ho alleggerite per fare spazio alle priorità di Pablo ed Alberto
-.
-dalla più vicina alla più lontana
-che mi sembra fattibile anche nel peggiore dei casi
-sto riempiendo le milestones con un carico
-
-se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
-arroz caldoso
-
-https://github.com/pcapriotti/optparse-applicative/wiki/Bash-Completion
-https://github.com/italia/docs-italia-comandi-conversione/milestones?direction=asc&sort=due_date&state=open
-
-daf8d1db here the work around blockListToRST
-https://github.com/jgm/pandoc/commit/daf8d1db
-
-https://github.com/jgm/pandoc/issues/4564
-
  errori note ed immagini negli headers
- errori linker - regressione su trello 
  fisso le dipendenze
 
- convenzioni
  quotes filter to merge
- pubblicazione su hackage per updates più semplici
- come tech writer voglio ignorare il metodo per la didascalia
 
 errore immagini da link esterno
 https://github.com/italia/docs-italia-comandi-conversione/issues/33
@@ -181,8 +139,6 @@ conversione di formato
  - [celle che spaziano]()
  - [didascalie]()
 
-posizione -> processo
-
 main = hakyll $ do
  match "..." $ do
   ...
@@ -190,19 +146,14 @@ main = hakyll $ do
  match "..." $ do
   ...
   compile copy
-
-josh godsiff - the human side of haskell
+--
+-- posizione -> processo
 
 https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
 
 wittgenstein
 
-comando per sincronizzare atlantis
-e lì può andare il nuovo numero
-
-o2
-
-chiavi coliving
+arroz caldoso
 
 Consiglio a tutti l’opzione Preferences -> Sidebar -> Unread & Starred. Non cambia nulla nei fatti, ma è incredibile l’effetto psicologico
 
@@ -230,6 +181,8 @@ comunicaciòn
 infrastruttura
 terra
 
+josh godsiff - the human side of haskell
+
 lisp literal scratch lisp interaction
 close shell on exit
 truncate lines by default
@@ -239,8 +192,6 @@ version control
 long line copy behaviour
 delete an emptied buffer while visiting it
  emacs
-
-tags $ ls | while read dir; do echo -n "$dir "; ls "$dir" | wc -l; done
 
 taxfix berlino
 
@@ -336,12 +287,6 @@ focus
 root
 stack
 
-vorrei rigenerarlo ma non ho il sorgente
-il documento sembra scritto con wrap auto
-title underline too short
-formatted-as-code-with-errors.rst
-code errors
-
 output/loose/Guida tecnica ... div e raw HTML alla fine del linked
 regression/ nota links
 
@@ -357,6 +302,7 @@ paragraph escaping 4422
 https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
 
 attaccare il caricatore guardando il device
+poi ciascuno impara la propria configurazione
 
 22 minuti mv nomi/*/* queue
 
@@ -560,7 +506,6 @@ more experimental than what i want to sell
 
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 these contents are competing with designer's tools
-subtitle https://github.com/jgm/pandoc/issues/4583 closed title metadata
 
 https://github.com/italia/docs.italia.it/issues/new
 https://github.com/italia/docs.italia.it
@@ -770,6 +715,7 @@ a :b
 a: b
 a:b
 
+urbaniche, hippietopia
 ho paura del sistema che avevo sognato
 one can read many interruptions on a drift
 after offline-first, offgrid first

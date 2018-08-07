@@ -17,10 +17,8 @@
 
 
 
-
-
-
-
+subtitleToRST :: Pandoc -> Pandoc
+subtitleToRST (Pandoc meta blocks) = Pandoc meta title:subtitle:blocks
 
 -- s = Stages [Stage [Batch "batch or bit"]]
 

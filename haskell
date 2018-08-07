@@ -1,4 +1,14 @@
 
+
+view (ls "/tmp")
+print
+.
+using file functions from System.Posix and System.Directory in order
+to have string file paths
+ turtle
+
+stack repl --package turtle
+
 https://wiki.haskell.org/How_to_write_a_Haskell_program
 https://wiki.haskell.org/Hierarchical_module_names
 https://www.haskell.org/cabal/users-guide/developing-packages.html#pkg-field-build-tool-depends
