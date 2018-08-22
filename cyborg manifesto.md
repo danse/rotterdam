@@ -45,11 +45,6 @@ illusion.
 Contemporary science fiction is full of cyborgs - creatures
 simultaneously animal and machine, who populate worlds ambiguously
 natural and crafted.
-
- 
-
-150
-
  
 
 Modern medicine is also full of cyborgs, of couplings between organism
@@ -81,6 +76,7 @@ resource for the productions of culture; the tradition of reproduction
 of the self from the reflections of the other - the relation between
 organism and machine has been a border war. The stakes in the border war
 have been the territories of production, reproduction, and imagination.
+
 This chapter is an argument for pleasure in the confusion of boundaries
 and for responsibility in their construction. It is also an effort to
 contribute to socialist-feminist culture and theory in a postmodernist,
@@ -106,8 +102,6 @@ is also the awful apocalyptic telos of the
 
  
 
-151
-
 \'West\'s\' escalating dominations of abstract individuation, an
 ultimate self untied at last from all dependency, a man in space. An
 origin story in the \'Western\', humanist sense depends on the myth of
@@ -131,25 +125,26 @@ innocence. No longer structured by the polarity of public and private,
 the cyborg defines a technological polls based partly on a revolution of
 social relations in the oikos, the household. Nature and culture are
 reworked; the one can no longer be the resource for appropriation or
-incorporation by the other. The rela-tionships for forming wholes from
+incorporation by the other. The relationships for forming wholes from
 parts, including those of polarity and hierarchical domination, are at
 issue in the cyborg world. Unlike the hopes of Frankenstein\'s monster,
 the cyborg does not expect its father to save it through a restoration
 of the garden; that is, through the fabrication of a heterosexual mate,
-through its completion in a finished whole, a city and cosmos. The
-eyborg does not dream of community on the model of the organic family,
-this time without the oedipal project. The cyborg would not recognize
-the Garden of Eden; it is not made of mud and cannot dream of returning
-to dust. Perhaps that is why I want to see if eyborgs can subvert the
-apocalypse of returning to nuclear dust in the manic compulsion to name
-the Enemy. Cyborgs are not reverent; they do not re-member the cosmos.
-They are wary of holism, but needy for connection- they seem to have a
-natural feel for united front politics, but without the vanguard party.
-The main trouble with cyborgs, of course, is that they are the
-illegitimate offspring of militarism and patriarchal capitalism, not to
-mention state socialism. But illegitimate offspring are often
-exceedingly unfaithful to their origins. Their fathers, after all, are
-inessential.
+through its completion in a finished whole, a city and cosmos.
+
+The cyborg does not dream of community on the model of the organic
+family, this time without the oedipal project. The cyborg would not
+recognize the Garden of Eden; it is not made of mud and cannot dream
+of returning to dust. Perhaps that is why I want to see if cyborgs can
+subvert the apocalypse of returning to nuclear dust in the manic
+compulsion to name the Enemy. Cyborgs are not reverent; they do not
+remember the cosmos.  They are wary of holism, but needy for
+connection- they seem to have a natural feel for united front
+politics, but without the vanguard party.  The main trouble with
+cyborgs, of course, is that they are the illegitimate offspring of
+militarism and patriarchal capitalism, not to mention state
+socialism. But illegitimate offspring are often exceedingly unfaithful
+to their origins. Their fathers, after all, are inessential.
 
  
 
@@ -162,8 +157,6 @@ The last beachheads of uniqueness have been polluted if not turned into
 amusement parks\--language tool
 
  
-
-152
 
 use, social behaviour, mental events, nothing really convincingly
 settles the separation of human and animal. And many people no longer
@@ -184,13 +177,13 @@ fought as a form of child abuse.
 Biological-determinist ideology is only one position opened up in
 scientific culture for arguing the meanings of human animality. There is
 much room for radical political people to contest the meanings of the
-breached boundary.2 The cyborg appears in myth precisely where the
+breached boundary.
+
+2 The cyborg appears in myth precisely where the
 boundary between human and animal is transgressed. Far from signalling a
 walling off of people from other living beings, cyborgs signal
 distrurbingly and pleasurably tight coupling. Bestiality has a new
 status in this cycle of marriage exchange.
-
- 
 
  
 
@@ -204,39 +197,35 @@ They could not achieve man\'s dream, only mock it. They were not man, an
 author to himself, but only a caricature of that masculinist
 reproductive dream. To think they were otherwise was paranoid. Now we
 are not so sure. Late twentieth-century machines have made thoroughly
-ambiguous the difference between natural and art)ficial, mind and body,
+ambiguous the difference between natural and artificial, mind and body,
 self-developing and externally designed, and many other distinctions
 that used to apply to organisms and machines. Our machines are
 disturbingly lively, and we ourselves frighteningly inert.
 
  
 
- 
-
 Technological determination is only one ideological space opened up by
 the reconceptions of machine and organism as coded texts through which
-we engage in the play of writing and reading the world.3
-\'Textualization\' of everything in poststructuralist, postmodernist
+we engage in the play of writing and reading the world.
+
+3 \'Textualization\' of everything in poststructuralist, postmodernist
 theory has been damned by Marxists and socialist feminists for its
 utopian disregard for the lived relations of domination that ground the
-\'play\' of arbitrary reading.4 It is certainly true that postmodernist
-strategies, like my cyborg myth, subvert myriad organic wholes (for
-example, the poem, the primitive culture, the biological organism). In
-short, the certainty of what counts as nature \-- a
+\'play\' of arbitrary reading.
 
- 
-
-153
-
-source of insight and promise of innocence \-- is undermined, probably
-fatally. The transcendent authorization of interpretation is lost, and
-with it the ontology grounding \'Western\' epistemology. But the
-alternative is not cynicism or faithlessness, that is, some version of
-abstract existence, like the accounts of technological determinism
-destroying \'man\' by the \'machine\' or \'meaningful political action\'
-by the \'text\'. Who cyborgs will be is a radical question; the answers
-are a matter of survival. Both chimpanzees and artefacts have politics,
-so why shouldn\'t we (de Waal, 1982; Winner, 1980)?
+4 It is certainly true that postmodernist strategies, like my cyborg
+myth, subvert myriad organic wholes (for example, the poem, the
+primitive culture, the biological organism). In short, the certainty
+of what counts as nature \-- a source of insight and promise of
+innocence \-- is undermined, probably fatally. The transcendent
+authorization of interpretation is lost, and with it the ontology
+grounding \'Western\' epistemology. But the alternative is not
+cynicism or faithlessness, that is, some version of abstract
+existence, like the accounts of technological determinism destroying
+\'man\' by the \'machine\' or \'meaningful political action\' by the
+\'text\'. Who cyborgs will be is a radical question; the answers are a
+matter of survival. Both chimpanzees and artefacts have politics, so
+why shouldn\'t we (de Waal, 1982; Winner, 1980)?
 
  
 
@@ -250,25 +239,29 @@ quintessentially microelectronic devices: they are everywhere and they
 are invisible. Modern machinery is an irreverent upstart god, mocking
 the Father\'s ubiquity and spirituality. The silicon chip is a surface
 for writing; it is etched in molecular scales disturbed only by atomic
-noise, the ultimate interference for nuclear scores. Writing, power, and
-technology are old partners in Western stories of the origin of
-civilization, but miniaturization has changed our experience of
-mechanism. Miniaturization has turned out to be about power; small is
-not so much beautiful as pre-eminently dangerous, as in cruise missiles.
-Contrast the TV sets of the 1950s or the news cameras of the 1970s with
-the TV wrist bands or hand-sized video cameras now advertised. Our best
-machines are made of sunshine; they are all light and clean because they
-are nothing but signals, electromagnetic waves, a section of a spectrum,
-and these machines are eminently portable, mobile \-- a matter of
-immense human pain in Detroit and Singapore. People are nowhere near so
-fluid, being both material and opaque. Cyborgs are ether, quintessence.
+noise, the ultimate interference for nuclear scores.
+
+Writing, power, and technology are old partners in Western stories of
+the origin of civilization, but miniaturization has changed our
+experience of mechanism. Miniaturization has turned out to be about
+power; small is not so much beautiful as pre-eminently dangerous, as
+in cruise missiles.  Contrast the TV sets of the 1950s or the news
+cameras of the 1970s with the TV wrist bands or hand-sized video
+cameras now advertised. Our best machines are made of sunshine; they
+are all light and clean because they are nothing but signals,
+electromagnetic waves, a section of a spectrum, and these machines are
+eminently portable, mobile \-- a matter of immense human pain in
+Detroit and Singapore. People are nowhere near so fluid, being both
+material and opaque. Cyborgs are ether, quintessence.
 
  
 
 The ubiquity and invisibility of cyborgs is precisely why these
 sunshine-belt machines are so deadly. They are as hard to see
 politically as materially. They are about consciousness - or its
-simulation.5 They are floating signIfiers moving in pickup trucks across
+simulation.
+
+5 They are floating signIfiers moving in pickup trucks across
 Europe, blocked more effectively by the witch-weavings of the displaced
 and so unnatural Greenham women, who read the cyborg webs of power so
 very well, than by the militant labour of older masculinist politics,
@@ -279,22 +272,17 @@ preservation of potent secrets. The new machines are so clean and light.
 Their engineers are sun-worshippers mediating a new scientific
 revolution
 
-\*The US equivalent of Mills & Boon.
-
- 
-
-154
-
-associated with the night dream of post-industrial society. The diseases
-evoked by these clean machines are \'no more\' than the minuscule coding
-changes of an antigen in the immune system, \'no more\' than the
-experience of stress. The nimble fingers of \'Oriental\' women, the old
-fascination of little Anglo-Saxon Victorian girls with doll\'s houses,
-women\'s enforced attention to the small take on quite new dimensions in
-this world. There might be a cyborg Alice taking account of these new
+\*The US equivalent of Mills & Boon associated with the night dream of
+post-industrial society. The diseases evoked by these clean machines
+are \'no more\' than the minuscule coding changes of an antigen in the
+immune system, \'no more\' than the experience of stress. The nimble
+fingers of \'Oriental\' women, the old fascination of little
+Anglo-Saxon Victorian girls with doll\'s houses, women\'s enforced
+attention to the small take on quite new dimensions in this
+world. There might be a cyborg Alice taking account of these new
 dimensions. Ironically, it might be the unnatural cyborg women making
-chips in Asia and spiral dancing in Santa Rita jail\* whose constructed
-unities will guide effective oppositional strategies.
+chips in Asia and spiral dancing in Santa Rita jail\* whose
+constructed unities will guide effective oppositional strategies.
 
  
 
@@ -340,16 +328,14 @@ California in the early 1985.
 
  
 
-155
-
 Of technological apocalypse, and committed to building a political form
 that acutally manages to hold together witches, engineers, elders,
 perverts, Christians, mothers, and Leninists long enough to disarm the
 state. Fission Impossible is the name of the affinity group in my
 town.(Affinity: related not by blood but by choice, the appeal of one
-chemical nuclear group for another, avidiy.)6
+chemical nuclear group for another, avidiy.)
 
- 
+6
 
 FRACTURED IDENTITIES
 
@@ -378,9 +364,9 @@ mid-adult bodies - the sources of a crisis in political identity are
 legion. The recent history for much of the US left and US feminism has
 been a response to this kind of crisis by endless splitting and searches
 for a new essential unity. But there has also been a growing recognition
-of another response through coalition - affinity, not identity.7
+of another response through coalition - affinity, not identity.
 
- 
+7
 
 Chela Sandoval (n.d., 1984), from a consideration of specific historical
 moments in the formation of the new political voice called women of
@@ -394,15 +380,7 @@ consciousness marking systematic breakdown of all the signs of Man in
 of otherness, difference, and specificity. This postmodernist identity
 is fully political, whatever might be said abut other possible
 postmodernisms. Sandoval\'s oppositional consciousness is about
-contradic-
-
- 
-
- 
-
-156
-
-tory locations and heterochronic calendars, not about relativisms and
+contradictory locations and heterochronic calendars, not about relativisms and
 pluralisms.
 
  
@@ -421,10 +399,14 @@ differences among US women who have affirmed their historical identity
 as US women of colour. This identity marks out a self-consciously
 constructed space that cannot affirm the capacity to act on the basis of
 natural identification, but only on the basis of conscious coalition, of
-affinity, of political kinship.8 Unlike the \'woman\' of some streams of
-the white women\'s movement in the United States, there is no
-naturalization of the matrix, or at least this is what Sandoval argues
-is uniquely available through the power of oppositional consciousness.
+affinity, of political kinship.
+
+8
+
+Unlike the \'woman\' of some streams of the white women\'s movement in
+the United States, there is no naturalization of the matrix, or at
+least this is what Sandoval argues is uniquely available through the
+power of oppositional consciousness.
 
  
 
@@ -434,11 +416,15 @@ discourse; that is to say, discourse dissolving the \'West\' and its
 highest product - the one who is not animal, barbarian, or woman; man,
 that is, the author of a cosmos called history. As orientalism is
 deconstructed politically and semiotically, the identities of the
-occident destabilize, including those of feminists.9 Sandoval argues
-that \'women of colour\' have a chance to build an effective unity that
-does not replicate the imperializing, totalizing revolutionary subjects
-of previous Marxisms and feminisms which had not faced the consequences
-of the disorderly polyphony emerging from decolonization.
+occident destabilize, including those of feminists.
+
+9
+
+Sandoval argues that \'women of colour\' have a chance to build an
+effective unity that does not replicate the imperializing, totalizing
+revolutionary subjects of previous Marxisms and feminisms which had
+not faced the consequences of the disorderly polyphony emerging from
+decolonization.
 
  
 
@@ -453,34 +439,32 @@ so that it appears to be an ideological struggle among coherent types
 persisting over time, especially those typical units called radical,
 liberal, and socialist-feminism. Literally, all other feminisms are
 either incorporated or marginalized, usually by building an explicit
-ontology and epistemology.10 Taxonomies of feminism produce
-epistemologies to police deviation from official women\'s experience.
-And of course, \'women\'s culture\', like women of colour, is
-consciously created by
+ontology and epistemology.
 
- 
+10
 
-157
-
-mechanisms inducing affinity. The rituals of poetry, music, and certain
-forms of academic practice have been pre-eminent. The politics of race
-and culture in the US women\'s movements are intimately interwoven. The
-common achievement of King and Sandoval is learning how to craft a
+Taxonomies of feminism produce epistemologies to police deviation from
+official women\'s experience.  And of course, \'women\'s culture\',
+like women of colour, is consciously created by mechanisms inducing
+affinity. The rituals of poetry, music, and certain forms of academic
+practice have been pre-eminent. The politics of race and culture in
+the US women\'s movements are intimately interwoven. The common
+achievement of King and Sandoval is learning how to craft a
 poetic/political unity without relying on a logic of appropriation,
-incorpora-tion, and taxonomic identification.
+incorporation, and taxonomic identification.
 
  
 
-The theoretical and practical struggle against unity-through-domination
-or unity-through-incorporation ironically not only undermines the
-justifica-tions for patriarchy, colonialism, humanism, positivism,
-essentialism, scient-ism, and other unlamented -isms, but all claims for
-an organic or natural standpoint. I think that radical and
-socialist/Marxist-feminisms have also undermined their/our own
-epistemological strategies and that this is a crucially valuable step in
-imagining possible unities. It remains to be seen whether all
-\'epistemologies\' as Western political people have known them fail us
-in the task to build effective affinities.
+The theoretical and practical struggle against
+unity-through-domination or unity-through-incorporation ironically not
+only undermines the justifications for patriarchy, colonialism,
+humanism, positivism, essentialism, scientism, and other unlamented
+-isms, but all claims for an organic or natural standpoint. I think
+that radical and socialist/Marxist-feminisms have also undermined
+their/our own epistemological strategies and that this is a crucially
+valuable step in imagining possible unities. It remains to be seen
+whether all \'epistemologies\' as Western political people have known
+them fail us in the task to build effective affinities.
 
  
 
@@ -502,30 +486,25 @@ faithful, effective - and, ironically, socialist-feminist?
  
 
 I do not know of any other time in history when there was greater need
-for political unity to confront effectively the dominations of \'race\',
-\'gender\', \'sexuality\', and \'class\'. I also do not know of any
-other time when the kind of unity we might help build could have been
-possible. None of \'us\' have any longer the symbolic or material
-capability of dictating the shape of reality to any of\'them\'. Or at
-least \'we\' cannot claim innocence from practicing such dominations.
-White women, including socialist feminists, discovered (that is, were
-forced kicking and screaming to notice) the non-innocence of the
-category \'woman\'. That consciousness changes the geography of all
-previous categories; it denatures them as heat denatures a fragile
-protein. Cyborg feminists have to argue that \'we\' do not want any more
-natural matrix of unity and that no construction is whole. Innocence,
-and the corollary insistence on victimhood as the only ground for
-insight, has done enough damage. But the constructed revolutionary
-subject must give late-twentieth-
-
- 
-
-158
-
-century people pause as well. In the fraying of identities and in the
-reflexive strategies for constructing them, the possibility opens up for
-weaving something other than a shroud for the day after the apocalypse
-that so prophetically ends salvation history.
+for political unity to confront effectively the dominations of
+\'race\', \'gender\', \'sexuality\', and \'class\'. I also do not know
+of any other time when the kind of unity we might help build could
+have been possible. None of \'us\' have any longer the symbolic or
+material capability of dictating the shape of reality to any
+of\'them\'. Or at least \'we\' cannot claim innocence from practicing
+such dominations.  White women, including socialist feminists,
+discovered (that is, were forced kicking and screaming to notice) the
+non-innocence of the category \'woman\'. That consciousness changes
+the geography of all previous categories; it denatures them as heat
+denatures a fragile protein. Cyborg feminists have to argue that
+\'we\' do not want any more natural matrix of unity and that no
+construction is whole. Innocence, and the corollary insistence on
+victimhood as the only ground for insight, has done enough damage. But
+the constructed revolutionary subject must give late-twentieth-century
+people pause as well. In the fraying of identities and in the
+reflexive strategies for constructing them, the possibility opens up
+for weaving something other than a shroud for the day after the
+apocalypse that so prophetically ends salvation history.
 
  
 
@@ -555,48 +534,48 @@ household and women\'s activity as mothers generally (that is,
 reproduction in the socialist-feminist sense), entered theory on the
 authority of analogy to the Marxian concept of labour. The unity of
 women here rests on an epistemology based on the ontological structure
-of\'labour\'. Marxist/socialist-feminism does not \'natur-alize\' unity;
+of\'labour\'. Marxist/socialist-feminism does not \'naturalize\' unity;
 it is a possible achievement based on a possible standpoint rooted in
 social relations. The essentializing move is in the ontological
-structure of labour or of its analogue, women\'s activity.11 The
-inheritance of Marxian humanism, with its pre-eminently Western self, is
-the difficulty for me. The contribution from these formulations has been
-the emphasis on the daily responsibility of real women to build unities,
-rather than to naturalize them.
+structure of labour or of its analogue, women\'s activity.
+
+11
+
+The inheritance of Marxian humanism, with its pre-eminently Western
+self, is the difficulty for me. The contribution from these
+formulations has been the emphasis on the daily responsibility of real
+women to build unities, rather than to naturalize them.
 
  
 
 Catherine MacKinnon\'s (198Z, 1987) version of radical feminism is
 itself a caricature of the appropriating, incorporating, totalizing
-tendencies of Western theories of identity grounding action.12 It is
-factually and politically wrong to assimilate all of the diverse
+tendencies of Western theories of identity grounding action.
+
+12
+
+It is factually and politically wrong to assimilate all of the diverse
 \'moments\' or \'conversations\' in recent women\'s politics named
-radical feminism to MacKinnon\'s version. But the teleological logic of
-her theory shows how an epistemology and ontology - including their
+radical feminism to MacKinnon\'s version. But the teleological logic
+of her theory shows how an epistemology and ontology - including their
 negations - erase or police difference. Only one of the effects of
-MacKinnon\'s theory is the rewriting of the history of the polymorphous
-field called radical feminism. The major effect is the production of a
-theory
-
- 
-
-159
-
-of experience, of women\'s identity, that is a kind of apocalypse for
-all revolutionary standpoints. That is, the totalization built into this
-tale of radical feminism achieves its end - the unity of women - by
-enforcing the experience of and testimony to radical non-being. As for
-the Marxist/ socialist feminist, consciousness is an achievement, not a
-natural fact. And MacKinnon\'s theory eliminates some of the
-difficulties built into humanist revolutionary subjects, but at the cost
-of radical reductionism.
+MacKinnon\'s theory is the rewriting of the history of the
+polymorphous field called radical feminism. The major effect is the
+production of a theory of experience, of women\'s identity, that is a
+kind of apocalypse for all revolutionary standpoints. That is, the
+totalization built into this tale of radical feminism achieves its end
+- the unity of women - by enforcing the experience of and testimony to
+radical non-being. As for the Marxist/ socialist feminist,
+consciousness is an achievement, not a natural fact. And MacKinnon\'s
+theory eliminates some of the difficulties built into humanist
+revolutionary subjects, but at the cost of radical reductionism.
 
  
 
 MacKinnon argues that feminism necessarily adopted a different
-analyt-ical strategy from Marxism, looking first not at the structure of
+analytical strategy from Marxism, looking first not at the structure of
 class, but at the structure of sex/gender and its generative
-relationship, men\'s constitu-tion and appropriation of women sexually.
+relationship, men\'s constitution and appropriation of women sexually.
 Ironically, MacKinnon\'s \'ontology\' constructs a non-subject, a
 non-being. Another\'s desire, not the self\'s labour, is the origin of
 \'woman\'. She therefore develops a theory of consciousness that
@@ -610,7 +589,7 @@ consciousness; that is, the self-knowledge of a self-who-is-not.
 Perversely, sexual appropriation in this feminism still has the
 epistemolo-gical status of labour; that is to say, the point from which
 an analysis able to contribute to changing the world must flow. But
-sexual object)fication, not alienation, is the consequence of the
+sexual objectification, not alienation, is the consequence of the
 structure of sex/gender. In the realm of knowledge, the result of sexual
 objectification is illusion and abstraction. However, a woman is not
 simply alienated from her product, but in a deep sense does not exist as
@@ -621,20 +600,20 @@ labourer from his product.
 
  
 
-MacKinnon\'s radical theory of experience is totalizing in the extreme;
+MacKinnon's radical theory of experience is totalizing in the extreme;
 it does not so much marginalize as obliterate the authority of any other
 women\'s political speech and action. It is a totalization producing
 what Western patriarchy itself never succeeded in doing - feminists\'
 consciousness of the non-existence of women, except as products of
-men\'s desire. I think MacKinnon correctly argues that no Marxian
-version of identity can firmly ground women\'s unity. But in solving the
+men's desire. I think MacKinnon correctly argues that no Marxian
+version of identity can firmly ground women's unity. But in solving the
 problem of the contradictions of any Western revolutionary subject for
 feminist purposes, she develops an even more authoritarian doctrine of
 experience. If my complaint about socialist/Marxian standpoints is their
 unintended erasure of polyvocal, unassimilable, radical difference made
-visible in anti-colonial discourse and practice, MacKinnon\'s
+visible in anti-colonial discourse and practice, MacKinnon's
 intentional erasure of all difference through the device of the
-\'essential\' non-existence of women is not reassuring.
+'essential' non-existence of women is not reassuring.
 
  
 
@@ -644,15 +623,15 @@ named by socialist feminists as forms of labour only if the activity can
 somehow be sexualized. Reproduction had different tones of meanings for
 the two tendencies, one rooted in labour, one in sex, both calling the
 consequences of domination and ignorance of social and personal reality
-\'false consciousness\'.
+'false consciousness'.
 
  
 
-Beyond either the diff\~culties or the contributions in the argument of
+Beyond either the difficulties or the contributions in the argument of
 any one author, neither Marxist nor radical feminist points of view have
 tended to embrace the status of a partial explanation; both were
 regularly constituted as totalities. Western explanation has demanded as
-much; how else could the \'Western\' author incorporate its others? Each
+much; how else could the 'Western' author incorporate its others? Each
 tried to annex other forms of domination by expanding its basic
 categories through analogy, simple listing, or addition. Embarrassed
 silence about race among white radical and socialist feminists was one
@@ -676,15 +655,15 @@ caricature looks like this:
 
 In another context, the French theorist, Julia Kristeva, claimed women
 appeared as a historical group after the Second World War, along with
-groups like youth. Her dates are doubtful; but we are now accustomed to
-remembering that as objects of knowledge and as historical actors,
-\'race\' did not always exist, \'class\' has a historical genesis, and
-\'homosexuals\' are quite junior. It is no accident that the symbolic
-system of the family of man - and so the essence of woman - breaks up at
-the same moment that networks of connection among people on the planet
-are unprecedentedly multiple, pregnant, and complex. \'Advanced
-capitalism\' is inadequate to convey the structure of this historical
-moment. In the \'Western\' sense, the end of man is at stake. It is no
+groups like youth. Her dates are doubtful; but we are now accustomed
+to remembering that as objects of knowledge and as historical actors,
+'race' did not always exist, 'class' has a historical genesis, and
+'homosexuals' are quite junior. It is no accident that the symbolic
+system of the family of man - and so the essence of woman - breaks up
+at the same moment that networks of connection among people on the
+planet are unprecedentedly multiple, pregnant, and complex. 'Advanced
+capitalism' is inadequate to convey the structure of this historical
+moment. In the 'Western' sense, the end of man is at stake. It is no
 accident that woman disintegrates into women in our time. Perhaps
 socialist feminists were not substantially guilty of producing
 essentialist theory that suppressed women\'s particularity and
@@ -692,16 +671,11 @@ contradictory interests. I think we have been, at least through
 unreflective participation in the logics, languages, and practices of
 white humanism and through searching for a single ground of domination
 to secure our revolutionary voice. Now we have less excuse. But in the
-consciousness of our failures, we
-
- 
-
-161
-
-risk lapsing into boundless difference and giving up on the confusing
-task of making partial, real connection. Some differences are playful;
-some are poles of world historical systems of domination.
-\'Epistemology\' is about knowing the difference.
+consciousness of our failures, we risk lapsing into boundless
+difference and giving up on the confusing task of making partial, real
+connection. Some differences are playful; some are poles of world
+historical systems of domination. 'Epistemology' is about knowing
+the difference.
 
  
 

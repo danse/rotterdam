@@ -1,5 +1,5 @@
 
-
+M-x overwrite-mode
 
 C-x C-e eval before point
 

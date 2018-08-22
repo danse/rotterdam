@@ -1,0 +1,49 @@
+/home/francesco/pandoc/src/Text/Pandoc/Readers/Odt/ContentReader.hs:621:15: error:
+• Couldn't match type ‘Text.Pandoc.Readers.Odt.Arrows.State.ArrowState
+                         (XMLConverterState Namespace ReaderState)
+                         _x0
+                         (Fallible (StyleName, Style))’
+                 with ‘(Namespace, (), [Char])’
+  Expected type: (Namespace, (), [Char])
+    Actual type: OdtReader _x0 (StyleName, Style)
+
+fStyle <- readStyleByName -< ()
+
+posso probabilmente produrre un OdtReader
+
+:t failEmpty
+
+how to return a failing parser
+
+solo gli inlines sembrano passare attraverso matchChildContent'
+o che il parser genitore possa tener conto dello stile annidato
+modifichi il risultato dei parser genitori
+voglio che l'esistenza dello stile
+il mio caso è diverso
+
+<table:table-row
+  <table:table-cell
+    <text:p text:style-name="Table_20_Heading">
+
+Table_20_Heading è uno stile del contenuto della tabella
+
+      <table:table table:name="Tabelle1" table:style-name="Tabelle1">
+        <table:table-column table:style-name="Tabelle1.A" table:number-columns-repeated="2"/>
+        <table:table-row>
+          <table:table-cell table:style-name="Tabelle1.A1" office:value-type="string">
+            <text:p text:style-name="Table_20_Heading">Table header</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="Tabelle1.B1" office:value-type="string">
+            <text:p text:style-name="Table_20_Heading">Another header</text:p>
+          </table:table-cell>
+        </table:table-row>
+        <table:table-row>
+          <table:table-cell table:style-name="Tabelle1.A2" office:value-type="string">
+            <text:p text:style-name="Table_20_Contents">Content</text:p>
+          </table:table-cell>
+          <table:table-cell table:style-name="Tabelle1.B2" office:value-type="string">
+            <text:p text:style-name="Table_20_Contents">More content</text:p>
+          </table:table-cell>
+        </table:table-row>
+      </table:table>
+
