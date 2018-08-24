@@ -1,0 +1,19 @@
+<text:p text:style-name="Text_20_body">
+  <draw:frame draw:style-name="fr1" draw:name="Frame1" text:anchor-type="paragraph" svg:width="2.0835in" draw:z-index="0">
+    <draw:text-box fo:min-height="2.0835in">
+      <text:p text:style-name="Illustration">
+       <draw:frame draw:style-name="fr2" draw:name="Image1" text:anchor-type="as-char" svg:width="2.0835in" style:rel-width="100%" svg:height="2.0835in" style:rel-height="scale" draw:z-index="1">
+        <draw:image xlink:href="Pictures/10000000000000FA000000FA9DC1EBDCB17D95B8.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+       </draw:frame>
+       <text:line-break/>
+       Illustration <text:sequence text:ref-name="refIllustration0" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">1</text:sequence>: La lune
+      </text:p>
+    </draw:text-box>
+  </draw:frame>
+</text:p>
+
+il codice contiene il riconoscimento della didascalia, ma all'interno di un frame
+la didascalia della figura ha più priorità di quella della tabella
+ pablo
+ alberto
+

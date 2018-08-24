@@ -1,0 +1,14 @@
+
+
+intuition
+point-free, we are composing logic, not executing stepwise
+in general expect every command to possibly run in parallel
+
+https://wiki.haskell.org/Arrow_tutorial
+https://en.wikibooks.org/wiki/Haskell/Understanding_arrows
+https://www.haskell.org/arrows/syntax.html
+https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#do-notation-for-commands
+https://en.wikipedia.org/wiki/Arrow_(computer_science)
+https://www.haskell.org/arrows/
+https://en.wikibooks.org/wiki/Haskell/Arrow_tutorial
+

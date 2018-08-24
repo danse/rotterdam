@@ -229,114 +229,55 @@
 
 
 
-read_plain_text' = proc x -> do
- t <- arr extractText -< x
 
-    -- fallible version
-    read_plain_text' :: OdtReader (Inlines, XML.Content) Inlines
-    read_plain_text' =
-      ( second ( arr extractText ) >>^ spreadChoice >>?! second text )
-      >>?% mappend'
 
-to convert read_plain_text to proc notation in order to add
- listLevel  <- getCurrentListLevel          -< ()
-is a good exercise
 
-although this system might apply just to the downstream parsers
-since i am modifying a state i am afraid that i would have to unset the change
 
-also it's point-free, we are composing logic, not executing stepwise
 
-in general i expect every command to possibly run in parallel
-i don't get how can getCurrentListLevel access the state
 
-modifyListLevel :: (ListLevel -> ListLevel) -> (ReaderState -> ReaderState)
-modifyListLevel f state = state { currentListLevel = f (currentListLevel state) }
 
-swapCurrentListStyle :: Maybe ListStyle -> ReaderState
-                     -> (ReaderState, Maybe ListStyle)
-swapCurrentListStyle mListStyle state = ( state { currentListStyle = mListStyle }
-                                        ,  currentListStyle state
-                                        )
 
-https://wiki.haskell.org/Arrow_tutorial
-https://en.wikibooks.org/wiki/Haskell/Understanding_arrows
-https://www.haskell.org/arrows/syntax.html
-https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#do-notation-for-commands
-https://en.wikipedia.org/wiki/Arrow_(computer_science)
-https://www.haskell.org/arrows/
-https://en.wikibooks.org/wiki/Haskell/Arrow_tutorial
 
-type OdtConverterState s = XMLConverterState Namespace s
--- Base
-data XMLConverterState nsID extraState where ...
--- Generic/XMLConverter
-type OdtReader a b = XMLReader ReaderState a b
-type ElementMatcher result = (Namespace, ElementName, OdtReader result result)
-type InlineMatcher = ElementMatcher Inlines
-type BlockMatcher  = ElementMatcher Blocks
--- ContentReader
 
-withNewStyle a = proc x -> do
-  fStyle <- readStyleByName -< ()
-  case fStyle of
-    Right (styleName, _) | isCodeStyle styleName -> do
-      inlines <- a -< x
 
-matchingElement :: (Monoid e)
-  => Namespace -> ElementName -> OdtReaderSafe  e e -> ElementMatcher e
-matchingElement ns name reader = (ns, name, asResultAccumulator reader)
-  where
-   asResultAccumulator :: (ArrowChoice a, Monoid m) => a m m -> a m (Fallible m)
-   asResultAccumulator a = liftAsSuccess $ keepingTheValue a >>% mappend
 
-https://docs.haskellstack.org/en/stable/yaml_configuration/#pvp-bounds
 
-it still doesn't support indentation with tabs
 
-proc x -> do
- y <- f -< x+1
- g -< 2*x
 
-arr (\ x -> (x, x) >>>
- first (arr (\x->x+1) >>> f) >>>
- arr (\(y, x)->(y, (x,y))) >>>
- first (arr (\y->2*y)) >>> g
+
+
+
+
+
+
+
+
+
+
+le ripetizioni sembrano avere più peso del voluto
+
+https://www.indeed.com/viewjob?jk=16b2d8038c297c2d&q=purescript&l=Remote&tk=1clhklh023d7jf14&from=ja&alid=5757c633e4b02ce024a5fb66&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1clhklh023d7jf14
+
+4. l’indentatura dei toctree è di due spazi, mentre in genere ne usiamo 3
+
+rimangono 8 giorni, 56 ore
+per il codice ne sono servite circa 16
 
 consumo di informazione
-
-More style names could be detected as code by the ODT reader
-https://github.com/jgm/pandoc/issues/4841
-
-in constructPara e simili potrei aggiungere i div con gli stili
-
-le funzioni read collezionano elementi permessi dal data model e dal formato
 
 in 1.5 titolarità il collegamento a 3.7 è rotto
 in 2.1 c'è un URL strano
 
-il codice contiene il riconoscimento della didascalia, ma all'interno di un frame
-la didascalia della figura ha più priorità di quella della tabella
- pablo
- alberto
-
 testerò che i references funzionino anche su altri documenti
 
-l'ignoranza è la radice da cui ramifica il linguaggio
+pandoc-font-to-style meno prominente
 
- ContentReader.hs
- StyleReader.hs
- Namespaces.hs
- Base.hs
- Odt/Generic
-Odt/Generic/Utils.hs
-Odt/Generic/XMLConverter.hs
-Odt/Generic/Namespaces.hs
-Odt/Generic/SetMap.hs
-Odt/Generic/Fallible.hs
- Odt/Arrows
-Odt/Arrows/Utils.hs
-Odt/Arrows/State.hs
+https://github.com/italia/docs-italia-pandoc-filters/issues/2
+individuiamo e documentiamo il modo più semplice per usare questi filtri
+
+se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
+
+l'ignoranza è la radice da cui ramifica il linguaggio
 
 launch an interpreter with the same scope as any module
 stack repl src/Text/Pandoc/Readers/Odt/ContentReader.hs
@@ -349,12 +290,12 @@ https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/index.html
 
 redefine the edge
 
-text:style-name http://docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os-part1.html#__RefHeading__1419198_253892949
-http://docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os.html
+ open document standard
+docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os.html
+ text:style-name
+http://docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os-part1.html#__RefHeading__1419198_253892949
 
 chi teme il confronto ne fa il proprio confine
-
-stack builders
 
 zona d'ombra
 
@@ -367,16 +308,7 @@ mir geht's gut
 echo '[RawBlock (Format "_blabla") ""]' | pandoc -f native -t rst
 .. raw:: _blabla
 
-docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os.html
-
 gitbook
-
-pandoc-font-to-style meno prominente
-
-https://github.com/italia/docs-italia-pandoc-filters/issues/2
-individuiamo e documentiamo il modo più semplice per usare questi filtri
-
-se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
 
                                 . - . - .
 
@@ -539,8 +471,6 @@ http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/sugger
 https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 
 https://ro-che.info/articles/2015-10-26-static-linking-ghc
-
-the bug pablo found with external images
 
 waves
 drift

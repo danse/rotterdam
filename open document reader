@@ -1,0 +1,22 @@
+
+type OdtConverterState s = XMLConverterState Namespace s
+-- Base
+data XMLConverterState nsID extraState where ...
+-- Generic/XMLConverter
+type OdtReader a b = XMLReader ReaderState a b
+type ElementMatcher result = (Namespace, ElementName, OdtReader result result)
+type InlineMatcher = ElementMatcher Inlines
+type BlockMatcher  = ElementMatcher Blocks
+-- ContentReader
+
+matchingElement :: (Monoid e)
+  => Namespace -> ElementName -> OdtReaderSafe  e e -> ElementMatcher e
+matchingElement ns name reader = (ns, name, asResultAccumulator reader)
+  where
+   asResultAccumulator :: (ArrowChoice a, Monoid m) => a m m -> a m (Fallible m)
+   asResultAccumulator a = liftAsSuccess $ keepingTheValue a >>% mappend
+
+in constructPara e simili potrei aggiungere i div con gli stili
+
+le funzioni read collezionano elementi permessi dal data model e dal formato
+
