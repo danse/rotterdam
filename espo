@@ -3,27 +3,15 @@
 
 thanks
 
-my contract had an amount of hours in a time span
-|....
-|......
-|.....
-|......
- quality and stress management
+an amount of hours in a time span
+ stress and quality
 
+motivation has been the best guide
 dive in dive out
 trello, github issues, slack messages, github notifications, twitter
  thought dashboard, written in the shower
 
- how i managed quality and stress, motivation
-
   danger: laboratory area
-
- pandoctopus
-
- a doctest
-
-know your turtle modules
- evolution of converti
 
 users call close to project rollout
 [community call in ...](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
@@ -104,12 +92,13 @@ two communities communicate through the source code
 
   the dimensions explored moving the ship through its multidimensional space
 
- by the end of the project running our regression tests becomes a requirement
-
 /.//./
 
 user testing
  proof of concept
+
+know your turtle modules
+ evolution of converti
 
 haskell's fame for refactorings
  evolutionary prototyping
@@ -118,6 +107,10 @@ like a plant
 like a ship
 like a virus
  we can engineer software
+
+ pandoctopus
+
+ a doctest
 
 view from the public's perspective
 embarassing once i realised the publicity
@@ -137,6 +130,7 @@ semantic definitions
 existing
  the expected dimensions
 
+by the end of the project running our regression tests becomes a requirement
 better than greenfield
  hammer pandoc
 
