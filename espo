@@ -1,11 +1,12 @@
 
-  42
+39
 
 thanks
 
 an amount of hours in a time span
  stress and quality
 
+next goal is bringing time tracking back to awareness
 motivation has been the best guide
 dive in dive out
 trello, github issues, slack messages, github notifications, twitter
@@ -13,45 +14,43 @@ trello, github issues, slack messages, github notifications, twitter
 
   danger: laboratory area
 
-users call close to project rollout
-[community call in ...](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
- do we want to customise for sphinx?
+users call four months later and close to project rollout
+[community call at the beginning of April](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
+ do we want a sphinx reader?
 
 every new user affects the weights
 in our software we maintain networks of probabilities
 that means i had some branches ready
  these days i'm pruning
 
-and enthusiasm is an heavily monetised resource
- in 2018 we want to change towards more enthusiasm
-
- i looked for a flow to support
-
 and it gets defined by events
 is fuzzy in the different sensitivities
  ownership
-
 have a development value and stake
 defined by user welcomes
  changing user rings
 
-i was just the first proxy user
- what is devops?
-
 in the command line interface, the feeling of boredom doesn't last long
-feeling bored
 factoring resources
 one starts spotting regularities
  the prototypes rose from shell working in repos
+i was just the first proxy user
+seamless development experience
+ what is devops?
 
+ i looked for users to support
+
+engage attivare utenti
+and enthusiasm is an heavily monetised resource
+ in 2018 we want to change towards more enthusiasm
+
+quotes filter to merge
 the community is also being created
 lack of confidence limits communication
 we are not used to truly actionable sharing
 i put it here in front of everyone
 translating through software
  community controlled development
-
- user support
 
 j  s
 ` /
@@ -62,64 +61,47 @@ i  d
 is it a good idea to have a wrapper?
  codesign
 
-because it's an early phase?
 the way we communicate our work
-our overall throughput
- what is adoption?
-
+besides our overall throughput
 success is adoption
-pandoc is working and broken
  what is success in this project?
 
  code and community
 
+creativity peak in june, filter in italian
 in the best case they would become comments, documentation
 analysis notes
  seeding and pruning
 
+ expose and codify
+
+with haskell i could work offline
 which can be disruptive
 collaboration as intensification of communications
 i put pandoc-to-sphinx out there and no collaboration happened
  online and batch
 
+the pandoc manual
 the main entry point's README was not in italian
-two communities communicate through the source code
+different communities communicate through the source code
  globalisation and localisation
 
- reliable and usable
-
- portability and expressivity
-
+reliable and usable
+portability and expressivity
   the dimensions explored moving the ship through its multidimensional space
 
-/.//./
-
-user testing
- proof of concept
-
-know your turtle modules
- evolution of converti
-
-haskell's fame for refactorings
- evolutionary prototyping
-
-like a plant
-like a ship
-like a virus
- we can engineer software
-
- pandoctopus
+.././/./
 
  a doctest
 
-view from the public's perspective
-embarassing once i realised the publicity
-surprising
- committing small patches
+know your turtle modules
+it's a case where a development direction has been deepened
+ evolution of converti
 
-and this is a context where i enjoy to work
-so it has a broad scope and it can feel shallow
- it's also a story of innovation
+user testing
+proof of concept
+haskell's fame for refactorings
+ evolutionary prototyping
 
 examples
 cases
@@ -128,9 +110,57 @@ syntax errors
 sphinx features
 semantic definitions
 existing
- the expected dimensions
+ the simple dimensions
+code gets stretched towards different directions over time
+like a neural network
+ software as an object in an high dimensional space
 
-by the end of the project running our regression tests becomes a requirement
+like a plant
+like a ship
+like a virus
+ we can engineer software
+
+view from the public's perspective
+embarassing once i realised the publicity
+surprising
+ committing small patches
+
+that's why opening the decision process is worth its cost
+and its bottlenecks
+we don't know the adoption we are going to support
+
+of course it can be leaner
+so some formalization is needed
+but the artifacts include the possibility of being handed over
+it feels odd to grow a process for a single dev
+
+costruire sensibilità futura
+mi capita poco di lavorare in un editor come docs e preferisco markdown
+we are losing the skill to batch
+
+diversità per la ricerca
+conformità per la soluzione
+rise fragmentation
+fall simplification
+
+che è la cosa più importante che abbiamo
+cioè della nostra efficace collaborazione
+sono l'ossatura della nostra comunicazione interna
+ma più accessibili
+con un'usabilità inferiore ad altre tecnologie
+canali
+
+and this is a context where i enjoy to work
+so it has a broad scope and it can feel shallow
+ it's also a story of innovation
+
+ pandoctopus
+
+~by the end of the project running our regression tests becomes a requirement
+a small team where all are busy on multiple fronts
+determined by use cases coming from users we want to attract
+and the agenda is a priority function
+software that's both working and broken
 better than greenfield
  hammer pandoc
 
