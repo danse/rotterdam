@@ -12,16 +12,19 @@ an amount of hours and a maximum date
 
 trello, github issues, slack messages, github notifications, twitter
 
-### thought dashboard
+### discontrol
 
 ## the laboratory
 
-- user call four months later and close to project rollout
-- [community call at the beginning of April](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
-- seeding investment in analysis and communication
-- emerged as an option to consider
+this is enabled by confidence of expression
 
-### do you want a sphinx format?
+they are our public communication infrastructure through which we can build effective collaboration
+
+low-volume public message channels are less expressive than other technologies but more accessible
+
+when a system is highly flexible, the context provides it a source of stability. i relied on users to support at the most practical level
+
+### humble accessible codesign
 
 - i put it here in front of everyone
 
@@ -33,31 +36,18 @@ some members become voices for whole communities
  
 ### users and communication events
 
-- rare other occurrences
+- user call four months later and close to project rollout
+- [community call at the beginning of April](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
 - seeding investment in analysis and communication
-- user call close to the beginning of the project
+- emerged as an option to consider
 
-### do you want spanning cells?
-
-this is enabled by confidence of expression
-
-they are our public communication infrastructure through which we can build effective collaboration
-
-low-volume public message channels are less expressive than other technologies but more accessible
-
-when a system is highly flexible, the context provides it the source of stability. i relied on users to support at the most practical level
-
-### humble accessible codesign
-
-![communities](communities.svg)
-
-----
+### do you want a sphinx format?
 
 the community is also being codesigned
 
 another reason why opening the decision process is worth its cost
 and its bottlenecks,
-we don't know the crowd is going to approach a piece of software
+we don't know how the crowd is going to approach a piece of software
 
 engage users (attivare gli utenti)
 
@@ -68,6 +58,10 @@ we are not used to truly actionable sharing
 software translators
 
 ### community and software development
+
+![communities](communities.svg)
+
+----
 
 _costruire sensibilità futura_
 
@@ -95,11 +89,9 @@ with haskell i could work offline, for many users work in batches is uncommon, y
 
 ### online or batch
 
-the prototypes grew supporting both cases through the changes
+the prototypes grown from operating in repos supported both cases through the changes
 
 one starts spotting regularities, factoring resources. in an interpreter, repeting is not an ergonomical problem
-
-the prototypes rose from operating in repos
 
 a seamless development experience
 
@@ -126,9 +118,9 @@ which tools can we own to collaborate on content?
 - content and presentation layers
 - portability and expressivity
 
-### two examples
+### working with semantics
 
-## domain constraints
+## domain dimensions
 
 our clarity of action is in a dialogue with the simplicity of our code
 
@@ -168,9 +160,9 @@ code complexity that is not easily explained by current user expectations
 
 ::: notes
 
-### implicit complexity
+### opportunistic complexity
 
-## other process constraints
+## other process dimensions
 
 ![specification](specification.svg.png)
 
@@ -206,6 +198,10 @@ our main `converti` command was
 
 ### reliability and usability
 
+through the dimensions we can express tensions as actionable questions
+
+every dimension implies opportunities and tradeoffs
+
 a piece of software can move through different balance points in the space of its integral features
 
 ### integral features
@@ -230,6 +226,13 @@ i leaned on haskell's quality for refactorings and it enabled me to react swiftl
 - like a plant, perfectly integrated in a rather stable environment
 
 ### how do we engineer software?
+
+- rare other occurrences
+- seeding investment in analysis and communication
+- huge issue involving the hearth of pandoc
+- user call close to the beginning of the project
+
+### do you want spanning cells?
 
 in a context of political uncertainty, the problem has not been to self-organise, but to manage and communicate a value whose definition changes over time
 
@@ -286,7 +289,7 @@ it's rather succinct work. it aims at design transparency by being immediate and
 
 . . .
 
-i was glad to rely on haskell while tackling the challenge
+haskell didn't let me down
 
 . . .
 
@@ -296,3 +299,4 @@ this gave me the opportunity to explore our limits, and push my profession beyon
 
 ## $ git push italia HEAD
 
+% Haskell for Italy

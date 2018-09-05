@@ -1,4 +1,4 @@
-
+% Haskell for Italy
 ## $ git push italia HEAD
 
 ### an unique challenge
@@ -7,7 +7,7 @@ this gave me the opportunity to explore our limits, and push my profession beyon
 
 . . .
 
-i was glad to rely on haskell while tackling the challenge
+haskell didn't let me down
 
 . . .
 
@@ -64,6 +64,13 @@ code grows towards many goals, expanding on multiple dimensions is avoided in ag
 
 in a context of political uncertainty, the problem has not been to self-organise, but to manage and communicate a value whose definition changes over time
 
+### do you want spanning cells?
+
+- user call close to the beginning of the project
+- huge issue involving the hearth of pandoc
+- seeding investment in analysis and communication
+- rare other occurrences
+
 ### how do we engineer software?
 
 - like a plant, perfectly integrated in a rather stable environment
@@ -88,6 +95,10 @@ one area where the technology fell short has been deployment, where top-down des
 ### integral features
 
 a piece of software can move through different balance points in the space of its integral features
+
+every dimension implies opportunities and tradeoffs
+
+through the dimensions we can express tensions as actionable questions
 
 ### reliability and usability
 
@@ -123,9 +134,9 @@ breakIntro c l
 
 ![specification](specification.svg.png)
 
-## process constraints
+## other process dimensions
 
-### implicit complexity
+### opportunistic complexity
 
 ::: notes
 
@@ -165,9 +176,9 @@ conformità per la comunicazione
 
 our clarity of action is in a dialogue with the simplicity of our code
 
-## domain constraints
+## domain dimensions
 
-### two examples
+### working with semantics
 
 - portability and expressivity
 - content and presentation layers
@@ -194,11 +205,9 @@ rst2all.sh
 
 a seamless development experience
 
-the prototypes rose from operating in repos
-
 one starts spotting regularities, factoring resources. in an interpreter, repeting is not an ergonomical problem
 
-the prototypes grew supporting both cases through the changes
+the prototypes grown from operating in repos supported both cases through the changes
 
 ### online or batch
 
@@ -226,6 +235,10 @@ faster horses
 
 _costruire sensibilità futura_
 
+----
+
+![communities](communities.svg)
+
 ### community and software development
 
 software translators
@@ -236,31 +249,18 @@ in collaborative design the focus of the communication are not the existing arti
 
 engage users (attivare gli utenti)
 
-we don't know the crowd is going to approach a piece of software
+we don't know how the crowd is going to approach a piece of software
 and its bottlenecks,
 another reason why opening the decision process is worth its cost
 
 the community is also being codesigned
 
-----
+### do you want a sphinx format?
 
-![communities](communities.svg)
-
-### humble accessible codesign
-
-when a system is highly flexible, the context provides it the source of stability. i relied on users to support at the most practical level
-
-low-volume public message channels are less expressive than other technologies but more accessible
-
-they are our public communication infrastructure through which we can build effective collaboration
-
-this is enabled by confidence of expression
-
-### do you want spanning cells?
-
-- user call close to the beginning of the project
+- emerged as an option to consider
 - seeding investment in analysis and communication
-- rare other occurrences
+- [community call at the beginning of April](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
+- user call four months later and close to project rollout
 
 ### users and communication events
  
@@ -272,16 +272,19 @@ ownership is fuzzy in the different sensitivities and it gets defined by such ro
 
 - i put it here in front of everyone
 
-### do you want a sphinx format?
+### humble accessible codesign
 
-- emerged as an option to consider
-- seeding investment in analysis and communication
-- [community call at the beginning of April](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
-- user call four months later and close to project rollout
+when a system is highly flexible, the context provides it a source of stability. i relied on users to support at the most practical level
+
+low-volume public message channels are less expressive than other technologies but more accessible
+
+they are our public communication infrastructure through which we can build effective collaboration
+
+this is enabled by confidence of expression
 
 ## the laboratory
 
-### thought dashboard
+### discontrol
 
 trello, github issues, slack messages, github notifications, twitter
 
