@@ -1,0 +1,298 @@
+
+## thanks
+
+an amount of hours and a maximum date
+
+### stress and quality
+
+- currently working on time tracking
+- bringing back data models to us
+- concentration means keeping equal distance
+- dive in and dive out guided by motivation
+
+trello, github issues, slack messages, github notifications, twitter
+
+### thought dashboard
+
+## the laboratory
+
+- user call four months later and close to project rollout
+- [community call at the beginning of April](https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8)
+- seeding investment in analysis and communication
+- emerged as an option to consider
+
+### do you want a sphinx format?
+
+- i put it here in front of everyone
+
+ownership is fuzzy in the different sensitivities and it gets defined by such roles and by events
+
+changing user rings defined by user welcomes have a development value and stake
+
+some members become voices for whole communities
+ 
+### users and communication events
+
+- rare other occurrences
+- seeding investment in analysis and communication
+- user call close to the beginning of the project
+
+### do you want spanning cells?
+
+this is enabled by confidence of expression
+
+they are our public communication infrastructure through which we can build effective collaboration
+
+low-volume public message channels are less expressive than other technologies but more accessible
+
+when a system is highly flexible, the context provides it the source of stability. i relied on users to support at the most practical level
+
+### humble accessible codesign
+
+![communities](communities.svg)
+
+----
+
+the community is also being codesigned
+
+another reason why opening the decision process is worth its cost
+and its bottlenecks,
+we don't know the crowd is going to approach a piece of software
+
+engage users (attivare gli utenti)
+
+in collaborative design the focus of the communication are not the existing artifacts
+
+we are not used to truly actionable sharing
+
+software translators
+
+### community and software development
+
+_costruire sensibilità futura_
+
+faster horses
+
+besides our overall throughput, this depends on the way we communicate our work
+
+my ambition was adoption through sustained enthusiasm
+
+for many of us it's natural to use the command line and markup languages
+
+### codesign
+
+- quotes filter to merge
+- the pandoc manual
+- the main entry point's README was not in italian
+
+an example is defining the level of segregation, do we want to stay global?
+
+### communities define themselves and communicate also through the source code
+
+## options for whole communities
+
+with haskell i could work offline, for many users work in batches is uncommon, yet technology is not always up to our potential
+
+### online or batch
+
+the prototypes grew supporting both cases through the changes
+
+one starts spotting regularities, factoring resources. in an interpreter, repeting is not an ergonomical problem
+
+the prototypes rose from operating in repos
+
+a seamless development experience
+
+. . .
+
+```
+ pandoc esempio.rst -o esempio.docx
+ pandoc esempio.rst -o esempio.odt
+ pandoc esempio.rst -o esempio.md
+ pandoc esempio.rst -o esempio.html
+rst2all.sh
+```
+
+. . .
+
+what is devops?
+
+### empowering and simplifying
+
+which tools can we own to collaborate on style?
+
+which tools can we own to collaborate on content?
+
+- content and presentation layers
+- portability and expressivity
+
+### two examples
+
+## domain constraints
+
+our clarity of action is in a dialogue with the simplicity of our code
+
+. . .
+
+### expose and codify
+
+:::
+
+conformità per la comunicazione
+diversità per la ricerca
+
+::: notes
+
+:::
+
+- opportunistic seeding and pruning
+- creativity peak in june, [filter in italian](https://github.com/italia/docs-italia-pandoc-filters/blob/master/filters/filtro-acronimi.hs#L15-L19)
+- notes can become comments or documentation
+- new ideas and weight adjustments affect software paths like in a neural network
+
+::: nonincremental
+
+seeding and pruning
+
+. . .
+
+fall simplification
+
+. . .
+
+rise fragmentation
+
+:::
+
+code complexity that is not easily explained by current user expectations
+
+::: notes
+
+### implicit complexity
+
+## other process constraints
+
+![specification](specification.svg.png)
+
+### a chart for the path
+
+```
+        t = tail multiBroken
+        h = head multiBroken
+  where multiBroken = multiPrefixBreak c [] l
+  | otherwise  = ([], multiBroken)
+  | null (c h) = (h, t)
+breakIntro c l
+breakIntro :: Eq a => ([a] -> [a]) -> [a] -> ([a], [[a]])
+-- ("b",["h ","h ","hb b","hb"])
+-- >>> breakIntro testDemo "bh h hb bhb"
+-- ("bbrhb bla bla",[])
+-- >>> breakIntro (const []) "bbrhb bla bla"
+-- ("b",["rh ","h ","rhb b","rhb"])
+-- >>> breakIntro testDemo "brh h rhb brhb"
+-- | testable logic core for breakSections
+```
+
+### a doctest packed with its function
+
+know your turtle modules
+
+it's a case where a development direction has been deepened
+
+- a turtle script
+- a bash script
+
+our main `converti` command was
+
+### reliability and usability
+
+a piece of software can move through different balance points in the space of its integral features
+
+### integral features
+
+:::
+
+one area where the technology fell short has been deployment, where top-down design reacted faster
+
+::: notes
+
+prototyping makes little assumptions about what can we do, relying on user testing in order to collect proofs of concept. for many users a process of evolutionary prototyping is a new experience, and in a public context we want to manage expectations carefully
+
+i leaned on haskell's quality for refactorings and it enabled me to react swiftly and focus on the domain more than on the structure
+
+### evolutionary prototyping a ship
+
+## a journey with code
+
+- like a virus, whose success is defined by replication
+- like a ship, whose use depends higly on the pilots and the territory
+- like a packet, cyclically delivered at the user's devices
+- like a plant, perfectly integrated in a rather stable environment
+
+### how do we engineer software?
+
+in a context of political uncertainty, the problem has not been to self-organise, but to manage and communicate a value whose definition changes over time
+
+code grows towards many goals, expanding on multiple dimensions is avoided in agile, where the priority direction shifts over time
+
+### software as an object in an highly dimensional space
+
+:::
+
+- existing issues
+- semantic definitions
+- sphinx features
+- syntax errors
+- conversion cases
+- format templates
+
+::: incremental
+
+### factoring conversion logic
+
+![a rational animal](pandoctopus.svg.png)
+
+----
+
+keeping an engineering and creative focus while shifting perspectives in the public eye
+
+. . .
+
+innovation rooted on the existing is like connecting seas, turbulences feel chaotic and dangerous
+
+### connecting seas
+
+i found out how starting from a successful piece of software can be more impactful than greenfield projects
+
+. . .
+
+as a small half-remote team we where all busy on multiple fronts so i learned to browse a broad scope through my specific expertise
+
+. . .
+
+the journey started by simply _hammering pandoc here and there to fix this and this_
+
+### innovation from working software
+
+:::
+
+it's rather succinct work. it aims at design transparency by being immediate and sometimes intentionally raw, like in the documentation of the commands which are also notes for the next developer. this style enables easy sharing which could produce more noise than signal and a good way to find out is to ask new users. the documentation corpus has also been flux, and it's now quickly crystallising for a development break
+
+::: notes
+
+- `italia/docs-italia-pandoc-filters` details, or a framework for Italy
+- `italia/docs-italia-comandi-conversione` an interface for Italy
+- `jgm/pandoc` a rather powerful tool with a global community of users
+
+. . .
+
+i was glad to rely on haskell while tackling the challenge
+
+. . .
+
+this gave me the opportunity to explore our limits, and push my profession beyond my comfort zone
+
+### an unique challenge
+
+## $ git push italia HEAD
+

@@ -102,7 +102,10 @@
 
 
 
+(('a':) . ('b':)) "c"
 
+factorial 1 = 1
+factorial x = x * factorial (x-1)
 
 -- s = Stages [Stage [Batch "batch or bit"]]
 
