@@ -254,28 +254,160 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+taxfix berlino
+disposable chat groups themed for task
+main = getArgs >>= doctest
+https://blog.nkb.fr/donnees-pouvoir/
+·\.
+place & time
+le belle immagini
+d3 for mobile
+i'm enjoying it
+oscoin.io
+ubuntu update
+western esotericism: a guide for the perplexed
+volano sociale
+coinbase
+dimension: value
+una linea è una parete immaginaria
+https://w1.docs.iast.it/projects/pagopa-docs-faq/
+
+ highlight
+
+
+  highlight
+  
+
+a source is overflowing
+vuelvo a caer perota duckduck dominio sito frontend markup
+
+sparkasse
+
+noir desir
+https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf
+
+https://functionaljobs.com/jobs/9101-haskell--backend--web-app-developer-at-tripshot
+
+https://amp.reddit.com/r/haskell/comments/7gh092/srstaff_haskell_engineer_180k_350k/
+
+6:55 PM <dmwit> danza-cloud: Compile with `-rtsopts`. It may also be the case that stack itself soaks up your RTS options (I don't know) in which case you might try `stack --RTS exec -- my-exe +RTS -p` might help with that.
+
+kilian kleinschmidt
+
 le ripetizioni sembrano avere più peso del voluto
 
 https://www.indeed.com/viewjob?jk=16b2d8038c297c2d&q=purescript&l=Remote&tk=1clhklh023d7jf14&from=ja&alid=5757c633e4b02ce024a5fb66&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1clhklh023d7jf14
 
-4. l’indentatura dei toctree è di due spazi, mentre in genere ne usiamo 3
-
-rimangono 8 giorni, 56 ore
-per il codice ne sono servite circa 16
-
 consumo di informazione
-
-in 1.5 titolarità il collegamento a 3.7 è rotto
-in 2.1 c'è un URL strano
-
-testerò che i references funzionino anche su altri documenti
-
-pandoc-font-to-style meno prominente
-
-https://github.com/italia/docs-italia-pandoc-filters/issues/2
-individuiamo e documentiamo il modo più semplice per usare questi filtri
-
-se vuoi cita tra gli acknowledgement del redame, farà sicuramente piacere :)
 
 l'ignoranza è la radice da cui ramifica il linguaggio
 
@@ -286,14 +418,9 @@ pattern guards
 
 https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/index.html
 
- software is always behind of us
+software is always behind of us
 
 redefine the edge
-
- open document standard
-docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os.html
- text:style-name
-http://docs.oasis-open.org/office/v1.2/os/OpenDocument-v1.2-os-part1.html#__RefHeading__1419198_253892949
 
 chi teme il confronto ne fa il proprio confine
 
@@ -305,33 +432,14 @@ mir geht's gut
 
  esporre il codice
 
-echo '[RawBlock (Format "_blabla") ""]' | pandoc -f native -t rst
-.. raw:: _blabla
-
 gitbook
 
                                 . - . - .
-
-i contenuti ed i cittadini al centro
-https://docs.google.com/document/d/11gAc0TusLLY-Z0cJXW57Z5PbZnE-q3-CWp754u5RyxY/edit
-
- esempi
- casi
- formati
- errori di sintassi
- ridefinizioni semantiche
- funzionalità sphinx
- conversione (pandoc)
-dimensioni
-
-quotes filter to merge
 
 why is servant a type level domain-specific language
 https://haskell-servant.github.io/posts/2018-07-12-servant-dsl-typelevel.html
 
 https://github.com/andreafabrizi/Dropbox-Uploader
-
-https://trello.com/francescoocchipinti/cards
 
                                    > ·
 
@@ -344,6 +452,7 @@ main = hakyll $ do
   ...
   compile copy
 
+ finger trees
 https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
 
 wittgenstein
@@ -387,8 +496,6 @@ long line copy behaviour
 delete an emptied buffer while visiting it
  emacs
 
-taxfix berlino
-
 expertise reversal effect
 
 a system you can change
@@ -427,7 +534,7 @@ ricerca comunicazione traduzione formalizzazione
                                    
 china https://en.wikipedia.org/wiki/Dali_City
 
-some products feed a cyclical system
+some products feed cyclical systems
 
 tahini
 
@@ -439,36 +546,11 @@ i want to remove all those files with sudo later
 docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
 root@15e4419aeb5d:/# 
 
-fra installazione e contribuire
-## Convertire un documento
-[DA COMPLETARE]
-
 when scrolling through long outputs
 a wrapper which adds a very visible coloured marker to the command line
 
-terminatori di linea per windows in rST
-
-convertitore web https://docs-italia-staging.teamdigitale.it/converti/
-
-  maybe via smaller sections?
- easy update
- partial translation 
-enable
-
-convenzioni https://docs.google.com/document/d/1KxqDqT-ydveMc2_eQbDVSt-73Toc-auUPvOcNbUDLwg/edit?usp=sharing
-
 goal driven processes
 content driven channels
-
-  documenti
- progetti
-organizzazione
-
-./introduzione o tutorial o post
-
-http://guida-linguaggio-pubblica-amministrazione.readthedocs.io/it/latest/suggerimenti-di-scrittura.html
-
-https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
 
 https://ro-che.info/articles/2015-10-26-static-linking-ghc
 
@@ -479,39 +561,12 @@ focus
 root
 stack
 
-output/loose/Guida tecnica ... div e raw HTML alla fine del linked
-regression/ nota links
-
-docx - google facile ed affidabile
-la conversione è secondaria all'adozione - confronto documenti esistenti
-valore semantico dello stile, lo stile è parte del contenuto
-https://github.com/italia/publiccode.yml
-~/docs-italia-tests-conversione/syntax-check-errors
-
-tables 1024
-trello-100 celle che spaziano
-paragraph escaping 4422
-https://trello.com/c/xqp6nbjw/194 trello-194 didascalia
-
 attaccare il caricatore guardando il device
 poi ciascuno impara la propria configurazione
 
 22 minuti mv nomi/*/* queue
 
 acqua con ossigeno
-
-Sphinx format for Pandoc
-https://groups.google.com/forum/#!topic/pandoc-discuss/5W-l10MzeG8
-
-Custom roles and directives for reStructuredText? 
-https://groups.google.com/forum/#!topic/pandoc-discuss/TKO1Z1JQKj8
-
-parse options for unknown reStructuredText directives into div arguments
-https://github.com/jgm/pandoc/issues/4715
-
-https://spdx.org
-https://github.com/torvalds/linux/blob/master/kernel/sched/swait.c
-https://www.gnu.org/licenses/gpl-howto.html
 
 marco andolina
 giuseppe pomidoro
@@ -520,79 +575,11 @@ vollenweider
 
 http://blog.penelopetrunk.com/2008/04/04/writing-without-typos-is-totally-outdated
 
-..glossary, ..epigraph, ..highlights e tutti i box
-in Docs Italia il testo delle note deve essere inserito alla fine del paragrafo che contiene la nota
-glossario
-è necessario usare l’opzione :numbered:. 
-il documento non dovrebbe contenere sezioni oltre il quarto livello.
-
-https://github.com/italia/docsitalia-esempiformattazione-docs
-https://github.com/italia/docs-italia-theme/tree/bootstrap-italia/demo_docs/source
-https://github.com/italia/docs-italia-starter-kit
-http://guida-docs-italia.readthedocs.io/it/latest/index/scrivere-un-documento.html#il-formato-restructuredtext-rst
- contengono un documento di esempio
-
-la scrittura di doc, come la conversione, come un problema aperto e
-non meccanizzabile su cui vogliamo assistere gli utenti ad esprimersi
-
-if `index` already exists: remove and write, keep and quit, ask user with force option
-
-build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
-
 https://hackage.haskell.org/package/doctest
 -- |
 -- prop> sort xs == (sort . sort) (xs :: [Int])
 
 and we go
-
-note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
-now that 4559 is merged i can open an issue for the image
-
-se voglio fare prove ulteriori con ODT
-esempio di Google Docs convertibile via ODT o via DOCX
-https://docs.google.com/document/d/133sBEG-m-9HS79Mp5yIrUMj1BzVnD-e-DM9nHRdHOeM/edit
-per aggiungere dati qui https://trello.com/c/n96GjLfN/196-mappare-le-differenze-di-conversione-tra-odt-e-docx
-
-supportare caption embedded in word -> menu, libreoffice, .docx
- così rimmarrebbe da:
- menu contestuale
-word docs -> styled par -> filter -> works
-libre docs -> embedded -> works
-
-(
-
-https://github.com/jgm/pandoc/issues/3698 RST reference location
-
-https://github.com/jgm/pandoc/issues/4564 list tables
-https://rackerlabs.github.io/docs-rackspace/tools/table-conversion.html
-
-3147 bidirectional text
-
-starting from the oldest
-i could dive in
-
-Content Controls are ignored by the DOCX reader
-https://github.com/jgm/pandoc/issues/2587
-
-DOCX reader issues, Sort Oldest
-
-se usiamo l'admonition questo può causare problemi con il linker
-admonition blocks not converted back from HTML to RST
-https://github.com/jgm/pandoc/issues/4511
-
-open RST issues seem mostly at the level of the ones opened by me
-
-mi sembrava fosse ristretto ma la sorgente apre la strada
-
-https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3AODT+label%3Areader
-https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ADOCX+label%3Areader
-https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ARST+label%3Awriter
-
-cambio approccio. fra le issues ODT/DOCX -> RST quali hanno la priorità
-
-)
-
-pandoc requires input text to be UTF-8 https://github.com/jgm/pandoc/issues/2784
 
 sensibilità
 potenzialità
@@ -606,91 +593,6 @@ bisogni indotti, desideri, aspirazioni e necessità
 
 quando internet si blocca vorrei rompere la tastiera sul tavolo
 
-diversità per la ricerca
-conformità per la soluzione
-
-il codice rST è un po' sporco
-credenziali Github, si può usare anche senza commit automatico
-Davide
-tutti molto impegnati su diversi fronti
-- permessi
-sandbox
-http://googledocs.readthedocs.io/it/latest/tutorial.html GG editor
-http://www.neusauber.com/en/latest/projects/GGeditorPrivacyPolicy.html
-
-- didascalia della tabella viene duplicata #3874
-- didascalia della figura, filtro non applicato
-- autonumerazione non esiste in word
-- doppio underscore nei links
-round trip open markup nell'esempio
-
-https://github.com/jgm/pandoc/issues/4373
-https://github.com/jgm/pandoc/commit/24f68654e919a8ff138d0a1fcfbf8e045b8ae38b
-headers upstream
-
-isn't this a case that should be flattened?
-https://github.com/jgm/pandoc/issues/3973
-
-mi aspetto che il risultato sia comunque come con auto
-forse varrà la pena provare un'altra volta con preserve
-ci saranno dei cambiamenti quando aggiungeremo il filtro col font
-neanche nel codice (non letto come codice) sembra fare una differenza
-nei nostri documenti non sembra che ci siano soft breaks nei paragrafi
-preserve significa che i soft breaks (nonsemantic newlines) vengono convertiti in new lines
-nessuna differenza fra preserve ed auto, in tutti i documenti
-
-- di buono normattiva, courier, `-s`
-- errore box dovuto probabilmente al linker
-- su questo documento, ODT ha dato risultati disastrosi
-https://docs.google.com/document/d/1lYbzcnKX9eu3n5QHSEPf-qx7RQ7P8oQyrIH9D0cs1SE/edit
-
-gli utenti possono convertire un DOCX passando attraverso Google Docs
-ed il plugin
-il plugin chiede permessi che non vorrei dare
-
-italia/progetto-argomento-docs https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
-
-https://github.com/jgm/pandoc/wiki/Roadmap
-
-ogni cosa ben tradotta evita lavoro manuale tedioso
-
-https://github.com/teamdigitale/licenses
-
-http://lg-interoperabilita.readthedocs.io/en/latest/index.html
-
-https://teamdigitale.governo.it
-
-forum.italia.it
-
-https://medium.com/team-per-la-trasformazione-digitale
-
-the pandoc wiki could host info about caption formats
-
-that feature affects a small percentage of users
-
-and a method
-wouldn't we like to have a shared perspective on the horizon?
-before diving into tasks
-
-that's why opening the decision process is worth its cost
-
-and its bottlenecks
-we don't know the adoption we are going to support
-
-of course it can be leaner
-so some formalization is needed
-but the artifacts include the possibility of being handed over
-it feels odd to grow a process for a single dev
-
-che è la cosa più importante che abbiamo
-cioè della nostra efficace collaborazione
-sono l'ossatura della nostra comunicazione interna
-ma più accessibili
-con un'usabilità inferiore ad altre tecnologie
-web apps
-
-i put it here in front of everyone
-
 effective work is more enjoyable
 
 il metodo adatto allo scopo
@@ -699,24 +601,16 @@ more experimental than what i want to sell
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 these contents are competing with designer's tools
 
-https://github.com/italia/docs.italia.it/issues/new
-https://github.com/italia/docs.italia.it
-
 senso di sostenibilità
 evolversi
 equilibrio immaginato ed equilibrio espresso
 scrittura atecnologica
 
 si va avanti attraverso i cambiamenti
-. costruire sensibilità futura
 non dimentichiamo le cose, le cancelliamo
 
-a `-f --fragment` option seems more natural to me
 https://github.com/geophf/1HaskellADay/issues/1
-docs italia non è ancora attivo
-. mi capita poco di lavorare in un editor come docs e preferisco markdown
-. we are losing the skill to batch
-. sostituire per rimuovere
+sostituire per rimuovere
 sentimento immaginazione verifica comunicazione sentimento
 sentimiento comprensiòn
 sei molti selvaggi da apprezzare
@@ -741,10 +635,10 @@ the frame where the loops come back to close like the tracker
 buona qualità ma poco rendimento
 e sì che internet è arrivato a mostrarci la realtà e ci sciocca
 a ragusa sapevo delle caverne
-. la luna intorno alla terra intorno al sole
+la luna intorno alla terra intorno al sole
 immagino di chiederti scusa perché sto bene come prima
 diving the tought can emerge real as well
-. scintille ed onde
+scintille ed onde
 mi tengo quelli accesi
 non c'è aria per nuovi sogni
 il tempo portabile da una cartella all'altra farebbe comodo
@@ -778,19 +672,8 @@ compact
 | a good research problem is important and solvable
 | https://twitter.com/EdwardTufte/status/999239478484103169
 
-rise fragmentation
-fall simplification
-
-. to let flow
-. un onda è un processo comprensibile e partecipativo
-
-| un esperimento che ci è costato cinque minuti
-| mi ha permesso di analizzare con precisione
-| ci sono state più differenze di quelle che mi aspettavo
-| cercavo migliorie nell'installazione
-| hanno rivelato errori anche nella mia versione
-| permettendo di tradurre
-| non è un cattivo risultato per un prototipo che costa poco mantenere
+to let flow
+un onda è un processo comprensibile e partecipativo
 
 error web identity
 
@@ -800,54 +683,12 @@ humans first
 
                        ugly boring concrete dive
 
-. payment
-
-engage attivare utenti
-
-tenere il server e la logica nello stesso processo serve alla scalabilità
-
-il ritmo di conversione è stato stabile
-
-. productive
-
-. raised hands
+payment
 
 ten fingers thinking
 one can feel will within any context
 
 firefox about:performance
-
-i wasn't able to reduce the test case, the code can guide me
-in box.rst one can see the parsing error. the parser seems to fail
-recognising that the link is continuing to a new line
-parsing a long link in a table
-
-Which convention is used for decorations when writing rST headers?
-https://groups.google.com/forum/#!topic/pandoc-discuss/NzRkZdKgphk
-
-convert pandoc to javascript
-https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
-
- figure data model https://github.com/jgm/pandoc/issues/3177
-https://github.com/jgm/pandoc/issues/4776
-https://github.com/jgm/pandoc/issues/4737
-
-https://rest-sphinx-memo.readthedocs.io/en/latest/ReST.html
-file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html#inline-markup-recognition-rules
-file:///home/francesco/rotterdam/agendadigitale/restructuredtext.html
-http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
-http://docutils.sourceforge.net/docs/
-https://github.com/msprev/panzer
-https://atom.io/packages/rst-preview-pandoc
-http://markup.rocks
-https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_pratica_creazione_word_accessibile_2.pdf
-
-https://hackage.haskell.org/package/tasty-1.0.1.1#readme
-http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
-
-                                   |
-     ------------------------ docs italia -----------------------------
-                                   |
 
 dereference
 
@@ -896,20 +737,18 @@ the scientific method or the discovery method
 not used to smiles
 l'hai voluto ma come ti sta?
 basta uno straniero per farmi sentire all'estero
-
 a . a
 a. a
 a .a
 a.a
-
 a : b
 a :b
 a: b
 a:b
-
 urbaniche, hippietopia
 ho paura del sistema che avevo sognato
 one can read many interruptions on a drift
+mi sembrava fosse ristretto ma la sorgente apre la strada
 after offline-first, offgrid first
 a mental image of the visualisation you want can lead you to the relevant existing visualisations and data
 antifragile

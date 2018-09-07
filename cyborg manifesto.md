@@ -716,7 +716,7 @@ informatics of domination:
   Functional specialization               Modular construction
   Reproduction                            Replication
   Organic sex role specialization         Optimal genetic strategies
-  Bioogical determinism                   Evolutionary inertia, constraints
+  Biological determinism                  Evolutionary inertia, constraints
   Community ecology                       Ecosystem
   Racial chain of being                   Neo-imperialism, United Nations humanism
   Scientific management in home/factory   Global factory/Electronid cottage
@@ -724,7 +724,7 @@ informatics of domination:
   Family wage                             Comparable worth
   Public/Private                          Cyborg citizenship
   Nature/Culture                          fields of difference
-  Co-operation                            Communicatins enhancemenet
+  Co-operation                            Communications enhancemenet
   Freud                                   Lacan
   Sex                                     Genetic engineering
   labour                                  Robotics
@@ -732,8 +732,6 @@ informatics of domination:
   Second World War                        Star Wars
   White Capitalist Patriarchy             Informatics of Domination
   --------------------------------------- ------------------------------------------
-
-162
 
 This list suggests several interesting things.13 First, the objects on
 the right-hand side cannot be coded as \'natural\', a realization that
