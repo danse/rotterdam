@@ -1,12 +1,27 @@
 
 type OdtConverterState s = XMLConverterState Namespace s
+
 -- Base
+
 data XMLConverterState nsID extraState where ...
+
+type XMLConverter nsID extraState input output
+      = ArrowState (XMLConverterState nsID extraState ) input output
+
+type FallibleXMLConverter nsID extraState input output
+     = XMLConverter nsID extraState input (Fallible output)
+
 -- Generic/XMLConverter
+
+type XMLReader s a b = FallibleXMLConverter Namespace s a b
+
+-- Base
+
 type OdtReader a b = XMLReader ReaderState a b
 type ElementMatcher result = (Namespace, ElementName, OdtReader result result)
 type InlineMatcher = ElementMatcher Inlines
 type BlockMatcher  = ElementMatcher Blocks
+
 -- ContentReader
 
 matchingElement :: (Monoid e)

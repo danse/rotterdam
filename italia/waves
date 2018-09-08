@@ -36,6 +36,69 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nuovo resolver nel fork e nuovo fork nei comandi
+la build dei filtri ha fallito
+fork-italiano.md
+
+release
+update README for the tests
+update the part related to the syntax check
+
 in 1.5 titolarità il collegamento a 3.7 è rotto
 in 2.1 c'è un URL strano
 
@@ -57,15 +120,8 @@ ambiente di sviluppo
   si prestano ad una prova col convertitore
  la semi traduzione di Roberto
  indice
-l'altra è stellata
+l'altra è https://developersitalia.slack.com/archives/GCFLN1YDN/p1535621816000100
 https://w1.docs.iast.it/italia/dipartimento-della-funzione-pubblica/lg-misuraperformance-docs/it/bozza/
-
-it was read_code :: OdtReaderSafe Blocks Blocks like constructPara
-but read_plain_text which is always used through matchChildContent
-we want read_code to be a matcher like all the other read functions
-now i just try to make the types work
-that's why i looked for failEmpty
-i want to return nothing and not consume any input
 
 terminatori di linea per windows in rST
 
@@ -85,6 +141,7 @@ paragraph escaping 4422
 
 https://github.com/jgm/pandoc/issues/4715
  parse options for unknown reStructuredText directives into div arguments
+
 https://groups.google.com/forum/#!topic/pandoc-discuss/GV-rwZhwQhc
  convert pandoc to javascript
 https://groups.google.com/forum/#!topic/pandoc-discuss/nzrkzdkgphk
@@ -98,10 +155,6 @@ https://spdx.org
 https://github.com/torvalds/linux/blob/master/kernel/sched/swait.c
 https://www.gnu.org/licenses/gpl-howto.html
 
-..glossary, ..epigraph, ..highlights e tutti i box
-in Docs Italia il testo delle note deve essere inserito alla fine del paragrafo che contiene la nota
-glossario
-
 https://github.com/italia/docsitalia-esempiformattazione-docs
 https://github.com/italia/docs-italia-theme/tree/bootstrap-italia/demo_docs/source
 https://github.com/italia/docs-italia-starter-kit
@@ -112,34 +165,12 @@ la conversione è secondaria all'adozione - confronto documenti esistenti
 docx - google facile ed affidabile
 
 la scrittura di doc, come la conversione, come un problema aperto e
-non meccanizzabile su cui vogliamo assistere gli utenti ad esprimersi
+nel caso generale non meccanizzabile su cui vogliamo assistere gli
+utenti ad esprimersi in base alle circostanze
 
 build-tool-depends: docs-italia-pandoc-filters:filtro-didascalia == 0.1.1
 note: this issue is very similar to #4559, and they are based on the same test document. that issue was dedicated to the fatal error, while this one is to track the error converting the image
 now that 4559 is merged i can open an issue for the image
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 sort oldest
 https://github.com/jgm/pandoc/issues/2784 pandoc requires input text to be UTF-8 
@@ -150,20 +181,8 @@ https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3AODT
 https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ADOCX+label%3Areader
 https://github.com/jgm/pandoc/issues?q=is%3Aopen+is%3Aissue+label%3Aformat%3ARST+label%3Awriter
 
-
-
-
-
-
-https://github.com/jgm/pandoc/issues/4373
-https://github.com/jgm/pandoc/commit/24f68654e919a8ff138d0a1fcfbf8e045b8ae38b
-headers upstream
-
 isn't this a case that should be flattened?
 https://github.com/jgm/pandoc/issues/3973
-
-
-
 
 tenere il server e la logica nello stesso processo serve alla scalabilità
 
@@ -197,8 +216,7 @@ https://www.agid.gov.it/sites/default/files/repository_files/linee_guida/guida_p
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
 http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 
-italia/progetto-argomento-docs
-https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
+italia/progetto-argomento-docs https://italiandigitalteam.slack.com/archives/C7QPPNC3X/p1527180005000111?thread_ts=1527175908.000126&cid=C7QPPNC3X
 
 https://github.com/jgm/pandoc/wiki/Roadmap
 
