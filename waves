@@ -404,12 +404,11 @@ https://amp.reddit.com/r/haskell/comments/7gh092/srstaff_haskell_engineer_180k_3
 
 kilian kleinschmidt
 
-le ripetizioni sembrano avere più peso del voluto
-
 https://www.indeed.com/viewjob?jk=16b2d8038c297c2d&q=purescript&l=Remote&tk=1clhklh023d7jf14&from=ja&alid=5757c633e4b02ce024a5fb66&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1clhklh023d7jf14
 
+le ripetizioni sembrano avere più peso del voluto
+chi sa trovarsi ad agio in una miniera di pareti dure e vie tortuose rilevante da esplorare per adesso
 consumo di informazione
-
 l'ignoranza è la radice da cui ramifica il linguaggio
 
 launch an interpreter with the same scope as any module
@@ -507,6 +506,7 @@ come ricavare automaticamente il numero di issue?
 se la issue è stata chiusa con un commit
 si possono collezionare le issues chiuse dal tag precedente
 git log v0.3..HEAD --oneline
+per la navigazione da issue a versione la si può aggiungere ad una milestone `release` quando viene chiusa. la milestone verrà rinominata col numero di versione al momento della release
 
 markdown visual editor https://stackedit.io/app
 
