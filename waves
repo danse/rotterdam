@@ -363,22 +363,46 @@
 
 
 
-https://openwhyd.org/lepostecassette
+
+finger trees https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
+haskell read and show to file
+https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf
+https://functionaljobs.com/jobs/9101-haskell--backend--web-app-developer-at-tripshot
+https://amp.reddit.com/r/haskell/comments/7gh092/srstaff_haskell_engineer_180k_350k/
+https://www.indeed.com/viewjob?jk=16b2d8038c297c2d&q=purescript&l=Remote&tk=1clhklh023d7jf14&from=ja&alid=5757c633e4b02ce024a5fb66&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1clhklh023d7jf14
+coinbase
+ubuntu update
+oscoin.io
+https://blog.nkb.fr/donnees-pouvoir/
 taxfix berlino
+https://openwhyd.org/lepostecassette
+sparkasse
+still corners - the trip
+blue note trip
+senti spirito
+dio fenomeno
+https://hackage.haskell.org/package/tasty-1.0.1.1#readme
+http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+un bar dove si gioca a scacchi
+..d    rimonta
+.....c
+..b
+...a
+float sink
+worth putting a trace
+esther perel
+sentimentalismo inclusivo
+antropologia della comunicazione
 disposable chat groups themed for task
 main = getArgs >>= doctest
-https://blog.nkb.fr/donnees-pouvoir/
 ·\.
 place & time
 le belle immagini
 d3 for mobile
 i'm enjoying it
-oscoin.io
-ubuntu update
 western esotericism: a guide for the perplexed
-volano sociale
-coinbase
 dimension: value
+volano sociale
 una linea è una parete immaginaria
 https://w1.docs.iast.it/projects/pagopa-docs-faq/
 
@@ -391,47 +415,21 @@ https://w1.docs.iast.it/projects/pagopa-docs-faq/
 a source is overflowing
 vuelvo a caer perota duckduck dominio sito frontend markup
 
-sparkasse
-
 noir desir
-https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf
-
-https://functionaljobs.com/jobs/9101-haskell--backend--web-app-developer-at-tripshot
-
-https://amp.reddit.com/r/haskell/comments/7gh092/srstaff_haskell_engineer_180k_350k/
-
-6:55 PM <dmwit> danza-cloud: Compile with `-rtsopts`. It may also be the case that stack itself soaks up your RTS options (I don't know) in which case you might try `stack --RTS exec -- my-exe +RTS -p` might help with that.
-
 kilian kleinschmidt
-
-https://www.indeed.com/viewjob?jk=16b2d8038c297c2d&q=purescript&l=Remote&tk=1clhklh023d7jf14&from=ja&alid=5757c633e4b02ce024a5fb66&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1clhklh023d7jf14
-
 le ripetizioni sembrano avere più peso del voluto
 chi sa trovarsi ad agio in una miniera di pareti dure e vie tortuose rilevante da esplorare per adesso
 consumo di informazione
 l'ignoranza è la radice da cui ramifica il linguaggio
-
-launch an interpreter with the same scope as any module
-stack repl src/Text/Pandoc/Readers/Odt/ContentReader.hs
-
 pattern guards
-
 https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/index.html
-
 software is always behind of us
-
 redefine the edge
-
 chi teme il confronto ne fa il proprio confine
-
 zona d'ombra
-
 circostanza
-
 mir geht's gut
-
- esporre il codice
-
+esporre il codice
 gitbook
 
                                 . - . - .
@@ -452,9 +450,6 @@ main = hakyll $ do
   ...
   compile copy
 
- finger trees
-https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
-
 wittgenstein
 
 arroz caldoso
@@ -472,8 +467,6 @@ semplicità
 passi con lo stesso piede
 
                             · - · - · - · - · - ·
-
-haskell read and show to file
 
 caverna
 _______
