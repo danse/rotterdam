@@ -363,7 +363,15 @@
 
 
 
+cyprus  neme.org
+ravenna cantieridanza.org
 
+ Svanisco è un lavoro che attraversa vari stati d'animo in un dialogo costante con il pubblico. Il progetto nasce da un ragionamento sull'effimero, dalla impercettibile ma costante sensazione del tempo che passa, dalla difficoltà di afferrae l'esistenza che scorre rapida sotto il peso del tempo. Come di fronte ad uno "scadere del tempo" il corpo si esprime in tutta la sua intensità per poi arrendersi concedendosi fragile e vulnerabile.
+ Il corpo è il mio costante legame con la realtà, la mia certezza, il corpo ha il potere di scavare in un mondo sotterraneo e invisibile denso di emozioni e percezioni difficili da esprimere con le parole ma che tutti noi viviamo quotidianamente.
+ Mi piace cha la mia danza si muova in questo spazio dell’animo rischioso, sensibile ed estremo, mi piace dare al corpo la missione di rendere quell’universo visibile”
+
+\ column -> map (take limit) $ zipCollect ',' (cells + padding)
+map (\ contents length -> take length $ contents + spaces) cells
 finger trees https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
 haskell read and show to file
 https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf
