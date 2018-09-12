@@ -363,39 +363,65 @@
 
 
 
-cyprus  neme.org
-ravenna cantieridanza.org
 
- Svanisco è un lavoro che attraversa vari stati d'animo in un dialogo costante con il pubblico. Il progetto nasce da un ragionamento sull'effimero, dalla impercettibile ma costante sensazione del tempo che passa, dalla difficoltà di afferrae l'esistenza che scorre rapida sotto il peso del tempo. Come di fronte ad uno "scadere del tempo" il corpo si esprime in tutta la sua intensità per poi arrendersi concedendosi fragile e vulnerabile.
- Il corpo è il mio costante legame con la realtà, la mia certezza, il corpo ha il potere di scavare in un mondo sotterraneo e invisibile denso di emozioni e percezioni difficili da esprimere con le parole ma che tutti noi viviamo quotidianamente.
- Mi piace cha la mia danza si muova in questo spazio dell’animo rischioso, sensibile ed estremo, mi piace dare al corpo la missione di rendere quell’universo visibile”
 
-\ column -> map (take limit) $ zipCollect ',' (cells + padding)
-map (\ contents length -> take length $ contents + spaces) cells
-finger trees https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
-haskell read and show to file
-https://github.com/Mechanism-Labs/MetaAnalysis-of-Alternative-Consensus-Protocols/blob/master/MetaAnalysis.pdf
+
+oscoin.io
+ubuntu update
+taxfix berlino
+coinbase
+sparkasse
+https://blog.nkb.fr/donnees-pouvoir/
+https://openwhyd.org/lepostecassette
+still corners - the trip
+blue note trip
 https://functionaljobs.com/jobs/9101-haskell--backend--web-app-developer-at-tripshot
 https://amp.reddit.com/r/haskell/comments/7gh092/srstaff_haskell_engineer_180k_350k/
 https://www.indeed.com/viewjob?jk=16b2d8038c297c2d&q=purescript&l=Remote&tk=1clhklh023d7jf14&from=ja&alid=5757c633e4b02ce024a5fb66&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1clhklh023d7jf14
-coinbase
-ubuntu update
-oscoin.io
-https://blog.nkb.fr/donnees-pouvoir/
-taxfix berlino
-https://openwhyd.org/lepostecassette
-sparkasse
-still corners - the trip
-blue note trip
+off on the chain
+
+          12 donnerstag
+september 11 mittoch
+
+   profile
+  education
+ school field of study degree year month to year month
+ school field of study degree year month to year month
+  experience
+ company industry title summary year month to year month or to currently
+ company industry title summary year month to year month or to currently
+  summary
+  resume
+   details
+  cover letter
+  questions
+ code sample page
+ why do you think you're the right candidate for this position?
+ why would you like to work with us?
+ when would you be able to start working with us? (Aproximate starting date)
+ v x - have you completed your university degree?
+ https://stackbuilders.workable.com/jobs/661978/candidates/new
+
+@gmail thanks for handling me so openly as a test mice, it reminds me to upgrade to a better mail service!
+vuelvo a caer perota duckduck dominio sito frontend markup fruit update
+cyprus  neme.org
+ravenna cantieridanza.org
+
+ svanisco è un lavoro che attraversa vari stati d'animo in un dialogo costante con il pubblico. il progetto nasce da un ragionamento sull'effimero, dalla impercettibile ma costante sensazione del tempo che passa, dalla difficoltà di afferrae l'esistenza che scorre rapida sotto il peso del tempo. come di fronte ad uno "scadere del tempo" il corpo si esprime in tutta la sua intensità per poi arrendersi concedendosi fragile e vulnerabile.
+ il corpo è il mio costante legame con la realtà, la mia certezza, il corpo ha il potere di scavare in un mondo sotterraneo e invisibile denso di emozioni e percezioni difficili da esprimere con le parole ma che tutti noi viviamo quotidianamente.
+ mi piace cha la mia danza si muova in questo spazio dell’animo rischioso, sensibile ed estremo, mi piace dare al corpo la missione di rendere quell’universo visibile
+
+ \ column -> map (take limit) $ zipCollect ',' (cells + padding)
+ map (\ contents length -> take length $ contents + spaces) cells
+
+finger trees https://www.reddit.com/r/haskell/comments/90t8n2/a_practical_introduction_to_finger_trees/
+haskell read and show to file
+https://github.com/mechanism-labs/metaanalysis-of-alternative-consensus-protocols/blob/master/metaanalysis.pdf
 senti spirito
 dio fenomeno
 https://hackage.haskell.org/package/tasty-1.0.1.1#readme
-http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
+http://www.cse.chalmers.se/~rjmh/quickcheck/manual.html
 un bar dove si gioca a scacchi
-..d    rimonta
-.....c
-..b
-...a
 float sink
 worth putting a trace
 esther perel
@@ -409,7 +435,7 @@ le belle immagini
 d3 for mobile
 i'm enjoying it
 western esotericism: a guide for the perplexed
-dimension: value
+b: a
 volano sociale
 una linea è una parete immaginaria
 https://w1.docs.iast.it/projects/pagopa-docs-faq/
@@ -421,7 +447,6 @@ https://w1.docs.iast.it/projects/pagopa-docs-faq/
   
 
 a source is overflowing
-vuelvo a caer perota duckduck dominio sito frontend markup
 
 noir desir
 kilian kleinschmidt
@@ -510,11 +535,8 @@ git log v0.3..HEAD --oneline
 per la navigazione da issue a versione la si può aggiungere ad una milestone `release` quando viene chiusa. la milestone verrà rinominata col numero di versione al momento della release
 
 markdown visual editor https://stackedit.io/app
-
 diversificarsi
-
 antica e potente comunicazione
-
 where you want to be
 
  rapido sostenuto
@@ -523,7 +545,6 @@ where you want to be
 laban
 
 volersi legare
-
 ricerca comunicazione traduzione formalizzazione
 
          ||||||/
@@ -535,46 +556,24 @@ ricerca comunicazione traduzione formalizzazione
          /
                                    
 china https://en.wikipedia.org/wiki/Dali_City
-
 some products feed cyclical systems
-
 tahini
-
 docs.docker.com
-
-sudo cp ~/.local/bin/* /var/lib/docker/volumes/docker-comandi-test/_data
-i want to remove all those files with sudo later
 
 docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
 root@15e4419aeb5d:/# 
 
-when scrolling through long outputs
-a wrapper which adds a very visible coloured marker to the command line
-
 goal driven processes
 content driven channels
-
 https://ro-che.info/articles/2015-10-26-static-linking-ghc
-
-waves
-drift
-source
-focus
-root
-stack
-
-attaccare il caricatore guardando il device
-poi ciascuno impara la propria configurazione
-
+waves drift source focus root stack
+attaccare il caricatore guardando il device, poi ciascuno impara la propria configurazione
 22 minuti mv nomi/*/* queue
-
 acqua con ossigeno
-
 marco andolina
 giuseppe pomidoro
 erica badu
 vollenweider
-
 http://blog.penelopetrunk.com/2008/04/04/writing-without-typos-is-totally-outdated
 
 https://hackage.haskell.org/package/doctest
@@ -589,28 +588,20 @@ potenzialità
 
 strana efficacia
 freedom from the device
-
 stand up for the right to think under pressure
 bisogni indotti, desideri, aspirazioni e necessità
-
 quando internet si blocca vorrei rompere la tastiera sul tavolo
-
 effective work is more enjoyable
-
 il metodo adatto allo scopo
 more experimental than what i want to sell
-
 ed il documento danza, danza da un formato all'altro per tutta la stanza - mzan
 these contents are competing with designer's tools
-
 senso di sostenibilità
 evolversi
 equilibrio immaginato ed equilibrio espresso
 scrittura atecnologica
-
 si va avanti attraverso i cambiamenti
 non dimentichiamo le cose, le cancelliamo
-
 le conseguenze nella postura
 just drives to welcoming spaces
 we want no bottlenecks on the path through the source
@@ -633,7 +624,6 @@ una questione di vie
 sublimaciòn
 la conoscenza può essere espressa con parole diverse
 designers italia, dalla parte dei cittadini
-reality in out mind
 dalle sorgenti del futuro che vogliamo
 nessuna barriera
 interferences guide to new sources
@@ -641,9 +631,7 @@ moving centers
 eyes
 registers the visits of
 the frame where the loops come back to close like the tracker
-buona qualità ma poco rendimento
 e sì che internet è arrivato a mostrarci la realtà e ci sciocca
-a ragusa sapevo delle caverne
 la luna intorno alla terra intorno al sole
 immagino di chiederti scusa perché sto bene come prima
 diving the tought can emerge real as well
@@ -830,9 +818,9 @@ in mathematics, the art of asking questions is more valuable than solving proble
 "Things that are impossible just take longer" - Ian Hickson
 relax for the action rather than relax after the action
 salti con la corda
-seed creative
-. sometimes building is a small pebble on top of another
-sometimes the trigger is the shell
+creative seed
+when building is a small pebble on top of another
+when the trigger is the shell
 occupational wellness
 symptom coherence
 target strategies
