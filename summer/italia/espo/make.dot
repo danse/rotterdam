@@ -1,0 +1,1 @@
+tac contents > espo.md && pandoc espo.md -t revealjs -o espo.html -s
