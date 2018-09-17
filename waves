@@ -112,34 +112,48 @@
 
 
 
-
- https://stackbuilders.workable.com/jobs/661978/candidates/new
- v x - have you completed your university degree?
- when would you be able to start working with us? (Aproximate starting date)
- why would you like to work with us?
- why do you think you're the right candidate for this position?
- code sample page
-  questions
-  cover letter
-   details
-  resume
-  summary
- company industry title summary year month to year month or to currently
- company industry title summary year month to year month or to currently
-  experience
- school field of study degree year month to year month
-
- school field of study degree year month to year month
-  education
-   profile
-
-editing chirurgico
  
- equador
- i
- multiversum
- resume
 
+
+
+
+
+
+
+ 
+https://www.indeed.com/viewjob?jk=538fc09c8c54e638&q=haskell&l=remote&tk=1cncbfbc03cfl9s1&from=ja&alid=5757c633e4b02ce024a5fb70&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1cncbfbc03cfl9s1
+
+ contacts could be read in different orders depending on media
+ i'm passioned about could be the second section
+ my story is sorted the other way around
+ i could switch from clients to projects for clients
+ how to get into the freelance experience?
+ if the table will stay, i want it table to be as wide as the text
+ i could prefer percentage fonts like in the farewell screen
+ resume could be a section of multiversum or rotterdam
+ contact is a list in order of preference
+
+
+  other (tech)
+  frameworks
+  languages
+
+
+ lists above don't represent me
+ companies, ephestus and university to links
+ from a chronology table to a wavy experience section
+
+resume
+i
+multiversum
+three hours application to stack builders
+directions a b = a &> b :: Node -> Node -> [Link]
+connections a b = a &- b :: Node -> Node -> [Link]
+join a b = a & b :: Node -> Node -> Link
+prepend chain link = link.hook = chain
+link = identity :: text, offset :: integer, hook :: link
+extension point
+editing chirurgico
 l'evoluzione tecnologica è spazio di contaminazione fra le culture che non ne sono escluse
 quando la concentrazione svanisce con l'interesse
 cerco connessioni attraverso la barriera del digitale
