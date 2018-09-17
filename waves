@@ -116,7 +116,7 @@
 
 
 
-
+digital security
 https://www.indeed.com/viewjob?jk=538fc09c8c54e638&q=haskell&l=remote&tk=1cncbfbc03cfl9s1&from=ja&alid=5757c633e4b02ce024a5fb70&utm_source=jobseeker_emails&utm_medium=email&utm_campaign=job_alerts&rgtk=1cncbfbc03cfl9s1
 
  contacts could be read in different orders depending on media
@@ -142,7 +142,6 @@ https://www.indeed.com/viewjob?jk=538fc09c8c54e638&q=haskell&l=remote&tk=1cncbfb
 resume
 i
 multiversum
-three hours application to stack builders
 directions a b = a &> b :: Node -> Node -> [Link]
 connections a b = a &- b :: Node -> Node -> [Link]
 join a b = a & b :: Node -> Node -> Link
