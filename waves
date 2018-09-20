@@ -87,10 +87,22 @@
 
 
 
+
+
+ http://motioninsocial.com/tufte/#range-frame-plot
+ # from lukasz piwek
+ x <- 1967:1977
+ y <- c(0.5,1.8,4.6,5.3,5.3,5.7,5.4,5,5.5,6,5)
+ plot(y ~ x, xlab="years", ylab="floats", pch=16, type="b")
+ abline(h=3)
+ pdf(width=6, height=6)
+ dev.off()
+
+tension modulation
 comunicazione z controllo   
-easing public tension
 il colono perfetto indossa una divisa invisibile
 pe n sare
+incontrollato narcisismo
 una maschera come uno scudo
 il teatro ha creato atlantide
 ritual decommodification
