@@ -90,6 +90,27 @@
 
 
 
+
+ contacts could be read in different orders depending on media
+ i'm passioned about could be the second section
+ my story is sorted the other way around
+ i could switch from clients to projects for clients
+ how to get into the freelance experience?
+ if the table will stay, i want it table to be as wide as the text
+ i could prefer percentage fonts like in the farewell screen
+ resume could be a section of multiversum or rotterdam
+ contact is a list in order of preference
+
+
+  other (tech)
+  frameworks
+  languages
+
+
+ lists above don't represent me
+ companies, ephestus and university to links
+ from a chronology table to a wavy experience section
+
 production & distribution & exchange
 gegenteil von grau
 privacy week
@@ -175,27 +196,6 @@ pandoc
 shade & light
 communications black hole
 digital security
-
- contacts could be read in different orders depending on media
- i'm passioned about could be the second section
- my story is sorted the other way around
- i could switch from clients to projects for clients
- how to get into the freelance experience?
- if the table will stay, i want it table to be as wide as the text
- i could prefer percentage fonts like in the farewell screen
- resume could be a section of multiversum or rotterdam
- contact is a list in order of preference
-
-
-  other (tech)
-  frameworks
-  languages
-
-
- lists above don't represent me
- companies, ephestus and university to links
- from a chronology table to a wavy experience section
-
 directions a b = a &> b :: Node -> Node -> [Link]
 connections a b = a &- b :: Node -> Node -> [Link]
 join a b = a & b :: Node -> Node -> Link
