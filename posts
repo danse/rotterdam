@@ -1,0 +1,4 @@
+in declarative style.
+when duplicating costs more than producing, the production mean is not a privileged peer.
+it's a dedicated process that can be performed differently by each peer.
+when producing costs more than duplicating, peer's performance relates to accumulation.

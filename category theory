@@ -15,6 +15,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+domain image codomain
+in functions one element never repeats
+every subset of the cartesian product is a relation
+it doesn't have to be simmetric
+a relation is a subset of element pairs
+functions are sets
+
 mathematical functions are defined between sets
 sets are a simple model for types
 in haskell every type contains bottom returned by functions that do not terminate
