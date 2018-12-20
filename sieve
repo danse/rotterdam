@@ -1,5 +1,3 @@
-https://technode.com/
-https://aeon.co/
 https://civic.mit.edu/
 https://github.com/mitmedialab/gobo
 https://flygirlsofcambridge.com/
@@ -20,3 +18,5 @@ steemit.com/trending/informationwar
 dingdingding.org
 https://politico.eu
 https://twitter.com/hashtag/openstartup
+https://technode.com/
+https://aeon.co/
