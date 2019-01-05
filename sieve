@@ -1,3 +1,4 @@
+dingdingding.org
 https://civic.mit.edu/
 https://github.com/mitmedialab/gobo
 https://flygirlsofcambridge.com/
@@ -6,17 +7,7 @@ https://schoolofdata.org/
 https://spectrum.chat/wip
 https://explorabl.es/
 https://www.youtube.com/watch?v=WhE2TUZXQQU
-https://idler.co.uk/
 https://www.creativeapplications.net/
-http://www.limesonline.com/
-https://www.ilpost.it/
-http://temi.repubblica.it/micromega-online/
 https://www.rand.org/
 https://thenewstack.io/
 https://lettier.github.io/posts.html
-steemit.com/trending/informationwar
-dingdingding.org
-https://politico.eu
-https://twitter.com/hashtag/openstartup
-https://technode.com/
-https://aeon.co/
