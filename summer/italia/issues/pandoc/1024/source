@@ -65,7 +65,6 @@ https://github.com/jgm/pandoc/issues/1024#issuecomment-318936094
 
 a more precise estimation can be very useful for planning
 
-http://www.cse.chalmers.se/~rjmh/QuickCheck/manual.html
 we can generate random well-formed tables built in this data model
 we have no guarantee that the parsed table is well-formed
 
