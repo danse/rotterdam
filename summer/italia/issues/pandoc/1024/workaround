@@ -1,6 +1,0 @@
-and having an existing implementation would still be helpful
-that can happen also in other cases
-but the work will have to be redone if the data model changes
-i think that most of the work will be in the reader and writer
-so i can have a `Div ("", [], [("col-span", 3)])`
-type TableCell = [Block]
