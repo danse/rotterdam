@@ -1,6 +1,0 @@
-[Div ("",["",""],[])
-   [Header 1 ("d",["p","t"],[]) [Str "a",Space,Str "b"],
-   Header 2 ("d",["p","t"],[]) [Str "a",Space,Str "b"],
-   Header 3 ("d",["p","t"],[]) [Str "a",Space,Str "b"],
-   Header 4 ("d",["p","t"],[]) [Str "a",Space,Str "b"]]
-]
