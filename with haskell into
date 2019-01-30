@@ -1,3 +1,4 @@
+scraping                 https://github.com/fimad/scalpel
 
   deployment
 
@@ -6,10 +7,8 @@ docker https://bitbucket.org/accursoft/haskell-cloud/
 heroku (outdated) https://github.com/begriffs/heroku-buildpack-ghc
 serverless https://github.com/seek-oss/serverless-haskell
 
-  bots
-
-https://github.com/JustusAdam/marvin could have problems with files see #17
-https://github.com/klappvisor/haskell-telegram-api
+bots                     https://github.com/JustusAdam/marvin could have problems with files see #17
+                         https://github.com/klappvisor/haskell-telegram-api
 
 cryptocurrencies         https://github.com/input-output-hk/cardano-sl
                          https://github.com/haskoin/haskoin
