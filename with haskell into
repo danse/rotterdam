@@ -1,28 +1,32 @@
-scraping                 https://github.com/fimad/scalpel
+
+web assembly             github.com/tweag/asterius
+runtime contract verif   github.com/gordonpace/contractLarva
+data syntesis            github.com/psibi/fakedata
+scraping                 github.com/fimad/scalpel
+
+bots                     github.com/JustusAdam/marvin could have problems with files see #17
+                         github.com/klappvisor/haskell-telegram-api
+
+cryptocurrencies         github.com/input-output-hk/cardano-sl
+                         github.com/haskoin/haskoin
+                         github.com/input-output-hk/cardano-sl/
+                         hackage.haskell.org/package/safe-money-0.4
+                         github.com/tdietert/nanocoin
+                         www.reddit.com/r/haskell/comments/6uolvc/rolling_your_own_blockchain_in_haskell/
+                         github.com/crytic/echidna
+
+smart contract languages github.com/kadena-io/pact
+multimedia service       github.com/zoomhub/zoomhub
+self hosted events       github.com/soupi/gathering
+deep learning            github.com/HuwCampbell/grenade
+desktop multimedia       github.com/lettier/movie-monad
+databases                tathougies.github.io/beam/
+watch files              github.com/schell/steeloverseer
+isomorphic frontend      github.com/haskell-miso/miso
 
   deployment
 
-       https://github.com/stackbuilders/hapistrano
-docker https://bitbucket.org/accursoft/haskell-cloud/
-heroku (outdated) https://github.com/begriffs/heroku-buildpack-ghc
-serverless https://github.com/seek-oss/serverless-haskell
-
-bots                     https://github.com/JustusAdam/marvin could have problems with files see #17
-                         https://github.com/klappvisor/haskell-telegram-api
-
-cryptocurrencies         https://github.com/input-output-hk/cardano-sl
-                         https://github.com/haskoin/haskoin
-                         https://github.com/input-output-hk/cardano-sl/
-                         https://hackage.haskell.org/package/safe-money-0.4
-                         https://github.com/tdietert/nanocoin
-                         https://www.reddit.com/r/haskell/comments/6uolvc/rolling_your_own_blockchain_in_haskell/
-
-multimedia service       https://github.com/zoomhub/zoomhub
-self hosted events       https://github.com/soupi/gathering
-smart contract languages https://github.com/kadena-io/pact
-deep learning            https://github.com/HuwCampbell/grenade
-isomorphic frontend      https://github.com/haskell-miso/miso
-desktop multimedia       https://github.com/lettier/movie-monad
-relational databases     https://tathougies.github.io/beam/
-watch files              https://github.com/schell/steeloverseer
+       github.com/stackbuilders/hapistrano
+docker bitbucket.org/accursoft/haskell-cloud
+serverless github.com/seek-oss/serverless-haskell
 

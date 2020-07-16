@@ -1,0 +1,18 @@
+
+tag :: Monoid archive => features -> Cluster -> archive
+class Cluster where
+consume :: Net -> Net
+next :: Net -> Cluster
+last :: Net -> Cluster
+evaluate :: (Monoid archive, Sortable destination) => Maybe destination -> Net -> (archive, Net)
+class Net where
+
+net could be its own typeclass with an evaluate method
+for these cases it would be nice to have an offline classopedia
+tail doesn't seem to belong to any
+monoid has concat
+maybe not applicative since i've got no `pure`
+afterwards i can simplify list functions
+applicative Net
+
+Anchor ?-> Ground

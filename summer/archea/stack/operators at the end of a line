@@ -1,5 +1,0 @@
-an operator should be on the same line or on the next one? it depends
-whether you want to express connection or not. an operator on the same
-line suggests that the two lines should be read together, while an
-operator on the next line suggests that the line has a bare value and
-makes it easier to move it around

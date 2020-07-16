@@ -516,10 +516,7 @@ ricerca comunicazione traduzione formalizzazione
 china https://en.wikipedia.org/wiki/Dali_City
 some products feed cyclical systems
 tahini
-docs.docker.com
 
-docker run -ti --mount source=docker-comandi-test,target=/docker-comandi-test ubuntu bash
-root@15e4419aeb5d:/# 
 
 goal driven processes
 content driven channels
