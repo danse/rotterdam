@@ -1,8 +1,0 @@
-the model can support a minimum continuous productivity level, but
-automatic productivity adjustment makes it unnecessary
-
-
-movingAverage last previous = recency * last + memory * previous
-  where recency + memory = 1
-
-peak = movingAverage l p

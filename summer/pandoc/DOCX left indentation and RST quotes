@@ -1,5 +1,0 @@
-in cases where a left indent is present while reading from DOCX, [paragraphs are wrapped into a block quote](https://github.com/jgm/pandoc/blob/master/src/Text/Pandoc/Readers/Docx.hs#L545-L546). this helps producing an output which is visually close to the input and it's a way to detect [parts of the text that were meant to be quoted](https://github.com/jgm/pandoc/blob/master/test/Tests/Readers/Docx.hs#L256).
-
-the table can be quoted
-it looks like headings cannot, a syntax error is triggered when i try
-

@@ -1,0 +1,165 @@
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/moveInSuccession
+browser.tabs.moveInSuccession([1, 3, 5, 7, 2, 9])
+browser.tabs.moveInSuccession([6, 1, 2, 3, 4, 5])
+
+a visualisation with perspective could lead us to think that there is a stronger relationship between subsequent data points
+tornado has perspective
+crumbs has time stability
+dimensional stability, perspective
+
+✨ i open sourced all my google analytics data: anyone can now access and browse all my current and historical traffic. https://twitter.com/levelsio/status/986157545789177856
+
+~/passpack cache.bcup is a passpack cache and also has reserved entries
+key escrow https://www.schneier.com/academic/archives/1997/04/the_risks_of_key_rec.html
+
+crosstab was built for counting medium.com/dunder-data/minimally-sufficient-pandas-a8e67f2a2428
+a crosstabulation shows the frequency between two variables
+
+function sample() { stat=~/statuses; ls $stat | while read i; do cat "$stat/$i" >> ~/samples/"$i"; done; }
+statuses/source
+i would like to have also dates in the samples
+
+gsma.com/betterfuture/bd4sg big data for social good
+flowminder.org
+nature.com/articles/d41586-019-01679-5 già letto - can tracking people improve lives?
+
+the last update here is in 2014 help.ubuntu.com/community/FullDiskEncryptionHowto
+i find many posts and articles and i want to find a document i can contribute to
+
+docs.python.org/3/library/webbrowser.html
+hackage.haskell.org/package/simple-form
+hackage.haskell.org/package/web-output
+
+che fare di dike? disinstallare?
+è servito per firmare documenti e ricevute
+potrò installarlo di nuovo quando mi serva
+febbraio 2020
+
+~/r4ds/visualise.Rmd
+what is the stat corresponding to a lable geom?
+every geom has a default stat and every stat has a default geom
+
+jetbrains published a report for 2018
+tweag.io/posts/2019-02-06-mapping-open-source.html
+wafi.iit.cnr.it/webvis/lab
+
+rough consensus https://tools.ietf.org/html/rfc7282 https://doist.com/blog/decision-making-flat-organization/
+
+uucp.dataforge.tk/manifesto.html
+lynx gopher://republic.circumlunar.space
+lynx gopher://medialab.freaknet.org
+
+comonads for user interfaces arthur xavier
+the dual of substitution is redecoration
+comonads in everyday life
+
+<input v-model="counter.rank" type="color">
+marginal maintenance costs
+#rankolor tag color profiles
+
+medium.com/vptech/a-practical-introduction-to-constraint-programming-2037c91833ba
+
+command-line interface design
+http://www.cs.pomona.edu/classes/cs181f/supp/cli.html
+
+collective digital information processing
+learning: federated, transfered, multitasking
+
+decentralized artificial intelligence alliance
+civic analytics, dataframed @ soundcloud
+
+relaychain.fm/18-web3-vs-web2-how-to-avoid-repeating-the-same-mistakes
+
+charticulator
+idl.cs.washington.edu/projects/lyra/app/#?example=driving
+
+github.com/IUNetSci/hoaxy-backend
+github.com/IUNetSci/botometer-python
+
+reddit.com/message/inbox
+availability
+linkedin ≠ professionalità
+
+docker rm $(docker ps -aq)
+docker build . -t engine
+docs.docker.com
+
+domain specific language
+
+money is memory / purpose-driven tokens
+
+essential vue todo app https://codesandbox.io/s/o29j95wx9
+
+scikit-yb.org yellow brick machine learning visualization
+
+skymind.ai/wiki/generative-adversarial-network-gan
+
+inconvergent.net nice generative artist with open code
+
+markwatson.com/books natural language processing
+
+some reliability cannot but come from the structure
+
+i haven't done so much static code reading in a while
+
+haskell.org/ghc/blog/20190626-HIEFiles.html
+
+lagbot port
+drainbot
+emilio laborbot can buffer
+
+archive sharing
+collapse optimization
+leaks
+
+insights.stackoverflow.com/survey/2019
+
+a web link to mail
+mailto:user@domain.first
+
+futureofcoding.org/essays/dctp.html
+
+keytles long term idea for multiversum
+
+link assumption
+line editing
+# mobile
+
+userinyerface.com/game.html
+
+computational media
+linkback
+
+datatau.com
+tradingview.com
+
+crontab -e # @reboot tmux irssi
+
+unlaud
+tiplicity
+tiversity
+
+basecamp.com/shapeup book
+
+norvig.com/21-days.html
+
+quick-r statmethods.net
+
+lascuolaopensource.xyz
+
+github.com/istio/istio
+
+opensignal mobile data
+
+agoric.com/papers
+
+hive plot
+nomogram
+
+http://hackage.haskell.org/package/astro-0.4.2.1/docs/Data-Astro-Moon.html
+moonPhase j2010MoonDetails :: Data.Astro.Time.JulianDate.JulianDate -> Double
+Prelude Data.Astro.Moon Data.Astro.Moon.MoonDetails> :t moonPhase j2010MoonDetails
+
+quadratic voting, voice credits
+tokenengineering.net/curation-markets
+

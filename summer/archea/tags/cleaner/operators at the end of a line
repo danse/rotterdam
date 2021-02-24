@@ -1,5 +1,0 @@
-an operator should be on the same line or on the next one?
-it depends on how do you want to express the relationship
-an operator on the same line suggests dependency from the following one
-an operator on the next line suggests that the line is optional and repeatable
-
