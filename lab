@@ -1,92 +1,3 @@
-medium.com/vptech/a-practical-introduction-to-constraint-programming-2037c91833ba
-
-command-line interface design
-http://www.cs.pomona.edu/classes/cs181f/supp/cli.html
-
-collective digital information processing
-learning: federated, transfered, multitasking
-
-decentralized artificial intelligence alliance
-civic analytics, dataframed @ soundcloud
-
-relaychain.fm/18-web3-vs-web2-how-to-avoid-repeating-the-same-mistakes
-
-github.com/IUNetSci/hoaxy-backend
-github.com/IUNetSci/botometer-python
-
-reddit.com/message/inbox
-availability
-linkedin ≠ professionalità
-
-docker rm $(docker ps -aq)
-docker build . -t engine
-docs.docker.com
-
-domain specific language
-
-money is memory / purpose-driven tokens
-
-essential vue todo app https://codesandbox.io/s/o29j95wx9
-
-skymind.ai/wiki/generative-adversarial-network-gan
-
-inconvergent.net nice generative artist with open code
-
-markwatson.com/books natural language processing
-
-some reliability cannot but come from the structure
-
-i haven't done so much static code reading in a while
-
-haskell.org/ghc/blog/20190626-HIEFiles.html
-
-lagbot port
-drainbot
-emilio laborbot can buffer
-
-archive sharing
-collapse optimization
-leaks
-
-insights.stackoverflow.com/survey/2019
-
-a web link to mail
-mailto:user@domain.first
-
-futureofcoding.org/essays/dctp.html
-
-keytles long term idea for multiversum
-
-link assumption
-line editing
-# mobile
-
-userinyerface.com/game.html
-
-computational media
-linkback
-
-datatau.com
-tradingview.com
-
-crontab -e # @reboot tmux irssi
-
-unlaud
-tiplicity
-tiversity
-
-basecamp.com/shapeup book
-
-norvig.com/21-days.html
-
-quick-r statmethods.net
-
-lascuolaopensource.xyz
-
-github.com/istio/istio
-
-opensignal mobile data
-
 agoric.com/papers
 
 hive plot
@@ -146,8 +57,6 @@ comonads for user interfaces arthur xavier
 the dual of substitution is redecoration
 comonads in everyday life
 
-
-
 <input v-model="counter.rank" type="color">
 marginal maintenance costs
 #rankolor tag color profiles
@@ -155,4 +64,85 @@ marginal maintenance costs
 parole diverse risuonano con te in momenti diversi
 
 ibridi coi pedali
+
+medium.com/vptech/a-practical-introduction-to-constraint-programming-2037c91833ba
+
+command-line interface design
+http://www.cs.pomona.edu/classes/cs181f/supp/cli.html
+
+collective digital information processing
+learning: federated, transfered, multitasking
+
+decentralized artificial intelligence alliance
+civic analytics, dataframed @ soundcloud
+
+relaychain.fm/18-web3-vs-web2-how-to-avoid-repeating-the-same-mistakes
+
+github.com/IUNetSci/hoaxy-backend
+github.com/IUNetSci/botometer-python
+
+reddit.com/message/inbox
+availability
+linkedin ≠ professionalità
+
+docker rm $(docker ps -aq)
+docker build . -t engine
+docs.docker.com
+
+domain specific language
+
+money is memory / purpose-driven tokens
+
+skymind.ai/wiki/generative-adversarial-network-gan
+
+inconvergent.net nice generative artist with open code
+
+markwatson.com/books natural language processing
+
+some reliability cannot but come from the structure
+
+lagbot port
+drainbot
+emilio laborbot can buffer
+
+insights.stackoverflow.com/survey/2019
+
+a web link to mail
+mailto:user@domain.first
+
+futureofcoding.org/essays/dctp.html
+
+keytles long term idea for multiversum
+
+link assumption
+line editing
+# mobile
+
+userinyerface.com/game.html
+
+computational media
+linkback
+
+datatau.com
+tradingview.com
+
+crontab -e # @reboot tmux irssi
+
+unlaud
+tiplicity
+tiversity
+
+basecamp.com/shapeup book
+
+norvig.com/21-days.html
+
+quick-r statmethods.net
+
+lascuolaopensource.xyz
+
+github.com/istio/istio
+
+
+
+opensignal mobile data
 
