@@ -1,0 +1,12 @@
+
+
+function sample() { stat=~/statuses; ls $stat | while read i; do cat "$stat/$i" >> ~/samples/"$i"; done; }
+statuses/source
+i would like to have also dates in the samples
+
+
+
+docs.python.org/3/library/webbrowser.html
+hackage.haskell.org/package/simple-form
+hackage.haskell.org/package/web-output
+
