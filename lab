@@ -95,3 +95,39 @@ mailto:user@domain.first
 <input v-model="counter.rank" type="color">
 marginal maintenance costs
 #rankolor tag color profiles
+
+tornado chart in crumbs
+
+
+oreilly.com/ideas/data-governance-and-the-death-of-schema-on-read
+examples of governance models twitter.com/lucyfedia/status/981247027161034755
+en.wikipedia.org/wiki/Data_lake
+thoughtworks.com/insights/blog/curse-data-lake-monster
+
+come fornire un collegamento fra issues e versione dove vengono risolte?
+includendo il numero di issue nel changelog
+come ricavare automaticamente il numero di issue?
+se la issue è stata chiusa con un commit
+si possono collezionare le issues chiuse dal tag precedente
+git log v0.3..HEAD --oneline
+per la navigazione da issue a versione la si può aggiungere ad una milestone `release` quando viene chiusa. la milestone verrà rinominata col numero di versione al momento della release
+
+just setQuery(minute) to see it in the bar ;)
+\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+
+function greeter(person: string) { return "Hello, " + person; }
+
+https://hackage.haskell.org/package/doctest
+-- |
+-- prop> sort xs == (sort . sort) (xs :: [Int])
+
+https://github.com/mechanism-labs/metaanalysis-of-alternative-consensus-protocols/blob/master/metaanalysis.pdf
+
+https://www.reddit.com/r/haskell/comments/6uyzwe/interesting_managementlevel_insights_into_fp_and/
+
+
+
+https://wiki.haskell.org/The_Monad.Reader/Issue2/EternalCompatibilityInTheory
+
+
+a daemon connected to social media data would put us in control of it
