@@ -1,0 +1,14 @@
+Desarrollo y mantenimiento de componentes en la infraestructura backend de Dada, casi siempre en python.
+Development and operations for some components into Dada's backend infrastructure, mainly in python.
+
+Desarrollo de visualizaciones a medida y componentes frontend. Migraciòn de codigo legacy hacia un nuevo framework, desarrollo de un proceso de test driven development.
+I developed a few bespoke interactive visualisations and other parts of a web application, while introducing test driven development. We migrated the existing jQuery codebase to one of the most minimal frameworks at the time
+
+Diseño y desarrollo applicaciones web innovativas para periodismo ciudadano. El projecto principal a sido una applicación para verificar noticias desde Twitter y otras plataformas. Desarrollo agile con iteraziones semanales con el equipo, applicación complexa y con 100% de test coverage.
+Worked on web applications for citizen journalism. I was in charge for the frontend development and part of the of the backend development and interaction design. I consistently applied test driven development to evolve a usable prototype from proof-of-concept to delivery.
+
+Applicaciones offline por la recogida de datos. En el back-end he trabajado en databases orientados a objectos, coordinado migraciones de data, analisado datos con Pandas y desarrollado microservicios.
+Offline web apps for emergency management. On the server side I worked on document oriented databases and coordinated data migrations on a small distributed system, Node services, and Pandas for data analysis
+
+He contribuido a Pandoc, una poderosa herramienta por la conversion de documentos, adaptandolo a las necessidades de la administración pública italiana
+We contributed to Pandoc, a powerful open-source conversion engine, adapting it to the needs of the Italian Public Administration

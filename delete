@@ -59,3 +59,45 @@ consiglio a tutti l’opzione preferences -> sidebar -> unread & starred. non ca
 
 in tweet out avoiding algorithmic noise
 
+
+
+function greeter(person: string) { return "Hello, " + person; }
+
+
+
+come fornire un collegamento fra issues e versione dove vengono risolte?
+includendo il numero di issue nel changelog
+come ricavare automaticamente il numero di issue?
+se la issue è stata chiusa con un commit
+si possono collezionare le issues chiuse dal tag precedente
+git log v0.3..HEAD --oneline
+per la navigazione da issue a versione la si può aggiungere ad una milestone `release` quando viene chiusa. la milestone verrà rinominata col numero di versione al momento della release
+
+
+
+
+
+
+
+volersi legare
+ricerca comunicazione traduzione formalizzazione
+
+
+
+our work is free and our freedom works
+le estremità sono più vulnerabili
+
+
+
+ highlight
+
+
+
+varanasi
+righikesh
+udaipur
+jaigalmes
+dharmashala
+manali
+https://twitter.com/RafiluGiglio
+

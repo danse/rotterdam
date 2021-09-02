@@ -83,3 +83,67 @@ le possibilità di continuare a farlo
 farne più, farne meno
 è un mondo differente
 
+
+
+http://hackage.haskell.org/package/astro-0.4.2.1/docs/Data-Astro-Moon.html
+moonPhase j2010MoonDetails :: Data.Astro.Time.JulianDate.JulianDate -> Double
+Prelude Data.Astro.Moon Data.Astro.Moon.MoonDetails> :t moonPhase j2010MoonDetails
+
+
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/moveInSuccession
+browser.tabs.moveInSuccession([1, 3, 5, 7, 2, 9])
+browser.tabs.moveInSuccession([6, 1, 2, 3, 4, 5])
+
+
+
+che fare di dike? disinstallare?
+è servito per firmare documenti e ricevute
+potrò installarlo di nuovo quando mi serva
+febbraio 2020
+
+
+
+
+
+
+
+aiuta le donne che ami a diventare le future scrittrici
+da lì verranno le parole del nostro futuro
+
+> burn the deposit
+how many fires do we need to burn the deposit?
+13
+okay, i added the deposit to the pyre
+> burn now
+how much time will you need to light 34 fires?
+> two months
+here is what you want to burn in the next two months:
+- a room in Berlin
+- the old phone contract
+- the tax declaration
+- the deposit
+
+# formatted folders
+.rotte
+tasks.tags
+
+all files with their tag
+ sort by tag size
+  if equal remove the bigger/smaller
+  bigger or smaller?
+ bigger:
+eliminates silly tags with only one tagged
+preserves similarities
+ smaller:
+preserves diversity
+
+a stack data structure prioritises recent items, so that the writer is
+always empowered to the maximum. this is the kind of attitude i want
+the system to enable, so as a rule last items have the highest
+priority.
+this also enables to write with full power on different instances.
+this also means that not following the list is respecting priorities.
+when creating a new stack, it's useful to do so by keeping some
+reference to the previous stack, even just in the name. this way they
+can be followed back respecting the priorities
