@@ -1,3 +1,41 @@
+# keypad
+\t emacs
+' oldest
+, clavado
+. step
+e bash
+o lt
+a up
+  exit
+
+# levels of specification
+user interfaces built on
+programming interfaces built on
+data models built on
+data structures.
+sometimes there are no decision to make at the most fundamental
+levels. At the data model level it's more common though, and less
+talked about
+
+every morning the first team member who wants writes a summary of what
+happened the day before. the team member knows what happened to her,
+but she just knows what the other members said they wanted to
+do. reading a similar message it feels natural for the other team
+members to reflect or correct
+
+the problem with chatty interfaces is they create communities. the
+problem with communities is they can decide to move elsewhere. this is
+why some services prefer algorithmic sort over chatty
+interfaces. algorithmic sort helps messages to spread, but is less
+suited to building continuity in interactions
+
+why i feel a gap around coding? like if there was a transition cost, a
+threshold.
+this gap disappears in contexts like the command prototype. there i
+started from the design and organically ended up with a working
+prototype
+the gap disappears also in an intepreter
+
 <input v-model="counter.rank" type="color">
 marginal maintenance costs
 #rankolor tag color profiles
@@ -37,9 +75,6 @@ unlaud
 tiplicity
 tiversity
 
-
-
-
 comonads for user interfaces arthur xavier
 the dual of substitution is redecoration
 comonads in everyday life
@@ -49,6 +84,9 @@ underfitting
 selection/suitability
 memorize/learn
 shrinkage
+
+
+
 
 # crumbs design idea
 time races
@@ -61,42 +99,4 @@ it removes the stress of using another tracker
 and the stress of unknown lost time
 provides a direction for recovery
 towards a goal
-
-# keypad
-\t emacs
-' oldest
-, clavado
-. step
-e bash
-o lt
-a up
-  exit
-
-# levels of specification
-user interfaces built on
-programming interfaces built on
-data models built on
-data structures.
-sometimes there are no decision to make at the most fundamental
-levels. At the data model level it's more common though, and less
-talked about
-
-every morning the first team member who wants writes a summary of what
-happened the day before. the team member knows what happened to her,
-but she just knows what the other members said they wanted to
-do. reading a similar message it feels natural for the other team
-members to reflect or correct
-
-the problem with chatty interfaces is they create communities. the
-problem with communities is they can decide to move elsewhere. this is
-why some services prefer algorithmic sort over chatty
-interfaces. algorithmic sort helps messages to spread, but is less
-suited to building continuity in interactions
-
-why i feel a gap around coding? like if there was a transition cost, a
-threshold.
-this gap disappears in contexts like the command prototype. there i
-started from the design and organically ended up with a working
-prototype
-the gap disappears also in an intepreter
 

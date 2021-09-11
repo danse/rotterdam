@@ -84,3 +84,123 @@ http://www.hongkiat.com/blog/freelance-contract-clauses/
 - scope creep
 - copyrights
 - deadline
+
+addons.mozilla.org/en-US/firefox/addon/lightbeam visualise third party trackers
+systems performance under load https://twitter.com/xaprb/status/1069719492710854660
+ternary scheme twitter.com/EdjNet/status/1050425813076594688
+using twitter to track migration journals.plos.org/plosone/article?id=10.1371/journal.pone.0191612 europeandatajournalism.eu/eng/News/Our-pick/Using-Twitter-to-track-immigrant-migration
+visualisation for machine learning facebook.com/nipsfoundation/videos/203530960558001
+how is intelligence extracted from data? learn and play with this easy and fun explorable explanation omarshehata.github.io/lda-explorable
+social media archiving praxis, arrived at the "smaller" title inkdroid.org/2018/11/08/ferguson-principles
+
+mattereum tokenised property
+electoral boundaries
+reddit.com/r/cardano/comments/8gahr1/what_the_hell_is_rina/
+soundcloud.com/houseofblacklanterns twitter.com/ofblacklanterns from tabi
+self-explanation twitter.com/ResearchDigest/status/1071492626912866305
+europeainfo.eu
+gijn.org
+github.com/code-with-sam/finallynetwork
+
+nella danza si contrattano tabu fra corpo e cultura
+nell'arte                       fra ego e società
+nella musica                    fra realtà ed immaginazione
+il corpo sa muoversi anche senza il peso di un ego
+sa guidarlo
+fuori di sé
+ma se il corpo occupa la scena verrà consumato
+quindi contratta
+ciò che non si può evitare
+
+center for open science cos.io/about/jobs
+https://www.forbes.com/sites/dantedisparte/2019/01/21/in-davos-political-no-shows-equal-50-of-the-worlds-economy/#6db56b1322c2
+coworker.com
+la inutilidad del sufrimiento
+
+     francia vacía elpais.com/internacional/2018/12/02/actualidad/1543741707_932191.html
+ acuerdo eurogrupo elpais.com/economia/2018/12/04/actualidad/1543914298_958255.html
+
+open tech schools twitter.com/avantdotorg/status/1070789240919871494
+twitter.com/peter_szilagyi/status/1071052095535628288
+
+steemapps.com
+mara lapia
+piers
+xaprb.com/blog/2015/08/08/innodb-book-outline database
+iguesseos.io
+
+udemy
+vue d3 : medium.com/tyrone-tudehope/composing-d3-visualizations-with-vue-js-c65084ccb686
+
+lennerd github d3 react .curve .force
+journocode elena
+potsdam climate change jonas
+
+en.wikipedia.org/wiki/Polisario_Front#Relations_with_Algeria
+
+transpositionality alice jardine
+
+yougov
+
+frequency ∝ visibility
+
+respect and freedom of expression are productivity catalysts
+
+truth cannot penetrate a closed mind
+
+metonym semiotics
+sea-watch.org
+
+projects cross tangling systems
+
+codepen.io/Breaker222
+
+zhongwen.com/dao.htm
+
+free rider problem
+
+bussana vecchia
+
+dapp.review
+
+mubs.me
+
+
+
+
+# hinduism
+bindi
+vata
+nataraja
+padma
+anjali
+mankolam (paisley), a symbol of life and prosperity, a tree but a bent one. also a symbol of strength, resistance, modesty
+mushika
+ghanta, "like sound, the world can be perceived but not possessed"
+kalasha, "breaking a coconut is the ego's shattering to reveal the sweet fruit inside"
+kamandalu
+from https://www.thoughtco.com/hindu-sacred-symbols-gallery-4123128
+
+directions a b = a &> b :: Node -> Node -> [Link]
+connections a b = a &- b :: Node -> Node -> [Link]
+join a b = a & b :: Node -> Node -> Link
+prepend chain link = link.hook = chain
+link = identity :: text, offset :: integer, hook :: link
+
+il pensiero
+la consapevolezza
+perché plasmare l'immateriale é difficile da immaginare
+incidere l'immateriale
+
+o per comunicare attraverso di esso
+per manipolare?
+un feticcio si può considerare una interfaccia
+
+# from lukasz piwek
+x <- 1967:1977
+y <- c(0.5,1.8,4.6,5.3,5.3,5.7,5.4,5,5.5,6,5)
+plot(y ~ x, xlab="years", ylab="floats", pch=16, type="b")
+abline(h=3)
+pdf(width=6, height=6)
+dev.off()
+
