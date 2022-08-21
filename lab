@@ -1,12 +1,28 @@
-# keypad
-\t emacs
-' oldest
-, clavado
-. step
-e bash
-o lt
-a up
-  exit
+
+
+the problem with chatty interfaces is they create communities. the
+problem with communities is they can decide to move elsewhere. this is
+why some services prefer algorithmic sort over chatty
+interfaces. algorithmic sort helps messages to spread, but is less
+suited to building continuity in interactions
+
+every morning the first team member who wants writes a summary of what
+happened the day before. the team member knows what happened to her,
+but she just knows what the other members said they wanted to
+do. reading a similar message it feels natural for the other team
+members to reflect or correct
+
+# crumbs design idea
+time races
+with a button off
+and  a button drop
+or with buttons with simply colours
+and a simple slider with the ratio
+darkish blue and gray
+it removes the stress of using another tracker
+and the stress of unknown lost time
+provides a direction for recovery
+towards a goal
 
 # levels of specification
 user interfaces built on
@@ -17,24 +33,23 @@ sometimes there are no decision to make at the most fundamental
 levels. At the data model level it's more common though, and less
 talked about
 
-every morning the first team member who wants writes a summary of what
-happened the day before. the team member knows what happened to her,
-but she just knows what the other members said they wanted to
-do. reading a similar message it feels natural for the other team
-members to reflect or correct
-
-the problem with chatty interfaces is they create communities. the
-problem with communities is they can decide to move elsewhere. this is
-why some services prefer algorithmic sort over chatty
-interfaces. algorithmic sort helps messages to spread, but is less
-suited to building continuity in interactions
-
 why i feel a gap around coding? like if there was a transition cost, a
 threshold.
 this gap disappears in contexts like the command prototype. there i
 started from the design and organically ended up with a working
 prototype
 the gap disappears also in an intepreter
+
+<svg viewBox="0 0 6 6" xmlns="http://www.w3.org/2000/svg">
+  <path fill="none" stroke="lime"
+        d="M 0,5
+           A 3 3 0 1 1 6,5" />
+</svg>
+developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d
+
+comonads for user interfaces arthur xavier
+the dual of substitution is redecoration
+comonads in everyday life
 
 <input v-model="counter.rank" type="color">
 marginal maintenance costs
@@ -47,12 +62,25 @@ https://hackage.haskell.org/package/doctest
 collective digital information processing
 learning: federated, transfered, multitasking
 
-just setQuery(minute) to see it in the bar ;)
-\cos (2\theta) = \cos^2 \theta - \sin^2 \theta
+# undertraining
+underfitting
+selection/suitability
+memorize/learn
+shrinkage
 
 docker rm $(docker ps -aq)
 docker build . -t engine
 docs.docker.com
+
+# keypad
+\t emacs
+' oldest
+, clavado
+. step
+e bash
+o lt
+a up
+  exit
 
 lagbot port
 drainbot
@@ -74,29 +102,3 @@ linkback
 unlaud
 tiplicity
 tiversity
-
-comonads for user interfaces arthur xavier
-the dual of substitution is redecoration
-comonads in everyday life
-
-# undertraining
-underfitting
-selection/suitability
-memorize/learn
-shrinkage
-
-
-
-
-# crumbs design idea
-time races
-with a button off
-and  a button drop
-or with buttons with simply colours
-and a simple slider with the ratio
-darkish blue and gray
-it removes the stress of using another tracker
-and the stress of unknown lost time
-provides a direction for recovery
-towards a goal
-
