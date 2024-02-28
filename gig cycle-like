@@ -1,0 +1,26 @@
+
+merge requests to this branch adding:
+
+- a command and required functions following the documentation. Note
+  that the command will replace `cycle-drop`
+
+- a property test that `dislike . like = id` for non empty lists
+
+cycle-like --dis
+
+
+takes the last entry, collects existing entries in the list, adds one
+entry and adds them back to the list evenly spaced. The resulting list
+still has the same last entry.
+
+>>> like [1, 2, 3, 7, 4, 5, 6, 7]
+[1, 2, 7, 3, 4, 7, 5, 6, 7]
+
+reverse of `like`, drops single entries
+
+>>> dislike [1, 2, 7, 3, 4, 7, 5, 6, 7]
+[1, 2, 3, 7, 4, 5, 6, 7]
+
+>>> dislike [1, 2, 3]
+[1, 2]
+
